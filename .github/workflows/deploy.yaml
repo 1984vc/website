@@ -16,10 +16,10 @@ jobs:
       with:
         node-version: 17
     - uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-            username: ${{ secrets.GANDI_USER }}
-            server: 'sftp.sd3.gpaas.net'
-            local_path: './public/*'
-            remote_path: 'vhosts/1984.vc/htdocs'
-            password: ${{ secrets.GANDI_PASS }}
-            sftpArgs: '-o ConnectTimeout=10'
+      with:
+        username: ${{ secrets.GANDI_USER }}
+        server: 'sftp.sd3.gpaas.net'
+        local_path: './public/*'
+        remote_path: 'vhosts/1984.vc/htdocs'
+        password: ${{ secrets.GANDI_PASS }}
+        sftpArgs: '-o ConnectTimeout=10'
