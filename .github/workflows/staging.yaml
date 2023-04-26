@@ -1,0 +1,26 @@
+name: Website Staging CI
+
+on:
+  push:
+    branches: [ staging ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: 17
+    - run: 'echo -e "User-agent: *\nDisallow: /" > ./public/robots.txt'
+    - uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      with:
+        username: ${{ secrets.GANDI_USER }}
+        server: 'sftp.sd3.gpaas.net'
+        local_path: './public/*'
+        remote_path: ${{ secrets.GANDI_STAGING_PATH }}
+        password: ${{ secrets.GANDI_PASS }}
+        sftpArgs: '-o ConnectTimeout=10'
