@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import fs from 'fs/promises'
+import path from 'path'
 
 const getRowVals = (row) => row.c.map(r => r && r.v ? r.v : '')
 
@@ -27,6 +28,7 @@ const main = async (id) => {
     })
 
     const jsonStr = JSON.stringify(rows, null, 4)
+    await fs.mkdir('./data', {recursive: true})
     await fs.writeFile('./data/portfolio.json', jsonStr, 'utf-8')
 }
 
