@@ -1,5 +1,4 @@
 {{ define "body" }}
-<body class="AtlasTypewriter-Light-Web">
   <div id="wrapper">
     <div id="logo"></div>
     <div id="philosophy">
@@ -231,8 +230,9 @@
               class="checkmark"></span>Infrastructure</label>
         </div>
         <ul>
+			  {{/*  <li class='company filter-supplychain filter-consumer ' data-url="nicksonliving.com">Nickson, <span class='opacity'>Furniture as a service</span></li>  */}}
           {{ range .Site.Data.portfolio }}
-            <li class='company filter-supplychain filter-saas ' data-url="{{ .URL }}">{{ .Name }}, <span
+            <li class='company {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">{{ .Name }}, <span
                 class='opacity'>{{ .Description }}</span></li>
           {{ end }}
         </ul>
@@ -424,5 +424,4 @@
     </div>
   </div>
   <script src="/js/main.js"></script>
-</body>
 {{ end }}
