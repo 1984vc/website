@@ -43,22 +43,23 @@ $(window).resize(function () {
         $("#archive").show();
     }
 });
-    /*/////////////////////////////////////////*/
-    /*//////////   Z-INDEX CONTROL   //////////*/
-    /*/////////////////////////////////////////*/
-    var zzz = 0;
+
+/*/////////////////////////////////////////*/
+/*//////////   Z-INDEX CONTROL   //////////*/
+/*/////////////////////////////////////////*/
+var zzz = 0;
 
 
-    var currTop = "#philosophy";
-    var currMiddle = "#portfolio";
-    $("#philosophy").data("pos", 0);
-    $("#portfolio").data("pos", 1);
-    $("#newsletter").data("pos", 2);
+var currTop = "#philosophy";
+var currMiddle = "#portfolio";
+$("#philosophy").data("pos", 0);
+$("#portfolio").data("pos", 1);
+$("#newsletter").data("pos", 2);
 
-    currTop = "#philosophy";
-    function updateMobile(clicked) {
-      var mq = window.matchMedia("(max-width: 700px)");
-      if (mq.matches && currTop != clicked) {
+currTop = "#philosophy";
+function updateMobile(clicked) {
+    var mq = window.matchMedia("(max-width: 700px)");
+    if (mq.matches && currTop != clicked) {
 
         $(currTop).data("pos", 1);
         $(currMiddle).data("pos", 2);
@@ -110,68 +111,68 @@ $(window).resize(function () {
         $("#portfolio").css("z-index", 2 - $("#portfolio").data("pos"));
         $("#newsletter").css("z-index", 2 - $("#newsletter").data("pos"));
         $("#archive").css("z-index", 2 - $("#newsletter").data("pos"));
-      }
     }
-    $(".company").click(function (event) {
-      const url = $(this).data('url')
-      const openURL = url.match(/https?\:/) ? url : "https://" + url
-      window.open(openURL, "_blank");
-    });
+}
+$(".company").click(function (event) {
+    const url = $(this).data('url')
+    const openURL = url.match(/https?\:/) ? url : "https://" + url
+    window.open(openURL, "_blank");
+});
 
-    $("#philosophy").click(function (event) {
-      updateMobile("#philosophy");
-      event.stopPropagation();
+$("#philosophy").click(function (event) {
+    updateMobile("#philosophy");
+    event.stopPropagation();
 
-    });
-    $("#portfolio").click(function (event) {
-      updateMobile("#portfolio");
-      event.stopPropagation();
-    });
-    $("#newsletter, #archive").click(function (event) {
-      updateMobile("#newsletter");
-      event.stopPropagation();
-    });
+});
+$("#portfolio").click(function (event) {
+    updateMobile("#portfolio");
+    event.stopPropagation();
+});
+$("#newsletter, #archive").click(function (event) {
+    updateMobile("#newsletter");
+    event.stopPropagation();
+});
 
-    $("#philosophy").hover(function () {
-      zzz = zzz + 10;
-      $(this).css('z-index', zzz);
-    });
-    $("#portfolio").hover(function () {
-      zzz = zzz + 10;
-      $(this).css('z-index', zzz);
-    });
-    $("#newsletter, #archive").hover(function () {
-      zzz = zzz + 10;
-      $("#archive").css('z-index', zzz - 5);
-      $("#newsletter").css('z-index', zzz);
-    });
-    $("#archive").click(function () {
-      $(this).removeClass("clickable");
-      $(this).css('z-index', zzz + 2);
-      $("#newsletter").css('z-index', zzz);
-    });
+$("#philosophy").hover(function () {
+    zzz = zzz + 10;
+    $(this).css('z-index', zzz);
+});
+$("#portfolio").hover(function () {
+    zzz = zzz + 10;
+    $(this).css('z-index', zzz);
+});
+$("#newsletter, #archive").hover(function () {
+    zzz = zzz + 10;
+    $("#archive").css('z-index', zzz - 5);
+    $("#newsletter").css('z-index', zzz);
+});
+$("#archive").click(function () {
+    $(this).removeClass("clickable");
+    $(this).css('z-index', zzz + 2);
+    $("#newsletter").css('z-index', zzz);
+});
 
 
-    /*/////////////////////////////////////////*/
-    /*/////////   PORTFOLIO FILTERS   /////////*/
-    /*/////////////////////////////////////////*/
-    filters_list = ["ai", "ecommerce", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "infrastructure"]
-    $("#all").click(function () {
-      if ($(this).is(':checked')) {
+/*/////////////////////////////////////////*/
+/*/////////   PORTFOLIO FILTERS   /////////*/
+/*/////////////////////////////////////////*/
+filters_list = ["ai", "ecommerce", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "infrastructure"]
+$("#all").click(function () {
+    if ($(this).is(':checked')) {
         for (let i = 0; i < filters_list.length; i++) {
-          $(".filter-" + filters_list[i]).show();
+            $(".filter-" + filters_list[i]).show();
         }
-      }
-    });
-    // Iterate through all the filters.  When one is clicked, hide all and show it
-    for (let i = 0; i < filters_list.length; i++) {
-      $("#" + filters_list[i]).click(function () {
-        if ($(this).is(':checked')) {
-          for (let j = 0; j < filters_list.length; j++) {
-            $(".filter-" + filters_list[j]).hide();
-          }
-          $(".filter-" + filters_list[i]).show();
-        }
-      });
     }
+});
+// Iterate through all the filters.  When one is clicked, hide all and show it
+for (let i = 0; i < filters_list.length; i++) {
+    $("#" + filters_list[i]).click(function () {
+        if ($(this).is(':checked')) {
+            for (let j = 0; j < filters_list.length; j++) {
+                $(".filter-" + filters_list[j]).hide();
+            }
+            $(".filter-" + filters_list[i]).show();
+        }
+    });
+}
 

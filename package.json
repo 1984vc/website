@@ -1,0 +1,11 @@
+{
+  "name": "1984.vc",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": "git@github.com:1984vc/website.git",
+  "author": "Mark Percival <m@mdp.im>",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^2.20.0"
+  }
+}
