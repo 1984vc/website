@@ -5,6 +5,9 @@
   "repository": "git@github.com:1984vc/website.git",
   "author": "Mark Percival <m@mdp.im>",
   "license": "MIT",
+  "scripts": {
+    "download_portfolio": "./scripts/portfolio.mjs $PORTFOLIO_SPREADSHEET_ID"
+  },
   "devDependencies": {
     "wrangler": "^2.20.0"
   }
