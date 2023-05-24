@@ -6,7 +6,8 @@
   "author": "Mark Percival <m@mdp.im>",
   "license": "MIT",
   "scripts": {
-    "download_portfolio": "./scripts/portfolio.mjs $PORTFOLIO_SPREADSHEET_ID"
+    "download_portfolio": "./scripts/portfolio.mjs $PORTFOLIO_SPREADSHEET_ID",
+    "dev_codespace": "hugo serve --liveReloadPort 443"
   },
   "devDependencies": {
     "wrangler": "^2.20.0"
