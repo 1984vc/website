@@ -15,6 +15,12 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 17
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+    - name: Download latest portfolio
+      run: ./scripts/portfolio.mjs ${{ secrets.PORTFOLIO_SPREADSHEET_ID }}
+    - name: Build
+      run: hugo
     - uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
         username: ${{ secrets.GANDI_USER }}
