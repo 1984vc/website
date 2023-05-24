@@ -28,6 +28,7 @@ const main = async (id) => {
     })
 
     const jsonStr = JSON.stringify(rows, null, 4)
+    console.log(`Downloaded ${rows.length} rows from portfolio spreadsheet`)
     await fs.mkdir('./data', {recursive: true})
     await fs.writeFile('./data/portfolio.json', jsonStr, 'utf-8')
 }
