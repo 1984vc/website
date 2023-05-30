@@ -1,0 +1,5 @@
+public
+bin
+data/portfolio.json
+node_modules
+.hugo_build.lock

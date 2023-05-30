@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178383975-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-178383975-1');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="1984 Ventures">
+  <meta name="description" content="Seed Stage Venture Capital">
+  <meta name="keywords" content="seed stage, venture capital, startup, entreperneurship">
+  <meta name="hugo_build_time" content='{{ now.Format "2006-01-02T15:04:05 UTC" }}'>
+
+  <link rel="icon" type="image/svg+xml" href="/assets/logoblack.svg">
+
+  <link rel="stylesheet" type="text/css" href="/font/1709-PNZNKV.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <title>{{ .Title }}</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+<body>
+    {{ block "body" . }}
+    {{ end }}
+</body>
+</html>
