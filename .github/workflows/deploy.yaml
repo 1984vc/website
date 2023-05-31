@@ -1,31 +1,38 @@
-name: Website CI
+name: Website Deploy
 
 on:
   push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-  build:
-
+  publish:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: 20
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-    - name: Download latest portfolio
-      run: ./scripts/portfolio.mjs ${{ secrets.PORTFOLIO_SPREADSHEET_ID }}
-    - name: Build
-      run: hugo
-    - uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      with:
-        username: ${{ secrets.GANDI_USER }}
-        server: 'sftp.sd3.gpaas.net'
-        local_path: './public/*'
-        remote_path: 'vhosts/1984.vc/htdocs'
-        password: ${{ secrets.GANDI_PASS }}
-        sftpArgs: '-o ConnectTimeout=10'
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - name: Download latest portfolio
+        run: ./scripts/portfolio.mjs ${{ secrets.PORTFOLIO_SPREADSHEET_ID }}
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+      - name: Build
+        run: hugo
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          directory: public
+          # Optional: Enable this if you want to have GitHub Deployments triggered
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
