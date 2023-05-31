@@ -13,7 +13,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Run a build step here if your project requires
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - name: Download latest portfolio
+        run: ./scripts/portfolio.mjs ${{ secrets.PORTFOLIO_SPREADSHEET_ID }}
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+      - name: Build
+        run: hugo
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
