@@ -10,6 +10,6 @@
     "dev_codespace": "hugo serve --liveReloadPort 443"
   },
   "devDependencies": {
-    "wrangler": "^2.20.0"
+    "wrangler": "^3.0.0"
   }
 }
