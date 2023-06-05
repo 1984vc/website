@@ -232,8 +232,16 @@
         <ul>
 			  {{/*  <li class='company filter-supplychain filter-consumer ' data-url="nicksonliving.com">Nickson, <span class='opacity'>Furniture as a service</span></li>  */}}
           {{ range .Site.Data.portfolio }}
-            <li class='company {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">{{ .Name }}, <span
-                class='opacity'>{{ .Description }}</span></li>
+            <li class='company {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
+              {{ if .Highlighted }}
+                <img src="companies/{{ lower .Name }}.png"></img>
+                <div class='opacity'>{{ .Description }}</div>
+                <div class='desc'>{{ .Story }}</div>
+              {{ else }}
+              {{ .Name }}, 
+              <span class='opacity'>{{ .Description }}</span>
+              {{ end }}
+            </li>
           {{ end }}
         </ul>
       </div>

@@ -23,7 +23,6 @@ body{
 
 
 #portfolio{width:840px;position:absolute;z-index:3;top:120px;left:280px;}
-
 #newsletter{width:800px;position:absolute;z-index:2;top:360px;left:80px;}
 #archive{width:720px;position:absolute;z-index:1;top:280px;left:40px;}
 .container{padding:33px 40px 40px 40px;}
@@ -31,6 +30,9 @@ body{
 #philosophy, #portfolio, #newsletter, #archive {
     transition: transform 0.05s linear;
 }
+
+
+#portfolio img { max-height:30px; max-width:500px; height:auto; width:auto;} */
 
 
 
@@ -63,7 +65,7 @@ body{
 	border-bottom: 170px solid rgb(212,75,48);
 	background:rgba(255,255,255,0);*/
 	/*display:none; Toggle for mobile */
-v}
+}
 /*.vertical-archive {transform:rotate(-90deg) translate(-113px, 30px);font-size:10px;letter-spacing:2px;}
 .vertical-newsletter {transform:rotate(-90deg) translate(-130px, 30px);font-size:10px;letter-spacing:2px;}*/
 .newsletter-bottom-container{background: #EB6649; padding: 33px 40px 40px 40px;} 
@@ -139,6 +141,7 @@ v}
 .white{color:#FFF;}
 .number{width:40px;display:inline-block;vertical-align:top;}
 .opacity{opacity:0.5;}
+.desc{opacity:1;}
 .company-name{}
 .company-desc{}
 h1{font-size:12px;padding:0px 0px 16px 0px;margin:0;display:inline-block;width:calc(100% - 40px);}
