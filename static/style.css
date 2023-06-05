@@ -98,7 +98,7 @@ body{
 .archive-bottom-container ul li {font-size:12px;font-weight:500;}
 
 .header{font-size:10px;letter-spacing:2px;}
-.title{font-size:32px;line-height:40px;margin:33px 0px 86px 0px;}
+.title{font-size:32px;font-weight:200;line-height:40px;margin:33px 0px 86px 0px;}
 .text{line-height:24px;padding:0px 200px 0px 40px;}
 #philosophy .text{line-height:24px;padding:0px 200px 0px 0px;color:#FFF;}
 #pillarContainer, #teamContainer{display:block;font-size:0;margin:33px 0px 86px 0px;}
@@ -141,7 +141,7 @@ body{
 .white{color:#FFF;}
 .number{width:40px;display:inline-block;vertical-align:top;}
 .opacity{opacity:0.5;}
-.desc{opacity:1;}
+.story {opacity:0.5;}
 .company-name{}
 .company-desc{}
 h1{font-size:12px;padding:0px 0px 16px 0px;margin:0;display:inline-block;width:calc(100% - 40px);}
