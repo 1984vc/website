@@ -39,7 +39,7 @@
             </div>
             <div class="nameJob">
               <p>Ramy Adeeb</p>
-              <p class="job">General Partner</p>
+              <p class="job">Managing Partner</p>
             </div>
             <div class="bio">
               An entrepreneur and investor, Ramy is founder and CEO of Snip.it (Acquired by Yahoo, where
@@ -232,8 +232,16 @@
         <ul>
 			  {{/*  <li class='company filter-supplychain filter-consumer ' data-url="nicksonliving.com">Nickson, <span class='opacity'>Furniture as a service</span></li>  */}}
           {{ range .Site.Data.portfolio }}
-            <li class='company {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">{{ .Name }}, <span
-                class='opacity'>{{ .Description }}</span></li>
+            <li class='company {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
+              {{ if .Highlighted }}
+                <img src="companies/{{ lower .Name }}.png"></img>
+                <div class='desc'>{{ .Description }}</div>
+                <div class='story'>{{ .Story }}</div>
+              {{ else }}
+              {{ .Name }}, 
+              <span class='opacity'>{{ .Description }}</span>
+              {{ end }}
+            </li>
           {{ end }}
         </ul>
       </div>
