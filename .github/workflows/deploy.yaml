@@ -3,6 +3,11 @@ name: Website Deploy
 on:
   push:
   workflow_dispatch:
+  repository_dispatch:
+    types: deploy-website
+  schedule:
+    # Runs "at 08:19 UTC every day ()" (see https://crontab.guru)
+    - cron: '19 8 * * *'
 
 jobs:
   publish:
