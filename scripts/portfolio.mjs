@@ -27,6 +27,21 @@ const main = async (id) => {
       return mapRowToHeaders(headers, row)
     })
 
+    // Sanity check if this seems wrong. If so, throw an error and stop a deploy
+    const requiredFields = ['Name', 'Description', 'URL']
+    const validRowLen = rows.filter((row) => {
+      for (const field of requiredFields) {
+        if (!row[field] || row[field].length === 0) {
+          console.error("Invalid row:", row)
+          return false
+        }
+      }
+      return true
+    }).length
+    if (rows.length !== validRowLen) {
+      throw new Error("Incorrect number of rows")
+    }
+
     const jsonStr = JSON.stringify(rows, null, 4)
     console.log(`Downloaded ${rows.length} rows from portfolio spreadsheet`)
     await fs.mkdir('./data', {recursive: true})
