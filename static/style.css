@@ -32,7 +32,7 @@ body{
 }
 
 
-#portfolio img { max-height:30px; max-width:500px; height:auto; width:auto;} */
+#portfolio img { max-height:30px; max-width:500px; height:auto; width:auto;}
 
 
 
@@ -139,7 +139,7 @@ body{
 
 .border-top{border-top:1px solid rgba(39, 31, 35, .2);}
 .white{color:#FFF;}
-.number{width:40px;display:inline-block;vertical-align:top;}
+.number{width:40px;display:none;vertical-align:top;}
 .opacity{opacity:0.5;}
 .story {opacity:0.5;}
 .company-name{}
