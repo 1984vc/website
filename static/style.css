@@ -21,12 +21,27 @@ body{
 #philosophy{width:880px;position:absolute;z-index:4;top:160px;left:280px;}
 .philosophy_container{background:#3d4CE0;}
 #portfolio{width:840px;position:absolute;z-index:3;top:40px;left:440px;}
+
+.philosophy_moved {
+	transition: all 1s ease-out;
+    transform: translateX(100%);
+}
+.portfolio_moved {
+    transform: translateX(100%);
+}
+.newsletter_moved {
+	transform: translateX(-90%) translateY(150px);
+}
+.archive_moved {
+	transform: translateX(-90%) translateY(150px);
+}
+
 #newsletter{width:800px;position:absolute;z-index:2;top:360px;left:80px;}
 #archive{width:720px;position:absolute;z-index:1;top:280px;left:40px;}
-.container{padding:33px 40px 40px 80px;}
+.container{padding:33px 80px 40px 80px;}
 .portfolio_container{background:#BFD3ED;}
 #philosophy, #portfolio, #newsletter, #archive {
-    transition: transform 0.05s linear;
+    transition: transform 300ms ease-in;
 }
 
 
@@ -106,7 +121,7 @@ body{
 #philosophy #teamInvest{width:calc((((100% - 80px) / 3) * 2) + 40px);display:inline-block;line-height:24px;vertical-align:top;font-size:12px;}
 #philosophy #teamPartners{width:calc(((100% - 80px) / 3));margin-left:40px;display:inline-block;line-height:24px;vertical-align:top;font-size:12px;}
 
-#circle {
+.philosophy-circle {
 	width: 120px;height: 120px;
 	-webkit-border-radius: 60px;
 	-moz-border-radius: 60px;
@@ -120,7 +135,7 @@ body{
 	color:#3d4CE0;
 	cursor: pointer;
   }
-#circletext {
+.circletext {
 	padding-top:50px;
 	text-align:center;
 	font-size:10px;

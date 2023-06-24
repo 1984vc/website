@@ -22,6 +22,12 @@ $(document).ready(function () {
         $("#newsletter").show();
         $("#archive").hide();
     });
+    $(".philosophy-circle").click(function () {
+        $("#philosophy").addClass("philosophy_moved");
+        $("#portfolio").addClass("portfolio_moved");
+        $("#newsletter").addClass("newsletter_moved");
+        $("#archive").addClass("archive_moved");
+    });
 });
 $(window).resize(function () {
     var winW = $(window).width();
