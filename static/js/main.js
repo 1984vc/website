@@ -28,6 +28,12 @@ $(document).ready(function () {
         $("#newsletter").addClass("newsletter_moved");
         $("#archive").addClass("archive_moved");
     });
+    $("#wrapper").click(function () {
+        $("#philosophy").removeClass("philosophy_moved");
+        $("#portfolio").removeClass("portfolio_moved");
+        $("#newsletter").removeClass("newsletter_moved");
+        $("#archive").removeClass("archive_moved");
+    });
 });
 $(window).resize(function () {
     var winW = $(window).width();
