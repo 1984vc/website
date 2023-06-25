@@ -19,6 +19,7 @@ body{
 #about{width:500px;height:300px;position:absolute;left:50%;top:50%;margin-left:-250px;margin-top:-150px;color:white}
 #about a {color:white;}
 #wrapper{position:relative;width:auto;height:100vh;overflow-x:hidden}
+#mobile_why {background-color: white; font-size: 12px; font-weight: 800; line-height: 24px; padding:2px 8px 2px 8px; color:#3d4CE0;letter-spacing: 1px;}
 
 #philosophy{width:880px;position:absolute;z-index:4;top:160px;left:280px;}
 .philosophy_container{background:#3d4CE0;}
@@ -263,8 +264,8 @@ input:checked ~ .checkmark:after {display:block;}
 
 
 
-
-
+/* DEFAULY ON LARGE SCREEN */
+.mobile_only {display:none;}
 
 /*/////////////////////////////////////////*/
 /*//////////     SEMI-LIQUID     //////////*/
@@ -276,6 +277,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:140px;left:240px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
   .news_footer {display:block;}
   .portfolio_footer {display:none;}
   .philosophy_footer {display:none;}      
@@ -285,6 +288,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:140px;left:240px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
   .news_footer {display:block;}
   .portfolio_footer {display:none;}
   .philosophy_footer {display:none;}        
@@ -294,6 +299,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:140px;left:200px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
   .news_footer {display:none;}
   .portfolio_footer {display:block;}
   .philosophy_footer {display:none;}        
@@ -303,6 +310,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:140px;left:120px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
 	.newsletter-top-right{display:none;}
 	.archive-top-right{display:none;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:40px;}
@@ -317,6 +326,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#newsletter{top:280px;left:40px;}
 	#archive{display:none;top:280px;left:40px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:40px;}
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
@@ -332,6 +343,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#newsletter{top:240px;left:40px;}
 	#archive{display:none;top:240px;left:40px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:40px;}
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
@@ -347,6 +360,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#newsletter{top:200px;left:40px;}
 	#archive{display:none;top:200px;left:40px;;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
@@ -357,11 +372,13 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 1040px) and (max-width: 1080px){
-	#portfolio{top:120px;left:80px;}
-	#philosophy{top:80px;left:120px;width:840px;}
+	#portfolio{top:80px;left:120px;}
+	#philosophy{top:120px;left:80px;width:840px;}
 	#newsletter{top:160px;left:40px;}
 	#archive{display:none;top:160px;left:40px;width:800px;}  
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
@@ -372,11 +389,13 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 1000px) and (max-width: 1040px){
-	#portfolio{top:160px;left:120px;}
-	#philosophy{top:120px;left:80px;}
-	#newsletter{top:80px;left:40px;}
+	#portfolio{top:160px;left:120px;width:800px;}
+	#philosophy{top:120px;left:80px;width:800px;}
+	#newsletter{top:80px;left:40px;width:800px;}
 	#archive{display:none;top:160px;left:0px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}	
+	.desktop_only {display:block;}
+	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
@@ -392,6 +411,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#newsletter{top:160px;left:0px;width:100%}
 	#archive{display:none;top:160px;left:0px;width:100%;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
+	.desktop_only {display:none;}
+	.mobile_only {display:inline;}
 	.text{line-height:24px;padding:0px 40px 0px 40px;}
 	.title{font-size:24px;line-height:32px;margin:33px 0px 86px 0px;}
 	.newsletter-top-container .title{font-size:24px;line-height:32px;}	
@@ -411,6 +432,8 @@ input:checked ~ .checkmark:after {display:block;}
 	#newsletter{top:80px;left:80px;width:calc(100% - 40px);}
 	#archive{display:none;top:80px;left:80px;width:calc(100% - 40px);}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
+	.desktop_only {display:none;}
+	.mobile_only {display:inline;}
 	.text{line-height:24px;padding:0px 20px 0px 20px;}
 	.title{font-size:24px;line-height:32px;margin:33px 0px 43px 0px;}	
 	.newsletter-top-container .title{font-size:24px;line-height:32px;}
