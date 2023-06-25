@@ -3,8 +3,8 @@ var winW = $(window).width();
 $(document).ready(function () {
     /* EXTRA WIDE CENTERING */
     if (winW > 1360) {
-        $("#philosophy").css("left", (winW / 2) - 240 + "px");
-        $("#portfolio").css("left", (winW / 2) - 420 + "px");
+        $("#portfolio").css("left", (winW / 2) - 240 + "px");
+        $("#philosophy").css("left", (winW / 2) - 420 + "px");
         $("#newsletter").css("left", (winW / 2) - 600 + "px");
         $("#archive").css("left", (winW / 2) - 640 + "px");
     } else {
@@ -22,13 +22,25 @@ $(document).ready(function () {
         $("#newsletter").show();
         $("#archive").hide();
     });
+    $(".philosophy-circle").click(function () {
+        $("#philosophy").addClass("philosophy_moved");
+        $("#portfolio").addClass("portfolio_moved");
+        $("#newsletter").addClass("newsletter_moved");
+        $("#archive").addClass("archive_moved");
+    });
+    $("#wrapper").click(function () {
+        $("#philosophy").removeClass("philosophy_moved");
+        $("#portfolio").removeClass("portfolio_moved");
+        $("#newsletter").removeClass("newsletter_moved");
+        $("#archive").removeClass("archive_moved");
+    });
 });
 $(window).resize(function () {
     var winW = $(window).width();
     /* EXTRA WIDE CENTERING */
     if (winW > 1360) {
-        $("#philosophy").css("left", (winW / 2) - 240 + "px");
-        $("#portfolio").css("left", (winW / 2) - 420 + "px");
+        $("#portfolio").css("left", (winW / 2) - 240 + "px");
+        $("#philosophy").css("left", (winW / 2) - 420 + "px");
         $("#newsletter").css("left", (winW / 2) - 600 + "px");
         $("#archive").css("left", (winW / 2) - 640 + "px");
     } else {

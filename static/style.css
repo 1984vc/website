@@ -16,24 +16,39 @@ body{
 }
 
 #logo{width:50px;height:80px;background:url("assets/logoV.svg") no-repeat top left;position:absolute;top:40px;left:40px;}
+#about{width:500px;height:300px;position:absolute;left:50%;top:50%;margin-left:-250px;margin-top:-150px;color:white}
+#about a {color:white;}
 #wrapper{position:relative;width:auto;height:100vh;overflow-x:hidden}
-#philosophy{width:880px;position:absolute;z-index:4;top:40px;left:440px;}
+
+#philosophy{width:880px;position:absolute;z-index:4;top:160px;left:280px;}
 .philosophy_container{background:#3d4CE0;}
+#portfolio{width:840px;position:absolute;z-index:3;top:40px;left:440px;}
 
+.philosophy_moved {
+	transition: all 1s ease-out;
+    transform: translateX(100%);
+}
+.portfolio_moved {
+    transform: translateX(100%);
+}
+.newsletter_moved {
+	transform: translateX(-90%) translateY(150px);
+}
+.archive_moved {
+	transform: translateX(-90%) translateY(150px);
+}
 
-
-#portfolio{width:840px;position:absolute;z-index:3;top:120px;left:280px;}
 #newsletter{width:800px;position:absolute;z-index:2;top:360px;left:80px;}
 #archive{width:720px;position:absolute;z-index:1;top:280px;left:40px;}
-.container{padding:33px 40px 40px 40px;}
+.container{padding:33px 80px 40px 80px;}
 .portfolio_container{background:#BFD3ED;}
 #philosophy, #portfolio, #newsletter, #archive {
-    transition: transform 0.05s linear;
+    transition: transform 300ms ease-in;
 }
 
 
 #portfolio img { max-height:30px; max-width:500px; height:auto; width:auto;}
-
+#about img {width:150px;}
 
 
 /* From 4.6 */
@@ -107,6 +122,27 @@ body{
 #philosophy .pillars p{margin:0;padding:0;color:#9EA5EF;font-size:10px;letter-spacing:1px;text-transform:uppercase;font-weight:100}
 #philosophy #teamInvest{width:calc((((100% - 80px) / 3) * 2) + 40px);display:inline-block;line-height:24px;vertical-align:top;font-size:12px;}
 #philosophy #teamPartners{width:calc(((100% - 80px) / 3));margin-left:40px;display:inline-block;line-height:24px;vertical-align:top;font-size:12px;}
+
+.philosophy-circle {
+	width: 120px;height: 120px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	background: white;
+	position:absolute;
+	top:-20px;
+	right:40px;
+	padding-top:0px;
+	vertical-align: middle;
+	color:#3d4CE0;
+	cursor: pointer;
+  }
+.circletext {
+	padding-top:50px;
+	text-align:center;
+	font-size:10px;
+}
+
 #investHeader{margin-bottom:70px;}
 #advisorsHeader{margin-bottom:33px;}
 #partnersHeader{float:left;margin:40px 0px 33px 0px;}
@@ -236,8 +272,8 @@ input:checked ~ .checkmark:after {display:block;}
 /*   40px increments, Extra large in js    */
 /*/////////////////////////////////////////*/
 @media only screen and (min-width: 1320px) and (max-width: 1360px) {
-	#portfolio{top:120px;left:240px;}
-	#philosophy{top:40px;left:400px;}
+	#portfolio{top:40px;left:400px;}
+	#philosophy{top:140px;left:240px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
   .news_footer {display:block;}
@@ -245,8 +281,8 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}      
 }
 @media only screen and (min-width: 1280px) and (max-width: 1320px) {
-	#portfolio{top:120px;left:240px;}
-	#philosophy{top:40px;left:360px;}
+	#portfolio{top:40px;left:360px;}
+	#philosophy{top:140px;left:240px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
   .news_footer {display:block;}
@@ -254,8 +290,8 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 1240px) and (max-width: 1280px) {
-	#portfolio{top:120px;left:200px;}
-	#philosophy{top:40px;left:320px;}
+	#portfolio{top:40px;left:320px;}
+	#philosophy{top:140px;left:200px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
   .news_footer {display:none;}
@@ -263,8 +299,8 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 1200px) and (max-width: 1240px) {
-	#portfolio{top:120px;left:120px;}
-	#philosophy{top:40px;left:280px;}
+	#portfolio{top:40px;left:280px;}
+	#philosophy{top:140px;left:120px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
 	.newsletter-top-right{display:none;}
@@ -276,8 +312,8 @@ input:checked ~ .checkmark:after {display:block;}
 }
 /* HIDE ARCHIVE */
 @media only screen and (min-width: 1160px) and (max-width: 1200px) {
-	#portfolio{top:120px;left:80px;}
-	#philosophy{top:40px;left:240px;}
+	#portfolio{top:40px;left:240px;}
+	#philosophy{top:140px;left:80px;}
 	#newsletter{top:280px;left:40px;}
 	#archive{display:none;top:280px;left:40px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:40px;}
@@ -291,8 +327,8 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 1120px) and (max-width: 1160px) {
-	#portfolio{top:120px;left:80px;}
-	#philosophy{top:40px;left:200px;}
+	#portfolio{top:40px;left:200px;}
+	#philosophy{top:140px;left:80px;}
 	#newsletter{top:240px;left:40px;}
 	#archive{display:none;top:240px;left:40px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:40px;}
@@ -306,8 +342,8 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 1080px) and (max-width: 1120px) {
-	#portfolio{top:120px;left:80px;}
-	#philosophy{top:80px;left:160px;}
+	#portfolio{top:80px;left:160px;}
+	#philosophy{top:140px;left:80px;}
 	#newsletter{top:200px;left:40px;}
 	#archive{display:none;top:200px;left:40px;;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
@@ -321,8 +357,8 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 1040px) and (max-width: 1080px){
-	#portfolio{top:80px;left:120px;}
-	#philosophy{top:120px;left:80px;width:840px;}
+	#portfolio{top:120px;left:80px;}
+	#philosophy{top:80px;left:120px;width:840px;}
 	#newsletter{top:160px;left:40px;}
 	#archive{display:none;top:160px;left:40px;width:800px;}  
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
@@ -336,9 +372,9 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 1000px) and (max-width: 1040px){
-	#portfolio{top:80px;left:120px;}
+	#portfolio{top:160px;left:120px;}
 	#philosophy{top:120px;left:80px;}
-	#newsletter{top:160px;left:40px;}
+	#newsletter{top:80px;left:40px;}
 	#archive{display:none;top:160px;left:0px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}	
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
@@ -351,8 +387,8 @@ input:checked ~ .checkmark:after {display:block;}
   .philosophy_footer {display:none;}        
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px){
-	#portfolio{top:80px;left:80px;width:calc(100% - 80px);}
-	#philosophy{top:120px;left:40px;width:calc(100% - 40px);}
+	#portfolio{top:120px;left:40px;width:calc(100% - 40px);}
+	#philosophy{top:80px;left:80px;width:calc(100% - 80px);}
 	#newsletter{top:160px;left:0px;width:100%}
 	#archive{display:none;top:160px;left:0px;width:100%;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
@@ -397,8 +433,8 @@ input:checked ~ .checkmark:after {display:block;}
 
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
   .news_footer {display:none;}
-  .portfolio_footer {display:none;}
-  .philosophy_footer {display:block;}      
+  .portfolio_footer {display:block;}
+  .philosophy_footer {display:none;}      
   .filter-label{display:inline-block;padding:0;margin-right:8px;margin-left:-4px;width:115px;text-transform:uppercase;font-size:10px}
 }
 
