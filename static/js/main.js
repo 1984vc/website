@@ -150,11 +150,6 @@ $("#newsletter, #archive").click(function (event) {
     updateMobile("#newsletter");
     event.stopPropagation();
 });
-/*
-$("#philosophy").hover(function () {
-    zzz = zzz + 10;
-    $(this).css('z-index', zzz);
-});*/
 
 $("#portfolio, #philosophy").hover(function () {
     zzz = zzz + 10;
