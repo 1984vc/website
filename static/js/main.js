@@ -150,19 +150,28 @@ $("#newsletter, #archive").click(function (event) {
     updateMobile("#newsletter");
     event.stopPropagation();
 });
-
+/*
 $("#philosophy").hover(function () {
     zzz = zzz + 10;
     $(this).css('z-index', zzz);
-});
-$("#portfolio").hover(function () {
+});*/
+
+$("#portfolio, #philosophy").hover(function () {
     zzz = zzz + 10;
-    $(this).css('z-index', zzz);
+    var thiswindow = $(this);
+    timer = setTimeout(function(){ thiswindow.css('z-index', zzz);}, 150);
+}, function() {
+    // on mouse out, cancel the timer
+    clearTimeout(timer);
 });
+
 $("#newsletter, #archive").hover(function () {
     zzz = zzz + 10;
-    $("#archive").css('z-index', zzz - 5);
-    $("#newsletter").css('z-index', zzz);
+    var thiswindow = $(this);
+    timer = setTimeout(function(){$("#archive").css('z-index', zzz - 5);$("#newsletter").css('z-index', zzz); }, 150);
+}, function() {
+    // on mouse out, cancel the timer
+    clearTimeout(timer);
 });
 $("#archive").click(function () {
     $(this).removeClass("clickable");

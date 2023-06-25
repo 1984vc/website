@@ -27,13 +27,13 @@ body{
 
 .philosophy_moved {
 	transition: all 1s ease-out;
-    transform: translateX(100%);
+    transform: translateX(800px);
 }
 .portfolio_moved {
-    transform: translateX(100%);
+    transform: translateX(800px);
 }
 .newsletter_moved {
-	transform: translateX(-90%) translateY(150px);
+	transform: translateX(-800px) translateY(150px);
 }
 .archive_moved {
 	transform: translateX(-90%) translateY(150px);
