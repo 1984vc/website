@@ -26,17 +26,16 @@ body{
 #portfolio{width:840px;position:absolute;z-index:3;top:40px;left:440px;}
 
 .philosophy_moved {
-	transition: all 1s ease-out;
-    transform: translateX(800px);
+	transform: translateX(calc(((100vw - 100%) / 2) + 100% - 160px));
 }
 .portfolio_moved {
-    transform: translateX(800px);
+    transform: translateX(calc(((100vw - 100%) / 2) + 100% - 220px));
 }
 .newsletter_moved {
 	transform: translateX(-800px) translateY(150px);
 }
 .archive_moved {
-	transform: translateX(-90%) translateY(150px);
+	transform: translateX(-800px) translateY(150px);
 }
 
 #newsletter{width:800px;position:absolute;z-index:2;top:360px;left:80px;}
@@ -44,7 +43,7 @@ body{
 .container{padding:33px 80px 40px 80px;}
 .portfolio_container{background:#BFD3ED;}
 #philosophy, #portfolio, #newsletter, #archive {
-    transition: transform 300ms ease-in;
+    transition: transform 400ms ease-in-out;
 }
 
 
@@ -162,7 +161,7 @@ body{
 
 #newsletter_body {padding:0px 0px 0px 0px;} 
 #newsletter_body .title {font-size:12px;font-weight:500;padding:24px 0px 0px 40px;margin:0px 0px 0px -40px;width:100%;;display:inline-block;border-top:1px solid rgba(39, 31, 35, .2);}
-#newsletter_body .heading {font-size:12px;font-weight:500;padding:24px 0px 0px 0px;width:100%;margin:0;}
+#newsletter_body .heading {font-size:12px;font-weight:400;padding:24px 0px 0px 0px;width:100%;margin:0;text-transform:uppercase;}
 #newsletter_body .subheading {line-height: 24px;padding: 0px 0px 0px 0px;}
 #newsletter_body .intro {line-height: 24px;padding: 0px 0px 0px 0px;}
 #newsletter_body li {font-size:15;line-height:22px;font-weight:200;}
@@ -427,6 +426,21 @@ input:checked ~ .checkmark:after {display:block;}
 }
 /*////////// MOBILE /////////*/
 @media only screen and (max-width: 700px){
+	.philosophy_moved {
+		transform: translateX(100%);
+	}
+	.portfolio_moved {
+		transform: translateX(calc(100% - 20px));
+	}
+	.newsletter_moved {
+		transform: translateX(-calc(100vw - 220px))  translateY(0) /* calc(100vh - 80px))*/
+	}
+	/*
+	.archive_moved {
+		transform: translateX(-90%) translateY(90%);
+	}*/
+
+
   #portfolio{top:120px;left:40px;width:calc(100% - 40px);}
 	#philosophy{top:160px;left:0px;width:calc(100% - 40px);}
 	#newsletter{top:80px;left:80px;width:calc(100% - 40px);}
@@ -439,7 +453,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-container .title{font-size:24px;line-height:32px;}
 	.newsletter-top-container{background:#EB6649;padding:15px 0px 0px 40px;margin-right:120px}
 	.newsletter-top-right{display:block;}
-        #newsletter_body {padding:0px 0px 0px 0px;}
+    #newsletter_body {padding:0px 0px 0px 0px;}
 	#newsletter_title {font-size:16px;line-height:24px;}
 	#newsletter_date {font-size:16px;line-height:36px;}	
 	.archive-top-container{padding:16px 0px 0px 20px;margin-right:120px;}
