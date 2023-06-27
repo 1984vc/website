@@ -47,7 +47,7 @@ body{
 }
 
 
-#portfolio img { max-height:30px; max-width:500px; height:auto; width:auto;}
+#portfolio img {max-height:45px; max-width:150px; height:auto; width:auto;}
 #about img {width:150px;}
 
 
@@ -427,18 +427,17 @@ input:checked ~ .checkmark:after {display:block;}
 /*////////// MOBILE /////////*/
 @media only screen and (max-width: 700px){
 	.philosophy_moved {
-		transform: translateX(100%);
+		transform: translateX(calc(-100vw + 60px)) translateY(calc(100vh - 320px)); 
 	}
 	.portfolio_moved {
-		transform: translateX(calc(100% - 20px));
+		transform: translateX(calc(100% - 30px));
 	}
 	.newsletter_moved {
-		transform: translateX(-calc(100vw - 220px))  translateY(0) /* calc(100vh - 80px))*/
+		transform: translateX(calc(100% - 60px)); 
 	}
-	/*
 	.archive_moved {
-		transform: translateX(-90%) translateY(90%);
-	}*/
+		transform: translateX(calc(100% - 60px)); 
+	}
 
 
   #portfolio{top:120px;left:40px;width:calc(100% - 40px);}
@@ -451,7 +450,8 @@ input:checked ~ .checkmark:after {display:block;}
 	.text{line-height:24px;padding:0px 20px 0px 20px;}
 	.title{font-size:24px;line-height:32px;margin:33px 0px 43px 0px;}	
 	.newsletter-top-container .title{font-size:24px;line-height:32px;}
-	.newsletter-top-container{background:#EB6649;padding:15px 0px 0px 40px;margin-right:120px}
+	.newsletter-top-container{background:#EB6649;padding:15px 0px 0px 40px;margin-right:110px;height:180px;}
+	#newsletter .title {font-size:20px;line-height:26px;}
 	.newsletter-top-right{display:block;}
     #newsletter_body {padding:0px 0px 0px 0px;}
 	#newsletter_title {font-size:16px;line-height:24px;}
@@ -467,7 +467,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy #teamInvest{width:100%;}
 	#philosophy #teamPartners{width:100%;margin-left:0px;}
 	.nameJob{width:100%;}
-	#about {width:90%;position:absolute;left:40px;right:40px;top:150px;color:white;margin-left:0px;margin-top:0px;}
+	#about {width:100%;position:absolute;left:0px;width:auto;right:0px;padding: 0px 40px 0px 40px;top:150px;color:white;margin-left:0px;margin-top:0px;}
 
 
 
