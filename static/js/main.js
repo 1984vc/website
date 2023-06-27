@@ -1,5 +1,5 @@
 var winW = $(window).width();
-
+var isHelloVisible = false;
 $(document).ready(function () {
     /* EXTRA WIDE CENTERING */
     if (winW > 1360) {
@@ -27,20 +27,27 @@ $(document).ready(function () {
         $("#portfolio").addClass("portfolio_moved");
         $("#newsletter").addClass("newsletter_moved");
         $("#archive").addClass("archive_moved");
+        event.stopPropagation();
+        isHelloVisible = true;
     });
     $("#mobile_why").click(function () {
         $("#philosophy").addClass("philosophy_moved");
         $("#portfolio").addClass("portfolio_moved");
         $("#newsletter").addClass("newsletter_moved");
         $("#archive").addClass("archive_moved");
-    });
-    $("#wrapper").click(function () {
-        $("#philosophy").removeClass("philosophy_moved");
-        $("#portfolio").removeClass("portfolio_moved");
-        $("#newsletter").removeClass("newsletter_moved");
-        $("#archive").removeClass("archive_moved");
+        event.stopPropagation();
+        isHelloVisible = true;
     });
 });
+
+function unmovePanels() {
+    $("#philosophy").removeClass("philosophy_moved");
+    $("#portfolio").removeClass("portfolio_moved");
+    $("#newsletter").removeClass("newsletter_moved");
+    $("#archive").removeClass("archive_moved");
+    isHelloVisible = false;
+}
+
 $(window).resize(function () {
     var winW = $(window).width();
     /* EXTRA WIDE CENTERING */
@@ -138,20 +145,33 @@ $(".company").click(function (event) {
 });
 
 $("#philosophy").click(function (event) {
-    updateMobile("#philosophy");
+    if(isHelloVisible) {
+        unmovePanels(); 
+    } else {
+        updateMobile("#philosophy");
+    }
     event.stopPropagation();
-
 });
 $("#portfolio").click(function (event) {
-    updateMobile("#portfolio");
+    if(isHelloVisible) {
+        unmovePanels();
+    } else {
+        updateMobile("#portfolio");
+    }
     event.stopPropagation();
 });
 $("#newsletter, #archive").click(function (event) {
-    updateMobile("#newsletter");
+    if(isHelloVisible) {
+        unmovePanels();
+    } else {
+        updateMobile("#newsletter");
+    }
     event.stopPropagation();
 });
 
+// Timer is used to make sure the hover effect takes place with a delay 
 $("#portfolio, #philosophy").hover(function () {
+    if(isHelloVisible) return;
     zzz = zzz + 10;
     var thiswindow = $(this);
     timer = setTimeout(function(){ thiswindow.css('z-index', zzz);}, 150);
@@ -161,6 +181,7 @@ $("#portfolio, #philosophy").hover(function () {
 });
 
 $("#newsletter, #archive").hover(function () {
+    if(isHelloVisible) return;
     zzz = zzz + 10;
     var thiswindow = $(this);
     timer = setTimeout(function(){$("#archive").css('z-index', zzz - 5);$("#newsletter").css('z-index', zzz); }, 150);
@@ -169,6 +190,7 @@ $("#newsletter, #archive").hover(function () {
     clearTimeout(timer);
 });
 $("#archive").click(function () {
+    if(isHelloVisible) return;
     $(this).removeClass("clickable");
     $(this).css('z-index', zzz + 2);
     $("#newsletter").css('z-index', zzz);
