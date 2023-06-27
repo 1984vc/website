@@ -433,12 +433,12 @@ input:checked ~ .checkmark:after {display:block;}
 		transform: translateX(calc(100% - 20px));
 	}
 	.newsletter_moved {
-		transform: translateX(-calc(100vw - 220px))  translateY(0) /* calc(100vh - 80px))*/
+		transform: translateX(calc(-100vw - 10px)) translateY(calc(100vh - 400px))
 	}
-	/*
+	
 	.archive_moved {
 		transform: translateX(-90%) translateY(90%);
-	}*/
+	}
 
 
   #portfolio{top:120px;left:40px;width:calc(100% - 40px);}
@@ -467,7 +467,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy #teamInvest{width:100%;}
 	#philosophy #teamPartners{width:100%;margin-left:0px;}
 	.nameJob{width:100%;}
-	#about {width:90%;position:absolute;left:40px;right:40px;top:150px;color:white;margin-left:0px;margin-top:0px;}
+	#about {width:calc(100vw - 80px);position:absolute;left:40px;right:40px;top:150px;color:white;margin-left:0px;margin-top:0px;}
 
 
 
