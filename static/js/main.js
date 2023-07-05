@@ -208,6 +208,7 @@ $("#all").click(function () {
         }
     }
 });
+
 // Iterate through all the filters.  When one is clicked, hide all and show it
 for (let i = 0; i < filters_list.length; i++) {
     // Hide everything to start
