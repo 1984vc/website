@@ -216,8 +216,8 @@
       -->
 
         <div id="filters">
-          <label class="filter-label"><input type="radio" name="radio" checked="checked" id="all"><span
-              class="first checkmark"></span>All</label>
+          <label class="filter-label"><input type="radio" name="radio" checked="checked" id="featured"><span
+              class="first checkmark"></span>Featured</label>
           <label class="filter-label"><input type="radio" name="radio" id="ai"><span
               class="checkmark"></span>AI/ML</label>
           <label class="filter-label"><input type="radio" name="radio" id="opensource"><span
@@ -244,15 +244,16 @@
         <ul>
 			  {{/*  <li class='company filter-supplychain filter-consumer ' data-url="nicksonliving.com">Nickson, <span class='opacity'>Furniture as a service</span></li>  */}}
           {{ range .Site.Data.portfolio }}
-            <li class='company {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
-              {{ if .Highlighted }}
-                <img src="companies/{{ lower .Name }}.png"></img>
-                <div class='desc'>{{ .Description }}</div>
-                <div class='story'>{{ .Story }}</div>
-              {{ else }}
+            {{ if .Highlighted }}
+              <li class='company filter-featured {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
+              <img src="companies/{{ lower .Name }}.png"></img>
+              <div class='desc'>{{ .Description }}</div>
+              <div class='story'>{{ .Story }}</div>
+            {{ else }}
+              <li class='company {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
               {{ .Name }}, 
               <span class='opacity'>{{ .Description }}</span>
-              {{ end }}
+            {{ end }}
             </li>
           {{ end }}
         </ul>

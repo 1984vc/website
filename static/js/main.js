@@ -200,7 +200,7 @@ $("#archive").click(function () {
 /*/////////////////////////////////////////*/
 /*/////////   PORTFOLIO FILTERS   /////////*/
 /*/////////////////////////////////////////*/
-filters_list = ["ai", "ecommerce", "opensource", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "infrastructure"]
+filters_list = ["featured", "ai", "ecommerce", "opensource", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "infrastructure"]
 $("#all").click(function () {
     if ($(this).is(':checked')) {
         for (let i = 0; i < filters_list.length; i++) {
@@ -210,6 +210,8 @@ $("#all").click(function () {
 });
 // Iterate through all the filters.  When one is clicked, hide all and show it
 for (let i = 0; i < filters_list.length; i++) {
+    // Hide everything to start
+    $(".filter-" + filters_list[i]).hide();
     $("#" + filters_list[i]).click(function () {
         if ($(this).is(':checked')) {
             for (let j = 0; j < filters_list.length; j++) {
@@ -219,4 +221,7 @@ for (let i = 0; i < filters_list.length; i++) {
         }
     });
 }
+// And only display Featured
+$(".filter-featured").show();
+
 
