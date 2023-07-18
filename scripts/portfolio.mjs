@@ -19,12 +19,16 @@ const mapRowToHeaders = (headers, row) => {
 }
 
 const main = async (id) => {
+    let result;
     try {
         const response = await fetch(`https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:json&tq&gid=0`)
         const body = ((await response.text())).slice(47,-2)
-        const result = JSON.parse(body)
+        result = JSON.parse(body)
     } catch (error) {
         throw new Error(`Fetch operation failed: ${error.message}`);
+    }
+    if (!result) {
+        throw new Error("Fetch operation failed: result is undefined");
     }
     const headers = getRowVals(result.table.rows.shift())
     const rows = result.table.rows.map((row) => {
