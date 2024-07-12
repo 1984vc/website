@@ -1,0 +1,3 @@
+[submodule "startup-finance"]
+	path = startup-finance
+	url = https://github.com/1984vc/startup-finance.git
