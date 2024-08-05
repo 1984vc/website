@@ -5,8 +5,6 @@ next: /docs/founders-handbook
 prev: /docs/founders-handbook/founder-departue
 ---
 
-## Structured Rounds
-
 A "structured round" is a financing round where terms are tailored to offer additional downside protection for investors, often at the expense of founders and existing shareholders. These terms can include features like additional warrants, liquidation preferences, guaranteed returns, and pay-to-play provisions. Structured rounds are typically used in later-stage investments or for companies perceived as struggling. While nearly absent from the venture capital lexicon for almost a decade, they've returned in full force over the past two years as late-stage companies reel from the heights of 2021.
 
 As a founder, your  
@@ -29,3 +27,11 @@ This provision requires existing investors to participate in the downround to be
 Pay to play is actually a very founder-friendly provision.  It enables the business to raise more capital, and, in the event investors do not participate, their liquidation preferences are removed from the liquidation stack. 
 
 These provisions are typically Understanding these provisions is crucial for both investors and founders as they navigate the complexities of financing rounds and seek to balance interests fairly.
+
+1) SAFE flat to the last round (with a discount to the next round) or priced at the same pps as the last round
+
+2) Flat to the last round plus a kicker in the form of warrants to give investors more equity.  Still no liquidation preferences. Might include a pay to play for existing investors.
+
+3) Flat to the last round plus some warrants and  liquidation preferences (1.5-2x, possibly 3x) .  The key is to make sure the liquidation preferences disappears in the next financing.  i.e. you raise form a convertible with liq pref that kicks in in an M&A but goes away on conversion
+
+4) I would rather do a priced down round than do a flat to a priced flat round with liquidation preferences that alters all future liquidation preferences
