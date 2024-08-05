@@ -1,0 +1,131 @@
+# Configuration
+baseURL: "https://example.com/"
+languageCode: "en"
+title: ""
+theme: hextra
+disableKinds: 
+  - 'sitemap'
+  - 'RSS'
+
+enableRobotsTXT: true
+enableGitInfo: false
+hasCJKLanguage: false
+
+# services:
+#   googleAnalytics:
+#     ID: G-MEASUREMENT_ID
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+# defaultContentLanguage: en
+# languages:
+#   en:
+#     languageName: English
+#     weight: 1
+#     title: Hextra
+#   zh-cn:
+#     languageName: 简体中文
+#     languageCode: zh-CN
+#     weight: 2
+#     title: Hextra
+#   fa:
+#     languageName: فارسی
+#     languageCode: fa
+#     languageDirection: rtl
+#     weight: 3
+#     title: هگزترا
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - identifier: worksheet
+      name: SAFE Worksheet App ↗
+      pageRef: /safe-worksheet
+      weight: 1
+    - name: Search
+      weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/1984vc/website"
+      params:
+        icon: github
+
+  sidebar:
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+
+params:
+  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      width: 60
+      height: 20
+      # link: /
+    width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  editURL:
+    enable: true
+    base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover

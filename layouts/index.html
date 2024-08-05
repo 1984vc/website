@@ -2,7 +2,7 @@
   <div id="wrapper">
     <div id="logo"></div>
     <div id="about">
-      <img src="assets/hello.png"/><br/><br/>
+      <img src="/landing/assets/hello.png"/><br/><br/>
       <p>In 1984 Apple introduced the Macintosh via an <a target="_new" href="https://www.youtube.com/watch?v=VtvjbmoDx-I">iconic commercial</a> and a simple idea:</p>
       <p>A nimble startup can stand up to massive incumbents using great software, agility, and a laser focus on what customers need.</p>
       <p>Thirty years later, nimble Apple is the biggest company in the world. </p>
@@ -270,7 +270,7 @@
           {{ range .Site.Data.portfolio }}
             {{ if .Highlighted }}
               <li class='company filter-featured {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
-              <img src="companies/{{ lower .Name }}.png"></img>
+              <img src="/landing/companies/{{ lower .Name }}.png"></img>
               <div class='desc'>{{ .Description }}</div>
               <div class='story'>{{ .Story }}</div>
             {{ else }}
@@ -464,5 +464,5 @@
       </div>
     </div>
   </div>
-  <script src="/js/main.js"></script>
+  <script src="/landing/js/main.js"></script>
 {{ end }}
