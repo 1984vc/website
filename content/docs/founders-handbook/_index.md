@@ -1,8 +1,7 @@
 ---
 title: Founders Handbook
 weight: 2
-prev: /docs/founders-handbook
-next: /docs/founders-handbook/getting-started
+next: /docs/founders-handbook/raising-your-series-seed
 sidebar:
   open: true
 ---
@@ -12,6 +11,10 @@ Explore our Founders Handbook for early stage founders
 <!--more-->
 
 {{< cards >}}
-  {{< card link="getting-started" title="Getting Started" icon="document-duplicate" >}}
-  {{< card link="cap-table" title="Cap Tables" icon="document-duplicate" >}}
+  {{< card link="raising-your-series-seed" title="Raising Your Series Seed" icon="currency-dollar" >}}
+  {{< card link="raising-your-a" title="Raising Your Series A" icon="currency-dollar" >}}
+  {{< card link="raising-your-b" title="Raising Your Series B" icon="currency-dollar" >}}
+  {{< card link="minimizing-founder-dillution" title="Minimizing Founder Dilution" icon="presentation-chart-line" >}}
+  {{< card link="understanding-side-letters-in-safes" title="Understanding Side Letters in SAFEs" icon="document-text" >}}
+  {{< card link="structured-and-downrounds" title="Structured And Downrounds" icon="emoji-sad" >}}
 {{< /cards >}}
