@@ -13,7 +13,7 @@ const makePrimaryColor =
 module.exports = {
   prefix: 'hx-',
   content: [
-    './**/hugo_stats.json',
+    'layouts/**/*.html',
   ],
   safelist: [
     'max-w-screen-xl',
@@ -55,6 +55,10 @@ module.exports = {
       orange: colors.orange,
       blue: colors.blue,
       yellow: colors.yellow,
+      nt84blue: '#3d4CE0',
+      nt84lightblue: '#BFD3ED',
+      nt84orange: '#EB6649',
+      nt84darkorange: '#C5543B',
       primary: {
         50: makePrimaryColor(97),
         100: makePrimaryColor(94),

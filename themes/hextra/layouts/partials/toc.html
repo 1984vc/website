@@ -9,7 +9,7 @@
   {{- if $toc }}
     <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4">
       {{- with .Fragments.Headings -}}
-        <p class="hx-mb-4 hx-font-semibold hx-tracking-tight">{{ $onThisPage }}</p>
+        <p class="hx-mb-4 hx-tracking-tight">{{ $onThisPage }}</p>
         {{- range . -}}
           <ul>
             {{- with .Headings -}}{{ template "toc-subheading" (dict "headings" . "level" 0) }}{{- end -}}
@@ -63,7 +63,7 @@
   {{- end -}}
 
   {{- $padding := (mul $level 4) -}}
-  {{- $class := cond (eq $level 0) "hx-font-semibold" (printf "ltr:hx-pl-%d rtl:hx-pr-%d" $padding $padding) -}}
+  {{- $class := cond (eq $level 0) "hx-font-regular" (printf "ltr:hx-pl-%d rtl:hx-pr-%d" $padding $padding) -}}
 
   {{- range $headings }}
     {{- if .Title }}
