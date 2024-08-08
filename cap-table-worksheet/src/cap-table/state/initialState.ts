@@ -38,7 +38,7 @@ export const initialState = ({
       shares: 4_500_000,
     },
     {
-      id: getID(),
+      id: "IssuedOptions",
       type: "common",
       name: `Issued Options`,
       shares: 390_728,

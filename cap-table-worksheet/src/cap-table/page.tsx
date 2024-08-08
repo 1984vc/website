@@ -109,26 +109,14 @@ const Conversion: React.FC = () => {
           rows={getExistingShareholderPropsSelector(state)}
           onAddRow={() => onAddRow("common")}
           onDelete={onDeleteRow}
-          onUpdate={onUpdateRow}
-          pricedConversion={pricedConversion}
-          safePercent={15}
+          onUpdate={(data) => {
+            if (data.id === "UnusedOptionsPool") {
+              onValueChange("number")(data.shares.toString(), "unusedOptions");
+            } else {
+              onUpdateRow(data)
+            }
+          }}
         />
-      </div>
-      <div className="ml-10 flex space-x-4 mt-4">
-        <div className="flex-1">
-          <h2 className="mb-2 not-prose">Remaining Options Pool</h2>
-          <CurrencyInput
-            type="text"
-            name="unusedOptions"
-            value={unusedOptions}
-            onValueChange={onValueChange("number")}
-            placeholder="Unused Options"
-            className="px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            prefix=""
-            decimalScale={0}
-            allowDecimals={false}
-          />
-        </div>
       </div>
       <h1 className="text-1xl font-bold mb-4 mt-8">2) SAFE Investors</h1>
       <div>
@@ -137,7 +125,6 @@ const Conversion: React.FC = () => {
           onAddRow={() => onAddRow("safe")}
           onDelete={onDeleteRow}
           onUpdate={onUpdateRow}
-          pricedConversion={pricedConversion}
         />
       </div>
 
@@ -228,7 +215,6 @@ const Conversion: React.FC = () => {
             onAddRow={() => onAddRow("series")}
             onDelete={onDeleteRow}
             onUpdate={onUpdateRow}
-            pricedConversion={getPricedConversion(state)}
           />
         </div>
       </div>

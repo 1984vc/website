@@ -21,6 +21,7 @@ interface ExistingShareholderRowProps {
   onDelete: (id: string) => void;
   onUpdate: (data: ExistingShareholderProps) => void;
   allowDelete?: boolean;
+  disableNameEdit?: boolean;
 }
 
 const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
@@ -28,6 +29,7 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
   onDelete,
   onUpdate,
   allowDelete,
+  disableNameEdit,
 }) => {
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
@@ -58,12 +60,13 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
             : "text-gray-500 cursor-not-allowed"
         }`}
       >
-        <XCircleIcon className="inline" width={20} />
+        {allowDelete && <XCircleIcon className="inline" width={20} />}
       </button>
       <input
         type="text"
         name="name"
         autoComplete="off"
+        disabled={disableNameEdit ?? false}
         value={data.name}
         onChange={handleInputChange}
         placeholder="Common Shareholder Name"
@@ -86,12 +89,15 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
 };
 
 const ExisingShareholderList: React.FC<
-  RowsProps<ExistingShareholderProps> & { safePercent: number }
+  RowsProps<ExistingShareholderProps> 
 > = ({ rows, onDelete, onUpdate, onAddRow }) => {
   // Don't include the UnusedOptionsRow in the editable list since this is edited in a seperate field
   const existingShareholders = rows.filter(
-    (row) => row.id !== "UnusedOptionsPool",
+    (row) => ["UnusedOptionsPool", "IssuedOptions"].indexOf(row.id) === -1,
   );
+
+  const issuedOptionsRow = rows.find((row) => row.id === "IssuedOptions")
+  const unusedOptionsRow = rows.find((row) => row.id === "UnusedOptionsPool")
 
   return (
     <div>
@@ -101,15 +107,33 @@ const ExisingShareholderList: React.FC<
         <div className="w-36">Shares</div>
         <div className="w-24 text-right">Ownership %</div>
       </div>
-      {existingShareholders.map((note, idx) => (
+      {existingShareholders.map((shareholder, idx) => (
         <ExistingShareholderRow
           key={idx}
-          data={note}
+          data={shareholder}
           onUpdate={onUpdate}
           onDelete={onDelete}
           allowDelete={rows.length > 1}
         />
       ))}
+      { issuedOptionsRow && (
+        <ExistingShareholderRow
+          data={issuedOptionsRow}
+          onUpdate={onUpdate}
+          onDelete={() => { }}
+          allowDelete={false}
+          disableNameEdit={true}
+        />
+      )}
+      { unusedOptionsRow && (
+        <ExistingShareholderRow
+          data={unusedOptionsRow}
+          onUpdate={onUpdate}
+          onDelete={() => { }}
+          allowDelete={false}
+          disableNameEdit={true}
+        />
+      )}
       <button
         onClick={onAddRow}
         className="ml-10 px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-blue-500"
