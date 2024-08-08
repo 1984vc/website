@@ -61,7 +61,6 @@ const Conversion: React.FC = () => {
   const {
     rowData,
     preMoney,
-    unusedOptions,
     targetOptionsPool,
     onAddRow,
     onDeleteRow,
