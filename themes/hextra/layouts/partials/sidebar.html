@@ -1,3 +1,9 @@
+{{- $logoPath := .context.Site.Params.navbar.logo.path | default "images/logo.svg" -}}
+{{- $logoLink := .context.Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
+{{- $logoWidth := .context.Site.Params.navbar.logo.width | default "40" -}}
+{{- $logoHeight := .context.Site.Params.navbar.logo.height | default "40" -}}
+{{- $logoDarkPath := .context.Site.Params.navbar.logo.dark | default "images/logo-dark.svg" -}}
+
 {{- $context := .context -}}
 
 {{- $disableSidebar := .disableSidebar | default false -}}
@@ -14,9 +20,14 @@
   {{- $displayPlaceholder = true -}}
 {{- end -}}
 
-
 <div class="mobile-menu-overlay [transition:background-color_1.5s_ease] hx-fixed hx-inset-0 hx-z-10 hx-bg-black/80 dark:hx-bg-black/60 hx-hidden"></div>
-<aside class="sidebar-container hx-flex hx-flex-col print:hx-hidden md:hx-top-16 md:hx-shrink-0 md:hx-w-64 md:hx-self-start max-md:[transform:translate3d(0,-100%,0)] {{ $sidebarClass }}">
+<aside class="sidebar-container hx-flex hx-flex-col print:hx-hidden md:hx-top-0 md:hx-shrink-0 md:hx-w-64 md:hx-self-start max-md:[transform:translate3d(0,-100%,0)] {{ $sidebarClass }}">
+  <div class="hx-px-6 hx-py-8">
+    <img class="hx-block dark:hx-hidden" src="{{ $logoPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+    <img class="hx-hidden dark:hx-block" src="{{ $logoDarkPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+
+
+  </div>
   <!-- Search bar on small screen -->
   <div class="hx-px-4 hx-pt-4 md:hx-hidden">
     {{ partial "search.html" }}

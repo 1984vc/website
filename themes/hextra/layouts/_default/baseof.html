@@ -2,7 +2,6 @@
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
   <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}" class="AtlasTypewriter-Regular-Web">
-    {{- partial "navbar.html" . -}}
     {{- block "main" . }}{{ end -}}
     {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}
       {{ partial "footer.html" . }}

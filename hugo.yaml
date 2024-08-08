@@ -61,7 +61,7 @@ menu:
       pageRef: "/"
       weight: 2
 
-params:
+Params:
   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
 
   navbar:
@@ -70,8 +70,8 @@ params:
     logo:
       path: images/logo.svg
       dark: images/logo-dark.svg
-      width: 60
-      height: 20
+      width: 90
+      height: 90
       # link: /
     width: wide
 
