@@ -209,17 +209,12 @@ export const getPricedConversion = createSelector(
   (state: IConversionStateData) => state.preMoney,
   (state: IConversionStateData) => state.targetOptionsPool,
   (state: IConversionStateData) => state.unusedOptions,
-  (state: IConversionStateData) => state.hasNewRound,
   (
     rowData,
     preMoney,
     targetOptionsPool,
     unusedOptions,
-    hasNewRound,
   ): BestFit | undefined => {
-    if (!hasNewRound) {
-      return undefined;
-    }
     const commonStock = (
       rowData.filter(
         (row) => row.type === "common",

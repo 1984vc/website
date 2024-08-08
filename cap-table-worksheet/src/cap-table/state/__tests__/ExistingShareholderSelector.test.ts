@@ -12,8 +12,8 @@ describe("Existing Shareholder Selector", () => {
     const existingShareholders = getExistingShareholderPropsSelector(
       store.getState(),
     );
-    expect(existingShareholders[0].dilutedPct.toFixed(2)).toEqual("31.35");
-    expect(existingShareholders[0].dilutedPctError).toEqual(undefined);
+    expect(existingShareholders[0].ownership[1].percent.toFixed(2)).toEqual("31.35");
+    expect(existingShareholders[0].ownership[1].error).toEqual(undefined);
   });
   test("Check the uncapped SAFE notes result in 'TBD' dilutedPct", () => {
     const store = createConversionStore(fixtureData as IConversionStateData);
@@ -25,8 +25,11 @@ describe("Existing Shareholder Selector", () => {
     });
 
     const existingShareholders = getExistingShareholderPropsSelector(
-      store.getState(),
+      store.getState()
     );
-    expect(existingShareholders[0].dilutedPctError).toEqual("TBD");
+    // Check the uncapped SAFE notes result in 'TBD' ownership in the second row
+    expect(existingShareholders[0].ownership[1].error).toEqual("TBD");
+    // Check the uncapped SAFE notes has no error on the third row, becaue the priced round sets the cap
+    expect(existingShareholders[0].ownership[2].error).toEqual(undefined);
   });
 });

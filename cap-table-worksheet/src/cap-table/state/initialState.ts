@@ -29,13 +29,13 @@ export const initialState = ({
       id: getID(),
       type: "common",
       name: `${randomFounders[0]}`,
-      shares: 3_000_000,
+      shares: 4_500_000,
     },
     {
       id: getID(),
       type: "common",
       name: `${randomFounders[1]}`,
-      shares: 3_000_000,
+      shares: 4_500_000,
     },
     {
       id: getID(),
@@ -103,7 +103,7 @@ export const initialState = ({
       investment: 1_000_000,
     },
   ],
-  preMoney: 16_700_000,
+  preMoney: 16_000_000,
   targetOptionsPool: 10,
   unusedOptions: 609_272,
 });

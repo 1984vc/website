@@ -26,7 +26,7 @@ export const getSAFEOnlyCapTableSelector = createSelector(
         shareholders.push({
           name: shareholder.name,
           shares: shareholder.shares,
-          ownershipPct: shareholder.dilutedPct,
+          ownershipPct: shareholder.ownership[1].percent,
           ownershipChange: 0,
         });
       } else if (shareholder.type === "safe") {
@@ -34,9 +34,9 @@ export const getSAFEOnlyCapTableSelector = createSelector(
           name: shareholder.name,
           shares: shareholder.shares,
           investment: shareholder.investment,
-          ownershipPct: shareholder.ownershipPct,
+          ownershipPct: shareholder.ownership[0].percent,
           ownershipChange: 0,
-          ownershipError: shareholder.ownershipError,
+          ownershipError: shareholder.ownership[0].error,
         });
       }
     });

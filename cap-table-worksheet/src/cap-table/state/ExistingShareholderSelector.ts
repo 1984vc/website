@@ -15,16 +15,16 @@ export const getExistingShareholderPropsSelector = createSelector(
     unusedOptions,
   ): ExistingShareholderProps[] => {
     const safeTotalOwnershipPct = safes.reduce(
-      (acc, val) => acc + val.ownershipPct,
+      (acc, val) => acc + val.ownership[0].percent,
       0,
     );
     // Look through the SAFEs and find out if any have an OwnershipError
     // If so, we need to show an error on the dilutedPct
     const dilutedPctError = safes.some(
-      (safe) => safe.ownershipError === "Error",
+      (safe) => safe.ownership[0].error === "Error",
     )
       ? "Error"
-      : safes.some((safe) => safe.ownershipError === "TBD")
+      : safes.some((safe) => safe.ownership[0].error === "TBD")
         ? "TBD"
         : undefined;
 
@@ -43,15 +43,29 @@ export const getExistingShareholderPropsSelector = createSelector(
       .map((row) => row.shares)
       .reduce((acc, val) => acc + val, 0);
 
-    const shareholdersPct: [number, number, number][] =
+    const shareholdersPct: {
+      shares: number;
+      percent: number;
+      error?: string;
+    }[][] =
       existingShareholders.map((data) => {
-        const startingOwnershipPct = data.shares / totalInitialShares;
-        const preConversionOwnership =
-          (100 - safeTotalOwnershipPct) * startingOwnershipPct;
+        const startingOwnership = {
+          shares: data.shares,
+          percent: data.shares / totalInitialShares * 100,
+        }
+        const preConversionOwnership = {
+          shares: data.shares,
+          percent: ((100 - safeTotalOwnershipPct) * (startingOwnership.percent / 100)),
+          error: dilutedPctError,
+        };
+        const pricedRoundOwnership = {
+          shares: data.shares,
+          percent: 100 * (data.shares / (pricedConversion?.totalShares ?? data.shares)),
+        };
         return [
-          100 * startingOwnershipPct,
+          startingOwnership,
           preConversionOwnership,
-          100 * (data.shares / (pricedConversion?.totalShares ?? data.shares)),
+          pricedRoundOwnership
         ];
       });
 
@@ -61,11 +75,7 @@ export const getExistingShareholderPropsSelector = createSelector(
         type: "common",
         name: row.name,
         shares: row.shares,
-        ownershipPct: shareholdersPct[idx][0],
-        dilutedPct: pricedConversion
-          ? shareholdersPct[idx][2]
-          : shareholdersPct[idx][1],
-        dilutedPctError,
+        ownership: shareholdersPct[idx],
         allowDelete: existingShareholders.length > 1,
       };
     });

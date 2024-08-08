@@ -19,8 +19,10 @@ export const getSeriesPropsSelector = createSelector(
         type: "series",
         name: row.name,
         investment: row.investment,
-        shares: seriesOwnershipPct[idx][0] ?? 0,
-        ownershipPct: seriesOwnershipPct[idx][1] ?? 0,
+        ownership: [{
+          shares: seriesOwnershipPct[idx][0] ?? 0,
+          percent: seriesOwnershipPct[idx][1] ?? 0,
+        }],
         allowDelete: rows.length > 1,
       };
     });

@@ -12,9 +12,12 @@ export interface SAFEProps {
   cap: number;
   discount: number;
   conversionType: "post" | "pre" | "mfn";
-  ownershipPct: number;
-  ownershipError?: string;
-  ownershipErrorReason?: string;
+  ownership: {
+    shares?: number
+    percent: number;
+    error?: string | undefined;
+    reason?: string | undefined;
+  } [];
   allowDelete?: boolean;
   shares?: number;
   disabledFields?: string[];
@@ -120,13 +123,13 @@ const SAFEInputRow: React.FC<SAFEInputRowProps> = ({
         <option value="mfn">Uncapped MFN</option>
       </select>
       <div className="w-24 text-right">
-        {data.ownershipError ? (
-          <ToolipComponent content={data.ownershipErrorReason ?? ""}>
-            {data.ownershipError}
+        {data.ownership[0].error ? (
+          <ToolipComponent content={data.ownership[0].reason ?? ""}>
+            {data.ownership[0].error}
             <sup>*</sup>
           </ToolipComponent>
         ) : (
-          data.ownershipPct.toFixed(2) + "%"
+          data.ownership[0].percent.toFixed(2) + "%"
         )}
       </div>
     </div>

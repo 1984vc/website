@@ -5,23 +5,18 @@ import {
   IRowState,
 } from "./ConversionState";
 import { calcSAFEs } from "@/utils/rowDataHelper";
-import { BestFit } from "@/library/safe_conversion";
 import { SAFEProps } from "@/components/safe-conversion/Conversion/SafeNoteList";
 
 const determineRowError = (
   row: IRowState,
-  pricedConversion: BestFit | undefined,
 ): [error: string | undefined, reason: string | undefined] => {
   if (row.type === "safe") {
     const safe = row as SAFEProps;
     if (safe.cap === 0) {
-      if (pricedConversion) {
-        return [undefined, undefined];
-      }
       // Unless with have priced round, we can't calculate an uncapped SAFE
       return [
         "TBD",
-        "Can't estimate ownership of an uncapped SAFE until a priced round is entered",
+        "Can't estimate ownership of an uncapped SAFE until the priced round",
       ];
     } else if (safe.cap < safe.investment) {
       // We shouldn't allow for this, as it makes no sense
@@ -45,18 +40,31 @@ export const getSAFERowPropsSelector = createSelector(
         type: "safe",
         name: row.name,
         investment: row.investment,
-        cap: safeCalcs[idx][1],
+        cap: safeCalcs[idx][0][1],
         discount: row.discount,
-        ownershipPct: safeCalcs[idx][0],
-        shares: safeCalcs[idx][2],
+        ownership: [
+          // This is a guess at pre-conversion ownership
+          {
+            percent: safeCalcs[idx][0][0],
+            shares: 0,
+          },
+          // This is the post-conversion ownership
+          {
+            percent: safeCalcs[idx][1][0],
+            shares: safeCalcs[idx][1][2],
+          },
+        ],
         allowDelete: true,
         disabledFields: row.conversionType === "mfn" ? ["cap"] : [],
         conversionType: row.conversionType,
       };
       const [ownershipError, ownershipErrorReason] = determineRowError(
         rowResult,
-        pricedConversion,
       );
+      if (ownershipError) {
+        rowResult.ownership[0].error = ownershipError;
+        rowResult.ownership[0].reason = ownershipErrorReason;
+      }
       return {
         ...rowResult,
         ownershipError,

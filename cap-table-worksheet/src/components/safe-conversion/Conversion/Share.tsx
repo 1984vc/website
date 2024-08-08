@@ -10,7 +10,6 @@ const Share: React.FC<{ url: string }> = ({ url }) => {
 
   if (urlRef.current !== url) {
     urlRef.current = url;
-    console.log('Updated')
     setIsUpdated(true);
   }
 
@@ -24,7 +23,6 @@ const Share: React.FC<{ url: string }> = ({ url }) => {
   };
 
   const buttonText = () => {
-    console.log(isUpdated);
     if (isUpdated) {
       return (
         <span>

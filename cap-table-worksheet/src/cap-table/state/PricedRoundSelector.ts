@@ -28,7 +28,6 @@ export const getPriceRoundPropsSelector = createSelector(
   (state: ResultSelectorState) => state.preMoney,
   (state: ResultSelectorState) => state.targetOptionsPool,
   (state: ResultSelectorState) => state.unusedOptions,
-  (state: ResultSelectorState) => state.hasNewRound,
   (
     existingShareholders,
     safeInvestors,
@@ -39,7 +38,6 @@ export const getPriceRoundPropsSelector = createSelector(
     preMoney,
     targetOptionsPool,
     unusedOptions,
-    hasNewRound,
   ): PricedRoundPropsData => {
     investmentChange = investmentChange ?? 0;
     preMoneyChange = preMoneyChange ?? 0;
@@ -72,7 +70,6 @@ export const getPriceRoundPropsSelector = createSelector(
       targetOptionsPool,
       unusedOptions,
       rowData: updatedRows,
-      hasNewRound: true,
     };
 
     const trialPricedConversion = getPricedConversion(trialState)!;
@@ -97,32 +94,27 @@ export const getPriceRoundPropsSelector = createSelector(
         shareholders.push({
           name: shareholder.name,
           shares: shareholder.shares,
-          ownershipPct: shareholder.dilutedPct,
-          ownershipChange:
-            shareholder.dilutedPct - currentShareholder.dilutedPct,
+          ownershipPct: shareholder.ownership[2].percent,
+          ownershipChange: shareholder.ownership[2].percent - currentShareholder.ownership[2].percent,
         });
       } else if (shareholder.type === "safe") {
         const currentShareholder = currentShareholders[idx] as SAFEProps;
         shareholders.push({
           name: shareholder.name,
-          shares: shareholder.shares,
+          shares: shareholder.ownership[1].shares,
           investment: shareholder.investment,
-          ownershipPct: shareholder.ownershipPct,
-          ownershipChange:
-            shareholder.ownershipPct - currentShareholder.ownershipPct,
+          ownershipPct: shareholder.ownership[1].percent,
+          ownershipChange: shareholder.ownership[1].percent - currentShareholder.ownership[1].percent,
         });
       } else if (shareholder.type === "series") {
-        if (hasNewRound) {
-          const currentShareholder = currentShareholders[idx] as SeriesProps;
-          shareholders.push({
-            name: shareholder.name,
-            shares: shareholder.shares,
-            investment: shareholder.investment,
-            ownershipPct: shareholder.ownershipPct,
-            ownershipChange:
-              shareholder.ownershipPct - currentShareholder.ownershipPct,
-          });
-        }
+        const currentShareholder = currentShareholders[idx] as SeriesProps;
+        shareholders.push({
+          name: shareholder.name,
+          shares: shareholder.ownership[0].shares,
+          investment: shareholder.investment,
+          ownershipPct: shareholder.ownership[0].percent,
+          ownershipChange: shareholder.ownership[0].percent - currentShareholder.ownership[0].percent,
+        });
       }
     });
 

@@ -1,13 +1,15 @@
 {
   "name": "cap-table-worksheet",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:hugo": "yarn build && cp dist/assets/index*.js ../static/cap-table-worksheet/index.js && cp dist/assets/index*.css ../static/cap-table-worksheet/index.css",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "yarn jest --maxWorkers=1 --maxConcurrency=1"
   },
   "dependencies": {
     "lz-string": "^1.5.0",
@@ -34,6 +36,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.8",
     "tailwindcss-scoped-preflight": "^3.4.3",

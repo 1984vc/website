@@ -8,9 +8,11 @@ export interface ExistingShareholderProps {
   type: "common";
   name: string;
   shares: number;
-  ownershipPct: number;
-  dilutedPct: number;
-  dilutedPctError?: string;
+  ownership: {
+    shares: number;
+    percent: number;
+    error?: string;
+  }[];
   allowDelete?: boolean;
 }
 
@@ -42,6 +44,8 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
       onUpdate({ ...data, [name]: parseFloat(value ?? "0") });
     }
   };
+
+  const ownership = data.ownership[0]
 
   return (
     <div className="flex items-center space-x-4 mb-4">
@@ -76,10 +80,7 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
         decimalScale={0}
         allowDecimals={false}
       />
-      <div className="w-24 text-right">{data.ownershipPct?.toFixed(2)}%</div>
-      <div className="w-36 text-right">
-        {data.dilutedPctError ?? data.dilutedPct?.toFixed(2) + "%"}
-      </div>
+      <div className="w-24 text-right">{ownership?.percent.toFixed(2)}%</div>
     </div>
   );
 };
@@ -99,7 +100,6 @@ const ExisingShareholderList: React.FC<
         <div className="w-48">Name</div>
         <div className="w-36">Shares</div>
         <div className="w-24 text-right">Ownership %</div>
-        <div className="w-36 text-right">Diluted % </div>
       </div>
       {existingShareholders.map((note, idx) => (
         <ExistingShareholderRow

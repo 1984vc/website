@@ -8,8 +8,12 @@ export interface SeriesProps {
   type: "series";
   name: string;
   investment: number;
-  ownershipPct: number;
-  shares: number;
+  ownership: {
+    shares?: number;
+    percent: number;
+    error?: string | undefined;
+    reason?: string | undefined;
+  }[];
   allowDelete?: boolean;
 }
 
@@ -73,7 +77,7 @@ const SeriesInvestorRow: React.FC<SeriesRowProps> = ({
         prefix="$"
         decimalScale={0}
       />
-      <div className="w-24 text-right">{data.ownershipPct.toFixed(2)}%</div>
+      <div className="w-24 text-right">{data.ownership[0].percent.toFixed(2)}%</div>
     </div>
   );
 };

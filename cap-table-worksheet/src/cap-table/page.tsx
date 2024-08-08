@@ -25,7 +25,6 @@ import Share from "@/components/safe-conversion/Conversion/Share";
 import { compressState, decompressState } from "@/utils/stateCompression";
 import { CapTableResults } from "@/components/safe-conversion/Conversion/CapTableResults";
 import { getSAFEOnlyCapTableSelector } from "./state/SAFEOnlyCapTableSelector";
-import ToolipComponent from "@/components/tooltip/Tooltip";
 
 const Conversion: React.FC = () => {
   const randomInvestors = useRef<ReturnType<typeof getRandomData>>();
@@ -64,13 +63,14 @@ const Conversion: React.FC = () => {
     preMoney,
     unusedOptions,
     targetOptionsPool,
-    hasNewRound,
     onAddRow,
     onDeleteRow,
     onUpdateRow,
     onValueChange,
-    togglePricedRound,
   } = state;
+
+  const hasNewRound = true
+
 
   const [saveURL, setSaveURL] = useState<string>(
     window.location.href + window.location.hash,
@@ -97,8 +97,6 @@ const Conversion: React.FC = () => {
 
   const [preMoneyChange, updatePreMoneyChange] = useState(0);
   const [investmentChange, updateInvestmentChange] = useState(0);
-
-  const hasSAFEs = rowData.filter((row) => row.type === "safe").length > 0;
 
   return (
     <div className={"not-prose"}>
@@ -143,27 +141,17 @@ const Conversion: React.FC = () => {
         />
       </div>
 
-      {pricedConversion == undefined && (
-        <div className="pt-10">
-          {/* If we have SAFE's use a tooltip, otherwise just the heading */}
-          {hasSAFEs ? (
-            <ToolipComponent content="If SAFE's convert at their Cap">
-              <h2 className="text-2xl font-bold mb-4 inline not-prose">
-                Cap Table <sup>*</sup>
-              </h2>
-            </ToolipComponent>
-          ) : (
-            <h2 className="text-2xl font-bold mb-4 inline not-prose">
-              Cap TableCaster Semenya
-            </h2>
-          )}
-          <CapTableResults
-            {...getSAFEOnlyCapTableSelector({
-              ...state,
-            })}
-          />
-        </div>
-      )}
+      <div className="pt-10">
+        <h2 className="text-lg font-bold mb-4 inline not-prose">
+          Cap Table Before Priced Round
+        </h2>
+        <p>This assumes that all our SAFE's convert at their Cap</p>
+        <CapTableResults
+          {...getSAFEOnlyCapTableSelector({
+            ...state,
+          })}
+        />
+      </div>
 
       <div style={{ display: hasNewRound ? "block" : "none" }}>
         <h1 className="text-1xl font-bold mb-4 mt-8">3) New Round</h1>
@@ -244,38 +232,28 @@ const Conversion: React.FC = () => {
           />
         </div>
       </div>
-      {pricedConversion !== undefined && (
-        <div className="pt-10">
-          <h2 className="text-2xl font-bold mb-4 not-prose">Priced Round Overview</h2>
-          <PricedRound
-            {...getPriceRoundPropsSelector({
-              ...state,
-              preMoneyChange,
-              investmentChange,
-            })}
-            updateInvestmentChange={updateInvestmentChange}
-            updatePreMoneyChange={updatePreMoneyChange}
-          />
-          <CapTableResults
-            {...getPriceRoundPropsSelector({
-              ...state,
-              preMoneyChange,
-              investmentChange,
-            })}
-          />
-        </div>
-      )}
-      {/* Toggle button to show/hide new round */}
-      <button
-        onClick={() => togglePricedRound(!hasNewRound)}
-        className={`ml-10 mt-8 px-4 py-2 rounded-md focus:outline-none focus:ring-2 text-white ${
-          hasNewRound
-            ? "bg-red-500 hover:bg-red-600 focus:ring-red-500"
-            : "bg-blue-500"
-        }`}
-      >
-        {hasNewRound ? "Remove Priced Round" : "Add Priced Round"}
-      </button>
+      <div className="pt-10">
+        <h2 className="text-2xl font-bold mb-4 not-prose">Priced Round Overview</h2>
+        <PricedRound
+          {...getPriceRoundPropsSelector({
+            ...state,
+            preMoneyChange,
+            investmentChange,
+          })}
+          updateInvestmentChange={updateInvestmentChange}
+          updatePreMoneyChange={updatePreMoneyChange}
+        />
+        <h2 className="text-lg font-bold mb-4 mt-8 not-prose">
+          Cap Table after Priced Round
+        </h2>
+        <CapTableResults
+          {...getPriceRoundPropsSelector({
+            ...state,
+            preMoneyChange,
+            investmentChange,
+          })}
+        />
+      </div>
     </div>
   );
 };
@@ -295,7 +273,7 @@ const Page: React.FC = () => {
 
   return (
     <div>
-      <main className="flex min-h-screen flex-col items-center justify-between px-24 py-8 min-w-[1024px]">
+      <main className="flex min-h-screen flex-col items-center justify-between py-8 min-w-[1024px]">
         <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
           <Conversion />
         </div>
