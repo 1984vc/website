@@ -547,8 +547,8 @@ video {
 .hx-top-0 {
   top: 0px;
 }
-.hx-top-16 {
-  top: 4rem;
+.hx-top-12 {
+  top: 3rem;
 }
 .hx-top-8 {
   top: 2rem;
@@ -1107,6 +1107,10 @@ video {
 .hx-py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.hx-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .hx-pb-8 {
   padding-bottom: 2rem;
@@ -3237,8 +3241,8 @@ body:is(html[class~="dark"] *) {
     position: sticky;
   }
 
-  .md\:hx-top-16 {
-    top: 4rem;
+  .md\:hx-top-0 {
+    top: 0px;
   }
 
   .md\:hx-inline-block {
