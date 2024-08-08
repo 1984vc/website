@@ -1,8 +1,8 @@
 import { createSelector } from "reselect";
 import { getSAFERowPropsSelector } from "./SAFESelector";
 import { getExistingShareholderPropsSelector } from "./ExistingShareholderSelector";
-import { ShareholderRow } from "../../components/safe-conversion/Conversion/PricedRound";
-import { CapTableResultProps } from "../../components/safe-conversion/Conversion/CapTableResults";
+import { ShareholderRow } from "@/components/safe-conversion/Conversion/PricedRound";
+import { CapTableResultProps } from "@/components/safe-conversion/Conversion/CapTableResults";
 
 // Get a cap table with a guess at the conversion at the SAFE Cap. This is helpful to understand
 // the estimated ownership breakdown before a priced round.

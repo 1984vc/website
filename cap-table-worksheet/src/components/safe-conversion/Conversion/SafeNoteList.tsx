@@ -1,7 +1,7 @@
 import React from "react";
 import CurrencyInput from "react-currency-input-field";
 import { RowsProps } from "./PropTypes";
-import ToolipComponent from "../../tooltip/Tooltip";
+import ToolipComponent from "@/components/tooltip/Tooltip";
 import { XCircleIcon } from "@heroicons/react/24/outline";
 
 export interface SAFEProps {

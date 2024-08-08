@@ -3,13 +3,13 @@ import { getPricedConversion, IConversionStateData } from "./ConversionState";
 import { getSAFERowPropsSelector } from "./SAFESelector";
 import { getSeriesPropsSelector } from "./SeriesSelector";
 import { getExistingShareholderPropsSelector } from "./ExistingShareholderSelector";
-import { ExistingShareholderProps } from "../../components/safe-conversion/Conversion/ExistingShareholders";
-import { SAFEProps } from "../../components/safe-conversion/Conversion/SafeNoteList";
-import { SeriesProps } from "../../components/safe-conversion/Conversion/SeriesInvestorList";
+import { ExistingShareholderProps } from "@/components/safe-conversion/Conversion/ExistingShareholders";
+import { SAFEProps } from "@/components/safe-conversion/Conversion/SafeNoteList";
+import { SeriesProps } from "@/components/safe-conversion/Conversion/SeriesInvestorList";
 import {
   PricedRoundPropsData,
   ShareholderRow,
-} from "../../components/safe-conversion/Conversion/PricedRound";
+} from "@/components/safe-conversion/Conversion/PricedRound";
 
 export type ResultSelectorState = IConversionStateData & {
   preMoneyChange?: number;

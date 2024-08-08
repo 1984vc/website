@@ -1,6 +1,6 @@
 import { createSelector } from "reselect";
 import { getPricedConversion, IConversionStateData } from "./ConversionState";
-import { SeriesProps } from "../../components/safe-conversion/Conversion/SeriesInvestorList";
+import { SeriesProps } from "@/components/safe-conversion/Conversion/SeriesInvestorList";
 
 export const getSeriesPropsSelector = createSelector(
   getPricedConversion,

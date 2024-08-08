@@ -1,8 +1,8 @@
-import { BestFit } from "../library/safe_conversion";
+import { BestFit } from "@/library/safe_conversion";
 import {
   IRowState,
   SAFEState,
-} from "../cap-table/state/ConversionState";
+} from "@/cap-table/state/ConversionState";
 
 const getMFNCapAter = (rows: SAFEState[], idx: number): number => {
   // For each safe after the idx, find the lowest number that's not 0

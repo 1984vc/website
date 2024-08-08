@@ -11,21 +11,21 @@ import {
   SeriesState,
 } from "./state/ConversionState";
 import CurrencyInput from "react-currency-input-field";
-import ExisingShareholderList from "../components/safe-conversion/Conversion/ExistingShareholders";
-import PricedRound from "../components/safe-conversion/Conversion/PricedRound";
-import SeriesInvestorList from "../components/safe-conversion/Conversion/SeriesInvestorList";
-import { stringToNumber } from "../utils/numberFormatting";
+import ExisingShareholderList from "@/components/safe-conversion/Conversion/ExistingShareholders";
+import PricedRound from "@/components/safe-conversion/Conversion/PricedRound";
+import SeriesInvestorList from "@/components/safe-conversion/Conversion/SeriesInvestorList";
+import { stringToNumber } from "@/utils/numberFormatting";
 import { getExistingShareholderPropsSelector } from "./state/ExistingShareholderSelector";
 import { getRandomData, initialState } from "./state/initialState";
 import { getSAFERowPropsSelector } from "./state/SAFESelector";
 import { getSeriesPropsSelector } from "./state/SeriesSelector";
-import SafeNoteList from "../components/safe-conversion/Conversion/SafeNoteList";
+import SafeNoteList from "@/components/safe-conversion/Conversion/SafeNoteList";
 import { getPriceRoundPropsSelector } from "./state/PricedRoundSelector";
-import Share from "../components/safe-conversion/Conversion/Share";
-import { compressState, decompressState } from "../utils/stateCompression";
-import { CapTableResults } from "../components/safe-conversion/Conversion/CapTableResults";
+import Share from "@/components/safe-conversion/Conversion/Share";
+import { compressState, decompressState } from "@/utils/stateCompression";
+import { CapTableResults } from "@/components/safe-conversion/Conversion/CapTableResults";
 import { getSAFEOnlyCapTableSelector } from "./state/SAFEOnlyCapTableSelector";
-import ToolipComponent from "../components/tooltip/Tooltip";
+import ToolipComponent from "@/components/tooltip/Tooltip";
 
 const Conversion: React.FC = () => {
   const randomInvestors = useRef<ReturnType<typeof getRandomData>>();
@@ -143,17 +143,27 @@ const Conversion: React.FC = () => {
         />
       </div>
 
-      {/* Toggle button to show/hide new round */}
-      <button
-        onClick={() => togglePricedRound(!hasNewRound)}
-        className={`ml-10 mt-8 px-4 py-2 rounded-md focus:outline-none focus:ring-2 text-white ${
-          hasNewRound
-            ? "bg-red-500 hover:bg-red-600 focus:ring-red-500"
-            : "bg-blue-500"
-        }`}
-      >
-        {hasNewRound ? "Remove Priced Round" : "Add Priced Round"}
-      </button>
+      {pricedConversion == undefined && (
+        <div className="pt-10">
+          {/* If we have SAFE's use a tooltip, otherwise just the heading */}
+          {hasSAFEs ? (
+            <ToolipComponent content="If SAFE's convert at their Cap">
+              <h2 className="text-2xl font-bold mb-4 inline not-prose">
+                Cap Table <sup>*</sup>
+              </h2>
+            </ToolipComponent>
+          ) : (
+            <h2 className="text-2xl font-bold mb-4 inline not-prose">
+              Cap TableCaster Semenya
+            </h2>
+          )}
+          <CapTableResults
+            {...getSAFEOnlyCapTableSelector({
+              ...state,
+            })}
+          />
+        </div>
+      )}
 
       <div style={{ display: hasNewRound ? "block" : "none" }}>
         <h1 className="text-1xl font-bold mb-4 mt-8">3) New Round</h1>
@@ -255,27 +265,17 @@ const Conversion: React.FC = () => {
           />
         </div>
       )}
-      {pricedConversion == undefined && (
-        <div className="pt-10">
-          {/* If we have SAFE's use a tooltip, otherwise just the heading */}
-          {hasSAFEs ? (
-            <ToolipComponent content="If SAFE's convert at their Cap">
-              <h2 className="text-2xl font-bold mb-4 inline not-prose">
-                Cap Table <sup>*</sup>
-              </h2>
-            </ToolipComponent>
-          ) : (
-            <h2 className="text-2xl font-bold mb-4 inline not-prose">
-              Cap TableCaster Semenya
-            </h2>
-          )}
-          <CapTableResults
-            {...getSAFEOnlyCapTableSelector({
-              ...state,
-            })}
-          />
-        </div>
-      )}
+      {/* Toggle button to show/hide new round */}
+      <button
+        onClick={() => togglePricedRound(!hasNewRound)}
+        className={`ml-10 mt-8 px-4 py-2 rounded-md focus:outline-none focus:ring-2 text-white ${
+          hasNewRound
+            ? "bg-red-500 hover:bg-red-600 focus:ring-red-500"
+            : "bg-blue-500"
+        }`}
+      >
+        {hasNewRound ? "Remove Priced Round" : "Add Priced Round"}
+      </button>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { fitConversion, ISafeInvestment } from "../safe_conversion";
+import { fitConversion, ISafeInvestment } from "@/library/safe_conversion";
 
 describe("converting safe investments with existing common stock", () => {
   test("matches our Google Sheet", () => {

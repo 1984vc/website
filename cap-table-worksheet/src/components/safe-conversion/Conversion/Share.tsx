@@ -1,4 +1,4 @@
-import { copyTextToClipboard } from "../../../utils/clipboard";
+import { copyTextToClipboard } from "@/utils/clipboard";
 import { useRef, useState } from "react";
 import { BookmarkIcon, BookmarkSquareIcon } from "@heroicons/react/24/outline";
 

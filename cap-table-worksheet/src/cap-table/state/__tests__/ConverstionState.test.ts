@@ -2,7 +2,7 @@ import { describe, expect, test } from "@jest/globals";
 import {
   createConversionStore,
   IConversionStateData,
-} from "../ConversionState";
+} from "@/cap-table/state/ConversionState";
 import fixtureData from "./fixtures/state_fixtures.json";
 
 describe("Basic ConversionState", () => {

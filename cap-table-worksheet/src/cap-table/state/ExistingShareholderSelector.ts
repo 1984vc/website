@@ -1,7 +1,7 @@
 import { createSelector } from "reselect";
 import { getPricedConversion, IConversionStateData } from "./ConversionState";
 import { getSAFERowPropsSelector } from "./SAFESelector";
-import { ExistingShareholderProps } from "../../components/safe-conversion/Conversion/ExistingShareholders"
+import { ExistingShareholderProps } from "@/components/safe-conversion/Conversion/ExistingShareholders"
 
 export const getExistingShareholderPropsSelector = createSelector(
   getPricedConversion,

@@ -2,8 +2,8 @@ import { describe, expect, test } from "@jest/globals";
 import {
   createConversionStore,
   IConversionStateData,
-} from "../ConversionState";
-import { getExistingShareholderPropsSelector } from "../ExistingShareholderSelector";
+} from "@/cap-table/state/ConversionState";
+import { getExistingShareholderPropsSelector } from "@/cap-table/state/ExistingShareholderSelector";
 import fixtureData from "./fixtures/state_fixtures.json";
 
 describe("Existing Shareholder Selector", () => {

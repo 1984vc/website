@@ -4,9 +4,9 @@ import {
   IConversionStateData,
   IRowState,
 } from "./ConversionState";
-import { calcSAFEs } from "../../utils/rowDataHelper";
-import { BestFit } from "../../library/safe_conversion";
-import { SAFEProps } from "../../components/safe-conversion/Conversion/SafeNoteList";
+import { calcSAFEs } from "@/utils/rowDataHelper";
+import { BestFit } from "@/library/safe_conversion";
+import { SAFEProps } from "@/components/safe-conversion/Conversion/SafeNoteList";
 
 const determineRowError = (
   row: IRowState,
