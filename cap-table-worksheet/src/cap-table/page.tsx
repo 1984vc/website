@@ -165,7 +165,7 @@ const Conversion: React.FC = () => {
                 type="text"
                 name="totalSeriesInvestment"
                 value={postMoney}
-                className="flex-1 px-3 py-2 bg-gray-100 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="flex-1 px-3 py-2 bg-gray-100 dark:bg-inherit border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 prefix="$"
                 decimalScale={0}
                 allowDecimals={false}
@@ -197,7 +197,7 @@ const Conversion: React.FC = () => {
               type="text"
               name="additionalOptions"
               value={pricedConversion?.additionalOptions}
-              className="w-full bg-gray-100 px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="flex-1 px-3 py-2 bg-gray-100 dark:bg-inherit border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               prefix=""
               decimalScale={0}
               max={99}
@@ -244,17 +244,6 @@ const Conversion: React.FC = () => {
 };
 
 const Page: React.FC = () => {
-  // We use random values which gets the DOM out of sync SS vs Client in development
-  // This is a hack to make sure the DOM is in sync and prevent hydration flashing of different random values
-  const [ready, setReady] = useState(false);
-
-  useEffect(() => {
-    setReady(true);
-  }, [ready]);
-
-  if (!ready) {
-    return;
-  }
 
   return (
     <div>

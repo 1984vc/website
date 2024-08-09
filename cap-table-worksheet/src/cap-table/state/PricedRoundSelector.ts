@@ -145,9 +145,11 @@ export const getPriceRoundPropsSelector = createSelector(
       preMoney: newPreMoney,
       postMoney: newPreMoney + totalSeriesInvestment,
       totalShares: trialPricedConversion.totalShares,
+      newSharesIssued: trialPricedConversion.newSharesIssued,
       totalPct,
       totalInvestedToDate,
       totalSeriesInvestment,
+      totalRoundDilution: (trialPricedConversion.newSharesIssued / trialPricedConversion.totalShares) * 100, 
       pricedConversion: trialPricedConversion,
       shareholders,
     };

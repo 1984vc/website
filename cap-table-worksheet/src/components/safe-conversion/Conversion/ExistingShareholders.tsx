@@ -2,6 +2,7 @@ import React from "react";
 import CurrencyInput from "react-currency-input-field";
 import { RowsProps } from "./PropTypes";
 import { XCircleIcon } from "@heroicons/react/24/outline";
+import QuestionMarkTooltipComponent from "@/components/tooltip/QuestionMarkTooltip";
 
 export interface ExistingShareholderProps {
   id: string;
@@ -49,19 +50,50 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
 
   const ownership = data.ownership[0]
 
+  const button = () => {
+    if (allowDelete) {
+      return (
+        <button
+          onClick={() => onDelete(data.id)}
+          className={"w-6 px-2 py-2 rounded-md focus:outline-none text-red-400 hover:text-red-500"}>
+          <XCircleIcon className="inline" width={20} />
+        </button>
+      );
+    } else if (data.id === "UnusedOptionsPool") {
+      return (
+        <div className="w-6 p-2 text-nt84bluedarker dark:text-nt84lightblue">
+          <QuestionMarkTooltipComponent>
+            <div className="max-w-72">
+              <p>
+                Reserved shares that have yet to be assigned as option grants for team members.
+              </p>
+              <i>
+                [For example, if you have an option plan with 150,000 reserved shares and then granted 50,000 options to team members, your Unissued Option pool would be 100,000.]
+              </i>
+            </div>
+          </QuestionMarkTooltipComponent>
+
+        </div>
+      );
+    } else if (data.id === "IssuedOptions") {
+      return (
+        <div className="w-6 p-2 text-nt84bluedarker dark:text-nt84lightblue">
+          <QuestionMarkTooltipComponent>
+            <div className="max-w-72">
+              Options or shares already issued to other employees, advisors, or shareholders in the company.
+            </div>
+          </QuestionMarkTooltipComponent>
+        </div>
+      );
+    } else {
+        <div className="w-6 p-2">
+        </div>
+    }
+  }
+
   return (
     <div className="flex items-center space-x-4 mb-4">
-      <button
-        onClick={() => onDelete(data.id)}
-        disabled={!allowDelete}
-        className={`w-6 px-2 py-2 rounded-md focus:outline-none ${
-          allowDelete
-            ? "text-red-400 hover:text-red-500"
-            : "text-gray-500 cursor-not-allowed"
-        }`}
-      >
-        {allowDelete && <XCircleIcon className="inline" width={20} />}
-      </button>
+      {button()}
       <input
         type="text"
         name="name"

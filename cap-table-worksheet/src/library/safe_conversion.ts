@@ -12,6 +12,7 @@ export type BestFit = {
   seriesShares: number;
   preMoneyShares: number;
   postMoneyShares: number;
+  newSharesIssued: number;
   totalShares: number;
   additionalOptions: number;
   totalOptions: number;
@@ -237,6 +238,7 @@ export const fitConversion = (
     pps,
     ppss,
     totalShares,
+    newSharesIssued: totalShares - commonShares - unusedOptions,
     preMoneyShares,
     postMoneyShares,
     convertedSafeShares,

@@ -102,3 +102,18 @@
   font-style:   normal;
   font-stretch: normal;
 }
+
+@font-face {
+  font-family: 'Atlas Grotesk';
+  src: url('/fonts/AtlasGrotesk.woff2') format('woff2');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-Regular-Web {
+  font-family: 'Atlas Grotesk';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
