@@ -83,7 +83,7 @@ export const CapTableResults: React.FC<CapTableResultProps> = (props) => {
             ))}
             {pricedConversion && totalShares && (
               <tr>
-                <td className="py-3 px-4 text-left font-medium text-gray-600">
+                <td className="py-3 px-4 text-left font-medium text-gray-600 dark:text-gray-200">
                   Additional Options Refresh
                 </td>
                 <td className="py-3 px-4 text-left"></td>
