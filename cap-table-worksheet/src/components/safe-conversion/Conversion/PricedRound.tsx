@@ -48,7 +48,6 @@ const PricedRound: React.FC<PricedRoundProps> = (props) => {
   } = props;
 
   const increment = (name: "preMoney" | "investment") => {
-    console.log(name);
     if (name === "preMoney") {
       const change = preMoneyChange + 500_000;
       updatePreMoneyChange(change);
