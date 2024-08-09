@@ -1,19 +1,19 @@
 import { createSelector } from "reselect";
 import { getSAFERowPropsSelector } from "./SAFESelector";
 import { getExistingShareholderPropsSelector } from "./ExistingShareholderSelector";
-import { ShareholderRow } from "@/components/safe-conversion/Conversion/PricedRound";
-import { CapTableResultProps } from "@/components/safe-conversion/Conversion/CapTableResults";
+import { CapTableRow } from "@/components/safe-conversion/Conversion/PricedRound";
+import { CapTableProps } from "@/components/safe-conversion/Conversion/CapTableResults";
 
 // Get a cap table with a guess at the conversion at the SAFE Cap. This is helpful to understand
 // the estimated ownership breakdown before a priced round.
 export const getSAFEOnlyCapTableSelector = createSelector(
   getExistingShareholderPropsSelector,
   getSAFERowPropsSelector,
-  (existingShareholders, safeInvestors): CapTableResultProps => {
+  (existingShareholders, safeInvestors): CapTableProps => {
     const totalInvestedToDate = safeInvestors
       .map((row) => row.investment)
       .reduce((acc, val) => acc + val, 0);
-    const shareholders: ShareholderRow[] = [];
+    const shareholders: CapTableRow[] = [];
 
     const totalShares = existingShareholders.reduce(
       (acc, val) => acc + (val.shares ?? 0),
@@ -47,10 +47,10 @@ export const getSAFEOnlyCapTableSelector = createSelector(
     );
 
     return {
-      totalPct,
       totalInvestedToDate,
-      shareholders,
+      totalPct,
       totalShares,
+      capTable: shareholders,
     };
   },
 );
