@@ -1,40 +1,32 @@
-import { BestFit } from "@/library/safe_conversion";
 import { formatNumberWithCommas } from "@/utils/numberFormatting";
+import { CapTableRow } from "./PricedRound";
+import { BestFit } from "@/library/safe_conversion";
 
-export interface ShareholderRow {
-  name: string;
-  shares?: number;
-  investment?: number;
-  ownershipPct: number;
-  ownershipChange: number;
-  ownershipError?: string;
-}
+export type CapTableProps = {
+    pricedConversion?: BestFit,
+    totalShares: number,
+    totalPct: number,
+    totalInvestedToDate: number,
+    capTable: CapTableRow[],
+} 
 
-export interface CapTableResultProps {
-  shareholders: ShareholderRow[];
-  totalShares: number;
-  totalPct: number;
-  totalInvestedToDate: number;
-  pricedConversion?: BestFit;
-}
-
-export const CapTableResults: React.FC<CapTableResultProps> = (props) => {
+export const CapTableResults: React.FC<CapTableProps> = (props) => {
   const {
     pricedConversion,
     totalShares,
     totalPct,
     totalInvestedToDate,
-    shareholders,
-  } = props;
+    capTable
+  } = props
 
   const roundTo = (num: number, decimal: number): number => {
     return Math.round(num * Math.pow(10, decimal)) / Math.pow(10, decimal);
   };
 
-  const hasChanges = shareholders.some(
+  const hasChanges = capTable.some(
     (shareholder) => shareholder.ownershipChange !== 0,
   );
-  const ownershipError = shareholders.find(
+  const ownershipError = capTable.find(
     (shareholder) => shareholder.ownershipError !== undefined,
   )?.ownershipError;
 
@@ -52,7 +44,7 @@ export const CapTableResults: React.FC<CapTableResultProps> = (props) => {
             </tr>
           </thead>
           <tbody className="not-prose">
-            {shareholders.map((shareholder, idx) => (
+            {capTable.map((shareholder, idx) => (
               <tr key={`shareholder-${idx}`}>
                 <td className="py-3 px-4 text-left font-medium text-gray-600 dark:text-gray-200">
                   {shareholder.name}
@@ -74,9 +66,9 @@ export const CapTableResults: React.FC<CapTableResultProps> = (props) => {
                 </td>
                 {hasChanges && (
                   <td
-                    className={`py-3 px-4 text-right ${roundTo(shareholder.ownershipChange, 2) > 0 ? "text-green-500" : roundTo(shareholder.ownershipChange, 2) < 0 ? "text-red-500" : "text-black"}`}
+                    className={`py-3 px-4 text-right ${roundTo(shareholder.ownershipChange ?? 0, 2) > 0 ? "text-green-500" : roundTo(shareholder.ownershipChange ?? 0, 2) < 0 ? "text-red-500" : "text-black"}`}
                   >
-                    {roundTo(shareholder.ownershipChange, 2).toFixed(2)}
+                    {roundTo(shareholder.ownershipChange ?? 0, 2).toFixed(2)}
                   </td>
                 )}
               </tr>

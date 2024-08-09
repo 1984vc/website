@@ -25,6 +25,7 @@ import Share from "@/components/safe-conversion/Conversion/Share";
 import { compressState, decompressState } from "@/utils/stateCompression";
 import { CapTableResults } from "@/components/safe-conversion/Conversion/CapTableResults";
 import { getSAFEOnlyCapTableSelector } from "./state/SAFEOnlyCapTableSelector";
+import { getCapTablePropsSelector } from "./state/CapTableSelector";
 
 const Conversion: React.FC = () => {
   const randomInvestors = useRef<ReturnType<typeof getRandomData>>();
@@ -232,7 +233,7 @@ const Conversion: React.FC = () => {
           Cap Table after Priced Round
         </h2>
         <CapTableResults
-          {...getPriceRoundPropsSelector({
+          {...getCapTablePropsSelector({
             ...state,
             preMoneyChange,
             investmentChange,
