@@ -112,6 +112,30 @@ const PricedRound: React.FC<PricedRoundProps> = (props) => {
           </dd>
         </div>
         <div className="flex flex-col bg-gray-100 p-8 text-center rounded-lg relative dark:bg-nt84blue dark:text-gray-100">
+          <div className="absolute text-nt84bluedarker bottom-0 left-0 p-2 text-xl">
+              <button
+                className="px-2 mr-2 text-nt84blue dark:text-gray-200"
+                name="decrement"
+                onClick={() => decrement("preMoney")}
+              >
+                -
+              </button>
+          </div>
+          <div className="text-sm text-gray-600 dark:text-gray-200 bottom-0 z-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            {preMoneyChange !== 0
+              ? ` (${preMoneyChange > 0 ? "+" : ""
+              }$${formatNumberWithCommas(preMoneyChange)})`
+              : ""}
+          </div>
+          <div className="absolute text-nt84bluedarker bottom-0 right-0 p-2 text-xl">
+              <button
+                className="px-2 mr-2 text-nt84blue dark:text-gray-200"
+                name="increment"
+                onClick={() => increment("preMoney")}
+              >
+                +
+              </button>
+          </div>
           <dt className="text-sm font-semibold leading-6 text-gray-600 dark:text-gray-200">
             Pre Money
           </dt>
