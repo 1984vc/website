@@ -61,7 +61,7 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
       );
     } else if (data.id === "UnusedOptionsPool") {
       return (
-        <div className="w-6 p-2 text-nt84bluedarker">
+        <div className="w-6 p-2 text-nt84bluedarker dark:text-nt84lightblue">
           <QuestionMarkTooltipComponent>
             <div className="max-w-72">
               <p>
@@ -77,7 +77,7 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
       );
     } else if (data.id === "IssuedOptions") {
       return (
-        <div className="w-6 p-2 text-nt84bluedarker">
+        <div className="w-6 p-2 text-nt84bluedarker dark:text-nt84lightblue">
           <QuestionMarkTooltipComponent>
             <div className="max-w-72">
               Options or shares already issued to other employees, advisors, or shareholders in the company.
@@ -115,7 +115,7 @@ const ExistingShareholderRow: React.FC<ExistingShareholderRowProps> = ({
         decimalScale={0}
         allowDecimals={false}
       />
-      <div className="w-8 text-right">{ownership?.percent.toFixed(2)}%</div>
+      <div className="w-24 text-right">{ownership?.percent.toFixed(2)}%</div>
     </div>
   );
 };

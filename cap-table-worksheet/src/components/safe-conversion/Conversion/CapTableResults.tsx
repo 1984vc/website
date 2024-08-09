@@ -42,7 +42,7 @@ export const CapTableResults: React.FC<CapTableResultProps> = (props) => {
     <div>
       <div className="border border-gray-300 shadow-sm overflow-hidden w-full mx-auto mt-2">
         <table className="w-full text-sm leading-5">
-          <thead className="bg-gray-300 font-bold">
+          <thead className="bg-gray-300 dark:bg-inherit font-bold">
             <tr>
               <th className="py-3 px-4 text-left">Shareholder / Investor</th>
               <th className="py-3 px-4 text-left">Investment</th>
@@ -54,7 +54,7 @@ export const CapTableResults: React.FC<CapTableResultProps> = (props) => {
           <tbody className="not-prose">
             {shareholders.map((shareholder, idx) => (
               <tr key={`shareholder-${idx}`}>
-                <td className="py-3 px-4 text-left font-medium text-gray-600">
+                <td className="py-3 px-4 text-left font-medium text-gray-600 dark:text-gray-200">
                   {shareholder.name}
                 </td>
                 <td className="py-3 px-4 text-left">
@@ -100,7 +100,7 @@ export const CapTableResults: React.FC<CapTableResultProps> = (props) => {
                 {hasChanges && <td className="py-3 px-4 text-right"></td>}
               </tr>
             )}
-            <tr className="font-bold bg-gray-200">
+            <tr className="font-bold bg-gray-200 dark:bg-inherit">
               <td className="py-3 px-4 text-left">Total</td>
               <td className="py-3 px-4 text-left">
                 ${formatNumberWithCommas(totalInvestedToDate)}
