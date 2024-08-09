@@ -41,7 +41,7 @@ export const initialState = ({
       id: "IssuedOptions",
       type: "common",
       name: `Issued Options`,
-      shares: 390_728,
+      shares: 250_000,
     },
     // YC 7% SAFE
     {
@@ -105,5 +105,5 @@ export const initialState = ({
   ],
   preMoney: 16_000_000,
   targetOptionsPool: 10,
-  unusedOptions: 609_272,
+  unusedOptions: 750_000,
 });
