@@ -242,7 +242,7 @@ export const getPricedConversion = createSelector(
       (rowData.filter((row) => row.type === "series") as SeriesProps[]).map(
         (row) => row.investment,
       ),
-      { roundDownShares: true, roundPPSPlaces: 5 },
+      { roundShares: true, roundPPSPlaces: 8 },
     );
     return pricedConversion;
   },

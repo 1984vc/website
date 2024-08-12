@@ -27,13 +27,13 @@ describe("converting safe investments with existing common stock", () => {
       unusedOptions.amount,
       0.0,
       seriesInvestments,
-      { roundDownShares: true, roundPPSPlaces: -1 },
+      { roundShares: true, roundPPSPlaces: 8},
     );
 
-    console.log(fit.ppss)
-    expect(Math.round(fit.totalShares * fit.pps)).toEqual(expectedValuation);
-    expect(Math.round(fit.totalShares)).toEqual(expectedTotalShares);
-    expect(Math.round(fit.totalOptions)).toEqual(exptectedTotalOptions);
+    console.log(fit);
+    expect(fit.totalShares).toEqual(expectedTotalShares);
+    expect(fit.totalShares * fit.pps).toEqual(expectedValuation);
+    expect(fit.totalOptions).toEqual(exptectedTotalOptions);
     expect(fit.totalShares).toEqual(expectedTotalShares);
     expect(fit.pps).toEqual(expectedPPS);
   });
@@ -81,7 +81,7 @@ describe("converting safe investments with existing common stock", () => {
       unusedOptions.amount,
       0.1,
       seriesInvestments,
-      { roundDownShares: false, roundPPSPlaces: -1 },
+      { roundPPSPlaces: -1 },
     );
 
     expect(Math.round(fit.totalShares * fit.pps)).toEqual(expectedValuation);
@@ -157,8 +157,8 @@ describe("converting safe investments with existing common stock", () => {
     const seriesInvestments = [10_199_995.29];
 
     const expectedValuation = 60_000_046;
-    const exptectedTotalShares = 19_436_361;
-    const exptectedTotalOptions = 1_943_636;
+    const expectedTotalShares = 19_436_361;
+    const expectedTotalOptions = 1_943_636;
     const fit = fitConversion(
       preMoneyValuation,
       common,
@@ -169,12 +169,12 @@ describe("converting safe investments with existing common stock", () => {
       { roundDownShares: true, roundPPSPlaces: 5 },
     );
 
-    expect(Math.round(fit.totalShares * fit.pps)).toEqual(expectedValuation);
-    expect(Math.round(fit.totalShares)).toEqual(exptectedTotalShares);
-    expect(Math.round(fit.totalOptions)).toEqual(exptectedTotalOptions);
+    expect(fit.totalShares).toEqual(expectedTotalShares);
+    expect(fit.totalOptions).toEqual(expectedTotalOptions);
+    expect(Math.round(fit.pps * fit.totalShares)).toEqual(expectedValuation);
   });
   // When a user puts in a target option pool of less than the existing options pool, we should just use the existing options pool, not subtract from it
-  test.skip("when the target options pool is less than the current pool", () => {
+  test("when the target options pool is less than the current pool", () => {
     const preMoneyValuation = 16_700_000;
     const common = 9_390_728;
     const unusedOptions = { name: "Unused options", amount: 609_272 };
