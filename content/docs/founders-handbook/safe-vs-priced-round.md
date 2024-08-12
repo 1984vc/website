@@ -1,27 +1,48 @@
 ---
 title: SAFE vs Priced Round
-weight: 2
-next: /docs/founders-handbook/raising-your-a
-prev: /docs/founders-handbook/cap-table-premiere
+weight: 4
+prev: /docs/founders-handbook/pre-money-vs-post-money-conversion
+next: /docs/founders-handbook/safe-side-letters
 ---
 
-One of the misconceptions in that a priced round is better from a dilution standpoint for a founder than a standard Post-Money Safe.  In reality, the outcome depends on a number factors that most founders won’t have a good command of at the time they’re raising their first Safe.  These are:
+One of the biggest questions founders often ask is whether a SAFE or a priced round is more favorable. While at 1984 we prefer SAFEs, we believe the instrument doesn't matter; what matters is that the founder works with the right investor and minimize overall dilution. Though most investors are comfortable with SAFEs, some still prefer priced rounds because their mandate requires a board seat (which a priced round provides).
 
-- How many SAFE rounds will you raise
-- How much option pool will the Series Pre-Seed investor demand
-- Whether a founder will depart the company before the next priced round
+Below is a summary of the main difference between SAFEs and priced rounds. 
 
-Let’s dive into these in more detail.  
+## More Streamlined
 
-## Introduction to SAFEs
+From a company control standpoint, a SAFE is better for the founder in two distinct ways 
 
-First introduced by YCombinator in 2013, A SAFE (Simple Agreement for Future Equity) is an investment instrument  that is simpler and more streamlined than a traditional priced round. When fundraising with SAFEs,  investors don’t receive immediate shares. Instead, they’re promised future shares of stock at the next priced round in exchange for their current investment. 
+1. Simple: A SAFE is Simpler and less onerous (you won't negotiate  founder vesting/option pool/etc). 
+2. Round Flexibility: while a priced round often has a minimum and a maximum dollars raised, a SAFE doesn’t have a notion of the round, allowing the founder to collect signatures one by one. 
 
-But when multiple SAFE rounds are raised in succession, the dilution effects of these SAFEs can differ from those in equivalent priced rounds. Here’s how this works. 
+## More Control
 
-## Priced Round Dilution Across Multiple Rounds
+By not having investors as shareholders, Founder can generally sell the company without needing investor consent (since the investors are *not* shareholders). Company can also issue additional options or enter into other financing agreements without needing the consent of the existing investors. 
 
-Imagine A VC invests $2 million at a priced round with a valuation of $8M pre-money/$10M post money.  Assuming the company has 2M outstanding shares at the time of the financing, the price per share will be 8M (valuation) / 2M (shares) or $4.  The investor will receive 500,000 shares:
+## Cheaper
+
+SAFEs are free—and can be downloaded from YC’s website or used from legal startups like Clerky.  A priced round typically costs $5k-$25K at the seed stage—although many law firms are wiling to offer a fixed price for the company’s first equity financing.
+
+## Mixed Dilution
+
+{{< callout emoji="📢">}}
+Your legal counsel will typically recommend raising capital via a priced round rather than a SAFE. This is partly because priced rounds require more legal work, but the most commonly cited reason is that priced rounds are better for dilution. However, a closer examination reveals this isn't always the case.
+{{< /callout >}}
+
+
+While a priced round's pre-money conversion is generally more favorable to founders than a SAFE's post-money conversion, the difference in dilution between these two methods extends beyond this simple comparison. It depends on several factors that founders can't predict in advance:
+
+- The number of SAFE rounds raised
+- The size of the option pool demanded by Series Seed investors compared to Series A investors, and the number of options granted between rounds
+- Potential founder departures before the next priced round
+- The possibility of an M&A event
+
+Let's examine these factors in more detail.
+
+### Priced Round Dilution Across Multiple Rounds
+
+Imagine A VC invests $2M at a priced round with a valuation of $8M pre-money/$10M post money.  Assuming the company has 2M outstanding shares at the time of the financing, the price per share will be 8M (valuation) / 2M (shares) or $4.  The investor will receive 500,000 shares:
 
 |  | Starting ownership (shares) | Starting ownership (%) | New shares | Ownership after Investment (shares) | Ownership after Investment (%) |
 | --- | --- | --- | --- | --- | --- |
@@ -40,11 +61,11 @@ Now imagine that a year has passed by, the company has limped along and needs ad
 | Seed Investor 2 |  |  | 500,000 | 500,000 | 16.67% |
 |  | 2,500,000 | 100% |  | 3,000,000 | 100% |
 
-[Link to Cap Table](https://1984vc.github.io/startup-finance/safe-conversion#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgoAFWglQAOAOwA6AKyb1ATgDMFu6pclsmADaCEVbGNTFAA2GysQgCY7MKiYmxCnEjhvb2gYKm8qf1QEMEEqAF8iLFxeVXZyajpGZjYSTm48AWFRCQAhWQUlFRR1TQ1tKF0wfSMTVAAWEIiQuZCHCyXlhzNPHz8AoNQncIHd_Ztk1PTM7J48guLSvAtKyh4QGTgAMxoGrkeAYQAlADVxAAKL7dLIycQ_TAANzE4j.VBYCEEPQAlOxMCwYTIENxEah8CRaHAKGonANBiAvDJ6MJggSQDo9HIDNsUPT5IplPjjmlYGccigXikZFR1s8AEZZbB8TCZbC9NAAXUJrBho0wrAAKg88BQINiQNcQDg8GZ7tVeCKwLKVB8mrwAMpUALiACSmOUCAgEgqJAxWJxCOCkXJ7O6XJQNic0acqiGIzGrNUDisDjTzkik3TTmiPNOWQFlyKJWNZRAk3NjytNvYjUeTpd7oD3vEkXRHuxuODoZIHJ6qBsk3wUYc8aZLImfRm80SNjMMfwuZAKV5GQLF3yRWVIAoSgAsqwqGRzD3SIoAObZADyFAQGpYMkMEAg3m5IGEghF2Bvd9YvXpCgyAAclQUA_EIIi5JuhRAA)
+[Link to Cap Table](https://1984.vc/docs/founders-handbook/cap-table-worksheet/#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgoAFWglQAOAOwA6AKyb1ATgDMFu6pclsmADaCEVbGNTFAA2GysQgCY7MKiYmxCnEjhvb2gYKm8qf1QEMEEqAF8iLFxeVXZyajpGZjYSTm48AWFRCQAhWQUlFRR1TQ1tKF0wfSMTVAAWEIiQuZCHCyXlhzNPHz8AoNQncIHd_Ztk1PTM7J48guLSvDNKyh4QGTFMZXZGx4BlKgDxAEkWAA3ZQICASCokTBAkHcFjBSIDQZPbpvFA2JwYpyqIYjMbbPoOKwOYnOSKTElOaLHNKwM45FCXIolEA4PCTe7VXjPMCvFQNLhfH7Yf7QmSgiSRdhQ4Fi2HwxH4EjyRSomyTfDohw4vRyAz41QzeaJGxmTH4KkgFI0jJZemMwoAXRIFCUAFlWFQyOYFSQkGAAObZADyFAQmFYMkMEAg3lQipAwkEz2wIbDEbjJAUMgAclQoAAlIQiXL5IpAA)
 
 The new investor has now bought 500,000 shares, or 16.67%, and diluted all the existing shareholders equally by 16.67%.  The new valuation of the company is now 3M shares * $4 per share or $12M post money.  
 
-## Safe Dilution Across Multiple Rounds
+### Safe Dilution Across Multiple Rounds
 
 Now Imagine the same scenario takes place but using the SAFE instrument. The first VC will invests $2 million with a post-money SAFE and a $10M cap. Then, a year later, the second VC will also invests $2 million with a post-money SAFE and a $10M cap.  When these rounds convert, each investor will get 20% and the difference in the dilution will be borne by the founders and existing shareholders
 
@@ -58,26 +79,20 @@ Now Imagine the same scenario takes place but using the SAFE instrument. The fir
 
 [Link to Cap Table](https://1984vc.github.io/startup-finance/safe-conversion#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgoAFWglQAOAOwA6AKyb1ATgDMFu6pclsmADaCEVbGNTFAA2GysQgCY7MKiYmxCnEjhvb2gYKm8qf1QEMEEqAF8iLFxeVXZyajpGZjYSTm48AWFRCQAhWQUlFRR1TQ1tKF0wfSMTVAAWEIiQuZCHCyXlhzNPHz8AoNQncIHd_Ztk1PTM7J48guLSvAtKyh4QGTgAMxoGrkeAYQAlADVxAAKL7dLIycQ_TAANzE4j.VBYCEEPQAlOxMCwYTIENxEah8CRaHAKGonANBiAvDJ6MJggSQDo9HIDNsUPT5IplPjjmlYGccigXikZFR1s8AEZZbB8TCZbC9NAAXUJrBho0wrAAKg88BQINiQNcQDg8GZ7tVeCKwLKVB8mrwAMpUALiACSmOUCAgEgqJAxWJxCOCkXJ7O6XJQNic0acqiGIzGrNUDisDjTzkik3TTmiPNOWQFlyKJWNZRAk3NjytNvYjUeTpd7oD3vEkXRHuxuODoZIHJ6qBsk3wUYc8aZLImfRm80SNjMMfwuZAKV5GQLF3yRWVIAoSgAsqwqGRzD3SIoAObZADyFAQGpYMkMEAg3m5IGEghF2Bvd9YvXpCgyAAclQUA_EIIi5JuhRAA)
 
-{{< callout emoji="📢" type="info">}}
+{{< callout emoji="📢">}}
 Note: When YC first introduced the SAFE agreement in 2013, it followed a pre-money capitalization. This essentially mimicked a priced round where the pre-money valuation or share price was agreed upon, and additional investments diluted all shareholders equally. In 2018, YC introduced the post-money SAFE, where the investor's ownership is determined regardless of other investments. Since then, most financing has shifted to using the post-money SAFE where investment dilute existing shareholders but not other investors.
 {{< /callout >}}
 
-## The Effect of the Option Pool
+### The Effect of the Option Pool
 
-Comparing the two tables above, it appears that a priced round would be superior to a SAFE from a founder equity standpoint.  However, most priced rounds will include an option pool requirement—while SAFE agreements typically do not mention option pools.  The option pool will dilute the founder further, and, depending on how large, can more than make up for the difference in dilution between multiple SAFE rounds  and multiple priced rounds. 
+Most priced rounds will include an option pool requirement—while SAFE agreements typically do not mention option pools.  The option pool will dilute the founder further, and, depending on how large, can more than make up for the difference in dilution between multiple SAFE rounds  and multiple priced rounds. 
 
-## Control
+## Better for Founder departure
 
-Beyond ownership, a SAFE is better for the founder for three ways 
-
-1.  Simpler / less onerous (you won't negotiate  founder vesting/option pool/etc). 
-2.  More control (you can sell the company without needing any shareholder consent) 
-3.  better dilution in the event a cofounder drops out before the next round (Basically their shares will go back to you / existing shareholders but not to the safe holders, while if you raise a priced round then a founder drops out their shares "go back" to everyone pro-ratedly).
-
-## Your Lawyers
-
-Your counsel will always want you to raise via a priced round because it allows them to iterate on complex documents and charge substantially more legal fees than via a Safe.  .  
+If a founder departs before the seed and next round, having raised on a SAFE is much more favorable to the remaining founders from an equity standpoint. (Basically their shares will go back to you / existing shareholders but not to the safe holders) This is described in detail in the [Founder Departure](Founder%20Departure%201cc495a8cf804e5d87dbdf793080ddbb.md) section
 
 ## Conclusion
 
-Safes and Priced Rounds are really 6 one way half dozen the other.  These days most early stage investors are comfortbale with a SAFE, while multi-stage funds sometimes prefer the control and share representation that a priced round provides.  Either is fine. What’s more important for a founder is having the right investors around the table
+Safes and Priced Rounds are really 6 one way half dozen the other. These days most early stage investors are comfortable with a SAFE, while multi-stage funds sometimes prefer the control and share representation that a priced round provides.  Either is fine. What’s more important for a founder is having the right investors around the table, and not selling too much of the company upfront. 
+
+[Suggested Reading: SAFE Side Letters](SAFE%20Side%20Letters%2067e9cba3dc044a8c9bb1473fe8f7f93e.md)

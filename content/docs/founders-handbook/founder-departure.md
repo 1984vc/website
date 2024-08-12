@@ -1,8 +1,8 @@
 ---
 title: Founder Departure
-weight: 5
-next: /docs/founders-handbook/structured-and-downrounds
-prev: /docs/founders-handbook/minimize-founder-dilution
+weight: 8
+prev: /docs/founders-handbook/minimizing-founder-dilution
+next: /docs/founders-handbook/structured-and-down-rounds
 ---
 
 Founder departure is inevitable.  And the more founders a startup has, the more likely one will depart early in the life of the company.  But the effect of a founder’s departure on the remaining founder’s equity varies greatly based on whether the initial investment was a priced round vs a SAFE or other convertible instruments.
@@ -47,6 +47,7 @@ Now, just as in the example above, the founder remaining shares will revert to t
 
 By choosing to use a convertible instrument as opposed to a priced round, the existing shareholders are able to boost their ownership in the event of a founder or advisor separation.
 
-{{< callout emoji="📢" type="info">}}
-Depending on how senior the departing founder is and what the plan for replacing them are, founders will sometimes reprice the SAFE to provide as a remedy to the early stage investors
+{{< callout emoji="📢">}}
+Depending on how senior the departing founder is and what the plan for replacing them are, the remaining founders will sometimes reprice the SAFE to a lower cap as a remedy to the early stage investors
 {{< /callout >}}
+[Suggested Reading: Structured and Downrounds](Structured%20and%20Down%20Rounds%20c5fcc46c301040409000d483ebcdda04.md)
