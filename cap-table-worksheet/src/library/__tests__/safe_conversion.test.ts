@@ -30,7 +30,6 @@ describe("converting safe investments with existing common stock", () => {
       { roundShares: true, roundPPSPlaces: 8},
     );
 
-    console.log(fit);
     expect(fit.totalShares).toEqual(expectedTotalShares);
     expect(fit.totalShares * fit.pps).toEqual(expectedValuation);
     expect(fit.totalOptions).toEqual(exptectedTotalOptions);

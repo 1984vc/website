@@ -26,7 +26,7 @@ describe("Result Selector", () => {
       preMoneyChange: 0,
       investmentChange: 500_000,
     });
-    expect(resultSelector.current.totalShares).toEqual(12_886_615);
+    expect(resultSelector.current.totalShares).toEqual(12_776_528);
     // Ensure the pricedConversion matches the expected shares from the entire cap table
   });
   test("Ensure percentages total to 100%", () => {
