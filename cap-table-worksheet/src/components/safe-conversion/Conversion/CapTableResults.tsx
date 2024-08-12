@@ -12,7 +12,6 @@ export type CapTableProps = {
 
 export const CapTableResults: React.FC<CapTableProps> = (props) => {
   const {
-    pricedConversion,
     totalShares,
     totalPct,
     totalInvestedToDate,
