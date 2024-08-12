@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "build:hugo": "yarn build && cp dist/assets/index*.js ../static/cap-table-worksheet/index.js && cp dist/assets/index*.css ../static/cap-table-worksheet/index.css",
+    "build:hugo": "yarn build && cp dist/assets/index*.js ../assets/cap-table-worksheet/index.js && cp dist/assets/index*.css ../assets/cap-table-worksheet/index.css",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "yarn jest --maxWorkers=1 --maxConcurrency=1"

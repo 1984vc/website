@@ -1,6 +1,10 @@
 {{ define "main" }}
-  <script type="module" crossorigin src="/cap-table-worksheet/index.js?{{ time.Now.Unix }}"></script>
-  <link rel="stylesheet" crossorigin href="/cap-table-worksheet/index.css?{{ time.now.Unix }}">
+
+  {{ $style := resources.Get "cap-table-worksheet/index.js" | fingerprint "sha512" }}
+  <script type="module" crossorigin src="{{ $style.RelPermalink }}"></script>
+
+  {{ $style := resources.Get "cap-table-worksheet/index.css" | fingerprint "sha512" }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
   <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
     {{ partial "sidebar.html" (dict "context" .) }}
@@ -16,4 +20,5 @@
       </main>
     </article>
   </div>
+
 {{ end }}
