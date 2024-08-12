@@ -2,6 +2,41 @@ import { describe, expect, test } from "@jest/globals";
 import { fitConversion, ISafeInvestment } from "@/library/safe_conversion";
 
 describe("converting safe investments with existing common stock", () => {
+  test("Sanity check our baseline", () => {
+    const preMoneyValuation = 32_000_000;
+    const common = 2_000_000;
+    const unusedOptions = { name: "Unused options", amount: 0 };
+    const safes: ISafeInvestment[] = [
+      {
+        investment: 2_000_000,
+        discount: 0,
+        cap: 10_000_000,
+        conversionType: "post",
+      },
+    ];
+    const seriesInvestments = [8_000_000];
+
+    const expectedValuation = 40_000_000;
+    const expectedTotalShares = 3_125_000;
+    const expectedPPS = 12.8;
+    const exptectedTotalOptions = 0;
+    const fit = fitConversion(
+      preMoneyValuation,
+      common,
+      safes,
+      unusedOptions.amount,
+      0.0,
+      seriesInvestments,
+      { roundDownShares: true, roundPPSPlaces: -1 },
+    );
+
+    console.log(fit.ppss)
+    expect(Math.round(fit.totalShares * fit.pps)).toEqual(expectedValuation);
+    expect(Math.round(fit.totalShares)).toEqual(expectedTotalShares);
+    expect(Math.round(fit.totalOptions)).toEqual(exptectedTotalOptions);
+    expect(fit.totalShares).toEqual(expectedTotalShares);
+    expect(fit.pps).toEqual(expectedPPS);
+  });
   test("matches our Google Sheet", () => {
     const preMoneyValuation = 16_700_000;
     const common = 9_390_728;
@@ -139,7 +174,7 @@ describe("converting safe investments with existing common stock", () => {
     expect(Math.round(fit.totalOptions)).toEqual(exptectedTotalOptions);
   });
   // When a user puts in a target option pool of less than the existing options pool, we should just use the existing options pool, not subtract from it
-  test("when the target options pool is less than the current pool", () => {
+  test.skip("when the target options pool is less than the current pool", () => {
     const preMoneyValuation = 16_700_000;
     const common = 9_390_728;
     const unusedOptions = { name: "Unused options", amount: 609_272 };

@@ -58,6 +58,9 @@ const sumSafeConvertedShares = (
 
 // PPS is actually rounded up vs shares which are rounded down
 const roundPPSToPlaces = (num: number, places: number): number => {
+  if (places < 0) {
+    return num;
+  }
   const factor = Math.pow(10, places);
   return Math.ceil(num * factor) / factor;
 };
@@ -130,7 +133,7 @@ const attemptFit = (
   // Options pool is based on series shares + SAFE conversions - unused options
   const optionPoolBase = seriesShares + newPostMoneyShares - unusedOptions;
   increaseInOptionsPool = roundingStrategy.roundDownShares
-    ? Math.floor(optionPoolBase / (1 - targetOptionsPct)) -
+    ? Math.round(optionPoolBase / (1 - targetOptionsPct)) -
       optionPoolBase -
       unusedOptions
     : optionPoolBase / (1 - targetOptionsPct) - optionPoolBase - unusedOptions;
@@ -173,6 +176,7 @@ export const fitConversion = (
   // Use this figure as a starting point
   let preMoneyShares: number = commonShares + unusedOptions;
   let postMoneyShares: number = commonShares + unusedOptions;
+  let lastPPS: number = 0;
 
   // Start solving
   for (let i = 0; i < 100; i++) {
@@ -185,15 +189,21 @@ export const fitConversion = (
       seriesInvestments,
       preMoneyShares,
       postMoneyShares,
-      roundingStrategy,
+      {roundDownShares: false, roundPPSPlaces: -1},
     );
 
-    if (pre == preMoneyShares && post == postMoneyShares) {
+    const increaseInOptionsPool = pre - commonShares - unusedOptions;
+    const pps =
+      roundPPSToPlaces(preMoneyValuation / (postMoneyShares + increaseInOptionsPool), 20);
+
+    console.log("PPS", pps, pre, post, i);
+    if (pps === lastPPS) {
       // Once the figure stops changing, we've solved the conversion
       break;
     }
     preMoneyShares = pre;
     postMoneyShares = post;
+    lastPPS = pps;
   }
 
   // Back out some numbers to make display easier
