@@ -73,25 +73,6 @@ export const CapTableResults: React.FC<CapTableProps> = (props) => {
                 )}
               </tr>
             ))}
-            {pricedConversion && totalShares && (
-              <tr>
-                <td className="py-3 px-4 text-left font-medium text-gray-600 dark:text-gray-200">
-                  Additional Options Refresh
-                </td>
-                <td className="py-3 px-4 text-left"></td>
-                <td className="py-3 px-4 text-left">
-                  {formatNumberWithCommas(pricedConversion.additionalOptions)}
-                </td>
-                <td className="py-3 px-4 text-right">
-                  {(
-                    100 *
-                    (pricedConversion.additionalOptions / totalShares)
-                  ).toFixed(2)}
-                  %
-                </td>
-                {hasChanges && <td className="py-3 px-4 text-right"></td>}
-              </tr>
-            )}
             <tr className="font-bold bg-gray-200 dark:bg-inherit">
               <td className="py-3 px-4 text-left">Total</td>
               <td className="py-3 px-4 text-left">

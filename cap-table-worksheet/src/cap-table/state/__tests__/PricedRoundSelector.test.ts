@@ -16,7 +16,7 @@ describe("Result Selector", () => {
       preMoneyChange: 0,
       investmentChange: 0,
     });
-    expect(resultSelector.current.totalShares).toEqual(0);
+    expect(resultSelector.current.totalShares).toEqual(resultSelector.previous.totalShares);
   });
   test("Changing investment amounts", () => {
     const store = createConversionStore(fixtureData as IConversionStateData);
