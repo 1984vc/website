@@ -12,10 +12,10 @@ The cap table has exactly 100 points—no more, no less. When new shares are gra
 
 Let's start with a simple example. Two founders start a company, granting themselves 1M shares each and splitting the cap table 50/50. Following, A VC invests would like to buy 20% of the company.  The founders and investors agree on a $2 million investment at a valuation of $8M pre-money, $10M post-money.
 
-<aside>
-📢 **Pre-money** and **Post-money** describe the valuation of a company at two different points in time: **before** and **after** the financing round**.**  A company valued at X before the investment and receiving Y in investment will have a pre-money valuation of X and a post money valuation of (X + Y).
+{{< callout emoji="📢">}}
+**Pre-money** and **Post-money** describe the valuation of a company at two different points in time: **before** and **after** the financing round**.**  A company valued at X before the investment and receiving Y in investment will have a pre-money valuation of X and a post money valuation of (X + Y).
 
-</aside>
+{{< /callout >}}
 
 Now for this example let’s assume a priced round which is more straightforward to model than a SAFE. The mechanics for issuing a priced round works as follows:
 
