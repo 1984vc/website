@@ -4,6 +4,8 @@ weight: 2
 next: /docs/founders-handbook/raising-your-series-seed
 sidebar:
   open: true
+aliases:
+- ../docs
 ---
 
 Explore our Founders Handbook for early stage founders

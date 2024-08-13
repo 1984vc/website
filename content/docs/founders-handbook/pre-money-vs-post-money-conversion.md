@@ -1,5 +1,5 @@
 ---
-title: Pre-Money vs Post Money ConversionSS
+title: Pre-Money vs Post Money Conversion
 weight: 3
 prev: /docs/founders-handbook/into-to-safes
 next: /docs/founders-handbook/safe-vs-priced-round
