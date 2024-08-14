@@ -26,17 +26,16 @@ SAFEs are free—and can be downloaded from YC’s website or used from legal st
 
 ## Mixed Dilution
 
-{{< callout emoji="📢">}}
-Your legal counsel will typically recommend raising capital via a priced round rather than a SAFE. This is partly because priced rounds require more legal work, but the most commonly cited reason is that priced rounds are better for dilution. However, a closer examination reveals this isn't always the case.
-{{< /callout >}}
-
-
 While a priced round's pre-money conversion is generally more favorable to founders than a SAFE's post-money conversion, the difference in dilution between these two methods extends beyond this simple comparison. It depends on several factors that founders can't predict in advance:
 
 - The number of SAFE rounds raised
 - The size of the option pool demanded by Series Seed investors compared to Series A investors, and the number of options granted between rounds
 - Potential founder departures before the next priced round
 - The possibility of an M&A event
+
+{{< callout emoji="📢">}}
+Your legal counsel will typically recommend raising capital via a priced round rather than a SAFE. This is partly because priced rounds require more legal work, but the most commonly cited reason is that priced rounds are better for dilution. However, a closer examination reveals this isn't always the case.
+{{< /callout >}}
 
 Let's examine these factors in more detail.
 
