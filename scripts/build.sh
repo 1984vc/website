@@ -8,7 +8,7 @@ hugo
 echo "Building the nextjs submodule..."
 cd startup-finance
 yarn install --frozen-lockfile
-BUILD_DIST="../public" yarn build
+yarn build:hugo
 cd ..
 
 echo "Done"
