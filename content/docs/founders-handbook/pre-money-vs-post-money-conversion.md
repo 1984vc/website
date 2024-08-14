@@ -38,7 +38,7 @@ Cap Table Example
 Here’s the mechanics of what actually happens:
 
 - Initially, investor 1 bought the right to buy $2M of equity on $8M pre (or $10M post)
-- Then Investor 2 got the right to buy $2M of equity on $8M pre.  But the comoamy is now valued at $12M post.  So Investor 2 gets 2/12 = 16.66%.  Additionally, investor 1’s ownership is getting diluted by Investor 2’s 16.66%.  So now their ownership is 20% * (1-0.1666) = 16.66%
+- Then Investor 2 got the right to buy $2M of equity on $8M pre.  But the company is now valued at $12M post.  So Investor 2 gets 2/12 = 16.66%.  Additionally, investor 1’s ownership is getting diluted by Investor 2’s 16.66%.  So now their ownership is 20% * (1-0.1666) = 16.66%
 
 The dilution keeps going on as the company raises additional convertible or SAFE rounds until the first priced rounds takes place. And the math is recursive—getting a bit more complicated with each round.  And that’s why investors and founders demanded a better mechanism.  
 
