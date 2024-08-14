@@ -6,9 +6,7 @@ next: /docs/founders-handbook/pre-money-vs-post-money-conversion
 ---
 
 
-## Brief History of Early Stage Investment
-
-To best understand the SAFE it’s helpful to understand how it came about. Historically, startups received initial funding through the Series A equity rounds. As the venture capital industry grew and startup costs decreased in the mid-2000s, the Seed ecosystem emerged with smaller rounds and a focus on speed. Seed investors initially used Convertible Notes, which were quicker to issue than equity.  But because Convertibles are fundamentally a debt instrument, they had many drawbacks: Convertible have an expiration dates requiring repayment or renegotiation, they accrue interest, and it is very hard for founders or note holders to understand their exact ownership because a note’s conversion takes place on a [pre-money basis.](Pre-money%20vs%20Post-money%20Conversion%2023f1324e5ecc4d32af0e81e60a03cf18.md) Fundamentally, Convertibles were debt instrument with the conversion being an afterthought, while all investors cared about was the future Conversion to equity.
+To best understand the SAFE it’s helpful to understand how it came about. Historically, startups received initial funding through the Series A equity rounds. As the venture capital industry grew and startup costs decreased in the mid-2000s, the Seed ecosystem emerged with smaller rounds and a focus on speed. Seed investors initially used Convertible Notes, which were quicker to issue than equity.  But they had many drawbacks: Convertibles have an expiration dates requiring repayment or renegotiation, they accrue interest, and it is very hard for founders or note holders to understand their exact ownership because a note’s conversion takes place on a [pre-money basis.](Pre-money%20vs%20Post-money%20Conversion%2023f1324e5ecc4d32af0e81e60a03cf18.md) Fundamentally, Convertibles were debt instrument with the conversion being an afterthought, while all investors cared about was the future Conversion to equity.
 
 ## Introducing SAFEs
 
