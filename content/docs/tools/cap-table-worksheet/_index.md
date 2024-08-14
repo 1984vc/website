@@ -1,6 +1,6 @@
 ---
 title: Cap Table Worksheet
-weight: 15
+weight: 1
 sidebar:
   open: true
 layout: cap-table-layout
