@@ -6,27 +6,27 @@ next: /docs/founders-handbook/intro-to-safes
 
 To most founders, cap table math can be bewildering. It's unintuitive, highly recursive, and has little parallel in traditional finance training. Fortunately, it's easy to learn. And founders who master their cap tables gain an unfair advantage in negotiations. Our goal from this guide is to equip founders with the tools and knowledge to master their cap table and outperform their counterparts in any financing negotiation. 
 
-The cap table has exactly 100 points—no more, no less. When new shares are granted to employees or investors, the resulting ownership must come from elsewhere in the cap table. That’s why while first time founders focus on *valuation*, more experienced founders care about o*wnership.*To bring this point home, most of the examples in this guide use percentage points to help founders understand the tradeoffs. 
+The cap table has exactly 100 points—no more, no less. When new shares are granted to employees or investors, the resulting ownership must come from elsewhere in the cap table. That’s why while first time founders focus on *valuation*, more experienced founders care about *ownership.* To bring this point home, most of the examples in this guide use percentage points to help founders understand the tradeoffs. 
 
 ## Raising your seed round
 
-Let's start with a simple example. Two founders start a company, granting themselves 1M shares each and splitting the cap table 50/50. Following, A VC invests would like to buy 20% of the company.  The founders and investors agree on a $2 million investment at a valuation of $8M pre-money, $10M post-money.
+Let's start with a simple example. Two founders start a company, granting themselves 1M shares each and splitting the cap table 50/50. Following, A VC investor would like to buy 20% of the company.  The founders and investors agree on a $2 million investment at a valuation of $8M pre-money, $10M post-money.
 
 {{< callout emoji="📢">}}
-**Pre-money** and **Post-money** describe the valuation of a company at two different points in time: **before** and **after** the financing round**.**  A company valued at X before the investment and receiving Y in investment will have a pre-money valuation of X and a post money valuation of (X + Y).
+**Pre-money** and **Post-money** describe the valuation of a company at two different points in time: **before** and **after** the financing round.  A company valued at X before the investment and receiving Y in investment will have a pre-money valuation of X and a post money valuation of (X + Y).
 
 {{< /callout >}}
 
 Now for this example let’s assume a priced round which is more straightforward to model than a SAFE. The mechanics for issuing a priced round works as follows:
 
 1. First, we calculate the Pre-money capitalization, which is the number of shares in the business before the round takes place.  In this case it’s the 2M shares held by the founders.
-2. Next, we calculate the Price Per Share, which is equal to the pre-money valuation (what the company is worth before the investment) divided by Pre-money Capitalization. In this case the PPS will be 8,000,000 (pre money) / 2,000,000 (shares)= $4 
-3. Last we calculate the number of new shares being issued to the investor based on their purchase price.  In this case the investor is investing $2M into the company at a price per share of $4 resulting in 2M/4 = 500,000 new shares. 
+2. Next, we calculate the Price Per Share, which is equal to the pre-money valuation (what the company is worth before the investment) divided by Pre-money Capitalization. In this case the PPS will be 8,000,000 (dollars) / 2,000,000 (shares)= $4 
+3. Last we calculate the number of new shares being issued to the investor based on their purchase price.  In this case the investor is investing $2M into the company at a price per share of $4 resulting in $2,000,000/$4 = 500,000 new shares. 
 
-<aside>
-📢 The Price Per Share (**PPS**) in a round can be calculated as the pre-money valuation divided by number of shares (often called Company Capitalization).
+{{< callout emoji="📢">}}
+The Price Per Share (**PPS**) in a round can be calculated as the pre-money valuation divided by number of shares (often called Company Capitalization).
 
-</aside>
+{{< /callout >}}
 
 This investment will result in the following a cap table.
 
@@ -46,7 +46,7 @@ In cap table lexicon, **Dilution** is the percentage reduction in ownership from
 {{< /callout >}}
 
 
-Now depending on whether the round was a SAFE or a priced round the shares will be issued immediately or promised in the future, but the effect is largely the same [with a few difference](SAFE%20vs%20Priced%20Round%203c5a0edb257449558cf968f5ded58812.md)s that we will discuss in the next chapter. 
+Now depending on whether the round was a SAFE or a priced round the shares will be issued immediately or promised in the future, but the effect is largely the same [with a few differences](SAFE%20vs%20Priced%20Round%203c5a0edb257449558cf968f5ded58812.md) that we will discuss in the next chapter. 
 
 ## Option Pool
 
