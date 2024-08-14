@@ -1,6 +1,6 @@
 ---
 title: About the tools
-weight: 2
+weight: 1
 prev: /docs/founders-handbook/cap-table-worksheet
 ---
 
