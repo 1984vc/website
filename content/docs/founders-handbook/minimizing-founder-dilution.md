@@ -24,11 +24,11 @@ Remember, the goal is to generate genuine interest, not to simply shop around an
 
 ## 2. Negotiate Down the lead’s Ownership
 
-Series A leads often start negotiations with a high ownership targets—around 15% but some as high as 20%. These numbers are always up for negotiation. If the proposed capital is more than you actually need, try to negotiate down the round size (or if you have other investors you want to bring, the lead investor’s check size). 
+Series A leads often start negotiations with a high ownership targets—around 15% but some as high as 20%. These numbers are always up for negotiation. If the proposed capital is more than you actually need, try to negotiate down the round size (or, if you have other investors you want to bring, negotiate down the lead investor’s check size). 
 
 ## 3. Offer Other Attractive Terms
 
-Consider concerning on other terms like board structure, information rights, more protective provisions or major investor rights in exchange for lower ownership. But don’t give away too much board control or roll the ownership can down the road by offering super pro-rata.  That will come back and bite you. 
+Consider conceding on other terms like board structure, information rights, more protective provisions or major investor rights in exchange for lower ownership. But don’t give away too much board control or roll the ownership can down the road by offering super pro-rata.  That will come back and bite you. 
 
 ## 4. Negotiate a Smaller Option Pool
 
@@ -48,7 +48,7 @@ Beyond the 6 strategies above, there are strategies founders can deploy *well in
 
 ## 7. Start with Fewer Co-founders
 
-A company with three equal co-founders at 33% each can be a real cause for concern.  By the time the company reaches a Series A the CEO could well have less than 20% ownership.  So think thoughtfully about who should should be a co-founder and what ownership they should have.  that It’s no secret that first-time founders tend to have multiple co-founders, while more seasoned founders tend to have at most one co-founder and retain the majority of the cap table at founding. 
+A company with three equal co-founders at 33% each is a captable disaster in the making: By the time the company reaches a Series A the CEO could well have less than 20% ownership.  So think thoughtfully about who should be a co-founder and what ownership they should have.  It’s no secret that first-time founders tend to have multiple co-founders, while more seasoned founders tend to have at most one co-founder and retain the majority of the cap table at founding. 
 
 ## 8. Limit Pro Rata Rights for Early Investors
 
