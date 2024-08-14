@@ -5,12 +5,12 @@ prev: /docs/founders-handbook/into-to-safes
 next: /docs/founders-handbook/safe-vs-priced-round
 ---
 
-In 2018 YC replaced the original Pre-money safe (where investors and company agree on the *pre-money* valuation) with the Post-money safe (where investors and company agree on the *post-money* valuation the safe converts). In simple terms, a Pre-money specifies the valuation **before** the company receives an investment, while a Post-money specifies the valuation **after** the company receives an investment. So a company valued at $8M before the investment and receiving $2M in investment would have a pre-money valuation of $8M and a post money valuation of $10M. The key difference between the two conversion methods is around calculating the ownership being sold in an investmet:
+In 2018 YC replaced the original Pre-money safe (where investors and company agree on the *pre-money* valuation) with the Post-money safe (where investors and company agree on the *post-money* valuation the safe converts). The key difference between the two conversion methods is around calculating the ownership being sold in an investment:
 
 - If an investor and company agree on a **pre-money** valuation, then an investor’s ownership is a function of their investment, the pre-money valuation *and* the size of round (and all other rounds until conversion).
 - But if an investor and company agree on a **post-money** valuation, then an investor’s ownership is a function of their investment and the post-money valuation *irrespective* of the round size or any other rounds taking place until conversion.
 
-For a company raising just one SAFE round, there’s effectively no difference: an investor who invests $2M on $8M *pre-*money is presumably willing to invest $2M on $10M *post-*money, with the same resulting ownership of 20%. But things are different when multiple SAFE rounds are involved. Let’s look at two examples
+For a company raising just one SAFE round, there’s effectively no difference: an investor who invests $2M on $8M *pre*-money is presumably willing to invest $2M on $10M *post*-money, with the same resulting ownership of 20%. But things are different when multiple SAFE rounds are involved. Let’s look at two examples
 
 ## Conversion on a Pre-money Basis
 
