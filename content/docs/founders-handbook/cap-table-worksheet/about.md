@@ -1,0 +1,7 @@
+---
+title: About this Worksheet
+weight: 1
+prev: /docs/founders-handbook/cap-table-worksheet
+---
+
+All about the cap table tool. Coming soon!
