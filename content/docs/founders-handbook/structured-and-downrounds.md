@@ -39,8 +39,7 @@ A downround is a standard priced round where the PPS is less than the PPS in the
 |  |  |  |
 | --- | --- | --- |
 | Full Ratchet | In a Full Ratchet, the conversion price of the investor's preferred shares is adjusted to the price paid in the downround, regardless of the number of shares issued. This ensures that the investor's ownership percentage remains the same as it was before the downround.  | Full Ratchets are very dilutive for founders and existing shareholders.  Avoid them while you can.  |
-| Broad-Based Weighted Average | The conversion price of the preferred shares is adjusted to a weighted average of the price paid in the previous round and the price paid in the downround taking into account all outstanding shares, including preferred and common shares, when calculating the new conversion price.  | This is a more moderate approach compared to a full ratchet. The effect can be mild, particularly if the downround is much smaller in size than the previous round.
-(This is the most common provision and the recommended one by the NVCA) |
+| Broad-Based Weighted Average | The conversion price of the preferred shares is adjusted to a weighted average of the price paid in the previous round and the price paid in the downround taking into account all outstanding shares, including preferred and common shares, when calculating the new conversion price.  | This is a more moderate approach compared to a full ratchet. The effect can be mild, particularly if the downround is much smaller in size than the previous round. (*This is the most common provision and the recommended one by the NVCA*) |
 | Narrow-Based Weighted Average | Similar to a Broad-Based Weighted Average but only considers the preferred shares when calculating the new conversion price, which generally offers less protection to investors than the broad-based method. |  |
 
 {{< callout emoji="📢">}}

@@ -46,7 +46,7 @@ Note: even if your investors don’t have an MFN and your raise a subsequent rou
 
 ## Major Investor Rights
 
-Seed investors often ask for the right to be named a “Major Investor” in the next financing round. “Major Investor Rights” will show up in the priced round / Series A documents granting the largest investors a set of additional rights including Pro rata rights, Information rights, and rights of first refusal on certain transactions.  The downside from promising seed investors Major Investor Status is that more of your investors will have pro-rata rights in the Series B (the round following the next financing round).  But that is often [open to renegotiating](Minimizing%20Founder%20Dilution%20cf6018ad08964018a501407f4fdee039.md).  Typically the largest 1-2 investors in the round are granted this right. 
+Seed investors often ask for the right to be named a “Major Investor” in the next financing round. “Major Investor Rights” will show up in the priced round / Series A documents granting the largest investors a set of additional rights including Pro rata rights, Information rights, and rights of first refusal on certain transactions.  The downside from promising seed investors Major Investor Status is that more of your investors will have pro-rata rights in the Series B (the round following the next financing round).  But that is often [open to renegotiating](../minimizing-founder-dilution/#5-re-negotiate-pro-rata-rights-for-early-investors).  Typically the largest 1-2 investors in the round are granted this right. 
 
 {{< callout emoji="✔️">}}
  **Major Investor Status** The Company agrees that, upon the issuance of Safe Preferred Stock by the Company to the Investor in the Equity Financing pursuant to the Safe, the Investor shall be entitled to receive the same information rights and pro rata rights (for securities issuances occurring after the Equity Financing) that are provided to “Major Investors” (or such similar term) in such Equity Financing; provided that the Investor shall be subject to all of the same terms, conditions and restrictions as applicable to other Major Investors.
@@ -79,7 +79,7 @@ What matters most here: Try to not sign up for something you don’t want to do�
 
 - Super Pro Rata Rights: These rights allow investors to increase their ownership percentage in future rounds, which can lead to significant dilution for founders. A big no.
 - Advisory Shares: Folks asking for additional shares on the side are typically the folks you don’t want to work with.
-- Liquidation Preferences Beyond 1x: Anything more than 1x can be very unfavorable to founders, as it prioritizes investor returns over the company's success ([More in Stuctured and Downrounds](Structured%20and%20Down%20Rounds%20c5fcc46c301040409000d483ebcdda04.md))
+- Liquidation Preferences Beyond 1x: Anything more than 1x can be very unfavorable to founders, as it prioritizes investor returns over the company's success ([More in Stuctured and Downrounds](../structured-and-downrounds/))
 - Guaranteed Returns: Promising a specific return on investment can create undue pressure and misalign investor-founder interests.
 
 {{< callout emoji="📢">}}
@@ -91,4 +91,4 @@ Important Note: While SAFE side letters are standard practice, founders should b
 
 Side letters can be a useful tool in securing investment, but it's crucial to understand which terms are beneficial and which are not. Ask around what’s standard—and push back on your investors if the ask is a non-standard one. They probably know!
 
-[Suggested Reading: Raising Your Series A](Raising%20your%20Series%20A%20306e9f6fab6b4ebf9bd1c2520d4d12d1.md)
+[Suggested Reading: Raising Your Series A](../raising-your-series-a/)
