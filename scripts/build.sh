@@ -8,6 +8,7 @@ hugo
 echo "Building the nextjs submodule..."
 cd startup-finance
 yarn install --frozen-lockfile
+yarn test
 yarn build:hugo
 cd ..
 
