@@ -66,4 +66,4 @@ An ending note:
 
 Remember, negotiation is a normal part of the fundraising process. With clear communication and a strong value proposition, you can often find a middle ground that works for both parties.
 
-[Suggested Reading: Structured and Down Rounds](Structured%20and%20Down%20Rounds%20c5fcc46c301040409000d483ebcdda04.md)
+[Suggested Reading: Structured and Down Rounds](../structured-and-downrounds/)

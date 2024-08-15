@@ -50,4 +50,3 @@ By choosing to use a convertible instrument as opposed to a priced round, the ex
 {{< callout emoji="📢">}}
 Depending on how senior the departing founder is and what the plan for replacing them are, the remaining founders will sometimes reprice the SAFE to a lower cap as a remedy to the early stage investors
 {{< /callout >}}
-[Suggested Reading: Structured and Downrounds](Structured%20and%20Down%20Rounds%20c5fcc46c301040409000d483ebcdda04.md)

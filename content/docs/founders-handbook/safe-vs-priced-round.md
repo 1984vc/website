@@ -60,7 +60,7 @@ Now imagine that a year has passed by, the company has limped along and needs ad
 | Seed Investor 2 |  |  | 500,000 | 500,000 | 16.67% |
 |  | 2,500,000 | 100% |  | 3,000,000 | 100% |
 
-[Link to Cap Table](https://1984.vc/docs/founders-handbook/cap-table-worksheet/#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgoAFWglQAOAOwA6AKyb1ATgDMFu6pclsmADaCEVbGNTFAA2GysQgCY7MKiYmxCnEjhvb2gYKm8qf1QEMEEqAF8iLFxeVXZyajpGZjYSTm48AWFRCQAhWQUlFRR1TQ1tKF0wfSMTVAAWEIiQuZCHCyXlhzNPHz8AoNQncIHd_Ztk1PTM7J48guLSvDNKyh4QGTFMZXZGx4BlKgDxAEkWAA3ZQICASCokTBAkHcFjBSIDQZPbpvFA2JwYpyqIYjMbbPoOKwOYnOSKTElOaLHNKwM45FCXIolEA4PCTe7VXjPMCvFQNLhfH7Yf7QmSgiSRdhQ4Fi2HwxH4EjyRSomyTfDohw4vRyAz41QzeaJGxmTH4KkgFI0jJZemMwoAXRIFCUAFlWFQyOYFSQkGAAObZADyFAQmFYMkMEAg3lQipAwkEz2wIbDEbjJAUMgAclQoAAlIQiXL5IpAA)
+[Link to Cap Table](/docs/cap-table-worksheet#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgoAFWglQAOAOwA6AKyb1ATgDMFu6pclsmADaCEVbGNTFAA2GysQgCY7MKiYmxCnEjhvb2gYKm8qf1QEMEEqAF8iLFxeVXZyajpGZjYSTm48AWFRCQAhWQUlFRR1TQ1tKF0wfSMTVAAWEIiQuZCHCyXlhzNPHz8AoNQncIHd_Ztk1PTM7J48guLSvDNKyh4QGTFMZXZGx4BlKgDxAEkWAA3ZQICASCokTBAkHcFjBSIDQZPbpvFA2JwYpyqIYjMbbPoOKwOYnOSKTElOaLHNKwM45FCXIolEA4PCTe7VXjPMCvFQNLhfH7Yf7QmSgiSRdhQ4Fi2HwxH4EjyRSomyTfDohw4vRyAz41QzeaJGxmTH4KkgFI0jJZemMwoAXRIFCUAFlWFQyOYFSQkGAAObZADyFAQmFYMkMEAg3lQipAwkEz2wIbDEbjJAUMgAclQoAAlIQiXL5IpAA)
 
 The new investor has now bought 500,000 shares, or 16.67%, and diluted all the existing shareholders equally by 16.67%.  The new valuation of the company is now 3M shares * $4 per share or $12M post money.  
 
@@ -76,7 +76,7 @@ Now Imagine the same scenario takes place but using the SAFE instrument. The fir
 | Seed Investor 2 |  |  | 666,664 | 666,666 | 20% |
 |  | 2,500,000 | 100% |  | 3,333,332 | 100% |
 
-[Link to Cap Table](https://1984vc.github.io/startup-finance/safe-conversion#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgoAFWglQAOAOwA6AKyb1ATgDMFu6pclsmADaCEVbGNTFAA2GysQgCY7MKiYmxCnEjhvb2gYKm8qf1QEMEEqAF8iLFxeVXZyajpGZjYSTm48AWFRCQAhWQUlFRR1TQ1tKF0wfSMTVAAWEIiQuZCHCyXlhzNPHz8AoNQncIHd_Ztk1PTM7J48guLSvAtKyh4QGTgAMxoGrkeAYQAlADVxAAKL7dLIycQ_TAANzE4j.VBYCEEPQAlOxMCwYTIENxEah8CRaHAKGonANBiAvDJ6MJggSQDo9HIDNsUPT5IplPjjmlYGccigXikZFR1s8AEZZbB8TCZbC9NAAXUJrBho0wrAAKg88BQINiQNcQDg8GZ7tVeCKwLKVB8mrwAMpUALiACSmOUCAgEgqJAxWJxCOCkXJ7O6XJQNic0acqiGIzGrNUDisDjTzkik3TTmiPNOWQFlyKJWNZRAk3NjytNvYjUeTpd7oD3vEkXRHuxuODoZIHJ6qBsk3wUYc8aZLImfRm80SNjMMfwuZAKV5GQLF3yRWVIAoSgAsqwqGRzD3SIoAObZADyFAQGpYMkMEAg3m5IGEghF2Bvd9YvXpCgyAAclQUA_EIIi5JuhRAA)
+[Link to Cap Table](/docs/cap-table-worksheet/#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgqoMIeYuVrNWkNTC0qLBKgCs.AL5FQppSpTrL.Ehs7B2c3DxMFbwt_QLFgxxQAZkSAOmT0jMzXAF0SOAAbfOgYKnyqBB4EMEEqdyxcXlV2cmo6RmY2Ek5uPAFhUQkAIVlI819_AJAdPTkDAAVaBIAWADYUlY2NgE4Adj39rYAOEmxMfMEK7AWExKcUy1uHpzzC4tLyyura8Jw8HebKDwTHAAGY0LpcIEAZVBVHEAEkWAA3ZQICASJokTDI1HcEIoABMExItDghnGxJApxk9GECUm0zA.nJxiC9gSRJIXjGYVAbPxqjWmw2qlFovwOyWqi5ox8W3lCpyLyKsHeFVQVRqJ0wMjgACMytg.JhStgfGhciB6DimZhWAAVQF4CgQGSOOogX68Q4A1q8GRiE0qCE9XhQqhUbAInFu9HiTGemMIPEJaVTKC6JmzFmeWWoSb8.lKkAFFUlMrqlAggoBj1ekBbX1A3Vg9jdaGw6Mo2MY9jY7vJ9moIkxK1k6Kj6m0_EMjMzAxGPlxIeEybcny86zLgVC4Vi8WStPr1AKxWW0tvCufLVUnX6w3G03my3WlG2h1O3gut0gYsUJQALKsFQZATqOSBgAA5uUADyFAIHaLAyHMEAQPk.YkMIggBtgcEIawG4kAoMgAHJUFAABKQgiBqXyuEAA)
 
 {{< callout emoji="📢">}}
 Note: When YC first introduced the SAFE agreement in 2013, it followed a pre-money capitalization. This essentially mimicked a priced round where the pre-money valuation or share price was agreed upon, and additional investments diluted all shareholders equally. In 2018, YC introduced the post-money SAFE, where the investor's ownership is determined regardless of other investments. Since then, most financing has shifted to using the post-money SAFE where investment dilute existing shareholders but not other investors.
@@ -88,10 +88,10 @@ Most priced rounds will include an option pool requirement—while SAFE agreemen
 
 ## Better for Founder departure
 
-If a founder departs before the seed and next round, having raised on a SAFE is much more favorable to the remaining founders from an equity standpoint. (Basically their shares will go back to you / existing shareholders but not to the safe holders) This is described in detail in the [Founder Departure](Founder%20Departure%201cc495a8cf804e5d87dbdf793080ddbb.md) section
+If a founder departs before the seed and next round, having raised on a SAFE is much more favorable to the remaining founders from an equity standpoint. (Basically their shares will go back to you / existing shareholders but not to the safe holders) This is described in detail in the [Founder Departure](../founder-departure/) section
 
 ## Conclusion
 
 Safes and Priced Rounds are really 6 one way half dozen the other. These days most early stage investors are comfortable with a SAFE, while multi-stage funds sometimes prefer the control and share representation that a priced round provides.  Either is fine. What’s more important for a founder is having the right investors around the table, and not selling too much of the company upfront. 
 
-[Suggested Reading: SAFE Side Letters](SAFE%20Side%20Letters%2067e9cba3dc044a8c9bb1473fe8f7f93e.md)
+[Suggested Reading: SAFE Side Letters](../safe-side-letters/)
