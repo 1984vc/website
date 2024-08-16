@@ -164,7 +164,7 @@ $("#newsletter, #archive").click(function (event) {
     if(isHelloVisible) {
         unmovePanels();
     } else {
-        updateMobile("#newsletter");
+        window.location.replace("/docs/");
     }
     event.stopPropagation();
 });
