@@ -5,7 +5,7 @@ prev: /docs/founders-handbook/pre-money-vs-post-money-conversion
 next: /docs/founders-handbook/safe-side-letters
 ---
 
-One of the biggest questions founders often ask is whether a SAFE or a priced round is more favorable. While at 1984 we prefer SAFEs, we believe the instrument doesn't matter; what matters is that the founder works with the right investor and minimize overall dilution. Though most investors are comfortable with SAFEs, some still prefer priced rounds because their mandate requires a board seat (which a priced round provides).
+One of the first questions founders ask is whether a SAFE or a priced round is more favorable. While at 1984 we prefer SAFEs, we believe the instrument doesn't matter; what matters is working with the right investor and minimizing overall dilution for the founder. Though most investors are comfortable with SAFEs, some still prefer priced rounds because their mandate requires a board seat (which a priced round provides).
 
 Below is a summary of the main difference between SAFEs and priced rounds. 
 
@@ -96,6 +96,6 @@ If a founder departs before the seed and next round, having raised on a SAFE is 
 
 ## Conclusion
 
-Safes and Priced Rounds are really 6 one way half dozen the other. These days most early stage investors are comfortable with a SAFE, while multi-stage funds sometimes prefer the control and share representation that a priced round provides.  Either is fine. What’s more important for a founder is having the right investors around the table, and not selling too much of the company upfront. 
+Safes and Priced Rounds are really 6 one way half dozen the other. Today most early stage investors are comfortable with a SAFE, while multi-stage funds sometimes prefer the control and share representation that a priced round provides.  Either is fine. What’s more important for a founder is having the right investors around the table, and not selling too much of the company upfront. 
 
 [Suggested Reading: SAFE Side Letters](../safe-side-letters/)
