@@ -16,17 +16,21 @@ From a company control standpoint, a SAFE is better for the founder in two disti
 1. Simple: A SAFE is Simpler and less onerous (you won't negotiate  founder vesting/option pool/etc). 
 2. Round Flexibility: while a priced round often has a minimum and a maximum dollars raised, a SAFE doesn’t have a notion of the round, allowing the founder to collect signatures one by one. 
 
-## More Control
+## Control
 
-By not having investors as shareholders, Founder can generally sell the company without needing investor consent (since the investors are *not* shareholders). Company can also issue additional options or enter into other financing agreements without needing the consent of the existing investors. 
+SAFEs provide founders with more control at the early stage of the startup  since the investors are *not* shareholders. Specifically:
+* Founder can sell the company without needing investor consent
+* Company can also issue additional options or enter into other financing agreements without needing the consent of investors. 
 
-## Cheaper
 
-SAFEs are free—and can be downloaded from YC’s website or used from legal startups like Clerky.  A priced round typically costs $5k-$25K at the seed stage—although many law firms are wiling to offer a fixed price for the company’s first equity financing.
+## Cost
 
-## Mixed Dilution
+SAFEs are free—and can be downloaded from YC’s website or used from legal startups like Clerky. You should always use a counsel when negotiating side letters though. 
+Meanwhile A priced round typically costs $5k-$25K at the seed stage—although many law firms are wiling to offer a fixed price for the company’s first equity financing.
 
-While a priced round's pre-money conversion is generally more favorable to founders than a SAFE's post-money conversion, the difference in dilution between these two methods extends beyond this simple comparison. It depends on several factors that founders can't predict in advance:
+##  Dilution
+
+While a priced round's pre-money conversion is more favorable to founders than a SAFE's post-money conversion, the difference in dilution between these two methods extends beyond this simple comparison. It depends on several factors that founders can't predict in advance:
 
 - The number of SAFE rounds raised
 - The size of the option pool demanded by Series Seed investors compared to Series A investors, and the number of options granted between rounds
