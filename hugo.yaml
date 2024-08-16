@@ -1,7 +1,7 @@
 # Configuration
 baseURL: "https://example.com/"
 languageCode: "en"
-title: ""
+title: "1984 Ventures - Founders Handbook & Cap Table Worksheet"
 theme: hextra
 disableKinds: 
   - 'sitemap'
@@ -62,7 +62,7 @@ menu:
       weight: 2
 
 Params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: 1984 Ventures Founders Handbook and Cap Table Worksheet
 
   navbar:
     displayTitle: true
