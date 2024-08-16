@@ -1,5 +1,5 @@
 ---
-title: About the tools
+title: About the Captable Worksheet
 weight: 1
 prev: /docs/founders-handbook/cap-table-worksheet
 ---
