@@ -1,7 +1,7 @@
 # Configuration
 baseURL: "https://example.com/"
 languageCode: "en"
-title: ""
+title: "1984 Ventures - Founders Handbook & Cap Table Worksheet"
 theme: hextra
 disableKinds: 
   - 'sitemap'
