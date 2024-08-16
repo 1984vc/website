@@ -9,9 +9,22 @@
   <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
     {{ partial "sidebar.html" (dict "context" .) }}
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-mt-16 md:hx-px-12">
-        {{ partial "breadcrumb.html" . }}
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-mt-8 md:hx-px-12">
+        <div
+          class="hx-mt-1.5 hx-flex hx-items-center hx-gap-1 hx-overflow-hidden hx-text-sm hx-text-gray-500 dark:hx-text-gray-400 contrast-more:hx-text-current">
+          <div
+            class="hx-whitespace-nowrap hx-transition-colors hx-min-w-[24px] hx-overflow-hidden hx-text-ellipsis hover:hx-text-gray-900 dark:hover:hx-text-gray-100">
+            <a href="/docs/founders-handbook/">Founders Handbook</a>
+          </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+          </svg>
+          <div
+            class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">
+            Cap Table Worksheet</div>
+        </div>
         <div class="content">
+          <h1>Cap Table Worksheet</h1>
           <div id="root"></div>
         </div>
         {{ partial "components/last-updated.html" . }}
