@@ -12,7 +12,7 @@ Explore our Founders Handbook for early stage founders
 
 {{< cards >}}
   {{< card link="cap-table-101" title="Cap Table 101" icon="currency-dollar" >}}
-  {{< card link="cap-table-worksheet" title="Cap Table Worksheet" icon="calculator" >}}
+  {{< card link="/docs/cap-table-worksheet" title="Cap Table Worksheet" icon="calculator" >}}
   {{< card link="intro-to-safes" title="Introduction to SAFEs" icon="document-text" >}}
   {{< card link="pre-money-vs-post-money-conversion" title="Pre-money VS Post-money conversion" icon="document-text" >}}
   {{< card link="safe-vs-priced-round" title="SAFE vs Priced Round" icon="document-text" >}}
