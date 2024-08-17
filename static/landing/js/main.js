@@ -160,11 +160,19 @@ $("#portfolio").click(function (event) {
     }
     event.stopPropagation();
 });
-$("#newsletter, #archive").click(function (event) {
+$("#archive").click(function (event) {
     if(isHelloVisible) {
         unmovePanels();
     } else {
-        window.location.replace("/docs/");
+        window.location = "/docs/";
+    }
+    event.stopPropagation();
+});
+$("#newsletter").click(function (event) {
+    if(isHelloVisible) {
+        unmovePanels();
+    } else {
+        updateMobile("#newsletter");
     }
     event.stopPropagation();
 });
@@ -189,12 +197,13 @@ $("#newsletter, #archive").hover(function () {
     // on mouse out, cancel the timer
     clearTimeout(timer);
 });
+/*
 $("#archive").click(function () {
     if(isHelloVisible) return;
     $(this).removeClass("clickable");
     $(this).css('z-index', zzz + 2);
     $("#newsletter").css('z-index', zzz);
-});
+});*/
 
 
 /*/////////////////////////////////////////*/
