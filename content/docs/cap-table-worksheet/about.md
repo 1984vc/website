@@ -4,7 +4,7 @@ weight: 1
 prev: /docs/founders-handbook/cap-table-worksheet
 ---
 
-The captable worksheet is an open-source, client-side tool to help founders model their SAFE and priced rounds. We host an instance at [https://1984.vc/docs/cap-table-worksheet](https://1984.vc/docs/cap-table-worksheet)
+The captable worksheet is an open-source, client-side tool to help founders model their SAFE and priced rounds. The github module is available at [https://github.com/1984vc/startup-finance] and 1984 hosts an instance at [https://1984.vc/docs/cap-table-worksheet](https://1984.vc/docs/cap-table-worksheet)
 
 Design Goals:
 
