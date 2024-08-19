@@ -107,7 +107,7 @@ Params:
       tokenize: forward
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/1984vc/website/edit/main/content"
 
   blog:
