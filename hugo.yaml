@@ -80,6 +80,9 @@ Params:
     default: system
     displayToggle: true
 
+  images:
+    - /images/meta-image.png
+
   footer:
     enable: true
     displayCopyright: true
