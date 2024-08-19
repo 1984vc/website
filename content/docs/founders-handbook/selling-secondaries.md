@@ -4,8 +4,6 @@ weight: 1
 next: /docs/founders-handbook/structured-and-downrounds
 ---
 
-# Selling Secondaries
-
 As companies mature, founders can sell a portion of their personal shares to new or existing investors, a process know as selling secondaries (in contrast with primary issuance where the company sells newly issued shares). Secondaries allow founders and early employees to realize some personal financial gain without waiting for an IPO or acquisition. It has become more common in recent years as times to exits have gotten longer.  
 
 Unlike a primary issuance of stock, secondaries are not dilutive to existing shareholders (since the transaction is simply existing shares trading hands). The buyer is typically buying common shares which do not have a liquidation preference associated with them. As a result, secondaries often trade at a discount to primary preferred stock.  To sell secondaries a founder needs to wait till the right time then **(A) find a buyer, *and* (B) get the consent of the board
