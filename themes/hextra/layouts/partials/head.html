@@ -16,8 +16,7 @@
     {{ end -}}
   </title>
   <meta name="description" content="{{ partial "utils/page-description.html" . }}" />
-  <meta name="image" content="/images/1984-icon.png">
-  <meta name="og:image" content="/images/1984-icon.png">
+  <meta name="image" property="og:image" content="/images/1984-icon.png" />
 
   {{ with .Params.canonical }}
     <link rel="canonical" href="{{ . }}" itemprop="url" />
