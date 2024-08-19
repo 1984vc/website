@@ -11,10 +11,6 @@ enableRobotsTXT: true
 enableGitInfo: false
 hasCJKLanguage: false
 
-# services:
-#   googleAnalytics:
-#     ID: G-MEASUREMENT_ID
-
 outputs:
   home: [HTML]
   page: [HTML]
