@@ -164,11 +164,6 @@ $("#archive").click(function (event) {
     if(isHelloVisible) {
         unmovePanels();
     } else {
-        $("#philosophy").addClass("philosophy_moved");
-        $("#portfolio").addClass("portfolio_moved");
-        $("#newsletter").addClass("newsletter_moved");
-        $("#archive").addClass("archive_moved");
-        event.stopPropagation();
         window.location = "/docs/";
     }
     event.stopPropagation();
