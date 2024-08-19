@@ -1,3 +1,9 @@
+---
+title: Selling Secondaries
+weight: 1
+next: /docs/founders-handbook/structured-and-downrounds
+---
+
 # Selling Secondaries
 
 As companies mature, founders can sell a portion of their personal shares to new or existing investors, a process know as selling secondaries (in contrast with primary issuance where the company sells newly issued shares). Secondaries allow founders and early employees to realize some personal financial gain without waiting for an IPO or acquisition. It has become more common in recent years as times to exits have gotten longer.  
@@ -40,7 +46,6 @@ Investor’s reception to secondaries will be a function of both how well the co
 
 <aside>
 💡 Today most investors will support a secondary sale for 5-10% of the founder’s stake at an oversubscribed Series C.
-
 </aside>
 
 ## Price of Secondaries
