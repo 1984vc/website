@@ -11,9 +11,9 @@ Below is a summary of the main difference between SAFEs and priced rounds.
 
 ## More Streamlined
 
-From a company control standpoint, a SAFE is better for the founder in two distinct ways 
+From a round standpoint, a SAFE is better for the founder in two distinct ways 
 
-1. Simple: A SAFE is Simpler and less onerous (you won't negotiate  founder vesting/option pool/etc). 
+1. Simple: A SAFE is Simpler and less onerous (you won't negotiate founder vesting/option pool/etc). 
 2. Round Flexibility: while a priced round often has a minimum and a maximum dollars raised, a SAFE doesn’t have a notion of the round, allowing the founder to collect signatures one by one. 
 
 ## Control
