@@ -6,7 +6,7 @@ next: /docs/founders-handbook/structured-and-downrounds
 
 As companies mature, founders can sell a portion of their personal shares to new or existing investors, a process know as selling secondaries (in contrast with primary issuance where the company sells newly issued shares). Secondaries allow founders and early employees to realize some personal financial gain without waiting for an IPO or acquisition. It has become more common in recent years as times to exits have gotten longer.  
 
-Unlike a primary issuance of stock, secondaries are not dilutive to existing shareholders (since the transaction is simply existing shares trading hands). The buyer is typically buying common shares which do not have a liquidation preference associated with them. As a result, secondaries often trade at a discount to primary preferred stock.  To sell secondaries a founder needs to (A) find a buyer, *and* (B) get the consent of the board
+Unlike a primary issuance of stock, secondaries are not dilutive to existing shareholders (since the transaction is simply existing shares trading hands). The buyer is typically buying common shares which do not have a liquidation preference associated with them (as distinct from preferred shares which do) . As a result, secondaries often trade at a discount to primary preferred stock.  To sell secondaries a founder needs to (A) find a buyer, *and* (B) get the consent of the board.
 
 ## When to Sell Secondaries
 
@@ -21,13 +21,13 @@ The best time to sell secondaries is once the company approaches a valuation bet
 
 - The ideal buyer is an existing investor looking to increase their ownership. They are already familiar with the business, and their willingness to buy secondaries sends a positive signal to others who might be contemplating buysing secondaries as well.
 - The lead investor of the new funding round is also a potential buyer, though it's a more challenging conversation if the round isn't highly competitive.
-- Over the past few years, a number of secondaries-only funds have popped up that have both the expertise and the dedicated capital for secondaries such as Industry Ventures, Truebridge Capital, etc.
+- Over the past few years, a number of secondaries-only funds have popped up that have both the expertise and the dedicated capital for secondaries such as Industry Ventures, Truebridge Capital, NewView Capital, etc.
 - Family offices, institutions and other limited partners of venture capital funds can also be buyers of secondaries—particularly once the company has become a recognizable brand name. LPs naturally are most familiar with companies in their fund’s portfolio, so your existing investors are the best source of introduction to those LPs.
 - For later stage/pre-IPO companies, Investment Banks can be buyers
 
 ## Getting investor consent
 
-- Most companies will have a Rights of First Refusal on founder stock sale and also a co-sale agreement allowing investors to sell a portion of their shares alongside the founders. So getting your lead investor / board member buy-in is a must.
+- Most companies will have a Rights of First Refusal on founder stock sale granting the company the right to buy any shares offered to other investors.  Major investors also typically have a co-sale agreement allowing them to sell a pro-rated portion of their shares alongside the founders. So getting your lead investor / board member buy-in is a must to get the company and the major investors to waive these rights.
 - Investors understand that providing founders with some liquidity will help alleviate undue stress and aligns incentives by removing the allure of a mediocre M&A event. At the same time, founders react differently to the newly found wealth.  Selling large amount or selling at an earlier round (Series A or B) will be a red flag.
 - Although a secondary round doesn't dilute existing investors' ownership, they may still oppose capital going to management instead of strengthening the company's balance sheet—especially in a tight fundraising climate. Because of all the above, it is critical to wait until the appropriate time to broach the topic with your board.
 
