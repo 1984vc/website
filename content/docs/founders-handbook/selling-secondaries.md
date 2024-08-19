@@ -1,6 +1,6 @@
 ---
 title: Selling Secondaries
-weight: 1
+weight: 9
 next: /docs/founders-handbook/structured-and-downrounds
 ---
 

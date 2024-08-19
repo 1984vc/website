@@ -1,6 +1,6 @@
 ---
 title: Structured and Down Rounds
-weight: 9
+weight: 10
 prev: /docs/founders-handbook/founder-departure
 ---
 
