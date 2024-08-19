@@ -14,10 +14,10 @@ Unlike a primary issuance of stock, secondaries are not dilutive to existing sha
 
 Secondaries typically occur during later-stage rounds, usually starting at Series C or beyond. For top-performing companies, secondaries can take place as early as Series B. There are also rare cases of secondaries occurring earlier : During the heyday of 2020, for example, A16Z famously bought $2M of secondaries as part of its $10M round to win the Clubhouse Series A sweepstakes. However, in today's market, that would be a tough act for a founder to pull off.
 
-<aside>
-💡 The best time to sell secondaries is once the company approaches a valuation between $500M-$1B and has a round that is clearly oversubscribed.
 
-</aside>
+{{< callout emoji="💡">}}
+The best time to sell secondaries is once the company approaches a valuation between $500M-$1B and has a round that is clearly oversubscribed.
+{{< /callout >}}
 
 ## Finding a buyer
 
@@ -33,10 +33,9 @@ Secondaries typically occur during later-stage rounds, usually starting at Serie
 - Investors understand that providing founders with some liquidity will help alleviate undue stress and aligns incentives by removing the allure of a mediocre M&A event. At the same time, founders react differently to the newly found wealth.  Selling large amount or selling at an earlier round (Series A or B) will be a red flag.
 - Although a secondary round doesn't dilute existing investors' ownership, they may still oppose capital going to management instead of strengthening the company's balance sheet—especially in a tight fundraising climate. Because of all the above, waiting until the appropriate time to broach the topic with your board.
 
-<aside>
-💡 Hold off on discussing secondaries with investors until the funding round is clearly oversubscribed. Broaching the subject when the round is undersubscribed or barely coming together will backfire. To shareholders, a company's capital needs trump a founder's desire to cash out.
-
-</aside>
+{{< callout emoji="💡">}}
+Hold off on discussing secondaries with investors until the funding round is clearly oversubscribed. Broaching the subject when the round is undersubscribed or barely coming together will backfire. To shareholders, a company's capital needs trump a founder's desire to cash out.
+{{< /callout >}}
 
 ## How much Can I Sell?
 
@@ -44,9 +43,9 @@ There are no hard and fast rules. Secondaries are typically in the millions, alt
 
 Investor’s reception to secondaries will be a function of both how well the company is doing, and how much a founder is selling relative to their needs. If you’re selling a few percentage points to buy your first home for your young family, your investors will be supportive. If you’re selling 20% and are eyeing your next vacation home or yacht summer vacation in the med, they will push back. Make a compelling case to your board for why the cash will help you devote more time and mental energy to the business. 
 
-<aside>
-💡 Today most investors will support a secondary sale for 5-10% of the founder’s stake at an oversubscribed Series C.
-</aside>
+{{< callout emoji="💡">}}
+Today most investors will support a secondary sale for 5-10% of the founder’s stake at an oversubscribed Series C.
+{{< /callout >}}
 
 ## Price of Secondaries
 
@@ -66,7 +65,6 @@ As companies approach an IPO or other liquidity event, the discount on secondari
 - QSBS: Qualified Small Business Stock status offers significant tax benefits to both founders and investors, allowing them to potentially exclude up to 100% of their capital gains from federal taxes when they sell their shares. By definition a secondary transaction does not qualify for QSBD. But if it triggers a “Significant stock redemptions” it can disqualify a company from maintaining its QSBS status for all existing shareholders. So any attempt to convert founders share from common to preferred through stock redemption should be considered very carefully by your counsel.
 - Employee Morale: news of Secondaries can impact perception and morale for employees. The best practice here is to initially keep it under wraps and, when the time is right, open the secondary sale to other early employee of the company as well (i.e. every employee who has been there for more than 4 years can sell up to 10% of their shares, etc).
 
-<aside>
-💡 Secondary sales are a high-stakes exercise. They require board approval and getting familiarity with many esoteric concepts—from Reg 14E to the impact of redemption rights on QSBS status. Be prepared. And make sure to arm yourself with legal counsel from a top-tier Silicon Valley firm. Their hefty bills are well worth it when the stakes are this high.
-
-</aside>
+{{< callout emoji="💡">}}
+Secondary sales are a high-stakes exercise. They require board approval and getting familiarity with many esoteric concepts—from Reg 14E to the impact of redemption rights on QSBS status. Be prepared. And make sure to arm yourself with legal counsel from a top-tier Silicon Valley firm. Their hefty bills are well worth it when the stakes are this high.
+{{< /callout >}}
