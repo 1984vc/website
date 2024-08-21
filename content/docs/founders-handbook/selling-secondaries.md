@@ -34,8 +34,8 @@ The best time to sell secondaries is once the company approaches a valuation bet
 
 
 {{< callout emoji="💡">}}
-"From my vantage point, the attitude of the investor toward secondary is everything. My lead investor happen to be very supportive of it. If I had an investor who was against it, would be a different story. Founders should feel out their jnvestors on this, and quite frankly if they are deciding between two investors this should be an interview question"
--anonymous
+*"From my vantage point, the attitude of the investor toward secondary is everything. My lead investor happen to be very supportive of it. If I had an investor who was against it, would be a different story. Founders should feel out their jnvestors on this, and quite frankly if they are deciding between two investors this should be an interview question"*
+-Series B Founder
 {{< /callout >}}
 
 
