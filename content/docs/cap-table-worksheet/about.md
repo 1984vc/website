@@ -6,7 +6,7 @@ prev: /docs/founders-handbook/cap-table-worksheet
 
 At 1984 we believe founders should be able to quickly understand the decisions they make with regards to financing, particularly at the earliest stages when legal support is minimal.  We believe SAFEs in particular should be easy to understand and model, and the tools should be open source, well-tested, and easy for anyone to use. Currently the best we have are either aging Excel spreadsheets that get passed around, or a fairly rudimentary webapp--which is why we created this project. 
 
-The captable worksheet is an open-source project available on [github](https://github.com/1984vc/startup-finance). Additionally 1984 hosts an instance at [https://1984.vc/docs/cap-table-worksheet](https://1984.vc/docs/cap-table-worksheet)
+The captable worksheet is an open-source, client-side tool to help founders model their SAFE and priced rounds. The module is available on [github](https://github.com/1984vc/startup-finance) and 1984 hosts an instance at [https://1984.vc/docs/cap-table-worksheet](/docs/cap-table-worksheet)
 
 Design Goals:
 
