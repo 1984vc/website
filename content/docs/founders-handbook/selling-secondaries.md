@@ -29,11 +29,14 @@ The best time to sell secondaries is once the company approaches a valuation bet
 
 - Most companies will have a Rights of First Refusal on founder stock sale granting the company the right to buy any shares offered to other investors.  Major investors also typically have a co-sale agreement allowing them to sell a pro-rated portion of their shares alongside the founders. So getting your lead investor / board member buy-in is a must to get the company and the major investors to waive these rights.
 - Investors understand that providing founders with some liquidity will help alleviate undue stress and aligns incentives by removing the allure of a mediocre M&A event. At the same time, founders react differently to the newly found wealth.  Selling large amount or selling at an earlier round (Series A or B) will be a red flag.
-- Although a secondary round doesn't dilute existing investors' ownership, they may still oppose capital going to management instead of strengthening the company's balance sheet—especially in a tight fundraising climate. Because of all the above, it is critical to wait until the appropriate time to broach the topic with your board.
+- Although a secondary round doesn't dilute existing investors' ownership, they may still oppose capital going to management instead of strengthening the company's balance sheet—especially in a tight fundraising climate. To shareholders, a company's capital needs trump a founder's desire to cash out. As a result, it is critical to wait until the appropriate time to broach the topic with your board. Hold off on discussing secondaries until the funding round is clearly oversubscribed, otherwise the conversation could very well backfire. 
+
 
 {{< callout emoji="💡">}}
-Hold off on discussing secondaries with investors until the funding round is clearly oversubscribed. Broaching the subject when the round is undersubscribed or barely coming together will backfire. To shareholders, a company's capital needs trump a founder's desire to cash out.
+*"From my vantage point, the attitude of the investor toward secondary is everything. My lead investor happen to be very supportive of it. If I had an investor who was against it, would be a different story. Founders should feel out their jnvestors on this, and quite frankly if they are deciding between two investors this should be an interview question"*
+-Series B Founder
 {{< /callout >}}
+
 
 ## How much Can I Sell?
 
@@ -60,7 +63,8 @@ As companies approach an IPO or other liquidity event, the discount on secondari
 - Tender Offer: Depending on the number of sellers and other factors, the transaction may need to be structured according to the Securities and Exchange Commission’s Regulation 14E (e.g., offer kept open for 20 business days)
 - 409A: Secondary sales can impact 409A valuations for common shares or options held by employees by providing a data point for the fair market value of common stock. However, the impact may be limited if the secondary sale price is significantly discounted compared to the preferred stock price or if the transaction volume is small.
 - Shareholder count.  Secondaries increases the number of shareholders on the cap table. For larger private companies, the Securities and Exchange Commission (SEC) typically imposes a 2,000 shareholder limit to avoid public reporting.
-- QSBS: Qualified Small Business Stock status offers significant tax benefits to both founders and investors, allowing them to potentially exclude up to 100% of their capital gains from federal taxes when they sell their shares. By definition a secondary transaction does not qualify for QSBD. But if it triggers a “Significant stock redemptions” it can disqualify a company from maintaining its QSBS status for all existing shareholders. So any attempt to convert founders share from common to preferred through stock redemption should be considered very carefully by your counsel.
+- QSBS taxation: Qualified Small Business Stock status offers significant tax benefits to both founders and investors, allowing them to potentially exclude up to 100% of their capital gains from federal taxes when they sell their shares. For the founder, a secondary transaction will qualify for QSBS once the shares have been held for five years. For the buyer, the newly acquired shares will not qualify for QSBS since they're not primary issuance from the company.
+- QSBS status: Sometimes the buyers ask the founders to convert the shares to preferred via a company buyback followed by new preferred issuance.  The buy back can trigger a “Significant stock redemptions” event which would disqualify a company from maintaining its QSBS status for all existing shareholders. So any attempt to convert founders share from common to preferred through stock redemption should be considered very carefully by your counsel.
 - Employee Morale: news of Secondaries can impact perception and morale for employees. The best practice here is to initially keep it under wraps and, when the time is right, open the secondary sale to other early employee of the company as well (i.e. every employee who has been there for more than 4 years can sell up to 10% of their shares, etc).
 
 {{< callout emoji="💡">}}
