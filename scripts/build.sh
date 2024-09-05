@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 # Build the the nextjs submodule
 echo "Building the nextjs submodule..."
 cd startup-finance
