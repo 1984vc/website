@@ -30,20 +30,30 @@ async function main() {
       Tags,
       Highlighted: company.properties.Highlighted.checkbox,
       Stage,
-      Story
+      Story,
+      SortOrderOverride: company.properties['Sort Order Override'].number
     };
   });
 
-  // Sort companies: highlighted first, then alphabetically
+  // Sort companies: Sort Order Override first (if exists), then highlighted, then alphabetically
   Companies.sort((a, b) => {
+    // If both have Sort Order Override, sort by that
+    if (a.SortOrderOverride !== null && b.SortOrderOverride !== null) {
+      return a.SortOrderOverride - b.SortOrderOverride;
+    }
+    // If only one has Sort Order Override, that one comes first
+    if (a.SortOrderOverride !== null) return -1;
+    if (b.SortOrderOverride !== null) return 1;
+    
+    // If neither has Sort Order Override, sort by highlighted then name
     if (a.Highlighted !== b.Highlighted) {
       return b.Highlighted - a.Highlighted;
     }
     return a.Name.localeCompare(b.Name);
   });
 
-  // Write transformed data
-  const output = [...Companies]
+  // Remove SortOrderOverride from output
+  const output = Companies.map(({SortOrderOverride, ...rest}) => rest);
 
   await fs.writeFile(outputPath, JSON.stringify(output, null, 2));
 }
