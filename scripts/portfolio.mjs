@@ -12,40 +12,38 @@ async function main() {
   const rawData = JSON.parse(await fs.readFile(rawPath, 'utf-8'));
 
   // Transform data
-  const companies = rawData.results.map(company => {
+  const Companies = rawData.results.map(company => {
     // Extract tags from Filters property
     const filterText = company.properties.Filters.rich_text[0]?.plain_text || '';
-    const tags = filterText.split(' ').filter(tag => tag.length > 0);
+    const Tags = filterText.split(' ').filter(tag => tag.length > 0);
 
     // Get stage if it exists
-    const stage = company.properties.Stage.select?.name || null;
+    const Stage = company.properties.Stage.select?.name || null;
 
     // Get story if it exists
-    const story = company.properties.Story.rich_text[0]?.plain_text || null;
+    const Story = company.properties.Story.rich_text[0]?.plain_text || null;
 
     return {
-      name: company.properties.Name.title[0].plain_text,
-      url: company.properties.URL.url,
-      description: company.properties.Description.rich_text[0]?.plain_text || '',
-      tags,
-      highlighted: company.properties.Highlighted.checkbox,
-      stage,
-      story
+      Name: company.properties.Name.title[0].plain_text,
+      URL: company.properties.URL.url,
+      Description: company.properties.Description.rich_text[0]?.plain_text || '',
+      Tags,
+      Highlighted: company.properties.Highlighted.checkbox,
+      Stage,
+      Story
     };
   });
 
   // Sort companies: highlighted first, then alphabetically
-  companies.sort((a, b) => {
-    if (a.highlighted !== b.highlighted) {
-      return b.highlighted - a.highlighted;
+  Companies.sort((a, b) => {
+    if (a.Highlighted !== b.Highlighted) {
+      return b.Highlighted - a.Highlighted;
     }
-    return a.name.localeCompare(b.name);
+    return a.Name.localeCompare(b.Name);
   });
 
   // Write transformed data
-  const output = {
-    companies
-  };
+  const output = [...Companies]
 
   await fs.writeFile(outputPath, JSON.stringify(output, null, 2));
 }

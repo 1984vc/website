@@ -209,12 +209,12 @@
 			  {{/*  <li class='company filter-supplychain filter-consumer ' data-url="nicksonliving.com">Nickson, <span class='opacity'>Furniture as a service</span></li>  */}}
           {{ range .Site.Data.portfolio }}
             {{ if .Highlighted }}
-              <li class='company filter-featured {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
+              <li class='company filter-featured {{ range .Tags }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
               <img src="/landing/companies/{{ lower .Name }}.png"></img>
               <div class='desc'>{{ .Description }}</div>
               <div class='story'>{{ .Story }}</div>
             {{ else }}
-              <li class='company {{ range .Filters }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
+              <li class='company {{ range .Tags }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
               {{ .Name }}, 
               <span class='opacity'>{{ .Description }}</span>
             {{ end }}
