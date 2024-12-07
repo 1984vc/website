@@ -23,8 +23,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
+
       - name: Download latest portfolio
-        run: ./scripts/portfolio.mjs ${{ secrets.PORTFOLIO_SPREADSHEET_ID }}
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: npm exec -- notion_mdx raw-json --id ${{ secrets.NOTION_PORTFOLIO_ID }} -o ./data/portfolio-raw.json 
+
+      - name: Process the Notion porfolio into Hugo content
+        run: node scripts/portfolio.mjs ./data/portfolio.json
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
