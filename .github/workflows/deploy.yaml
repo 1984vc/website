@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: NPM install
+        run: npm ci
+
       - name: Download latest portfolio
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
