@@ -13,8 +13,10 @@ body{
 	-webkit-font-feature-settings:"liga", "kern";
 	font-feature-settings: "liga", "kern";
   overflow-x:hidden !important;
+    
 }
 
+a {text-decoration: none;}
 #logo{width:50px;height:80px;background:url("assets/logoV.svg") no-repeat top left;position:absolute;top:40px;left:40px;}
 #about{width:500px;height:300px;position:absolute;left:50%;top:50%;margin-left:-250px;margin-top:-150px;color:white}
 #about a {color:white;}
@@ -119,8 +121,10 @@ body{
 #pillarContainer, #teamContainer{display:block;font-size:0;margin:33px 0px 86px 0px;}
 #philosophy .pillars{width:calc((100% - 80px) / 2);display:inline-block;line-height:24px;color:#FFF;vertical-align:top;font-size:12px;}
 #philosophy .pillars .emoji {font-size:18px;}
-#philosophy a {color:#9EA5EF;display:contents;}
-#philosophy a:hover{border-bottom: 1px solid #9EA5EF;}
+#philosophy a {color:#9EA5EF;text-decoration: none;}
+#philosophy a:hover{border-bottom: 1px solid #9EA5EF}
+#philosophy li a {color:#9EA5EF;display:contents;text-decoration: none;}
+#philosophy li a:hover{border-bottom: 1px solid #9EA5EF;}
 #philosophy .pillars p{margin:0;padding:0;color:#9EA5EF;font-size:10px;letter-spacing:1px;text-transform:uppercase;font-weight:100}
 #philosophy #teamInvest{width:calc((((100% - 80px) / 3) * 2) + 40px);display:inline-block;line-height:24px;vertical-align:top;font-size:12px;}
 #philosophy #teamPartners{width:calc(((100% - 80px) / 3));margin-left:40px;display:inline-block;line-height:24px;vertical-align:top;font-size:12px;}
