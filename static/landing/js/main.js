@@ -209,7 +209,7 @@ $("#archive").click(function () {
 /*/////////////////////////////////////////*/
 /*/////////   PORTFOLIO FILTERS   /////////*/
 /*/////////////////////////////////////////*/
-filters_list = ["featured", "ai", "ecommerce", "opensource", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "infrastructure"]
+filters_list = ["featured", "ai", "ecommerce", "oss", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "infrastructure"]
 $("#all").click(function () {
     if ($(this).is(':checked')) {
         for (let i = 0; i < filters_list.length; i++) {
