@@ -2,6 +2,7 @@ public
 bin
 data/portfolio.json
 node_modules
+.pnpm-store
 .hugo_build.lock
 tmp
 assets/cap-table-worksheet
