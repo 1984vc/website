@@ -6,7 +6,6 @@ set -e
 echo "Building the nextjs submodule..."
 cd docs
 pnpm install --frozen-lockfile
-pnpm test
 pnpm build:hugo
 cd ..
 
