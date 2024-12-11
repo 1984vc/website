@@ -1,6 +1,6 @@
-public
+/public
 bin
-data/portfolio.json
+data/portfolio-raw.json
 node_modules
 .pnpm-store
 .hugo_build.lock
