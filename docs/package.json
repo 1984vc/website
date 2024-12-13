@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@dmno/nextjs-integration": "^0.0.12",
-    "cap-table-worksheet": "file:../startup-finance",
+    "cap-table-worksheet": "github:1984vc/startup-finance#v2.0.0-alpha2",
     "dmno": "^0.0.32",
     "next": "15.1.0",
     "nextra": "^3.2.5",

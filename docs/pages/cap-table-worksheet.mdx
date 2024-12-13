@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import Page from "../cap-table-worksheet"
+import { CapTablePage } from "cap-table-worksheet"
 
 export function ClientOnly(props) {
   const [hasMounted, setHasMounted] = useState(false)
@@ -14,5 +14,5 @@ export function ClientOnly(props) {
 }
 
 <ClientOnly>
-  <Page />
+  <CapTablePage />
 </ClientOnly>

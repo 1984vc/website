@@ -12,8 +12,8 @@ importers:
         specifier: ^0.0.12
         version: 0.0.12(dmno@0.0.32(@types/node@20.17.10))(next@15.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       cap-table-worksheet:
-        specifier: file:../startup-finance
-        version: file:../startup-finance(@types/react@19.0.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: github:1984vc/startup-finance#v2.0.0-alpha2
+        version: startup-finance@https://codeload.github.com/1984vc/startup-finance/tar.gz/fcfd8fa319508c9db69dfce86b113892609e4a1f(@types/react@19.0.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       dmno:
         specifier: ^0.0.32
         version: 0.0.32(@types/node@20.17.10)
@@ -324,6 +324,11 @@ packages:
     peerDependencies:
       react: ^18 || ^19 || ^19.0.0-rc
       react-dom: ^18 || ^19 || ^19.0.0-rc
+
+  '@heroicons/react@2.2.0':
+    resolution: {integrity: sha512-LMcepvRaS9LYHJGsF0zzmgKCUim/X3N/DQKc4jepAXJ7l8QxJ1PmxJzqplF2Z3FE4PqBAIGyJAQ/w4B5dsqbtQ==}
+    peerDependencies:
+      react: '>= 16 || ^19.0.0-rc'
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1340,12 +1345,6 @@ packages:
 
   caniuse-lite@1.0.30001687:
     resolution: {integrity: sha512-0S/FDhf4ZiqrTUiQ39dKeUjYRjkv7lOZU1Dgif2rIqrTzX/1wV2hfKu9TOm1IHkdSijfLswxTFzl/cvir+SLSQ==}
-
-  cap-table-worksheet@file:../startup-finance:
-    resolution: {directory: ../startup-finance, type: directory}
-    peerDependencies:
-      react: '18'
-      react-dom: '18'
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -3494,6 +3493,13 @@ packages:
   stable-hash@0.0.4:
     resolution: {integrity: sha512-LjdcbuBeLcdETCrPn9i8AYAZ1eCtu4ECAWtP7UleOiZ9LzVxRzzUZEoZ8zB24nhkQnDWyET0I+3sWokSDS3E7g==}
 
+  startup-finance@https://codeload.github.com/1984vc/startup-finance/tar.gz/fcfd8fa319508c9db69dfce86b113892609e4a1f:
+    resolution: {tarball: https://codeload.github.com/1984vc/startup-finance/tar.gz/fcfd8fa319508c9db69dfce86b113892609e4a1f}
+    version: 2.0.0
+    peerDependencies:
+      react: '18'
+      react-dom: '18'
+
   streamsearch@1.1.0:
     resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
     engines: {node: '>=10.0.0'}
@@ -4203,6 +4209,10 @@ snapshots:
       '@tanstack/react-virtual': 3.11.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
+
+  '@heroicons/react@2.2.0(react@18.3.1)':
+    dependencies:
+      react: 18.3.1
 
   '@humanfs/core@0.19.1': {}
 
@@ -5282,19 +5292,6 @@ snapshots:
   camelcase@7.0.1: {}
 
   caniuse-lite@1.0.30001687: {}
-
-  cap-table-worksheet@file:../startup-finance(@types/react@19.0.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
-    dependencies:
-      lz-string: 1.5.0
-      react: 18.3.1
-      react-currency-input-field: 3.9.0(react@18.3.1)
-      react-dom: 18.3.1(react@18.3.1)
-      react-tooltip: 5.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      reselect: 5.1.1
-      zustand: 4.5.5(@types/react@19.0.1)(react@18.3.1)
-    transitivePeerDependencies:
-      - '@types/react'
-      - immer
 
   ccount@2.0.1: {}
 
@@ -8281,6 +8278,22 @@ snapshots:
   sprintf-js@1.0.3: {}
 
   stable-hash@0.0.4: {}
+
+  startup-finance@https://codeload.github.com/1984vc/startup-finance/tar.gz/fcfd8fa319508c9db69dfce86b113892609e4a1f(@types/react@19.0.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      '@heroicons/react': 2.2.0(react@18.3.1)
+      lz-string: 1.5.0
+      react: 18.3.1
+      react-currency-input-field: 3.9.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
+      react-tooltip: 5.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      reselect: 5.1.1
+      tailwindcss: 3.4.16
+      zustand: 4.5.5(@types/react@19.0.1)(react@18.3.1)
+    transitivePeerDependencies:
+      - '@types/react'
+      - immer
+      - ts-node
 
   streamsearch@1.1.0: {}
 

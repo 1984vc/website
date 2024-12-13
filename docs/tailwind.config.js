@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    "./cap-table-worksheet/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/cap-table-worksheet/dist/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
