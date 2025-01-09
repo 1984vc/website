@@ -4,3 +4,6 @@
 [submodule "themes/hextra"]
 	path = themes/hextra
 	url = git@github.com:1984vc/hextra.git
+[submodule "hextra"]
+	path = hextra
+	url = git@github.com:1984vc/hextra.git
