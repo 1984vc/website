@@ -4,7 +4,7 @@ async function main() {
   const [rawPath, outputPath] = process.argv.slice(2);
   
   if (!rawPath || !outputPath) {
-    console.error('Usage: node portfolio.mjs <raw-json-path> <output-json-path>');
+    console.error('Usage: node process_portfolio.mjs <raw-json-path> <output-json-path>');
     process.exit(1);
   }
 

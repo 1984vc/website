@@ -1,10 +1,3 @@
----
-title: SAFE vs Priced Round
-notionId: 3c5a0edb-2574-4955-8cf9-68f5ded58812
-createdAt: 2024-07-24T14:56:00.000Z
-lastEditedAt: 2025-01-09T17:34:00.000Z
-weight: 4
----
 
 
 One of the first questions founders ask is whether a SAFE or a priced round is more favorable. While at 1984 we prefer SAFEs, we believe the instrument doesn't matter; what matters is working with the right investor and minimizing overall dilution for the founder. Though most investors are comfortable with SAFEs, some still prefer priced rounds because their mandate requires a board seat (which a priced round provides).

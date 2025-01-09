@@ -1,10 +1,3 @@
----
-title: Minimizing Founder Dilution 
-notionId: cf6018ad-0896-4018-a501-407f4fdee039
-createdAt: 2024-08-03T00:04:00.000Z
-lastEditedAt: 2025-01-09T17:42:00.000Z
-weight: 7
----
 
 
 The Series A round is typically the most  dilutive round for founders because the Series A investors have high ownership target and demand a large option pool to build a strong team early on. But there are strategies that founders can use to lower that dilution

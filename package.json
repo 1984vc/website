@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@1984vc/notion-tools": "^3.0.0"
+    "@1984vc/notion-tools": "^3.1.0",
+    "glob": "^11.0.0",
+    "gray-matter": "^4.0.3"
   }
 }

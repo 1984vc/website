@@ -1,0 +1,856 @@
+[
+  {
+    "Name": "Posthog",
+    "URL": "https://posthog.com",
+    "Description": "The open source Product OS",
+    "Tags": [
+      "oss"
+    ],
+    "Highlighted": true,
+    "Stage": "Series C",
+    "Story": "We met Posthog in February 2020 when Covid had begun to rage and VC investments had ground to a halt. Nevertheless, we were blown away by the founders James and Tim, who had built an open source product analytics tool that developers were clamoring for.  The team were shipping code at warp speed. 1984 co-led the round with YC. Since then, Posthog has become the de facto leader in product analytics and have dramatically expanded their offering to incorporate the functionality of Amplitude, Segment, Launch Darkly and Fivetran combined."
+  },
+  {
+    "Name": "PostScript",
+    "URL": "https://postscript.io",
+    "Description": "SMS Marketing for E-commerce",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": true,
+    "Stage": "Series C",
+    "Story": "Fun fact: we met Postscript in Y Combinator 2019 and invested the same day. We had such conviction in SMS as a marketing channel having tinkered with a similar idea years prior. The product-centricity of the founders, the strong customer love and clear momentum blew us away in a way that doesn't often happen. Since then, Postscript has 100x'd growth and most recently raised a $65M Series C."
+  },
+  {
+    "Name": "Collaborative Robotics",
+    "URL": "https://co.bot/",
+    "Description": "Modern robotics platform for industrials",
+    "Tags": [
+      "ai"
+    ],
+    "Highlighted": true,
+    "Stage": "Series B",
+    "Story": "As an investor it's critical to know when to break your own rules. For us, that was investing in Cobot despite it being a hardware company. We did so because of the CEO, Brad Porter. Brad was an incredibly pedigreed robotics expert, having previously led Amazon's warehouse robotics business and then take the helm as CTO of Scale AI. His Amazonian ethos of quickly showing business value (rather than indulging a science project) and his unmatchable expertise gave us the confidence to invest. In just 18 months since, the company has shipped working robots for early customers and has raised over $100M from Sequoia and General Catalyst"
+  },
+  {
+    "Name": "BuildOps",
+    "URL": "https://buildops.com",
+    "Description": "Driving operational efficiency for service contractors",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": true,
+    "Stage": "Series C",
+    "Story": "BuildOps provides a SaaS platform for commercial service contractors to manage their workflows, from scheduling and dispatching to invoicing. We were drawn to the combination of an unsexy industry and a sexy team: The founders had experience in running a real estate group, building products at Microsoft, and leading technology teams at ServiceTitan. Since our investment, the company has raised over $50M and established itself as a leader in this space."
+  },
+  {
+    "Name": "Fay Nutrition",
+    "URL": "https://www.faynutrition.com",
+    "Description": "Marketplace for consumers to connect with nutritionists",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": true,
+    "Stage": "Series A",
+    "Story": "Fay Nutrition is a marketplace connecting customers to nutritionists. With consumer interest in food and diet booming, Fay has seen tremendous growth and has become the market leader in an exciting new category. We first met the team through our healthcare partner, Farzad Soleimani, who had seen the rise of consumer demand for such products in his role as an MD. Since our investment in November 2022, the company has grown over 20x."
+  },
+  {
+    "Name": "HouseRX",
+    "URL": "https://houserx.com",
+    "Description": "Making specialty medication more accessible and affordable",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": true,
+    "Stage": "Series A",
+    "Story": "After Flatiron Health was acquired by Roche, CMO Ogi Kavazovic joined 1984 as a Venture Partner and we iterated on many ideas together. Ogi kept returning to a unique insight from his time at Flatiron: specialty pharmacy, which accounts for over 50% of the pharma industry's revenue, remains outdated and leads to poor adherence. This inspired an idea: to offer clinics the chance to provide their patients with the specialty pharmacy experience they deserve. Ogi teamed up with Tesh Kullar, former head of provider solutions at Flatiron Health, to build a company that is steadily becoming a category-defining player in the industry."
+  },
+  {
+    "Name": "Kyte",
+    "URL": "https://drivekyte.com",
+    "Description": "Rental cars on demand",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": true,
+    "Stage": "Series B",
+    "Story": "We were compelled to invest in Kyte after trying the product. Press a button on your phone and a rental car arrives at your doorstep. Think Uber for car rentals. Founders Ludwig, Nikolaus and Francesco have the rare combination of skills to build software and manage physical inventory: bits and atoms. Since first investing in 2019, the company has grown over 100x and operates in over 16 cities in the US."
+  },
+  {
+    "Name": "Seso",
+    "URL": "https://sesolabor.com",
+    "Description": "Labor marketplace for the agriculture industry",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": true,
+    "Stage": "Series A",
+    "Story": "Seso is a quintessential 1984 investment. The core product is a marketplace connecting farms with agricultural workers: an overlooked but surprisingly large market. The CEO Mike discovered the market opportunity after helping his cousin on her farm in California's central valley. At 1984, we helped Mike through the brainstorming phase and were the only institutional investor in his pre-seed round. Since then, the company has gone on to raise from NFX, Index Ventures and Founders Fund."
+  },
+  {
+    "Name": "Syrup",
+    "URL": "https://syrup.tech",
+    "Description": "Predictive analytics for retailers",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": true,
+    "Stage": "Series A",
+    "Story": "When we met Syrup's founders, James and Ferdinand, we were surprised to learn that the biggest fashion retailer in the US is actually Chinese company Shein. Shein takes a data-driven approaching to launching clothing lines and forecasting demand. James and Ferdi built Syrup to provide retailers with similar inventory management and demand forecasting capabilities. We led Syrup’s pre-seed in 2021 and have been blown away by the team's execution ever since."
+  },
+  {
+    "Name": "Trusted Health",
+    "URL": "https://trustedhealth.com",
+    "Description": "Marketplace for healthcare employment",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": true,
+    "Stage": "Series C",
+    "Story": "We first met Matt and Lennie when they were going through the Texas Medical Center Innovation (TMCi) Accelerator Program. They had encountered the problem of nurse staffing first hand at Hired and decided to build a dedicated platform. We were drawn to their unique insights and their nurses-first mission. Since then, the business has raised over $150M and to become the de facto leader in healthcare staffing in the US."
+  },
+  {
+    "Name": "Alaffia Health",
+    "URL": "https://alaffiahealth.com",
+    "Description": "AI for medical payment fraud detection",
+    "Tags": [
+      "healthcare",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": "Series A",
+    "Story": null
+  },
+  {
+    "Name": "Apriora",
+    "URL": "https://www.apriora.ai/",
+    "Description": "AI recruiter",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Because Market",
+    "URL": "https://becausemarket.com",
+    "Description": "Ecommerce site selling diapers to seniors",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Biocogniv",
+    "URL": "https://biocogniv.com",
+    "Description": "AI for medical diagnostics",
+    "Tags": [
+      "healthcare",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Bluebirds",
+    "URL": "https://www.bluebirds.ai/",
+    "Description": "Software for sales reps to automate account research",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Bluecargo",
+    "URL": "https://bluecargo.io",
+    "Description": "Optimizing container logistics",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Brace",
+    "URL": "https://brace.ai",
+    "Description": "Mortgage servicing for lenders",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "CareSignal (Acquired)",
+    "URL": "https://caresignal.health",
+    "Description": "Patient engagment software",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Clarium",
+    "URL": "https://clariumhealth.com",
+    "Description": "Supply chain automation for hospitals",
+    "Tags": [
+      "healthcare",
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": "Series A",
+    "Story": null
+  },
+  {
+    "Name": "Cleva",
+    "URL": "https://www.getcleva.com/",
+    "Description": "Banking platform for freelancers and remote workers",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Convex",
+    "URL": "https://convex.com",
+    "Description": "Flexport for commercial contractors",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series B",
+    "Story": null
+  },
+  {
+    "Name": "Curtsy",
+    "URL": "https://curtsyapp.com",
+    "Description": "Marketplace for Gen Z to buy and sell clothing",
+    "Tags": [
+      "marketplace"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Deepscribe",
+    "URL": "https://deepscribe.ai",
+    "Description": "AI-based scribe technology for healthcare",
+    "Tags": [
+      "healthcare",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": "Series B",
+    "Story": null
+  },
+  {
+    "Name": "Dobby",
+    "URL": "https://hellodobby.com",
+    "Description": "Property management for your home",
+    "Tags": [
+      "marketplace"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Dovly",
+    "URL": "https://dovly.com",
+    "Description": "Automated credit repair",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Duffl",
+    "URL": "https://duffl.com",
+    "Description": "Delivery for college campuses",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Elsa",
+    "URL": "https://www.elsafertility.com/",
+    "Description": "IVF in a box",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Exacare",
+    "URL": "https://exacare.com/",
+    "Description": "Software for assisted living facilities",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "EXO Freight",
+    "URL": "https://exofreight.com",
+    "Description": "Marketplace for flatbed trucking",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series A",
+    "Story": "It was love at first sight when we met Kurtis and Kris Tryber: twin brothers trucking experts who could sell and code. Kurtis and Kris found a “niche” hiding in plain sight: flatbed trucking accounted for 20% of the $800B freight market but was completely overlooked by incumbents. So they decided to build the dominant marketplace in the space. We led their pre seed in 2020 and since then the company has grown substantially and raised a Series A from Left Lane Capital."
+  },
+  {
+    "Name": "Fairmarkit",
+    "URL": "https://fairmarkit.com",
+    "Description": "Marketplace for procurement",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series C",
+    "Story": "It all started over a coffee with Tarek and Kevin. And we quickly knew we had to invest. Exceptional enterprise sales acumen + a powerful value proposition = a truly compelling company. Since our pre-seed investment, Fairmarkit has expanded to handle the tail spend of some of the world's most iconic companies (like BP, Boeing and Snowflake) as well as raised a Series A led by Insight, a Series B led by GGV and a Series C led by Omers."
+  },
+  {
+    "Name": "Firezone",
+    "URL": "https://firezone.dev",
+    "Description": "Opensource VPN based on Wireguard",
+    "Tags": [
+      "saas",
+      "oss"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Flowspace",
+    "URL": "https://flow.space",
+    "Description": "Airbnb for warehousing and fulfillment ",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series B",
+    "Story": null
+  },
+  {
+    "Name": "Freemodel",
+    "URL": "https://freemodel.com",
+    "Description": "Presale home renovation",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series A",
+    "Story": null
+  },
+  {
+    "Name": "Gleam",
+    "URL": "https://www.gleamcare.com",
+    "Description": "Fully-managed, self-funded health plans",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Glidian",
+    "URL": "https://glidian.com",
+    "Description": "Prior authorization software",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Guac",
+    "URL": "https://www.tryguac.co/",
+    "Description": "AI-powered demand forecasting for grocery",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Health Note",
+    "URL": "https://www.healthnote.com",
+    "Description": "AI-based technology for patient intake",
+    "Tags": [
+      "healthcare",
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Heroes Jobs",
+    "URL": "https://heroes.jobs",
+    "Description": "Video recruiting platform for Gen Z workers",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Homeroom",
+    "URL": "https://livehomeroom.com",
+    "Description": "Marketplace for investing in rental properties",
+    "Tags": [
+      "marketplace"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Hona",
+    "URL": "https://hona.ai/",
+    "Description": "AI for medical records",
+    "Tags": [
+      "healthcare",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "HyperDx",
+    "URL": "https://www.hyperdx.io/",
+    "Description": "Open source Datadog",
+    "Tags": [
+      "oss",
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Latchel",
+    "URL": "https://latchel.com",
+    "Description": "Property management solution for landlords",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series A",
+    "Story": null
+  },
+  {
+    "Name": "Marble",
+    "URL": "https://rentmarble.com",
+    "Description": "Virtual property management",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Massdriver",
+    "URL": "https://massdriver.cloud",
+    "Description": "Automating devops",
+    "Tags": [
+      "saas",
+      "oss"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Nickson",
+    "URL": "https://nicksonliving.com",
+    "Description": "Furniture as a service",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Oxygen",
+    "URL": "https://oxygen.us",
+    "Description": "Banking for freelancers",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Ozon",
+    "URL": "https://ozon.mobi",
+    "Description": "Motorcycle leasing and financing in Latam",
+    "Tags": [
+      "marketplace"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Padsplit",
+    "URL": "https://padsplit.com",
+    "Description": "Airbnb for affordable housing",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Pair Team",
+    "URL": "https://pairteam.com",
+    "Description": "Virtual care teams for medical practices",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Paperplane",
+    "URL": "https://www.paperplane.ai/",
+    "Description": "Software to auto update your CRM",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Poppin",
+    "URL": "https://joinpoppin.com/",
+    "Description": "Events software for colleges",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Properly",
+    "URL": "https://properly.ca",
+    "Description": "Opendoor for Canada",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series B",
+    "Story": null
+  },
+  {
+    "Name": "Reggora",
+    "URL": "https://reggora.com",
+    "Description": "Real estate appraisal software",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series B",
+    "Story": null
+  },
+  {
+    "Name": "Relevize",
+    "URL": "https://relevize.com",
+    "Description": "Turns partners into effective digital marketing channels",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Seed",
+    "Story": null
+  },
+  {
+    "Name": "Rendalo Maq",
+    "URL": "https://rendalomaq.com",
+    "Description": "Heavy equipment marketplace in Latam",
+    "Tags": [
+      "marketplace",
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Revv",
+    "URL": "https://revvhq.com/",
+    "Description": "Software for auto body shops",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": "Series A",
+    "Story": null
+  },
+  {
+    "Name": "Routable",
+    "URL": "https://routable.com",
+    "Description": "Platform for scaling b2b payments",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series B",
+    "Story": null
+  },
+  {
+    "Name": "Serif Health",
+    "URL": "https://www.serifhealth.com",
+    "Description": "Healthcare Price Intelligence Data and APIs",
+    "Tags": [
+      "healthcare",
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Shelf Engine",
+    "URL": "https://shelfengine.com",
+    "Description": "AI for predicting grocery orders",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": "Series B",
+    "Story": null
+  },
+  {
+    "Name": "Signos",
+    "URL": "https://signos.com",
+    "Description": "Weight loss via continuous glucose monitoring",
+    "Tags": [
+      "healthcare"
+    ],
+    "Highlighted": false,
+    "Stage": "Series B",
+    "Story": null
+  },
+  {
+    "Name": "Sourcify",
+    "URL": "https://sourcify.com",
+    "Description": "Connecting US merchants with Chinese factories",
+    "Tags": [
+      "saas",
+      "marketplace"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Statusphere",
+    "URL": "https://joinstatus.com",
+    "Description": "Platform for word-of-mouth marketing",
+    "Tags": [
+      "saas",
+      "marketplace"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Streetfair",
+    "URL": "https://streetfair.com/",
+    "Description": "Marketplace for home services",
+    "Tags": [
+      "marketplace",
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Stuut",
+    "URL": "https://www.stuut.co/",
+    "Description": "AR automation",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Sucasa",
+    "URL": "sucasa.com.au",
+    "Description": "Low downpayment home loans in Australia",
+    "Tags": [
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Sweetspot",
+    "URL": "https://www.sweetspot.so/",
+    "Description": "AI-powered search engine for government contracting",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Teachme.To",
+    "URL": "https://teachme.to/",
+    "Description": "Marketplace for sports lessons",
+    "Tags": [
+      "marketplace",
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Terapify",
+    "URL": "https://terapify.com",
+    "Description": "E-therapy for Latam",
+    "Tags": [
+      "healthcare",
+      "marketplace"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Terrakotta",
+    "URL": "https://www.terrakotta.ai/",
+    "Description": "Ring Central for the CRE industry",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Toolbox",
+    "URL": "https://trytoolbox.com",
+    "Description": "Staffing and payroll platform for construction workers",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Transformity",
+    "URL": "https://transformity.tech/",
+    "Description": "POS and vertical SaaS for liquor stores",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "UnicoAero",
+    "URL": "https://unico.aero",
+    "Description": "Baggage management system for airlines",
+    "Tags": [
+      "saas",
+      "consumer"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Vectorshift",
+    "URL": "https://www.vectorshift.ai/",
+    "Description": "No-code platform that lets companies build generative AI workflows",
+    "Tags": [
+      "saas",
+      "ai"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Vectrix (Acquired)",
+    "URL": "https://vectrix.com",
+    "Description": "Cloud security marketplace",
+    "Tags": [
+      "saas",
+      "marketplace"
+    ],
+    "Highlighted": false,
+    "Stage": null,
+    "Story": null
+  },
+  {
+    "Name": "Vizion",
+    "URL": "https://vizionapi.com",
+    "Description": "API for ocean freight",
+    "Tags": [
+      "saas"
+    ],
+    "Highlighted": false,
+    "Stage": "Series A",
+    "Story": null
+  }
+]

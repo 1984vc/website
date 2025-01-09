@@ -1,10 +1,3 @@
----
-title: Founders Handbook
-notionId: 15782923-1d09-800d-b121-c09f85a5d56c
-createdAt: 2024-12-09T22:26:00.000Z
-lastEditedAt: 2025-01-09T14:40:00.000Z
-weight: 1
----
 
 
 Explore our Founders Handbook for early stage founders

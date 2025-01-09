@@ -1,10 +1,3 @@
----
-title: Founder Departure
-notionId: 17682923-1d09-8007-a3d7-f4c6e257ce9b
-createdAt: 2025-01-09T17:17:00.000Z
-lastEditedAt: 2025-01-09T17:25:00.000Z
-weight: 8
----
 
 
 Founder departure is inevitable.  And the more founders a startup has, the more likely one will depart early in the life of the company.  But the effect of a founder's departure on the remaining founder's equity varies greatly based on whether the initial investment was a priced round vs a SAFE or other convertible instruments.

@@ -1,4 +1,4 @@
 ---
 ---
 
-<meta http-equiv="refresh" content="0; url=/docs/tools/cap-table-worksheet">
+<meta http-equiv="refresh" content="0; url=/docs/cap-table-worksheet">

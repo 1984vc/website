@@ -1,10 +1,3 @@
----
-title: Selling Secondaries
-notionId: 4c936519-bc35-480a-b4bc-39b1cc2df666
-createdAt: 2024-11-07T18:53:00.000Z
-lastEditedAt: 2025-01-09T17:43:00.000Z
-weight: 9
----
 
 
 As companies mature, founders can sell a portion of their personal shares to new or existing investors, a process know as selling secondaries (in contrast with primary issuance where the company sells newly issued shares). Secondaries allow founders and early employees to realize some personal financial gain without waiting for an IPO or acquisition. It has become more common in recent years as times to exits have gotten longer.

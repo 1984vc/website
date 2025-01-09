@@ -1,10 +1,3 @@
----
-title: Pre-money vs Post-money Conversion
-notionId: 23f1324e-5ecc-4d32-af0e-81e60a03cf18
-createdAt: 2024-08-11T01:56:00.000Z
-lastEditedAt: 2025-01-09T17:32:00.000Z
-weight: 3
----
 
 
 In 2018 YC replaced the original Pre-money safe (where investors and company agree on the _pre-money_ valuation) with the Post-money safe (where investors and company agree on the _post-money_ valuation the safe converts). The key difference between the two conversion methods is around calculating the ownership being sold in an investment:
