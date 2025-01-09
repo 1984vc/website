@@ -7,3 +7,4 @@ node_modules
 tmp
 assets/cap-table-worksheet
 !assets/cap-table-worksheet/.gitempty
+.pnpm-store

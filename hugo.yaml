@@ -57,11 +57,11 @@ menu:
       pageRef: "/"
       weight: 2
 
-Params:
+params:
   description: 1984 Ventures Founders Handbook and Cap Table Worksheet
 
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
       path: images/logo.svg
