@@ -1,3 +1,13 @@
+---
+title: Structured and Down Rounds
+notionId: c5fcc46c-3010-4040-9000-d483ebcdda04
+createdAt: 2024-08-02T23:30:00.000Z
+lastEditedAt: 2025-01-09T18:54:00.000Z
+weight: 10
+published: true
+Name: Structured and Down Rounds
+path: founders-handbook/structured-and-downrounds
+---
 
 
 A "structured round" is a financing round where terms are tailored to offer additional downside protection for investors, often at the expense of founders and existing shareholders. These terms can include features like additional warrants, liquidation preferences, guaranteed returns, and pay-to-play provisions. Structured rounds are typically used in later-stage investments or when a company is perceived as struggling. While nearly absent from the venture capital lexicon for almost a decade, they've returned in full force over the past two years as late-stage companies reel from the heights of 2021.

@@ -1,3 +1,13 @@
+---
+title: Introduction to SAFEs
+notionId: 13b82923-1d09-80ed-ae0a-db13d2f3f115
+createdAt: 2024-11-11T21:26:00.000Z
+lastEditedAt: 2025-01-09T18:54:00.000Z
+weight: 2
+published: true
+Name: Introduction to SAFEs
+path: founders-handbook/intro-to-safes
+---
 
 
 To best understand the SAFE it's helpful to understand how it came about. Historically, startups received initial funding through the Series A equity rounds. As the venture capital industry grew and startup costs decreased in the mid-2000s, the Seed ecosystem emerged with smaller rounds and a focus on speed. Seed investors initially used Convertible Notes, which were quicker to issue than equity.  But they had many drawbacks: Convertibles have an expiration dates requiring repayment or renegotiation, they accrue interest, and it is very hard for founders or note holders to understand their exact ownership because a note's conversion takes place on a [pre-money basis.](https://1984.vc/docs/founders-handbook/pre-money-vs-post-money-conversion/) Fundamentally, Convertibles were debt instrument with the conversion being an afterthought, while all investors cared about was the future Conversion to equity.

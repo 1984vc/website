@@ -49,7 +49,7 @@ function processMarkdown(frontMatter, content) {
     (frontMatter.published === true);
   
   // Only return content if published
-  return isPublished ? content : null;
+  return isPublished ? matter.stringify({ content, data: frontMatter }) : null;
 }
 
 main().catch(console.error);

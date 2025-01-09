@@ -1,3 +1,13 @@
+---
+title: SAFE Side Letters
+notionId: 67e9cba3-dc04-4a8c-9bb1-473fe8f7f93e
+createdAt: 2024-08-05T02:03:00.000Z
+lastEditedAt: 2025-01-09T18:54:00.000Z
+weight: 5
+published: true
+Name: SAFE Side Letters
+path: founders-handbook/safe-side-letters
+---
 
 
 Investors leading a SAFE round will often request a side letter. While this practice is common, not all terms are desirable. If a founder agrees to a non-standard term, it can have significant consequences in future funding rounds.  Below are details of the most commonly asked terms.

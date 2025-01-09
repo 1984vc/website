@@ -1,3 +1,13 @@
+---
+title: Raising your Series A
+notionId: 306e9f6f-ab6b-4ebf-9bd1-c2520d4d12d1
+createdAt: 2024-08-02T22:15:00.000Z
+lastEditedAt: 2025-01-09T18:54:00.000Z
+weight: 6
+published: true
+Name: Raising your Series A
+path: founders-handbook/raising-your-series-a
+---
 
 
 Now let's take a deeper dive into the mechanics of raising a subsequent round. By this point, seed investors have bought 20% of the company. Several employees have joined and were granted a total of say 7% leaving 3% remaining option pool.

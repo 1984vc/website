@@ -1,3 +1,13 @@
+---
+title: Cap Table 101
+notionId: 13f82923-1d09-806a-ba70-cc06d520f3b4
+createdAt: 2024-11-15T14:37:00.000Z
+lastEditedAt: 2025-01-09T18:54:00.000Z
+weight: 1
+published: true
+Name: Cap Table 101
+path: founders-handbook/cap-table-101
+---
 
 
 To most founders, cap table math can be bewildering. It's unintuitive, highly recursive, and has little parallel in traditional finance training. Fortunately, it's easy to learn. And founders who master their cap tables gain an unfair advantage in negotiations. Our goal from this guide is to equip founders with the [tools](https://1984.vc/docs/cap-table-worksheet) and knowledge to master their cap table and outperform their counterparts in any financing negotiation.
