@@ -12,8 +12,8 @@ cd ..
 
 # Build the project static root project
 echo "Building the project..."
-cp -R content/notion/. content/.
-rm -rf content/notion
+rm -rf content && mkdir content
+./scripts/content-copy.sh
 hugo
 
 echo "Done"
