@@ -2,9 +2,9 @@
 title: Pre-money vs Post-money Conversion
 notionId: 23f1324e-5ecc-4d32-af0e-81e60a03cf18
 createdAt: 2024-08-11T01:56:00.000Z
-lastEditedAt: 2025-01-09T18:54:00.000Z
+lastEditedAt: 2025-01-09T20:03:00.000Z
 weight: 3
-published: true
+draft: false
 Name: Pre-money vs Post-money Conversion
 path: founders-handbook/pre-money-vs-post-money-conversion
 ---

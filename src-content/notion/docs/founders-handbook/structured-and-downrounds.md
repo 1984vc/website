@@ -2,9 +2,9 @@
 title: Structured and Down Rounds
 notionId: c5fcc46c-3010-4040-9000-d483ebcdda04
 createdAt: 2024-08-02T23:30:00.000Z
-lastEditedAt: 2025-01-09T18:54:00.000Z
+lastEditedAt: 2025-01-09T20:03:00.000Z
 weight: 10
-published: true
+draft: false
 Name: Structured and Down Rounds
 path: founders-handbook/structured-and-downrounds
 ---

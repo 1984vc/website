@@ -2,9 +2,9 @@
 title: Introduction to SAFEs
 notionId: 13b82923-1d09-80ed-ae0a-db13d2f3f115
 createdAt: 2024-11-11T21:26:00.000Z
-lastEditedAt: 2025-01-09T18:54:00.000Z
+lastEditedAt: 2025-01-09T20:03:00.000Z
 weight: 2
-published: true
+draft: false
 Name: Introduction to SAFEs
 path: founders-handbook/intro-to-safes
 ---

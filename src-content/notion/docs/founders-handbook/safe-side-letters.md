@@ -2,9 +2,9 @@
 title: SAFE Side Letters
 notionId: 67e9cba3-dc04-4a8c-9bb1-473fe8f7f93e
 createdAt: 2024-08-05T02:03:00.000Z
-lastEditedAt: 2025-01-09T18:54:00.000Z
+lastEditedAt: 2025-01-09T20:03:00.000Z
 weight: 5
-published: true
+draft: false
 Name: SAFE Side Letters
 path: founders-handbook/safe-side-letters
 ---

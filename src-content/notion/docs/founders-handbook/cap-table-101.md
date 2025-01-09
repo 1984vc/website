@@ -2,9 +2,9 @@
 title: Cap Table 101
 notionId: 13f82923-1d09-806a-ba70-cc06d520f3b4
 createdAt: 2024-11-15T14:37:00.000Z
-lastEditedAt: 2025-01-09T18:54:00.000Z
+lastEditedAt: 2025-01-09T20:03:00.000Z
 weight: 1
-published: true
+draft: false
 Name: Cap Table 101
 path: founders-handbook/cap-table-101
 ---

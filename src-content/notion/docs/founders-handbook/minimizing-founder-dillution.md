@@ -2,9 +2,9 @@
 title: Minimizing Founder Dilution
 notionId: cf6018ad-0896-4018-a501-407f4fdee039
 createdAt: 2024-08-03T00:04:00.000Z
-lastEditedAt: 2025-01-09T18:54:00.000Z
+lastEditedAt: 2025-01-09T20:03:00.000Z
 weight: 7
-published: true
+draft: false
 Name: Minimizing Founder Dilution
 path: founders-handbook/minimizing-founder-dillution
 ---

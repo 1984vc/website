@@ -2,9 +2,9 @@
 title: SAFE vs Priced Round
 notionId: 3c5a0edb-2574-4955-8cf9-68f5ded58812
 createdAt: 2024-07-24T14:56:00.000Z
-lastEditedAt: 2025-01-09T18:54:00.000Z
+lastEditedAt: 2025-01-09T20:03:00.000Z
 weight: 4
-published: true
+draft: false
 Name: SAFE vs Priced Round
 path: founders-handbook/safe-vs-priced-round
 ---

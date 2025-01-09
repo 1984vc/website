@@ -44,12 +44,12 @@ async function main() {
  */
 function processMarkdown(frontMatter, content) {
   // Check for Published or published key in front matter
-  const isPublished = 
-    (frontMatter.Published === true) || 
-    (frontMatter.published === true);
+  const isDraft = 
+    (frontMatter.draft === true) || 
+    (frontMatter.Draft === true);
   
   // Only return content if published
-  return isPublished ? matter.stringify({ content, data: frontMatter }) : null;
+  return isDraft ? null : matter.stringify({ content, data: frontMatter });
 }
 
 main().catch(console.error);

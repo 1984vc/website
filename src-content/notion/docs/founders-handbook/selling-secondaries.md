@@ -2,9 +2,9 @@
 title: Selling Secondaries
 notionId: 4c936519-bc35-480a-b4bc-39b1cc2df666
 createdAt: 2024-11-07T18:53:00.000Z
-lastEditedAt: 2025-01-09T18:54:00.000Z
+lastEditedAt: 2025-01-09T20:03:00.000Z
 weight: 9
-published: true
+draft: false
 Name: Selling Secondaries
 path: founders-handbook/selling-secondaries
 ---
