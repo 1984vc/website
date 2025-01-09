@@ -45,11 +45,15 @@ async function main() {
 function processMarkdown(frontMatter, content) {
   // Check for Published or published key in front matter
   const isDraft = 
-    (frontMatter.draft === true) || 
-    (frontMatter.Draft === true);
+    (frontMatter.Draft === true) || 
+    (frontMatter.draft === true);
+  
+  // Create copy of front matter and remove path
+  const filteredFrontMatter = { ...frontMatter };
+  delete filteredFrontMatter.path;
   
   // Only return content if published
-  return isDraft ? null : matter.stringify({ content, data: frontMatter });
+  return isDraft ? null : matter.stringify({ content, data: filteredFrontMatter });
 }
 
 main().catch(console.error);
