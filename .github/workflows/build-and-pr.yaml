@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Run build script
-        run: bash scripts/build.sh
+      - name: Run import script
+        run: bash scripts/import.sh
 
       - name: Commit changes
         id: commit
