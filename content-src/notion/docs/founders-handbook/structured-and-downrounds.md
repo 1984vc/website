@@ -21,8 +21,8 @@ A company that has raised at a valuation higher than what it can merit today is 
 2. Take a clean round at a lower valuation (Downround)
 3. Do all you can to turn profitable
 
-{{< callout emoji="📢">}}
-While a downround can be a hard pill to swallow as a CEO, we consistently find that downrounds are better for existing shareholders than structured rounds for two reasons: they reset the valuation to a market level and avoid burdening the company with onerous terms. This point was first made by Bill Gurley back in 2016 in his articleOn the Road to[ Recap](https://abovethecrowd.com/2016/04/21/on-the-road-to-recap/).
+{{< callout type="info" emoji="💡" >}}
+While a downround can be a hard pill to swallow as a CEO, we consistently find that downrounds are better for existing shareholders than structured rounds for two reasons: they reset the valuation to a market level and avoid burdening the company with onerous terms. This point was first made by Bill Gurley back in 2016 in his articleOn the Road to Recap.
 {{< /callout >}}
 
 
@@ -56,7 +56,7 @@ A downround is a standard priced round where the PPS is less than the PPS in the
 | Narrow-Based Weighted Average | Similar to a Broad-Based Weighted Average but only considers the preferred shares when calculating the new conversion price, which generally offers less protection to investors than the broad-based method.                                                                            |                                                                                                                                                                                                                                               |
 
 
-{{< callout emoji="📢">}}
+{{< callout type="info" emoji="💡" >}}
 Although the Anti-dilution rights existing investors are baked into the Certificate of Incorporation, they are often re-negotiated as part of the downround. For example,  if the downround is being led by the same lead of the previous round, the lead might ask to change the anti-dilution provision of their existing shares to Full Ratchet so their entire investment counts at the new valuation. So make sure to understand the difference between all three.
 {{< /callout >}}
 

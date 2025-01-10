@@ -71,7 +71,7 @@ Let's start with the option pool. In order to create another 10% option pool, wh
 But in order to maintain the Series A investor's target ownership of 20%, the number of Series A shares now have to go up from 714,286 shares to 791,837 (the dollar invested will be the same but the price per share will go down to $10.10), and the resulting cap table will end up with 1,146,123 new shares or a total dilution of _**1,146,123**_/_**3,959,183 ~ 29%**_
 
 
-{{< callout emoji="📢">}}
+{{< callout type="info" emoji="📢" >}}
 For those interested in dilution math, Shouldn't the final dilution just be 20% for the new investor + 7% option pool expansion = 27%? the reason the number is 29% and not 27% is that these new shares must dilute the existing shareholder, and not dilute the Series A investor or the available option pool so they maintain their 20% and 10% respectively.  In other words, existing shareholders are taking on more of the dilution.
 {{< /callout >}}
 

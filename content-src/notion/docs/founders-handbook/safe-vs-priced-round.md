@@ -48,7 +48,7 @@ While a priced round's pre-money conversion is more favorable to founders than a
 - Potential founder departures before the next priced round
 - The possibility of an M&A event
 
-{{< callout emoji="📢">}}
+{{< callout type="info" emoji="💡" >}}
 Your legal counsel will typically recommend raising capital via a priced round rather than a SAFE. This is partly because priced rounds require more legal work, but the most commonly cited reason is that priced rounds are better for dilution. However, a closer examination reveals this isn't always the case.
 {{< /callout >}}
 
@@ -106,7 +106,7 @@ Now Imagine the same scenario takes place but using the SAFE instrument. The fir
 [Link to Cap Table](/docs/cap-table-worksheet/#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgqoMIeYuVrNWkNTC0qLBKgCs.AL5FQppSpTrL.Ehs7B2c3DxMFbwt_QLFgxxQAZkSAOmT0jMzXAF0SOAAbfOgYKnyqBB4EMEEqdyxcXlV2cmo6RmY2Ek5uPAFhUQkAIVlI819_AJAdPTkDAAVaBIAWADYUlY2NgE4Adj39rYAOEmxMfMEK7AWExKcUy1uHpzzC4tLyyura8Jw8HebKDwTHAAGY0LpcIEAZVBVHEAEkWAA3ZQICASJokTDI1HcEIoABMExItDghnGxJApxk9GECUm0zA.nJxiC9gSRJIXjGYVAbPxqjWmw2qlFovwOyWqi5ox8W3lCpyLyKsHeFVQVRqJ0wMjgACMytg.JhStgfGhciB6DimZhWAAVQF4CgQGSOOogX68Q4A1q8GRiE0qCE9XhQqhUbAInFu9HiTGemMIPEJaVTKC6JmzFmeWWoSb8.lKkAFFUlMrqlAggoBj1ekBbX1A3Vg9jdaGw6Mo2MY9jY7vJ9moIkxK1k6Kj6m0_EMjMzAxGPlxIeEybcny86zLgVC4Vi8WStPr1AKxWW0tvCufLVUnX6w3G03my3WlG2h1O3gut0gYsUJQALKsFQZATqOSBgAA5uUADyFAIHaLAyHMEAQPk.YkMIggBtgcEIawG4kAoMgAHJUFAABKQgiBqXyuEAA)
 
 
-{{< callout emoji="📢">}}
+{{< callout type="info" emoji="💡" >}}
 Note: When YC first introduced the SAFE agreement in 2013, it followed a pre-money capitalization. This essentially mimicked a priced round where the pre-money valuation or share price was agreed upon, and additional investments diluted all shareholders equally. In 2018, YC introduced the post-money SAFE, where the investor's ownership is determined regardless of other investments. Since then, most financing has shifted to using the post-money SAFE where investment dilute existing shareholders but not other investors.
 {{< /callout >}}
 

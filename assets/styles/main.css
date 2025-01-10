@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+  font-size: 0.875rem;
+}
+
+.hextra-scrollbar {
+  padding-top: 0;
+}
+.hextra-scrollbar a, .hextra-scrollbar p {
+  font-weight: 400;
+}
+
+.content a {
+  @apply text-nt84orange !important;
+  @apply bg-transparent !important;
+}
+
+.sidebar-container {
+  font-weight: 400 !important;
+}
+
+a.sidebar-active-item {
+  @apply text-nt84orange;
+  @apply bg-transparent;
+}
+
+html[class~="dark"] a.sidebar-active-item {
+  @apply text-nt84orange !important;
+  @apply bg-transparent !important;
+}

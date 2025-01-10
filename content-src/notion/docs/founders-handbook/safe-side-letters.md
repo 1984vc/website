@@ -20,8 +20,8 @@ Pro rata rights are a fairly common ask for investors writing $500K+ at the seed
 - Make sure the rights are limited to only the next financing round as opposed to all subsequent financings (perpetual pro-rata). In a SAFE, the term "Equity Financing" is defined as the next equity financing. If using alongside other instruments, make sure this point is explicit.
 - Try to use the standard formula (investors will buy shares in this round equal equal to the ratio from converting all shares of the investor's safe divided by the company capitalization) as opposed to a hard ownership target (i.e. investor will have the right to buy enough shares to maintain X%")
 
-{{< callout emoji="✔️">}}
-"The Investor shall have the right to purchase its pro rata share of Standard Preferred Stock being sold in the Equity Financing (the "**Pro Rata Right**").  Pro rata share for purposes of this Pro Rata Right is the ratio of (x) the number of shares of Capital Stock issued from the conversion of all of the Investor's Safes with a "Post-Money Valuation Cap" to (y) the Company Capitalization."
+{{< callout type="info" emoji="✔️" >}}
+"The Investor shall have the right to purchase its pro rata share of Standard Preferred Stock being sold in the Equity Financing (the "Pro Rata Right").  Pro rata share for purposes of this Pro Rata Right is the ratio of (x) the number of shares of Capital Stock issued from the conversion of all of the Investor's Safes with a "Post-Money Valuation Cap" to (y) the Company Capitalization."
 {{< /callout >}}
 
 
@@ -32,19 +32,19 @@ Another common ask is an MFN which ensures that, if the company offers more favo
 
 - The simplest MFN simply explains the right:
 
-{{< callout emoji="✔️">}}
-**MFN Rights:** In the event that the Company issues any additional Simple Agreement for Future Equity, or convertible notes, at any time when the Investor holds the SAFE, which have terms that are more favorable to the holders thereof than the terms of the SAFE, such as a larger conversion discount, lower cap, or triggers for forced conversion, the Company shall promptly provide substantially equivalent rights to the Investor without further consideration.
+{{< callout type="info" emoji="✔️" >}}
+MFN Rights: In the event that the Company issues any additional Simple Agreement for Future Equity, or convertible notes, at any time when the Investor holds the SAFE, which have terms that are more favorable to the holders thereof than the terms of the SAFE, such as a larger conversion discount, lower cap, or triggers for forced conversion, the Company shall promptly provide substantially equivalent rights to the Investor without further consideration.
 {{< /callout >}}
 
 - It's also advantageous to the company to explicitly layout a mechanism for communicating the clause to the investor and putting the onerous on the investor to determine whether or not the terms are more favorable. YC's standard MFN clause reads:
 
-{{< callout emoji="✔️">}}
-**"MFN" Amendment Provision:** If the Company issues any Subsequent Convertible Securities with terms more favorable than those of this Safe (including, without limitation, a valuation cap and/or discount) prior to termination of this Safe, the Company will promptly provide the Investor with written notice thereof, together with a copy of such Subsequent Convertible Securities (the "**MFN Notice**") and, upon written request of the Investor, any additional information related to such Subsequent Convertible Securities as may be reasonably requested by the Investor.  In the event the Investor determines that the terms of the Subsequent Convertible Securities are preferable to the terms of this instrument, the Investor will notify the Company in writing within 10 days of the receipt of the MFN Notice. Promptly after receipt of such written notice from the Investor, the Company agrees to amend and restate this instrument to be identical to the instrument(s) evidencing the Subsequent Convertible Securities.
+{{< callout type="info" emoji="✔️" >}}
+"MFN" Amendment Provision: If the Company issues any Subsequent Convertible Securities with terms more favorable than those of this Safe (including, without limitation, a valuation cap and/or discount) prior to termination of this Safe, the Company will promptly provide the Investor with written notice thereof, together with a copy of such Subsequent Convertible Securities (the "MFN Notice") and, upon written request of the Investor, any additional information related to such Subsequent Convertible Securities as may be reasonably requested by the Investor.  In the event the Investor determines that the terms of the Subsequent Convertible Securities are preferable to the terms of this instrument, the Investor will notify the Company in writing within 10 days of the receipt of the MFN Notice. Promptly after receipt of such written notice from the Investor, the Company agrees to amend and restate this instrument to be identical to the instrument(s) evidencing the Subsequent Convertible Securities.
 {{< /callout >}}
 
 - Last, if the SAFE is being executed very early in the life of the company and the company might consider applying to an accelerator like YC itself, it is recommended to have an exception for accelerators—so you're not forced to reprice the SAFE at the cap of YC's investment. This typically reads
 
-{{< callout emoji="✔️">}}
+{{< callout type="info" emoji="✔️" >}}
 … For purposes of this paragraph, "Subsequent Convertible Securities" excludes any Safes issued to Y Combinator or its affiliates, including but not limited to Y Combinator ES20, LLC and YC ESP22, L.
 {{< /callout >}}
 
@@ -55,11 +55,11 @@ Note: even if your investors don't have an MFN and your raise a subsequent round
 ## Major Investor Rights
 
 
-Seed investors often ask for the right to be named a "Major Investor" in the next financing round. "Major Investor Rights" will show up in the priced round / Series A documents granting the largest investors a set of additional rights including Pro rata rights, Information rights, and rights of first refusal on certain transactions.  The downside from promising seed investors Major Investor Status is that more of your investors will have pro-rata rights in the Series B (the round following the next financing round).  But that is often [open to renegotiating](/docs/founders-handbook/minimizing-founder-dilution/#5-re-negotiate-pro-rata-rights-for-early-investors).  Typically the largest 1-2 investors in the round are granted this right.
+Seed investors often ask for the right to be named a "Major Investor" in the next financing round. "Major Investor Rights" will show up in the priced round / Series A documents granting the largest investors a set of additional rights including Pro rata rights, Information rights, and rights of first refusal on certain transactions.  The downside from promising seed investors Major Investor Status is that more of your investors will have pro-rata rights in the Series B (the round following the next financing round).  But that is often [open to renegotiating](/docs/founders-handbook/minimizing-founder-dillution/#5-re-negotiate-pro-rata-rights-for-early-investors).  Typically the largest 1-2 investors in the round are granted this right.
 
 
-{{< callout emoji="✔️">}}
-**Major Investor Status** The Company agrees that, upon the issuance of Safe Preferred Stock by the Company to the Investor in the Equity Financing pursuant to the Safe, the Investor shall be entitled to receive the same information rights and pro rata rights (for securities issuances occurring after the Equity Financing) that are provided to "Major Investors" (or such similar term) in such Equity Financing; provided that the Investor shall be subject to all of the same terms, conditions and restrictions as applicable to other Major Investors.
+{{< callout type="info" emoji="✔️" >}}
+Major Investor Status The Company agrees that, upon the issuance of Safe Preferred Stock by the Company to the Investor in the Equity Financing pursuant to the Safe, the Investor shall be entitled to receive the same information rights and pro rata rights (for securities issuances occurring after the Equity Financing) that are provided to "Major Investors" (or such similar term) in such Equity Financing; provided that the Investor shall be subject to all of the same terms, conditions and restrictions as applicable to other Major Investors.
 {{< /callout >}}
 
 
@@ -78,8 +78,8 @@ Investors might ask a company to ensure it remains qualified as a "qualified sma
 To maintain QSBS status, companies typically need to meet certain criteria, such as being a C-corporation, having gross assets under $50 million at the time of stock issuance, and engaging in qualified trades or businesses. That said, certain types of share buy backs can disqualify a company from QSBS stock.  Founders subject to personal US taxations should make sure to become familiarize with QSBS  This clause typically reads something like:
 
 
-{{< callout emoji="✔️">}}
-**QSBS Matters:** The Company will use commercially reasonable efforts to cause the shares issued upon conversion of the Safes, as well as any shares into which such Safes are converted, within the meaning of Section 1202(f) of the Internal Revenue Code (the "_**Code**_"), to constitute "qualified small business stock." The Company will submit to its stockholders (including the Investor) and to the Internal Revenue Service any reports that may be required under Section 1202(d)(1)(C) of the Code and the regulations promulgated thereunder.
+{{< callout type="info" emoji="✔️" >}}
+QSBS Matters: The Company will use commercially reasonable efforts to cause the shares issued upon conversion of the Safes, as well as any shares into which such Safes are converted, within the meaning of Section 1202(f) of the Internal Revenue Code (the "Code"), to constitute "qualified small business stock." The Company will submit to its stockholders (including the Investor) and to the Internal Revenue Service any reports that may be required under Section 1202(d)(1)(C) of the Code and the regulations promulgated thereunder.
 {{< /callout >}}
 
 
@@ -101,8 +101,8 @@ What matters most here: Try to not sign up for something you don't want to do—
 - Liquidation Preferences Beyond 1x: Anything more than 1x can be very unfavorable to founders, as it prioritizes investor returns over the company's success ([More in Stuctured and Downrounds](https://1984.vc/docs/founders-handbook/structured-and-downrounds/))
 - Guaranteed Returns: Promising a specific return on investment can create undue pressure and misalign investor-founder interests.
 
-{{< callout emoji="📢">}}
-Important Note: While SAFE side letters are standard practice, founders should be very wary of  accepting a modified SAFE that deviates from the standard form (despite what your lawyers might suggest). Non-standard SAFEs open the door for back-and-forth legal wrangling that strips away the _Simple_ from SAFE—and modifying some clauses, particularly changes to Company Capitalization, can be very detrimental to founders. Moreover, future investors who ask to see the SAFE will ask to use the same modified version.
+{{< callout type="info" emoji="✔️" >}}
+Important Note: While SAFE side letters are standard practice, founders should be very wary of  accepting a modified SAFE that deviates from the standard form (despite what your lawyers might suggest). Non-standard SAFEs open the door for back-and-forth legal wrangling that strips away the Simple from SAFE—and modifying some clauses, particularly changes to Company Capitalization, can be very detrimental to founders. Moreover, future investors who ask to see the SAFE will ask to use the same modified version.
 {{< /callout >}}
 
 
