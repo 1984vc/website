@@ -82,7 +82,7 @@ Now imagine that a year has passed by, the company has limped along and needs ad
 |                 | 2,500,000                             | 100%                            |            | 3,000,000                           | 100%                           |
 
 
-[Link to Cap Table](https://1984.vc/docs/cap-table-worksheet#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgoAFWglQAOAOwA6AKyb1ATgDMFu6pclsmADaCEVbGNTFAA2GysQgCY7MKiYmxCnEjhvb2gYKm8qf1QEMEEqAF8iLFxeVXZyajpGZjYSTm48AWFRCQAhWQUlFRR1TQ1tKF0wfSMTVAAWEIiQuZCHCyXlhzNPHz8AoNQncIHd_Ztk1PTM7J48guLSvDNKyh4QGTFMZXZGx4BlKgDxAEkWAA3ZQICASCokTBAkHcFjBSIDQZPbpvFA2JwYpyqIYjMbbPoOKwOYnOSKTElOaLHNKwM45FCXIolEA4PCTe7VXjPMCvFQNLhfH7Yf7QmSgiSRdhQ4Fi2HwxH4EjyRSomyTfDohw4vRyAz41QzeaJGxmTH4KkgFI0jJZemMwoAXRIFCUAFlWFQyOYFSQkGAAObZADyFAQmFYMkMEAg3lQipAwkEz2wIbDEbjJAUMgAclQoAAlIQiXL5IpAA)
+[Link to Cap Table](/docs/cap-table-worksheet#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgoAFWglQAOAOwA6AKyb1ATgDMFu6pclsmADaCEVbGNTFAA2GysQgCY7MKiYmxCnEjhvb2gYKm8qf1QEMEEqAF8iLFxeVXZyajpGZjYSTm48AWFRCQAhWQUlFRR1TQ1tKF0wfSMTVAAWEIiQuZCHCyXlhzNPHz8AoNQncIHd_Ztk1PTM7J48guLSvDNKyh4QGTFMZXZGx4BlKgDxAEkWAA3ZQICASCokTBAkHcFjBSIDQZPbpvFA2JwYpyqIYjMbbPoOKwOYnOSKTElOaLHNKwM45FCXIolEA4PCTe7VXjPMCvFQNLhfH7Yf7QmSgiSRdhQ4Fi2HwxH4EjyRSomyTfDohw4vRyAz41QzeaJGxmTH4KkgFI0jJZemMwoAXRIFCUAFlWFQyOYFSQkGAAObZADyFAQmFYMkMEAg3lQipAwkEz2wIbDEbjJAUMgAclQoAAlIQiXL5IpAA)
 
 
 The new investor has now bought 500,000 shares, or 16.67%, and diluted all the existing shareholders equally by 16.67%.  The new valuation of the company is now 3M shares * $4 per share or $12M post money
@@ -103,7 +103,7 @@ Now Imagine the same scenario takes place but using the SAFE instrument. The fir
 |                 | 2,500,000                             | 100%                            |            | 3,333,332                           | 100%                           |
 
 
-[Link to Cap Table](https://1984.vc/docs/cap-table-worksheet/#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgqoMIeYuVrNWkNTC0qLBKgCs.AL5FQppSpTrL.Ehs7B2c3DxMFbwt_QLFgxxQAZkSAOmT0jMzXAF0SOAAbfOgYKnyqBB4EMEEqdyxcXlV2cmo6RmY2Ek5uPAFhUQkAIVlI819_AJAdPTkDAAVaBIAWADYUlY2NgE4Adj39rYAOEmxMfMEK7AWExKcUy1uHpzzC4tLyyura8Jw8HebKDwTHAAGY0LpcIEAZVBVHEAEkWAA3ZQICASJokTDI1HcEIoABMExItDghnGxJApxk9GECUm0zA.nJxiC9gSRJIXjGYVAbPxqjWmw2qlFovwOyWqi5ox8W3lCpyLyKsHeFVQVRqJ0wMjgACMytg.JhStgfGhciB6DimZhWAAVQF4CgQGSOOogX68Q4A1q8GRiE0qCE9XhQqhUbAInFu9HiTGemMIPEJaVTKC6JmzFmeWWoSb8.lKkAFFUlMrqlAggoBj1ekBbX1A3Vg9jdaGw6Mo2MY9jY7vJ9moIkxK1k6Kj6m0_EMjMzAxGPlxIeEybcny86zLgVC4Vi8WStPr1AKxWW0tvCufLVUnX6w3G03my3WlG2h1O3gut0gYsUJQALKsFQZATqOSBgAA5uUADyFAIHaLAyHMEAQPk.YkMIggBtgcEIawG4kAoMgAHJUFAABKQgiBqXyuEAA)
+[Link to Cap Table](/docs/cap-table-worksheet/#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmAAEAQXYBnABZwwVGagCM.DZpLQWY.ZgqoMIeYuVrNWkNTC0qLBKgCs.AL5FQppSpTrL.Ehs7B2c3DxMFbwt_QLFgxxQAZkSAOmT0jMzXAF0SOAAbfOgYKnyqBB4EMEEqdyxcXlV2cmo6RmY2Ek5uPAFhUQkAIVlI819_AJAdPTkDAAVaBIAWADYUlY2NgE4Adj39rYAOEmxMfMEK7AWExKcUy1uHpzzC4tLyyura8Jw8HebKDwTHAAGY0LpcIEAZVBVHEAEkWAA3ZQICASJokTDI1HcEIoABMExItDghnGxJApxk9GECUm0zA.nJxiC9gSRJIXjGYVAbPxqjWmw2qlFovwOyWqi5ox8W3lCpyLyKsHeFVQVRqJ0wMjgACMytg.JhStgfGhciB6DimZhWAAVQF4CgQGSOOogX68Q4A1q8GRiE0qCE9XhQqhUbAInFu9HiTGemMIPEJaVTKC6JmzFmeWWoSb8.lKkAFFUlMrqlAggoBj1ekBbX1A3Vg9jdaGw6Mo2MY9jY7vJ9moIkxK1k6Kj6m0_EMjMzAxGPlxIeEybcny86zLgVC4Vi8WStPr1AKxWW0tvCufLVUnX6w3G03my3WlG2h1O3gut0gYsUJQALKsFQZATqOSBgAA5uUADyFAIHaLAyHMEAQPk.YkMIggBtgcEIawG4kAoMgAHJUFAABKQgiBqXyuEAA)
 
 
 {{< callout emoji="📢">}}
@@ -120,7 +120,7 @@ Most priced rounds will include an option pool requirement—while SAFE agreemen
 ## Better for Founder departure
 
 
-If a founder departs before the seed and next round, having raised on a SAFE is much more favorable to the remaining founders from an equity standpoint. (Basically their shares will go back to you / existing shareholders but not to the safe holders) This is described in detail in the [Founder Departure](https://1984.vc/docs/founders-handbook/founder-departure/) section
+If a founder departs before the seed and next round, having raised on a SAFE is much more favorable to the remaining founders from an equity standpoint. (Basically their shares will go back to you / existing shareholders but not to the safe holders) This is described in detail in the [Founder Departure](/docs/founders-handbook/founder-departure/) section
 
 
 ## Conclusion
@@ -129,5 +129,5 @@ If a founder departs before the seed and next round, having raised on a SAFE is 
 Safes and Priced Rounds are really 6 one way half dozen the other. Today most early stage investors are comfortable with a SAFE, while multi-stage funds sometimes prefer the control and share representation that a priced round provides.  Either is fine. What's more important for a founder is having the right investors around the table, and not selling too much of the company upfront.
 
 
-[Suggested Reading: SAFE Side Letters](https://1984.vc/docs/founders-handbook/safe-side-letters/)
+[Suggested Reading: SAFE Side Letters](/docs/founders-handbook/safe-side-letters/)
 

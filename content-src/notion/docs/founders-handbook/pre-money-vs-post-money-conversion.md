@@ -75,5 +75,5 @@ Let's take the same example but where investors agree on the post-money valuatio
 Post-money conversion offers investors and founders clarity on their respective ownership before priced round occurs, while pre-money conversion provides more favorable dilution to founders across multiple rounds. That said, that ship has largely sailed. In recent years, pre-money SAFEs and convertible rounds have virtually disappeared, with post-money SAFEs now dominating over 95% of Silicon Valley financing.
 
 
-[Suggested Reading: Safe vs Priced Rounds](https://1984.vc/docs/founders-handbook/safe-vs-priced-round/)
+[Suggested Reading: Safe vs Priced Rounds](/docs/founders-handbook/safe-vs-priced-round/)
 

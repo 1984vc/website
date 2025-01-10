@@ -55,7 +55,7 @@ Note: even if your investors don't have an MFN and your raise a subsequent round
 ## Major Investor Rights
 
 
-Seed investors often ask for the right to be named a "Major Investor" in the next financing round. "Major Investor Rights" will show up in the priced round / Series A documents granting the largest investors a set of additional rights including Pro rata rights, Information rights, and rights of first refusal on certain transactions.  The downside from promising seed investors Major Investor Status is that more of your investors will have pro-rata rights in the Series B (the round following the next financing round).  But that is often [open to renegotiating](https://1984.vc/docs/founders-handbook/minimizing-founder-dilution/#5-re-negotiate-pro-rata-rights-for-early-investors).  Typically the largest 1-2 investors in the round are granted this right.
+Seed investors often ask for the right to be named a "Major Investor" in the next financing round. "Major Investor Rights" will show up in the priced round / Series A documents granting the largest investors a set of additional rights including Pro rata rights, Information rights, and rights of first refusal on certain transactions.  The downside from promising seed investors Major Investor Status is that more of your investors will have pro-rata rights in the Series B (the round following the next financing round).  But that is often [open to renegotiating](/docs/founders-handbook/minimizing-founder-dilution/#5-re-negotiate-pro-rata-rights-for-early-investors).  Typically the largest 1-2 investors in the round are granted this right.
 
 
 {{< callout emoji="✔️">}}
@@ -112,5 +112,5 @@ Important Note: While SAFE side letters are standard practice, founders should b
 Side letters can be a useful tool in securing investment, but it's crucial to understand which terms are beneficial and which are not. Ask around what's standard—and push back on your investors if the ask is a non-standard one. They probably know!
 
 
-[Suggested Reading: Raising Your Series A](https://1984.vc/docs/founders-handbook/raising-your-series-a/)
+[Suggested Reading: Raising Your Series A](/docs/founders-handbook/raising-your-series-a/)
 

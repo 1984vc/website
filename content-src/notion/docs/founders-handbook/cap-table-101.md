@@ -9,7 +9,7 @@ Name: Cap Table 101
 ---
 
 
-To most founders, cap table math can be bewildering. It's unintuitive, highly recursive, and has little parallel in traditional finance training. Fortunately, it's easy to learn. And founders who master their cap tables gain an unfair advantage in negotiations. Our goal from this guide is to equip founders with the [tools](https://1984.vc/docs/cap-table-worksheet) and knowledge to master their cap table and outperform their counterparts in any financing negotiation.
+To most founders, cap table math can be bewildering. It's unintuitive, highly recursive, and has little parallel in traditional finance training. Fortunately, it's easy to learn. And founders who master their cap tables gain an unfair advantage in negotiations. Our goal from this guide is to equip founders with the [tools](/docs/cap-table-worksheet) and knowledge to master their cap table and outperform their counterparts in any financing negotiation.
 
 
 The cap table has exactly 100 points—no more, no less. When new shares are granted to employees or investors, the resulting ownership must come from elsewhere in the cap table. That's why while first time founders focus on _valuation_, more experienced founders care about _ownership._ To bring this point home, most of the examples in this guide use percentage points to help founders understand the tradeoffs.
@@ -46,7 +46,7 @@ This investment will result in the following a cap table.
 |               | 2,000,000                   | 100%                   |            | 2,500,000                           | 100%                           |
 
 
-[_Link to Cap Table_](https://1984.vc/docs/cap-table-worksheet/#AAN4IgDgTgpgsg9gOygTxALgBwAYe4DQgAuAhhAOZSEDyYhAlogM4AKccANulgQK4I.MoAExr0mXAhDgB3ACLES6ANqg6Q9CACcIAoWRgoGgMZwAtqcQ6QCYqcNoQAMTh8hUCAAIAglcYALUihGdABGXHwQGSQIfzowZVB_QOC0MPDucHcjKARCdAAmAGYAOnyAVjKMEMLNMsKAFgwMQoB2AncpCHQAM2J2QQBfPESA6BS08IIDCGzcgpDigDZ8ls0QkMWsevWsfPqy9ohOnr7B4ZAksdD0jOnZvNSMYo2W.vqV1Yx87_zD47Rev0oAMALoEPrsGSyKDsSj2QgQHjA85qDRhKx6AzGMwWBBWGx2DTOVzuDwAIV8oyC13SBCi7li8TQKguVPGNymWRyDzKGQ6cC6ANOyJGyRpk0yM256Hqi2KvJwITqb00mhaNXqfwFJyBQ1FV1SHMl93QNWKWDKqrVLRCTU0i2qBxA_MFgMGYJAEKhMLh6ARSL1IFRDgAkoxGEiRLQGAhgrp9PYQCZzJYCATE2GI8IPKIY3HWWK0Bl6TE_HEEgWDbcuXMi1rXcLA5dqXXjdLWy6dWd9S3q1La3yjtqhbqPV65D7CPDESKg.oHBsMQmNIIIHRqWnbImAMpQbMhhAANyChG1BDoR5Pdlr.SNJcZFebKQVETu7dvoPB7EhE9hU67wIepAdDZEIABKLgIEI4wDEAA)
+[_Link to Cap Table_](/docs/cap-table-worksheet/#AAN4IgDgTgpgsg9gOygTxALgBwAYe4DQgAuAhhAOZSEDyYhAlogM4AKccANulgQK4I.MoAExr0mXAhDgB3ACLES6ANqg6Q9CACcIAoWRgoGgMZwAtqcQ6QCYqcNoQAMTh8hUCAAIAglcYALUihGdABGXHwQGSQIfzowZVB_QOC0MPDucHcjKARCdAAmAGYAOnyAVjKMEMLNMsKAFgwMQoB2AncpCHQAM2J2QQBfPESA6BS08IIDCGzcgpDigDZ8ls0QkMWsevWsfPqy9ohOnr7B4ZAksdD0jOnZvNSMYo2W.vqV1Yx87_zD47Rev0oAMALoEPrsGSyKDsSj2QgQHjA85qDRhKx6AzGMwWBBWGx2DTOVzuDwAIV8oyC13SBCi7li8TQKguVPGNymWRyDzKGQ6cC6ANOyJGyRpk0yM256Hqi2KvJwITqb00mhaNXqfwFJyBQ1FV1SHMl93QNWKWDKqrVLRCTU0i2qBxA_MFgMGYJAEKhMLh6ARSL1IFRDgAkoxGEiRLQGAhgrp9PYQCZzJYCATE2GI8IPKIY3HWWK0Bl6TE_HEEgWDbcuXMi1rXcLA5dqXXjdLWy6dWd9S3q1La3yjtqhbqPV65D7CPDESKg.oHBsMQmNIIIHRqWnbImAMpQbMhhAANyChG1BDoR5Pdlr.SNJcZFebKQVETu7dvoPB7EhE9hU67wIepAdDZEIABKLgIEI4wDEAA)
 
 
 Now the post-money valuation is simply the pre-money plus the investment amount = $2M + $8M = $10M.  A more accurate post-money definition is the final number of shares, called fully diluted shares or FDS, multiplied by the PPS, which in this case comes out 2.5M shares * $4 = $10M.
@@ -60,7 +60,7 @@ In cap table lexicon, Dilution is the percentage reduction in ownership from a r
 {{< /callout >}}
 
 
-Now depending on whether the round was a SAFE or a priced round the shares will be issued immediately or promised in the future, but the effect is largely the same [with a few differences](https://1984.vc/docs/founders-handbook/safe-vs-priced-round/) that we will discuss in the next chapter.
+Now depending on whether the round was a SAFE or a priced round the shares will be issued immediately or promised in the future, but the effect is largely the same [with a few differences](/docs/founders-handbook/safe-vs-priced-round/) that we will discuss in the next chapter.
 
 
 ## Option Pool
@@ -91,7 +91,7 @@ Now the investors' ownership has been diluted from 20% to 19%. However, investor
 |               |                             | 100%                   |            | 2,857,142                                | 100%                                |
 
 
-[_Link to Cap Table_](https://1984.vc/docs/cap-table-worksheet/#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmADOAAgCC7cQAs4YKuNQBGfJq0loLMQswVUGEAqUr1W7SGphaVFgnUBWAHQBmABwAWAGxrnLz8Ar2cAXyJQM2VVFA0rfBJbe0d1NVcAJmdvb3cAdk9fAE5PDIzvTzyIqMUYywSksRSnFE9XPLy1QucinrKArLCAXRI4ABsx6BgqMaoEHgQwQSpqkBw8NXZyajpGZjYSTm48AWFRMEkAITlaiziExJBdfXlDYxrzWPirRrsHFvc7g8gJBoNBq2id2.1mS_1Q5Q8Pn8gSRIU8ENuXwev2a6iKrk8pWKGTUal8zjUWTyvmGowmUxmcwWSxWkTWuF4AElxOJltgAPIUBCYViqEjbHggehMVjsI6S7m8qjYSSC4Wim6fVCPZ4SV5GdAfOooR6w1ImjFak04uEWtmQ2Kmpq2_C0kDjSawRnzVCLZarda8PJbSiS8RiTAWQ5cSUAZQjKhkkk5LAAbioEBAwOxMGmM9xzRlsU8oHo9W9DaZMahnJ1vBlPDbzWp8UU2yUeu3euiRu76V7Zj6UAAzcbht0UZQAWVYVDIqE8xaQYAA5nM1SKWOIAAoQCBjSwkYSCcMCoWbx1hIA)
+[_Link to Cap Table_](/docs/cap-table-worksheet/#AAN4IgTg9g7gIghgFziAXAbVASwCapABhABoQEBPABwFM8BjCAWwYgDtiQW4GaUQAxCAFcW2KmADOAAgCC7cQAs4YKuNQBGfJq0loLMQswVUGEAqUr1W7SGphaVFgnUBWAHQBmABwAWAGxrnLz8Ar2cAXyJQM2VVFA0rfBJbe0d1NVcAJmdvb3cAdk9fAE5PDIzvTzyIqMUYywSksRSnFE9XPLy1QucinrKArLCAXRI4ABsx6BgqMaoEHgQwQSpqkBw8NXZyajpGZjYSTm48AWFRMEkAITlaiziExJBdfXlDYxrzWPirRrsHFvc7g8gJBoNBq2id2.1mS_1Q5Q8Pn8gSRIU8ENuXwev2a6iKrk8pWKGTUal8zjUWTyvmGowmUxmcwWSxWkTWuF4AElxOJltgAPIUBCYViqEjbHggehMVjsI6S7m8qjYSSC4Wim6fVCPZ4SV5GdAfOooR6w1ImjFak04uEWtmQ2Kmpq2_C0kDjSawRnzVCLZarda8PJbSiS8RiTAWQ5cSUAZQjKhkkk5LAAbioEBAwOxMGmM9xzRlsU8oHo9W9DaZMahnJ1vBlPDbzWp8UU2yUeu3euiRu76V7Zj6UAAzcbht0UZQAWVYVDIqE8xaQYAA5nM1SKWOIAAoQCBjSwkYSCcMCoWbx1hIA)
 
 
 Following, in order to grant 5% to the new employee, these shares are moved from the option pool to the employee as opposed to getting issued.  The other shareholder's ownership would thus remain at 20%.
@@ -115,7 +115,7 @@ Founders often mistakenly assume that the new employee shares are granted at the
 Note that if the company is acquired before exhausting all unissued options, these options are effectively wiped off and everyone's ownership increases by 5%
 
 
-Until the mid-2000s, priced rounds like the example above were the primary way founders raised capital. Then came convertible notes, and then came [SAFEs](https://1984.vc/docs/founders-handbook/intro-to-safes/).
+Until the mid-2000s, priced rounds like the example above were the primary way founders raised capital. Then came convertible notes, and then came [SAFEs](/docs/founders-handbook/intro-to-safes/).
 
 
 _**The Usual Disclaimer -**_ _The information in this User Guide is provided solely for general educational purposes and is not intended as legal advice. This User Guide should not replace competent legal counsel from a licensed attorney in your state.1984 and its affiliates expressly disclaim all responsibility for any consequences resulting from the use of this User Guide, any version of the Cap Table Worksheet, or any other document found on 1984's website._
