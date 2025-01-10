@@ -51,6 +51,7 @@ function processMarkdown(frontMatter, content) {
   // Create copy of front matter and remove path
   const filteredFrontMatter = { ...frontMatter };
   delete filteredFrontMatter.path;
+  delete filteredFrontMatter.lastEditedAt;
   
   // Only return content if published
   return isDraft ? null : matter.stringify({ content, data: filteredFrontMatter });

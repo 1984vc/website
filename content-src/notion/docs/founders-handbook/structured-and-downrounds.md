@@ -2,9 +2,9 @@
 title: Structured and Down Rounds
 notionId: c5fcc46c-3010-4040-9000-d483ebcdda04
 createdAt: 2024-08-02T23:30:00.000Z
-lastEditedAt: 2025-01-09T20:17:00.000Z
 weight: 10
 draft: false
+author: null
 Name: Structured and Down Rounds
 ---
 
@@ -22,7 +22,7 @@ A company that has raised at a valuation higher than what it can merit today is 
 3. Do all you can to turn profitable
 
 {{< callout emoji="📢">}}
-While downround can be a hard pill to swallow as a CEO, time and time again we believe a down rounds is better for existing shareholders than a structured round for two reasons: it resets the valuation to a market one and avoids burdening the company with onerous terms, a point first made by Bill Gurley back in 2016 in his article [On the Road to Recap](https://abovethecrowd.com/2016/04/21/on-the-road-to-recap/).
+While a downround can be a hard pill to swallow as a CEO, we consistently find that downrounds are better for existing shareholders than structured rounds for two reasons: they reset the valuation to a market level and avoid burdening the company with onerous terms. This point was first made by Bill Gurley back in 2016 in his articleOn the Road to[ Recap](https://abovethecrowd.com/2016/04/21/on-the-road-to-recap/).
 {{< /callout >}}
 
 

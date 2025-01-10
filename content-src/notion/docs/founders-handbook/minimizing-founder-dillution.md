@@ -2,9 +2,9 @@
 title: Minimizing Founder Dilution
 notionId: cf6018ad-0896-4018-a501-407f4fdee039
 createdAt: 2024-08-03T00:04:00.000Z
-lastEditedAt: 2025-01-09T20:17:00.000Z
 weight: 7
 draft: false
+author: null
 Name: Minimizing Founder Dilution
 ---
 
@@ -28,7 +28,7 @@ To get a second term sheet while maintaining professionalism:
 - Focus on your company's strengths and growth potential rather than other offers
 - Use phrases like "we're seeing strong interest" or "we're in late-stage discussions with several firms"
 
-Remember, the goal is to generate genuine interest, not to simply shop around an existing offer. Be transparent about your process while maintaining discretion about specific details particularly who the other player are.
+Remember, the goal is to generate genuine interest, not to simply shop around an existing offer. Be transparent about your process while maintaining discretion about specific details particularly who the other players are.
 
 
 ## 2. Negotiate Down the lead's Ownership
@@ -97,5 +97,5 @@ An ending note:
 Remember, negotiation is a normal part of the fundraising process. With clear communication and a strong value proposition, you can often find a middle ground that works for both parties.
 
 
-[Suggested Reading: Structured and Down Rounds](https://www.notion.so/structured-and-downrounds/)
+[Suggested Reading: Structured and Down Rounds](/docs//docs/founders-handbook/structured-and-downrounds)
 
