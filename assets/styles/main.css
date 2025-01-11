@@ -6,9 +6,19 @@
   font-size: 0.875rem;
 }
 
-.hextra-scrollbar {
-  padding-top: 0;
+article main {
+  @apply top-8 !important;
 }
+
+article main > div:first-child {
+  margin-top: 0;
+}
+
+.hextra-scrollbar {
+  padding-top: 0 !important;
+  @apply top-8 !important;
+}
+
 .hextra-scrollbar a, .hextra-scrollbar p {
   font-weight: 400;
 }
