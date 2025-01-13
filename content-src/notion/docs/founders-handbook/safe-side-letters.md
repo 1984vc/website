@@ -4,8 +4,11 @@ notionId: 67e9cba3-dc04-4a8c-9bb1-473fe8f7f93e
 createdAt: 2024-08-05T02:03:00.000Z
 weight: 5
 draft: false
-author: null
 Name: SAFE Side Letters
+authors:
+  - name: Ramy Adeeb
+    link: 'https://linkedin.com/in/ramyadeeb'
+    image: /landing/people/Ramy.svg
 ---
 
 

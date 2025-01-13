@@ -4,8 +4,11 @@ notionId: cf6018ad-0896-4018-a501-407f4fdee039
 createdAt: 2024-08-03T00:04:00.000Z
 weight: 7
 draft: false
-author: null
 Name: Minimizing Founder Dilution
+authors:
+  - name: Ramy Adeeb
+    link: 'https://linkedin.com/in/ramyadeeb'
+    image: /landing/people/Ramy.svg
 ---
 
 
