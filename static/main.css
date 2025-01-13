@@ -706,6 +706,10 @@ video {
   margin-top: 2rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline {
   display: inline;
 }
@@ -724,10 +728,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.contents {
-  display: contents;
 }
 
 .hidden {
@@ -950,6 +950,11 @@ video {
 .bg-nt84blue {
   --tw-bg-opacity: 1;
   background-color: rgb(61 76 224 / var(--tw-bg-opacity, 1));
+}
+
+.bg-nt84lightblue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 211 237 / var(--tw-bg-opacity, 1));
 }
 
 .bg-nt84orange {
@@ -1219,11 +1224,6 @@ video {
 
 .\[-webkit-touch-callout\:none\] {
   -webkit-touch-callout: none;
-}
-
-.\[hyphens\:auto\] {
-  -webkit-hyphens: auto;
-          hyphens: auto;
 }
 
 .\[transition\:background-color_1\.5s_ease\] {
