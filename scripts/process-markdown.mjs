@@ -6,22 +6,22 @@ import { glob } from 'glob';
 const authors = {
   "e81a9c32-5ed4-4743-aca4-0e8a22c007f2": {
     name: "Ramy Adeeb",
-    link: "https://linkedin.com/in/ramyadeeb",
+    link: "https://www.linkedin.com/in/ramyadeeb",
     image: "/landing/people/Ramy.svg"
   },
   "cdef0605-eaff-416b-b254-8ed554e34d62": {
     name: "Mark Percival",
-    link: "https://linkedin.com/in/markpercival",
+    link: "https://www.linkedin.com/in/markpercival",
     image: "/landing/people/Mark.svg"
   },
   "53293e17-8da4-49dc-abe9-8f4635948bfd": {
     name: "Farzad Soleimani",
-    link: "https://linkedin.com/in/farzadsoleimani",
+    link: "https://www.linkedin.com/in/farzadsoleimani",
     image: "/landing/people/Farzad.svg"
   },
   "c147152b-1426-4fb8-b2ca-e548cf89c47f": {
     name: "Samit Kalra",
-    link: "https://linkedin.com/in/samitkalra",
+    link: "https://www.linkedin.com/in/samit-kalra-a6179365/",
     image: "/landing/people/Samit.svg"
   },
 }
