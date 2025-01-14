@@ -7,7 +7,7 @@ draft: false
 Name: Raising your Series A
 authors:
   - name: Ramy Adeeb
-    link: 'https://linkedin.com/in/ramyadeeb'
+    link: 'https://www.linkedin.com/in/ramyadeeb'
     image: /landing/people/Ramy.svg
 ---
 
