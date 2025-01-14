@@ -21,7 +21,9 @@ jobs:
           node-version: 18
 
       - name: Run import script
-        run: bash scripts/import.sh
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: bash scripts/import-notion.sh
 
       - name: Check for changes
         id: git-check
