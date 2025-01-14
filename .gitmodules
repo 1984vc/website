@@ -1,6 +1,6 @@
 [submodule "startup-finance"]
 	path = startup-finance
 	url = https://github.com/1984vc/startup-finance.git
-[submodule "hextra"]
-	path = hextra
-	url = git@github.com:1984vc/hextra.git
+[submodule "themes/hextra"]
+	path = themes/hextra
+	url = git@github.com:imfing/hextra.git
