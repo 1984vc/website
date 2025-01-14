@@ -2,6 +2,8 @@ name: Build and Create PR
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 21 * * *'  # Run at 5 PM ET (21:00 UTC)
 
 permissions:
   contents: write
