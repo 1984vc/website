@@ -27,14 +27,6 @@ jobs:
       - name: NPM install
         run: npm ci
 
-      - name: Download latest portfolio
-        env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: npm exec -- notion_mdx raw-json --id ${{ secrets.NOTION_PORTFOLIO_ID }} -o ./data/portfolio-raw.json 
-
-      - name: Process the Notion porfolio into Hugo content
-        run: node scripts/portfolio.mjs ./data/portfolio-raw.json ./data/portfolio.json
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
       - name: Build
