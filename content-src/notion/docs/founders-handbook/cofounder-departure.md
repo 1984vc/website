@@ -34,7 +34,7 @@ The more founders a startup has, the more likely one will depart or be forced ou
 How a CEO handles a co-founder's departure can make the difference between a smooth transition and organizational collapse. Here are the steps you need to follow
 
 
-### 1. Communicate Well Before the Decision.
+### 1. Communicate Well Before the Decision
 
 
 A co-founder should never receive this news as a complete shock—if they do, it indicates your failure as CEO to address ongoing disagreements or dissatisfaction. The more surprising the transition, the messier it becomes. Before reaching this decision, voice your concerns clearly to your co-founder and give them a fair chance to address them. This principle applies to managing all employees, not just co-founders. 
