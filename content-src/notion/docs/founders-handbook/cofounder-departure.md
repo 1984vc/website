@@ -4,7 +4,7 @@ title: >-
   Startup)
 notionId: 11a82923-1d09-80e0-ad30-f97b370f04c6
 createdAt: 2024-10-09T20:49:00.000Z
-weight: 11
+weight: 12
 draft: false
 description: Without Blowing Up Your Startup
 Name: >-
@@ -27,12 +27,12 @@ The more founders a startup has, the more likely one will depart or be forced ou
 
 - Having the wrong co-founder. A classic example is someone brought onboard as a cofounder because they had the original idea or industry expertise, but who turns out to lack the skills needed to be a startup leader—whether that's functional skills or the startup mindset. This issue can often be prevented if founders have honest conversations about roles and expectations upfront.
 - Skill gaps that emerge as the company scales. A common example is a founding engineer who excels at building the initial product but struggles to develop the leadership abilities needed to manage a growing engineering team.
-- Last is general lack of alignment over strategy or vision. Typically this materializes when the startup is unable to find product market fit—and the founders gravitate to different ideas.
+- A general lack of alignment over strategy or vision. Typically this materializes when the startup is unable to find product market fit—and the founders gravitate to different ideas.
 
 ## The Five Steps of Founder Transition 
 
 
-How a CEO handles a co-founder's departure can make the difference between a smooth transition and organizational collapse. Here are the steps you need to follow
+How a CEO handles a co-founder's departure can make the difference between a smooth transition and organizational collapse. Here are the steps you need to follow.
 
 
 ### 1. Communicate Well Before the Decision
@@ -64,7 +64,7 @@ Your co-founder will typically want
 
 What you want from your co-founder
 
-- A fully signed separation agreement: otherwise the founder will maintain a legal claim on their equity which will only become more valuable with time.  The story of Facebook's tribulations with Mark Zuckerburg and Eduardo Saverin sheds light on how long this can go for—and how expensive
+- A fully signed separation agreement: otherwise the founder will maintain a legal claim on their equity which will only become more valuable with time.  The story of Facebook's tribulations with Mark Zuckerberg and Eduardo Saverin sheds light on how long this can go for—and how expensive
 - Their future vote: This is one of the bigger mistakes founders make—assuming a co-founder becomes irrelevant once they're gone. Because a departing co-founder still holds common shares, you will often need their vote in future financings. When it comes to M&A, their vote can be particularly critical in approving your 280-G compensation package.
 
 Too often we see founders getting bogged down by how much equity a departing founder gets even though they didn't perform to par.  That's the wrong framing.  A disagreement doesn't necessarily mean you were right and they were wrong; it may simply mean your views are incompatible—and you, as the CEO, gets to stay and they leave. 
@@ -79,7 +79,7 @@ In general, most separation package offers a combination of the following:
  If the founder hasn't been at the company for the full year cliff, it's often wise to grant them a few months worth of vesting—say 2%.  On the other hand if the founder has  significant equity vested before the A, you want to buy back their shares so they leave with no more than 5% of the cap table, otherwise their holding will be perceived as "dead weight" by the Series A lead. 
 {{< /callout >}}
 
-- Title (maintain co-founder, transition to advisor, etc)
+- Title (maintain co-founder, stay on as an advisor, etc)
 - Controlling the narrative (i.e. we have mutually decided to part ways, etc)
 - Last, a slew of legalese around non-disparagement, non-disclosure, etc.
 
