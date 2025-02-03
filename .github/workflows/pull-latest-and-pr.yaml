@@ -1,4 +1,4 @@
-name: Build and Create PR
+name: Pull latest from Notion and Generate PR
 
 on:
   workflow_dispatch:
