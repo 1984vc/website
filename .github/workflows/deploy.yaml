@@ -9,7 +9,9 @@ on:
       - main
   workflow_dispatch:
   repository_dispatch:
-    types: deploy-website
+    types:
+      - deploy-website
+      - automated-pr
 
 jobs:
   publish:
@@ -47,9 +49,19 @@ jobs:
           command: pages deploy public --project-name=1984vc-production --branch=main
 
       - name: Deploy to Staging
+        id: deploy-staging
         if: github.event_name == 'pull_request'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy public --project-name=1984vc-production --branch=staging
+
+      - name: Update PR comment with deployment URL
+        if: github.event_name == 'pull_request'
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            The staging site has been deployed successfully.
+            You can view it here: ${{ steps.deploy-staging.outputs.pages-deployment-alias-url }}
