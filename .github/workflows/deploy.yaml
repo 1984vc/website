@@ -43,7 +43,7 @@ jobs:
         run: ./scripts/build.sh
 
       - name: Deploy to Production
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.event_name != 'repository_dispatch'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -52,7 +52,7 @@ jobs:
 
       - name: Deploy to Staging
         id: deploy-staging
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'repository_dispatch' && github.event.client_payload.type == 'automated-pr'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
