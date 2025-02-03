@@ -4,6 +4,7 @@ notionId: 306e9f6f-ab6b-4ebf-9bd1-c2520d4d12d1
 createdAt: 2024-08-02T22:15:00.000Z
 weight: 6
 draft: false
+description: null
 Name: Raising your Series A
 authors:
   - name: Ramy Adeeb
