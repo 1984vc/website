@@ -12,6 +12,8 @@ on:
     types:
       - deploy-website
       - automated-pr
+permissions:
+  pull-requests: write
 
 jobs:
   publish:
@@ -59,9 +61,9 @@ jobs:
 
       - name: Update PR comment with deployment URL
         if: github.event_name == 'pull_request'
-        uses: peter-evans/create-or-update-comment@v2
+        uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             The staging site has been deployed successfully.
-            You can view it here: ${{ steps.deploy-staging.outputs.pages-deployment-alias-url }}
+            You can view it here: ${{ steps.deploy-staging.outputs.deployment-url }}
