@@ -1,10 +1,15 @@
-name: Website Staging Deploy
+name: Website Preview Deploy
 
 on:
-  push:
+  pull_request:
     branches:
       - main
-environment: production
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - automated-pr
+      
+environment: staging
 
 jobs:
   publish:
@@ -33,9 +38,10 @@ jobs:
       - name: Build
         run: ./scripts/build.sh
 
-      - name: Deploy to Production
+      - name: Deploy to Staging
+        id: deploy-staging
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=1984vc-production --branch=main
+          command: pages deploy public --project-name=1984vc-production --branch=staging
