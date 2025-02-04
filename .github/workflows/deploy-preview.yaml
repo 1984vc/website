@@ -8,11 +8,10 @@ on:
   repository_dispatch:
     types:
       - automated-pr
-      
-environment: staging
 
 jobs:
   publish:
+    environment: staging
     runs-on: ubuntu-latest
     permissions:
       contents: read
