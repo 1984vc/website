@@ -1,13 +1,18 @@
 ---
-title: How to Consciously Uncouple from Your Co-Founder (Without Blowing Up Your Startup)
+title: How to Consciously Uncouple from Your Co-Founder (Without Blowing Up Your
+  Startup)
 notionId: 11a82923-1d09-80e0-ad30-f97b370f04c6
 createdAt: 2024-10-09T20:49:00.000Z
 weight: 12
 draft: false
 description: Without Blowing Up Your Startup
-Name: How to Consciously Uncouple from Your Co-Founder (Without Blowing Up Your Startup)
-author:
-  - {"name":"Ramy Adeeb","link":"https://www.linkedin.com/in/ramyadeeb","image":"/landing/people/Ramy.svg"}
+Name: How to Consciously Uncouple from Your Co-Founder (Without Blowing Up Your
+  Startup)
+authors:
+  - name: Ramy Adeeb
+    link: https://www.linkedin.com/in/ramyadeeb
+    image: /landing/people/Ramy.svg
+
 ---
 
 

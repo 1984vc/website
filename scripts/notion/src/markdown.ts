@@ -2,6 +2,7 @@ import { Client, isFullPage } from '@notionhq/client';
 import { NotionToMarkdown } from 'notion-to-md';
 import { mkdir, writeFile } from 'fs/promises';
 import { join, dirname } from 'path';
+import { stringify } from 'yaml'
 import { PageObjectResponse } from '@notionhq/client/build/src/api-endpoints.js';
 import { imageTransform, urlTransform } from './transformers.js';
 
@@ -383,10 +384,10 @@ export class NotionMarkdownExporter {
           // Convert to YAML front-matter
           delete frontmatter.path
           delete frontmatter.lastEditedAt
-          const author = frontmatter.author as any[]
+          const authors = frontmatter.author as any[]
           delete frontmatter.author
 
-        const authorDetails = author
+        const authorDetails = authors
           .map(authorId => {
             const author = options.authors[authorId];
             if (author) {
@@ -399,19 +400,11 @@ export class NotionMarkdownExporter {
             return undefined;
           })
           .filter(author => author !== undefined);
-          frontmatter['author'] = authorDetails
+          frontmatter['authors'] = authorDetails
 
-          const yaml = Object.entries(frontmatter)
-            .map(([key, value]) => {
-              if (Array.isArray(value)) {
-                return `${key}:\n${value.map(v => `  - ${JSON.stringify(v)}`).join('\n')}`;
-              }
-              if (typeof value === 'string') {
-                return `${key}: ${value}`;
-              }
-              return `${key}: ${JSON.stringify(value)}`;
-            })
-            .join('\n');
+
+
+          const yaml = stringify(frontmatter)
 
           content = `---
 ${yaml}

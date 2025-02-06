@@ -4,10 +4,13 @@ notionId: 4c936519-bc35-480a-b4bc-39b1cc2df666
 createdAt: 2024-11-07T18:53:00.000Z
 weight: 9
 draft: false
-description: 
+description: ""
 Name: Selling Secondaries
-author:
-  - {"name":"Ramy Adeeb","link":"https://www.linkedin.com/in/ramyadeeb","image":"/landing/people/Ramy.svg"}
+authors:
+  - name: Ramy Adeeb
+    link: https://www.linkedin.com/in/ramyadeeb
+    image: /landing/people/Ramy.svg
+
 ---
 
 

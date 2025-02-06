@@ -4,10 +4,13 @@ notionId: 19182923-1d09-804e-8156-cf0fd99b7257
 createdAt: 2025-02-05T19:24:00.000Z
 weight: 13
 draft: false
-description: 
+description: ""
 Name: How to Pick a Startup Idea
-author:
-  - {"name":"Samit Kalra","link":"https://www.linkedin.com/in/samit-kalra-a6179365/","image":"/landing/people/Samit.svg"}
+authors:
+  - name: Samit Kalra
+    link: https://www.linkedin.com/in/samit-kalra-a6179365/
+    image: /landing/people/Samit.svg
+
 ---
 
 

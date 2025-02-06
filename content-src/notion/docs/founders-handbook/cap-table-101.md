@@ -4,10 +4,13 @@ notionId: 13f82923-1d09-806a-ba70-cc06d520f3b4
 createdAt: 2024-11-15T14:37:00.000Z
 weight: 1
 draft: false
-description: 
+description: ""
 Name: Cap Table 101
-author:
-  - {"name":"Ramy Adeeb","link":"https://www.linkedin.com/in/ramyadeeb","image":"/landing/people/Ramy.svg"}
+authors:
+  - name: Ramy Adeeb
+    link: https://www.linkedin.com/in/ramyadeeb
+    image: /landing/people/Ramy.svg
+
 ---
 
 

@@ -4,10 +4,13 @@ notionId: 3c5a0edb-2574-4955-8cf9-68f5ded58812
 createdAt: 2024-07-24T14:56:00.000Z
 weight: 4
 draft: false
-description: 
+description: ""
 Name: SAFE vs Priced Round
-author:
-  - {"name":"Ramy Adeeb","link":"https://www.linkedin.com/in/ramyadeeb","image":"/landing/people/Ramy.svg"}
+authors:
+  - name: Ramy Adeeb
+    link: https://www.linkedin.com/in/ramyadeeb
+    image: /landing/people/Ramy.svg
+
 ---
 
 

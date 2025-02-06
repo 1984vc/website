@@ -4,10 +4,13 @@ notionId: 23f1324e-5ecc-4d32-af0e-81e60a03cf18
 createdAt: 2024-08-11T01:56:00.000Z
 weight: 3
 draft: false
-description: 
+description: ""
 Name: Pre-money vs Post-money Conversion
-author:
-  - {"name":"Ramy Adeeb","link":"https://www.linkedin.com/in/ramyadeeb","image":"/landing/people/Ramy.svg"}
+authors:
+  - name: Ramy Adeeb
+    link: https://www.linkedin.com/in/ramyadeeb
+    image: /landing/people/Ramy.svg
+
 ---
 
 

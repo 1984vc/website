@@ -4,10 +4,13 @@ notionId: c5fcc46c-3010-4040-9000-d483ebcdda04
 createdAt: 2024-08-02T23:30:00.000Z
 weight: 10
 draft: false
-description: 
+description: ""
 Name: Structured and Down Rounds
-author:
-  - {"name":"Ramy Adeeb","link":"https://www.linkedin.com/in/ramyadeeb","image":"/landing/people/Ramy.svg"}
+authors:
+  - name: Ramy Adeeb
+    link: https://www.linkedin.com/in/ramyadeeb
+    image: /landing/people/Ramy.svg
+
 ---
 
 

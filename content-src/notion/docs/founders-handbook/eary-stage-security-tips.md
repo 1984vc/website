@@ -4,10 +4,13 @@ notionId: 18382923-1d09-8006-94d2-e5f73bb1d151
 createdAt: 2025-01-22T21:18:00.000Z
 weight: null
 draft: true
-description: 
+description: ""
 Name: Essential Security Practices for Early-Stage Startups
-author:
-  - {"name":"Mark Percival","link":"https://www.linkedin.com/in/markpercival","image":"/landing/people/Mark.svg"}
+authors:
+  - name: Mark Percival
+    link: https://www.linkedin.com/in/markpercival
+    image: /landing/people/Mark.svg
+
 ---
 
 
