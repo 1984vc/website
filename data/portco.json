@@ -3,7 +3,7 @@
     "object": "page",
     "id": "15582923-1d09-814f-98b4-e2b7373cb147",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -21,7 +21,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "oss"
+      ],
       "URL": "https://www.hyperdx.io/",
       "Description": "Open source Datadog",
       "Filters": "oss saas",
@@ -38,7 +40,7 @@
     "object": "page",
     "id": "15582923-1d09-8156-bf20-c8f6f5a14549",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -56,7 +58,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "https://joinpoppin.com/",
       "Description": "Events software for colleges",
       "Filters": "consumer",
@@ -73,7 +77,7 @@
     "object": "page",
     "id": "15582923-1d09-8163-8b80-f0769813c583",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -91,7 +95,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "ai"
+      ],
       "URL": "https://www.stuut.co/",
       "Description": "AR automation",
       "Filters": "saas ai",
@@ -108,7 +115,7 @@
     "object": "page",
     "id": "15582923-1d09-8181-8b20-e2306c234296",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -126,7 +133,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare"
+      ],
       "URL": "https://www.elsafertility.com/",
       "Description": "IVF in a box",
       "Filters": "healthcare",
@@ -143,7 +152,7 @@
     "object": "page",
     "id": "15582923-1d09-8190-86b6-d6445819855e",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -161,7 +170,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare",
+        "ai"
+      ],
       "URL": "https://hona.ai/",
       "Description": "AI for medical records",
       "Filters": "healthcare ai",
@@ -178,7 +190,7 @@
     "object": "page",
     "id": "15582923-1d09-8123-bb87-caef527b93d0",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -196,7 +208,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "ai"
+      ],
       "URL": "https://www.terrakotta.ai/",
       "Description": "Ring Central for the CRE industry",
       "Filters": "saas ai",
@@ -213,7 +228,7 @@
     "object": "page",
     "id": "15582923-1d09-8143-8bdf-c010dcb8af46",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -231,7 +246,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "ai"
+      ],
       "URL": "https://www.vectorshift.ai/",
       "Description": "No-code platform that lets companies build generative AI workflows",
       "Filters": "saas ai",
@@ -248,7 +266,7 @@
     "object": "page",
     "id": "15582923-1d09-8168-9f09-d457136d03e0",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -266,7 +284,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://convex.com",
       "Description": "Flexport for commercial contractors",
       "Filters": "saas",
@@ -283,7 +303,7 @@
     "object": "page",
     "id": "15582923-1d09-817f-8865-dd84878fec0a",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -301,7 +321,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "https://www.getcleva.com/",
       "Description": "Banking platform for freelancers and remote workers",
       "Filters": "consumer",
@@ -318,7 +340,7 @@
     "object": "page",
     "id": "15582923-1d09-818e-8f87-ffc25e29ece2",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -336,7 +358,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "marketplace"
+      ],
       "URL": "https://vectrix.com",
       "Description": "Cloud security marketplace",
       "Filters": "saas marketplace",
@@ -353,7 +378,7 @@
     "object": "page",
     "id": "15582923-1d09-8197-86f1-c3347a8dc5af",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -371,7 +396,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://transformity.tech/",
       "Description": "POS and vertical SaaS for liquor stores",
       "Filters": "saas",
@@ -388,7 +415,7 @@
     "object": "page",
     "id": "15582923-1d09-81eb-b7ac-d78b73679b99",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -406,7 +433,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "ai"
+      ],
       "URL": "https://www.tryguac.co/",
       "Description": "AI-powered demand forecasting for grocery",
       "Filters": "saas ai",
@@ -423,7 +453,7 @@
     "object": "page",
     "id": "15582923-1d09-81f9-b0b7-e1f7ab60e920",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -441,7 +471,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "ai"
+      ],
       "URL": "https://www.sweetspot.so/",
       "Description": "AI-powered search engine for government contracting",
       "Filters": "saas ai",
@@ -458,7 +491,7 @@
     "object": "page",
     "id": "15582923-1d09-81ff-be49-e076a804223b",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -476,7 +509,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "ai"
+      ],
       "URL": "https://www.apriora.ai/",
       "Description": "AI recruiter",
       "Filters": "saas ai",
@@ -493,7 +529,7 @@
     "object": "page",
     "id": "15582923-1d09-8134-b3df-f7f70fbbdb56",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -511,7 +547,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://trytoolbox.com",
       "Description": "Staffing and payroll platform for construction workers",
       "Filters": "saas",
@@ -528,7 +566,7 @@
     "object": "page",
     "id": "15582923-1d09-813a-a76b-ce0b46848b66",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -546,7 +584,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "marketplace"
+      ],
       "URL": "https://joinstatus.com",
       "Description": "Platform for word-of-mouth marketing",
       "Filters": "saas marketplace",
@@ -563,7 +604,7 @@
     "object": "page",
     "id": "15582923-1d09-815e-8aef-e08c59fdeb63",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -581,7 +622,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare",
+        "saas"
+      ],
       "URL": "https://www.serifhealth.com",
       "Description": "Healthcare Price Intelligence Data and APIs",
       "Filters": "healthcare saas",
@@ -598,7 +642,7 @@
     "object": "page",
     "id": "15582923-1d09-816c-ba24-fe46bda18db7",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -616,7 +660,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "marketplace",
+        "consumer"
+      ],
       "URL": "https://teachme.to/",
       "Description": "Marketplace for sports lessons",
       "Filters": "marketplace consumer",
@@ -633,7 +680,7 @@
     "object": "page",
     "id": "15582923-1d09-818e-a950-d3a8c195e6a7",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -651,7 +698,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "marketplace"
+      ],
       "URL": "https://sourcify.com",
       "Description": "Connecting US merchants with Chinese factories",
       "Filters": "saas marketplace",
@@ -668,7 +718,7 @@
     "object": "page",
     "id": "15582923-1d09-81b6-9bd2-ec64ac9aceb0",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -686,7 +736,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "marketplace",
+        "consumer"
+      ],
       "URL": "https://streetfair.com/",
       "Description": "Marketplace for home services",
       "Filters": "marketplace consumer",
@@ -703,7 +756,7 @@
     "object": "page",
     "id": "15582923-1d09-81e6-be39-e7715e0f62a5",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -721,7 +774,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "consumer"
+      ],
       "URL": "https://unico.aero",
       "Description": "Baggage management system for airlines",
       "Filters": "saas consumer",
@@ -738,7 +794,7 @@
     "object": "page",
     "id": "15582923-1d09-81f9-ab48-efbdae8ea8b0",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -756,7 +812,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare",
+        "marketplace"
+      ],
       "URL": "https://terapify.com",
       "Description": "E-therapy for Latam",
       "Filters": "healthcare marketplace",
@@ -773,7 +832,7 @@
     "object": "page",
     "id": "15582923-1d09-81fd-92fc-c2903be67a14",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -791,7 +850,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "sucasa.com.au",
       "Description": "Low downpayment home loans in Australia",
       "Filters": "consumer ",
@@ -808,7 +869,7 @@
     "object": "page",
     "id": "15582923-1d09-814a-b007-f64d2140c69c",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -826,7 +887,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "marketplace"
+      ],
       "URL": "https://ozon.mobi",
       "Description": "Motorcycle leasing and financing in Latam",
       "Filters": "marketplace",
@@ -843,7 +906,7 @@
     "object": "page",
     "id": "15582923-1d09-8181-8157-c1bed439f3c5",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -861,7 +924,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "https://padsplit.com",
       "Description": "Airbnb for affordable housing",
       "Filters": "consumer",
@@ -878,7 +943,7 @@
     "object": "page",
     "id": "15582923-1d09-81af-91ed-f1871c0dd670",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -896,7 +961,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "marketplace",
+        "saas"
+      ],
       "URL": "https://rendalomaq.com",
       "Description": "Heavy equipment marketplace in Latam",
       "Filters": "marketplace saas",
@@ -913,7 +981,7 @@
     "object": "page",
     "id": "15582923-1d09-81e1-b966-ee2970d9d88f",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -931,7 +999,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://www.paperplane.ai/",
       "Description": "Software to auto update your CRM",
       "Filters": "saas",
@@ -948,7 +1018,7 @@
     "object": "page",
     "id": "15582923-1d09-81f3-aa55-c11b9b0ea37c",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -966,7 +1036,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare"
+      ],
       "URL": "https://pairteam.com",
       "Description": "Virtual care teams for medical practices",
       "Filters": "healthcare",
@@ -983,7 +1055,7 @@
     "object": "page",
     "id": "15582923-1d09-81f6-ba1c-dbf97ecaffb6",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1001,7 +1073,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "https://oxygen.us",
       "Description": "Banking for freelancers",
       "Filters": "consumer",
@@ -1018,7 +1092,7 @@
     "object": "page",
     "id": "15582923-1d09-81f8-bdf1-e88906800d29",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1036,7 +1110,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "ai"
+      ],
       "URL": "https://revvhq.com/",
       "Description": "Software for auto body shops",
       "Filters": "saas ai",
@@ -1053,7 +1130,7 @@
     "object": "page",
     "id": "15582923-1d09-8114-906a-d0e0f155510c",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1071,7 +1148,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "https://nicksonliving.com",
       "Description": "Furniture as a service",
       "Filters": "consumer",
@@ -1088,7 +1167,7 @@
     "object": "page",
     "id": "15582923-1d09-8151-901e-c5696dcfbbc7",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1106,7 +1185,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://rentmarble.com",
       "Description": "Virtual property management",
       "Filters": "saas",
@@ -1123,7 +1204,7 @@
     "object": "page",
     "id": "15582923-1d09-8161-a507-cc523fdc403f",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1141,7 +1222,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare"
+      ],
       "URL": "https://glidian.com",
       "Description": "Prior authorization software",
       "Filters": "healthcare",
@@ -1158,7 +1241,7 @@
     "object": "page",
     "id": "15582923-1d09-8171-9acb-eb00a3e9a2ba",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1176,7 +1259,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://heroes.jobs",
       "Description": "Video recruiting platform for Gen Z workers",
       "Filters": "saas",
@@ -1193,7 +1278,7 @@
     "object": "page",
     "id": "15582923-1d09-81cc-ad80-f1476fd610c5",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1211,7 +1296,11 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare",
+        "saas",
+        "ai"
+      ],
       "URL": "https://www.healthnote.com",
       "Description": "AI-based technology for patient intake",
       "Filters": "healthcare saas ai",
@@ -1228,7 +1317,7 @@
     "object": "page",
     "id": "15582923-1d09-81d2-8c1b-ed17e6a81d67",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1246,7 +1335,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://freemodel.com",
       "Description": "Presale home renovation",
       "Filters": "saas",
@@ -1263,7 +1354,7 @@
     "object": "page",
     "id": "15582923-1d09-81f2-9a50-e575cab2cd9a",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1281,7 +1372,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "oss"
+      ],
       "URL": "https://massdriver.cloud",
       "Description": "Automating devops",
       "Filters": "saas oss",
@@ -1298,7 +1392,7 @@
     "object": "page",
     "id": "15582923-1d09-81f9-a6cc-f417ef606d53",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1316,7 +1410,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare"
+      ],
       "URL": "https://www.gleamcare.com",
       "Description": "Fully-managed, self-funded health plans",
       "Filters": "healthcare",
@@ -1333,7 +1429,7 @@
     "object": "page",
     "id": "15582923-1d09-810b-bffc-c2cf7cf49332",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:11:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1351,7 +1447,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "marketplace"
+      ],
       "URL": "https://curtsyapp.com",
       "Description": "Marketplace for Gen Z to buy and sell clothing",
       "Filters": "marketplace",
@@ -1368,7 +1466,7 @@
     "object": "page",
     "id": "15582923-1d09-8111-8fa4-f88ce2486d00",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1386,7 +1484,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://exacare.com/",
       "Description": "Software for assisted living facilities",
       "Filters": "saas",
@@ -1403,7 +1503,7 @@
     "object": "page",
     "id": "15582923-1d09-8171-8324-c82e993a9404",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:11:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1421,7 +1521,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare"
+      ],
       "URL": "https://caresignal.health",
       "Description": "Patient engagment software",
       "Filters": "healthcare",
@@ -1438,7 +1540,7 @@
     "object": "page",
     "id": "15582923-1d09-817b-b207-f927b4c45ad1",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:11:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1456,7 +1558,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "marketplace"
+      ],
       "URL": "https://hellodobby.com",
       "Description": "Property management for your home",
       "Filters": "marketplace",
@@ -1473,7 +1577,7 @@
     "object": "page",
     "id": "15582923-1d09-818d-a392-e112ca99fcaa",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:11:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1491,7 +1595,11 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare",
+        "ai",
+        "saas"
+      ],
       "URL": "https://clariumhealth.com",
       "Description": "Supply chain automation for hospitals",
       "Filters": "healthcare saas ai",
@@ -1508,7 +1616,7 @@
     "object": "page",
     "id": "15582923-1d09-81a4-a899-d8c737c072a9",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:11:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1526,7 +1634,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "https://dovly.com",
       "Description": "Automated credit repair",
       "Filters": "consumer",
@@ -1543,7 +1653,7 @@
     "object": "page",
     "id": "15582923-1d09-81ab-a9b2-f53d1f887d06",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1561,7 +1671,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "oss"
+      ],
       "URL": "https://firezone.dev",
       "Description": "Opensource VPN based on Wireguard",
       "Filters": "saas oss",
@@ -1578,7 +1691,7 @@
     "object": "page",
     "id": "15582923-1d09-81f5-92ca-e314e8fae286",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:10:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1596,7 +1709,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "https://duffl.com",
       "Description": "Delivery for college campuses",
       "Filters": "consumer",
@@ -1613,7 +1728,7 @@
     "object": "page",
     "id": "15582923-1d09-8113-8beb-dc2d531c1837",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1631,7 +1746,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://vizionapi.com",
       "Description": "API for ocean freight",
       "Filters": "saas",
@@ -1648,7 +1765,7 @@
     "object": "page",
     "id": "15582923-1d09-815e-b803-f13a376ad6ba",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1666,7 +1783,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare",
+        "ai"
+      ],
       "URL": "https://biocogniv.com",
       "Description": "AI for medical diagnostics",
       "Filters": "healthcare ai",
@@ -1683,7 +1803,7 @@
     "object": "page",
     "id": "15582923-1d09-8183-8256-ed298f289089",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1701,7 +1821,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "marketplace"
+      ],
       "URL": "https://livehomeroom.com",
       "Description": "Marketplace for investing in rental properties",
       "Filters": "marketplace",
@@ -1718,7 +1840,7 @@
     "object": "page",
     "id": "15582923-1d09-818e-b4dd-c90eb361b68f",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:11:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1736,7 +1858,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://brace.ai",
       "Description": "Mortgage servicing for lenders",
       "Filters": "saas",
@@ -1753,7 +1877,7 @@
     "object": "page",
     "id": "15582923-1d09-81b8-a35a-cc18f0b0c4f7",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1771,7 +1895,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare"
+      ],
       "URL": "https://signos.com",
       "Description": "Weight loss via continuous glucose monitoring",
       "Filters": "healthcare",
@@ -1788,7 +1914,7 @@
     "object": "page",
     "id": "15582923-1d09-81c6-8f43-e49d7b00abe4",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1806,7 +1932,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://www.bluebirds.ai/",
       "Description": "Software for sales reps to automate account research",
       "Filters": "saas",
@@ -1823,7 +1951,7 @@
     "object": "page",
     "id": "15582923-1d09-81d2-a25b-e61ef8c2b3fa",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1841,7 +1969,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://bluecargo.io",
       "Description": "Optimizing container logistics",
       "Filters": "saas",
@@ -1858,7 +1988,7 @@
     "object": "page",
     "id": "15582923-1d09-81da-973f-e46ad370db1a",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1876,7 +2006,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "consumer"
+      ],
       "URL": "https://becausemarket.com",
       "Description": "Ecommerce site selling diapers to seniors",
       "Filters": "consumer",
@@ -1893,7 +2025,7 @@
     "object": "page",
     "id": "15582923-1d09-81db-9890-ed5c08500a2b",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1911,7 +2043,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare",
+        "ai"
+      ],
       "URL": "https://alaffiahealth.com",
       "Description": "AI for medical payment fraud detection",
       "Filters": "healthcare ai",
@@ -1928,7 +2063,7 @@
     "object": "page",
     "id": "15582923-1d09-8116-aa59-ff02e5749543",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:06:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1946,7 +2081,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "healthcare",
+        "ai"
+      ],
       "URL": "https://deepscribe.ai",
       "Description": "AI-based scribe technology for healthcare",
       "Filters": "healthcare ai",
@@ -1963,7 +2101,7 @@
     "object": "page",
     "id": "15582923-1d09-8139-8bd4-cb1b81c5f06e",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:06:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -1981,7 +2119,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://flow.space",
       "Description": "Airbnb for warehousing and fulfillment ",
       "Filters": "saas",
@@ -1998,7 +2138,7 @@
     "object": "page",
     "id": "15582923-1d09-8151-a788-f3867f3983df",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:06:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -2016,7 +2156,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://properly.ca",
       "Description": "Opendoor for Canada",
       "Filters": "saas",
@@ -2033,7 +2175,7 @@
     "object": "page",
     "id": "15582923-1d09-816d-980f-fc34b914b8a5",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:06:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -2051,7 +2193,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://routable.com",
       "Description": "Platform for scaling b2b payments",
       "Filters": "saas",
@@ -2068,7 +2212,7 @@
     "object": "page",
     "id": "15582923-1d09-8174-be72-f12afd29c5cd",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:06:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -2086,7 +2230,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://relevize.com",
       "Description": "Turns partners into effective digital marketing channels",
       "Filters": "saas",
@@ -2103,7 +2249,7 @@
     "object": "page",
     "id": "15582923-1d09-81ac-8609-d5b9becb18e1",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -2121,7 +2267,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://latchel.com",
       "Description": "Property management solution for landlords",
       "Filters": "saas",
@@ -2138,7 +2286,7 @@
     "object": "page",
     "id": "15582923-1d09-81d3-8d69-d768247ce518",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:07:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -2156,7 +2304,10 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas",
+        "ai"
+      ],
       "URL": "https://shelfengine.com",
       "Description": "AI for predicting grocery orders",
       "Filters": "saas ai",
@@ -2173,7 +2324,7 @@
     "object": "page",
     "id": "15582923-1d09-81fc-b506-ede17413436c",
     "created_time": "2024-12-07T18:27:00.000Z",
-    "last_edited_time": "2024-12-07T18:27:00.000Z",
+    "last_edited_time": "2025-02-04T22:06:00.000Z",
     "created_by": {
       "object": "user",
       "id": "cdef0605-eaff-416b-b254-8ed554e34d62"
@@ -2191,7 +2342,9 @@
     "archived": false,
     "in_trash": false,
     "properties": {
-      "Tags": [],
+      "Tags": [
+        "saas"
+      ],
       "URL": "https://reggora.com",
       "Description": "Real estate appraisal software",
       "Filters": "saas",

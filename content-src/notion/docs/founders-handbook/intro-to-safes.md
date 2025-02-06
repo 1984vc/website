@@ -4,12 +4,10 @@ notionId: 13b82923-1d09-80ed-ae0a-db13d2f3f115
 createdAt: 2024-11-11T21:26:00.000Z
 weight: 2
 draft: false
-description: null
+description: 
 Name: Introduction to SAFEs
-authors:
-  - name: Ramy Adeeb
-    link: 'https://www.linkedin.com/in/ramyadeeb'
-    image: /landing/people/Ramy.svg
+author:
+  - {"name":"Ramy Adeeb","link":"https://www.linkedin.com/in/ramyadeeb","image":"/landing/people/Ramy.svg"}
 ---
 
 
