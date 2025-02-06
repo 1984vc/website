@@ -1,0 +1,51 @@
+{
+  "name": "@1984vc/notion-tools",
+  "version": "4.1.0",
+  "description": "CLI tool to export Notion database pages to various formats",
+  "homepage": "https://github.com/1984vc/notion-tools",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "cli": "tsx src/index.ts"
+  },
+  "keywords": [
+    "notion",
+    "mdx",
+    "markdown",
+    "export",
+    "cli",
+    "notion-to-md"
+  ],
+  "author": "Mark Percival <mdp@1984.vc>",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "commander": "^12.1.0",
+    "notion-to-md": "^3.1.4",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.14.0",
+    "globals": "^14.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

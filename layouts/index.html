@@ -207,19 +207,21 @@
         </div>
         <ul>
 			  {{/*  <li class='company filter-supplychain filter-consumer ' data-url="nicksonliving.com">Nickson, <span class='opacity'>Furniture as a service</span></li>  */}}
-          {{ range .Site.Data.portfolio }}
-            {{ if .Highlighted }}
-              <li class='company filter-featured {{ range .Tags }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
-              <img src="/landing/companies/{{ lower .Name }}.png"></img>
-              <div class='desc'>{{ .Description }}</div>
-              <div class='story'>{{ .Story }}</div>
-            {{ else }}
-              <li class='company {{ range .Tags }} filter-{{ . }} {{ end }}' data-url="{{ .URL }}">
-              {{ .Name }}, 
-              <span class='opacity'>{{ .Description }}</span>
-            {{ end }}
-            </li>
-          {{ end }}
+        {{ $Highlighted := where .Site.Data.portco "properties.Highlighted" true }}
+        {{ $Unhighlighted := where .Site.Data.portco "properties.Highlighted" false }}
+        {{ range (sort $Highlighted "properties.Sort Order Override" "desc" )}}
+          <li class='company filter-featured {{ range .properties.Tags }} filter-{{ . }} {{ end }}' data-url="{{ .properties.URL }}">
+          <img src="/landing/companies/{{ lower .properties.Name }}.png"></img>
+          <div class='desc'>{{ .properties.Description }}</div>
+          <div class='story'>{{ .properties.Story }}</div>
+          </li>
+        {{ end }}
+        {{ range (sort $Unhighlighted "properties.Sort Order Override" "desc" )}}
+          <li class='company {{ range .properties.Tags }} filter-{{ . }} {{ end }}' data-url="{{ .properties.URL }}">
+          {{ .properties.Name }}, 
+          <span class='opacity'>{{ .properties.Description }}</span>
+          </li>
+        {{ end }}
         </ul>
       </div>
       <div class="portfolio_footer footer">

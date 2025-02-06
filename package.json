@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@1984vc/notion-tools": "^3.3.0",
     "glob": "^11.0.0",
     "gray-matter": "^4.0.3",
     "tailwindcss": "^3.4.17"

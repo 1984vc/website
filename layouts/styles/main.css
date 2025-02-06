@@ -14,6 +14,10 @@ article main > div:first-child {
   margin-top: 0;
 }
 
+hr {
+  @apply mt-8 mb-8 border-gray-600;
+}
+
 .hextra-scrollbar {
   padding-top: 0 !important;
   @apply top-8 !important;

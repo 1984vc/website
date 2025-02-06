@@ -4,12 +4,13 @@ notionId: 13f82923-1d09-806a-ba70-cc06d520f3b4
 createdAt: 2024-11-15T14:37:00.000Z
 weight: 1
 draft: false
-description: null
+description: ""
 Name: Cap Table 101
 authors:
   - name: Ramy Adeeb
-    link: 'https://www.linkedin.com/in/ramyadeeb'
+    link: https://www.linkedin.com/in/ramyadeeb
     image: /landing/people/Ramy.svg
+
 ---
 
 
@@ -26,7 +27,7 @@ Let's start with a simple example. Two founders start a company, granting themse
 
 
 {{< callout type="info" emoji="📢" >}}
-Pre-money and Post-money describe the valuation of a company at two different points in time: before and after the financing round.  A company valued at X before the investment and receiving Y in investment will have a pre-money valuation of X and a post money valuation of (X + Y).
+**Pre-money** and **Post-money** describe the valuation of a company at two different points in time: **before** and **after** the financing round.  A company valued at X before the investment and receiving Y in investment will have a pre-money valuation of X and a post money valuation of (X + Y).
 {{< /callout >}}
 
 
@@ -37,7 +38,7 @@ Now for this example let's assume a priced round which is more straightforward t
 3. Last we calculate the number of new shares being issued to the investor based on their purchase price. In this case the investor is investing $2M into the company at a price per share of $4 resulting in $2,000,000/$4 = 500,000 new shares.
 
 {{< callout type="info" emoji="📢" >}}
-The Price Per Share (PPS) in a round can be calculated as the pre-money valuation divided by number of shares (often called Company Capitalization).
+The Price Per Share (**PPS**) in a round can be calculated as the pre-money valuation divided by number of shares (often called Company Capitalization).
 {{< /callout >}}
 
 
@@ -62,7 +63,7 @@ The new investment _dilutes_ the existing ownership for each founder from by 20%
 
 
 {{< callout type="info" emoji="📢" >}}
-In cap table lexicon, Dilution is the percentage reduction in ownership from a round. It is calculated as the number of new shares being issued from the transaction divided by the fully diluted shares after the transaction. So, in this case, 500,000/2,500,000=20%,  A founder who starts at 50% will experiences a 20% dilution will end up with 50% * 0.8  = 40%.
+In cap table lexicon, **Dilution** is the percentage reduction in ownership from a round. It is calculated as the number of new shares being issued from the transaction divided by the fully diluted shares after the transaction. So, in this case, 500,000/2,500,000=20%,  A founder who starts at 50% will experiences a 20% dilution will end up with 50% * 0.8  = 40%.
 {{< /callout >}}
 
 
