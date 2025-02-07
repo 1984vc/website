@@ -69,3 +69,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           event-type: automated-pr
+          client-payload: '{"branch": "automated-build-changes"}'

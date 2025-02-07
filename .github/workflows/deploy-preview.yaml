@@ -49,6 +49,7 @@ jobs:
         id: deployment
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ (github.event_name == 'repository_dispatch' && github.event.event_type == 'automated-pr' && github.event.client_payload.branch) || github.head_ref || github.ref }}
           environment: staging
 
       - name: Deploy to Staging
