@@ -20,14 +20,13 @@ jobs:
     steps:
       - name: Debug event
         run: |
-          echo "Event type: ${{ github.event.event_type }}"
+          echo "Event action: ${{ github.event.action }}"
           echo "Branch: ${{ github.event.client_payload.branch }}"
           echo "Head ref: ${{ github.head_ref }}"
           echo "Ref: ${{ github.ref }}"
+
       - name: Set REF
-        env:
-          REF: ${{ (github.event.event_type == 'automated_pr' && github.event.client_payload.branch) || github.head_ref || github.ref }}
-        run: echo "REF=$REF"
+        run: echo "REF=${{ (github.event.action == 'automated_pr' && github.event.client_payload.branch) || github.head_ref || github.ref }}" >> $GITHUB_ENV
 
       - name: Checkout
         uses: actions/checkout@v3
