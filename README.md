@@ -1,18 +1,18 @@
-# Project Title
+<p align="center"><img src="https://raw.githubusercontent.com/1984vc/website/main/static/images/github-logo.svg" width="100" align="center"></p>
 
-A brief description of your project goes here.
+# 1984.vc Website
 
----
+## Requirements
 
-## Local Development
+- Node >20
+- pnpm (for building JS assets, and startup-finance submodule)
+- hugo
+
+## Development / Contributing
 
 ### Setup
 
 1. **Install Dependencies:**  
-   Run the following command to install all necessary dependencies:  
-   ```bash
-   npm install
-   ```
    or if you're using pnpm:  
    ```bash
    pnpm install
@@ -68,20 +68,3 @@ The project uses GitHub Actions to automate deployments and maintain up-to-date 
 
 - **Function:**  
   This workflow periodically pulls the latest changes from the repository and creates or updates pull requests to ensure that the codebase stays current.
-
----
-
-## Tailwind & Build Integration
-
-- The Tailwind CSS build process is integrated into both local development and deployment workflows.
-- Ensure that any changes in the Tailwind configuration (`tailwind.config.js`) are reflected by running the Tailwind build script.
-- Both the deployment and local build scripts leverage the Tailwind setup to ensure consistent styling across environments.
-
----
-
-## Additional Information
-
-- Verify that all environment variables and configurations required by the build and deployment processes are correctly set.
-- For any customizations or troubleshooting, refer to the individual scripts in the `scripts/` directory and the GitHub Action workflow files located in `.github/workflows/`.
-
-Happy coding!
