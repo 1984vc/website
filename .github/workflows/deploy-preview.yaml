@@ -13,6 +13,8 @@ jobs:
   publish:
     environment: staging
     runs-on: ubuntu-latest
+    env:
+      REF: ${{ (github.event.event_type == 'automated-pr' && github.event.client_payload.branch) || github.head_ref || github.ref }}
     permissions:
       contents: read
       deployments: write
@@ -21,6 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          ref: ${{ env.REF }}
           submodules: true
 
       - uses: pnpm/action-setup@v4
@@ -49,7 +52,7 @@ jobs:
         id: deployment
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ (github.event.event_type == 'automated-pr' && github.event.client_payload.branch) || github.head_ref || github.ref }}
+          ref: ${{ env.REF }}
           environment: staging
 
       - name: Deploy to Staging
