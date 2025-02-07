@@ -7,19 +7,28 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types:
-      - automated-pr
+      - automated_pr
 
 jobs:
   publish:
     environment: staging
     runs-on: ubuntu-latest
-    env:
-      REF: ${{ (github.event.event_type == 'automated-pr' && github.event.client_payload.branch) || github.head_ref || github.ref }}
     permissions:
       contents: read
       deployments: write
     name: Publish to Cloudflare Pages
     steps:
+      - name: Debug event
+        run: |
+          echo "Event type: ${{ github.event.event_type }}"
+          echo "Branch: ${{ github.event.client_payload.branch }}"
+          echo "Head ref: ${{ github.head_ref }}"
+          echo "Ref: ${{ github.ref }}"
+      - name: Set REF
+        env:
+          REF: ${{ (github.event.event_type == 'automated_pr' && github.event.client_payload.branch) || github.head_ref || github.ref }}
+        run: echo "REF=$REF"
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
