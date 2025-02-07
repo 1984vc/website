@@ -68,7 +68,7 @@ _Caveats: Consider any production keys shared with developers as compromised and
 ### Sharing those secrets
 
 
-Maybe you start by sending new engineers the environment variables via Slack, or even better, in some encrypted format. Even if it includes unprivileged development keys, it's not an ideal setup, as it's almost guaranteed to get out of sync. While this isn't exactly a solved problem yet, there are solutions. Open source products like [Infisical](https://infisical.com/) are great for keeping this up to date, and usually doesn't involve much setup. Just import your .env file and add your developers. Avoid solutions that check the .env file into an SCM (git), as these live on in the history which make cleanup much harder (someone with a key from 6 months ago can still decrypt the old .env files).
+Maybe you start by sending new engineers the environment variables via Slack, or even better, in some encrypted format. Even if it includes unprivileged development keys, it's not an ideal setup, as it's almost guaranteed to get out of sync. While this isn't exactly a solved problem yet, there are solutions. Open source products like [Infisical](https://infisical.com/) and DMNO are great for keeping this up to date, and usually doesn't involve much setup. Just import your .env file and add your developers. Avoid solutions that check the .env file into an SCM (git), as these live on in the history which make cleanup much harder (someone with a key from 6 months ago can still decrypt the old .env files).
 
 
 ## The hardest
