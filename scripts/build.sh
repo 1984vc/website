@@ -5,9 +5,9 @@ set -e
 # Build the the nextjs submodule
 echo "Building the nextjs submodule..."
 cd startup-finance
-yarn install --frozen-lockfile
-yarn test
-yarn build:hugo
+pnpm install
+pnpm test
+pnpm build:hugo
 cd ..
 
 # Build the project static root project
