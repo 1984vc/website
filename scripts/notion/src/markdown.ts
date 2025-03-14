@@ -385,9 +385,26 @@ export class NotionMarkdownExporter {
           delete frontmatter.path
           delete frontmatter.lastEditedAt
           const authors = frontmatter.author as any[]
+          const externalAuthors = frontmatter.external_authors as any[]
           delete frontmatter.author
+          delete frontmatter.external_authors
 
-        const authorDetails = authors
+
+        frontmatter['authors'] = [
+          ...authors
+            .map(authorId => {
+              const author = options.authors[authorId];
+              if (author) {
+                return {
+                  name: author.name,
+                  link: author.link,
+                  image: author.image
+                };
+              }
+              return undefined;
+            })
+            .filter(author => author !== undefined),
+          ...externalAuthors
           .map(authorId => {
             const author = options.authors[authorId];
             if (author) {
@@ -399,8 +416,8 @@ export class NotionMarkdownExporter {
             }
             return undefined;
           })
-          .filter(author => author !== undefined);
-          frontmatter['authors'] = authorDetails
+          .filter(author => author !== undefined)
+        ]
 
 
 
