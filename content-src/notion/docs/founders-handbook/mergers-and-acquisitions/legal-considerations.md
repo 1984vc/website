@@ -1,11 +1,11 @@
 ---
-title: Legal Considerations
+title: Legal Considerations for M&A
 notionId: 1b482923-1d09-800f-8fd3-fea409f89521
 createdAt: 2025-03-12T15:38:00.000Z
 weight: 15
 draft: false
 description: ""
-Name: Legal Considerations
+Name: Legal Considerations for M&A
 authors:
   - name: Assaad Nasr
     link: https://www.linkedin.com/in/assaad-nasr-5354a377/
