@@ -9,7 +9,7 @@ Name: Structuring M&A
 authors:
   - name: Assaad Nasr
     link: https://www.linkedin.com/in/assaad-nasr-5354a377/
-    image: /landing/people/Assaad.jpg
+    image: /landing/people/Assaad.png
 
 ---
 
