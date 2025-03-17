@@ -47,7 +47,7 @@ In a stock acquisition, a buyer acquires the target company's stock directly fro
 Stock acquisitions are usually simpler than asset acquisitions and mergers—for example, unless a target company agreement specifically contains a change of control clause, there is generally no need for third party consents, and unlike with mergers, there are relatively few statutory requirements applicable to stock acquisitions. However, negotiations can get cumbersome and time consuming if the target company has a relatively high number of stockholders. Stock acquisitions generally result in a single level of taxation for a target company's stockholders, and thus are the generally preferred transaction structure for sellers. Stock acquisitions generally do not result in sales, use, or other transfer taxes.
 
 
-### Merger
+## Merger
 
 
 A merger is a stock acquisition in which two companies combine into one legal entity pursuant to the terms of a merger agreement, as a result of which the surviving entity assumes all of the assets, rights, and liabilities of the disappearing entity. The merger process itself is governed by the laws of the states of formation of the entity parties to the merger, and it generally involves more statutory requirements (including detailed filings and appraisal processes), and thus more time and expense, than either an asset transaction or a stock transaction. However, mergers generally only require majority consent from the target company's stockholders for the buyer to obtain 100% of the stock (subject to any additional requirements that may exist in a company's constituent documents, such as class voting rights for a series of stock), and thus may be a preferable option for buyers that want to acquire sole control of a going concern that has many stockholders, especially when some of them may be opposed to selling their stock. Depending on the exact structure of the merger, third party consents generally may or may not be required, and the transaction may be treated as an asset acquisition or a stock acquisition.
@@ -56,7 +56,7 @@ A merger is a stock acquisition in which two companies combine into one legal en
 Proper structuring of an M&A transaction is a critical initial step in the deal process. Given the numerous commercial, process/consent and tax issues that each type of structure poses, due consideration should be given by all transaction parties and their advisors to this issue, ideally at the outset of the process.
 
 
-[_**Assaad Nasr**_](https://www.linkedin.com/in/assaad-nasr-5354a377/) _is the Corporate Partner and Co-Head of the M&A group at Buhler Duggal & Henry LLP and a Guest Writer in the Founders Handbook_ 
+[_**Assaad Nasr**_](https://www.linkedin.com/in/assaad-nasr-5354a377/)_**,**_ _Guest Writer,_ _is a Corporate Partner and Co-Head of the M&A group at Buhler Duggal & Henry LLP_ 
 
 
 _The information in this article is provided solely for general educational purposes and is not intended as legal advice. This article should not replace competent legal counsel from a licensed attorney in your state. 1984 and its affiliates expressly disclaim any and all responsibility and/or liability for any consequences resulting from the use of this article or any other document found on 1984's website._
