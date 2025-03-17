@@ -48,7 +48,7 @@ During its own due diligence process, a selling company or business should start
 ### 4. **Structure the transaction**
 
 
-A threshold issue to address at the outset of any M&A transaction is the structure of the deal. The three principal ways to acquire a business consist of (i) an asset acquisition, (ii) a stock acquisition, and (iii) a merger, each of which is further described [here](/docs/founders-handbook/mergers-and-acquisitions/structuring/)
+A threshold issue to address at the outset of any M&A transaction is the structure of the deal. The three principal ways to acquire a business consist of (i) an asset acquisition, (ii) a stock acquisition, and (iii) a merger, each of which is further described [here](/docs/founders-handbook/mergers-and-acquisitions/structuring/).
 
 
 ### **5. Negotiate the terms**
@@ -66,7 +66,7 @@ Once the deal documents have been fully negotiated, the parties can move to sign
 Although the M&A process might seem overwhelming at first, with the right advisors and a considered approach, it can result in tremendous benefit to all parties involved, and in particular founders desiring a successful exit.
 
 
-[_Assaad Nasr_](https://www.linkedin.com/in/assaad-nasr-5354a377/) _is the Corporate Partner and Co-Head of the M&A group at Buhler Duggal & Henry LLP and a Guest Writer in the Founders Handbook_ 
+[_**Assaad Nasr**_](https://www.linkedin.com/in/assaad-nasr-5354a377/)_**,**_ _Guest Writer,_ _is a Corporate Partner and Co-Head of the M&A group at Buhler Duggal & Henry LLP_ 
 
 
 _The information in this article is provided solely for general educational purposes and is not intended as legal advice. This article should not replace competent legal counsel from a licensed attorney in your state. 1984 and its affiliates expressly disclaim any and all responsibility and/or liability for any consequences resulting from the use of this article or any other document found on 1984's website._
