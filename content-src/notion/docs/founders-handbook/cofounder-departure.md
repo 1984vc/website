@@ -1,13 +1,11 @@
 ---
-title: How to Consciously Uncouple from Your Co-Founder (Without Blowing Up Your
-  Startup)
+title: How to Part Ways with Your Co-Founder (Without Blowing Up Your Startup)
 notionId: 11a82923-1d09-80e0-ad30-f97b370f04c6
 createdAt: 2024-10-09T20:49:00.000Z
 weight: 12
 draft: false
 description: Without Blowing Up Your Startup
-Name: How to Consciously Uncouple from Your Co-Founder (Without Blowing Up Your
-  Startup)
+Name: How to Part Ways with Your Co-Founder (Without Blowing Up Your Startup)
 authors:
   - name: Ramy Adeeb
     link: https://www.linkedin.com/in/ramyadeeb
@@ -28,6 +26,9 @@ The more founders a startup has, the more likely one will depart or be forced ou
 - Skill gaps that emerge as the company scales. A common example is a founding engineer who excels at building the initial product but struggles to develop the leadership abilities needed to manage a growing engineering team.
 - A general lack of alignment over strategy or vision. Typically this materializes when the startup is unable to find product market fit—and the founders gravitate to different ideas.
 
+It's important to note that a departing co-founder often personally from leaving a mismatched role by finding success elsewhere.  Additionally, a co-founder who isn't the right fit for one startup may excel at another. So do not treat this process like it's the end of their career; it's often the beginning of something better. 
+
+
 ## The Five Steps of Founder Transition 
 
 
@@ -45,9 +46,9 @@ A co-founder should never receive this news as a complete shock—if they do, it
 
 Reach out to your senior investors, advisors, and angels (and board members if you have them). This step serves two purposes: getting advice and informing your stakeholders.  
 
-- When talking to your investors, ideally you're asking for their advice on executing on the decision, not asking them to weight in on the decision. This decision is yours as the CEO to make.  They will typically be most concerned with the sustainability of the business and how quickly you can replace your co-founder. Some might offer to mediate which can be helpful.
-- If you do have board, you need to get their buy-in.  Technically the board has the power to remove the CEO (although in early stage startups investors seldom have the voting power). Still make sure the board is aware. And again the more of a surprise the decision is to them, the more eyebrows it will raise.
-- Finally, consult your lawyer. They will ensure you're properly protected with employment termination, separation agreements, and other legal documentation. Expect significant legal costs—separation agreements from top-tier firms typically range from $25,000 to $50,000. However, proceeding without a separation agreement will put your business' future at risk.
+- When talking to your investors, ideally you're asking for their advice on executing on the decision, not asking them to weight in on the decision. This decision is yours as the CEO to make.  Investors will typically be most concerned with the sustainability of the business and how quickly you can replace your co-founder. Some might offer to mediate which can be helpful.
+- If you do have board, you need to get their buy-in.  Technically the board has the power to remove the CEO (although in early stage startups investors seldom have the voting power). Still make sure the board is aware. The more of a surprise the decision is to them, the more eyebrows it will raise.
+- Finally, consult your lawyer. They will ensure you're properly protected with employment termination, separation agreements, and other legal documentation. Expect significant legal costs—separation agreements from top-tier firms typically range from $25,000 to $50,000. However, proceeding without a separation agreement will cost you a lot more down the line (In the case of Facebook's dispute with Eduardo Saverin, a whopping $2B settlement).
 
 ### 3. Come up With a Comp Package and a Transition Plan
 
@@ -75,14 +76,14 @@ In general, most separation package offers a combination of the following:
 - Equity: expect to provide a little more equity than they have vested in the early days, and less than they have fully vested later on. Note that the effect of a founder's departure on the remaining founder's equity varies greatly based on whether the initial investment was a priced round vs a SAFE or other convertible instruments, [more details here](/176829231d098007a3d7f4c6e257ce9b)
 
 {{< callout type="info" emoji="💡" >}}
- If the founder hasn't been at the company for the full year cliff, it's often wise to grant them a few months worth of vesting—say 2%.  On the other hand if the founder has  significant equity vested before the A, you want to buy back their shares so they leave with no more than 5% of the cap table, otherwise their holding will be perceived as "dead weight" by the Series A lead. 
+If the founder hasn't been at the company for the full year cliff, it's often wise to grant them a few months worth of vesting—say 2%.  On the other hand if the founder has  significant equity vested before the A, you want to buy back their shares so they leave with no more than 5% of the cap table, otherwise their holding will be perceived as "dead weight" by the Series A lead. 
 {{< /callout >}}
 
 - Title (maintain co-founder, stay on as an advisor, etc)
 - Controlling the narrative (i.e. we have mutually decided to part ways, etc)
 - Last, a slew of legalese around non-disparagement, non-disclosure, etc.
 
-The most important thing to remember is that while the transition may feel overwhelming and costly in the moment, you will never look back. With a nimbler team, less friction,  and potentially new executives who are more aligned with your vision, your company will thrive and you will never look back. The extra equity or cash compensation given to your departing co-founder will ultimately be a small price to pay.
+Remember that while the transition may feel overwhelming and costly in the moment, you will never look back. With a nimbler team, less friction,  and potentially new executives who are more aligned with your vision, your company will thrive and you will never look back. The extra equity or cash compensation given to your departing co-founder will ultimately be a small price to pay.
 
 
 {{< callout type="info" emoji="💡" >}}
@@ -93,9 +94,9 @@ You should agree on the high-level compensation package first before engaging la
 ### 4. Execute on the transition 
 
 
-How you handle the conversation will impact the outcome. And Having empathy is a key. Put yourself in your co-founder's shoes: they've poured their heart into this startup which has become part of their identity. Now they're suddenly being told their services are no longer needed. Yet you need them to exit gracefully and sign a full release of claims. That's a tall order. Your task is to show appropriate respect and create an enticing package for the departing founder while ensuring it doesn't handicap the business's future.  Some specifics:
+How you handle the conversation will impact the outcome. And Having empathy is a key. Put yourself in your co-founder's shoes: they've poured their heart into this startup yet you need them to exit gracefully and sign a full release of claims. That's a tall order. Your task is to show appropriate respect and create an enticing package for the departing founder while ensuring it doesn't handicap the business's future.  Some specifics:
 
-- Show respect: if your co-founder is half way across the country, fly over to see them in person. Allocate enough time for the discussion.
+- Show up: if your co-founder is half way across the country, fly over to see them in person. Allocate enough time for the discussion.
 - Get straight to the point: You've reached the conclusion this isn't the right fit and have decided to part ways.
 - Own the decision. Don't blame it on other co-founders or the board or the investors.
 - Listen. Don't interrupt.
@@ -121,5 +122,5 @@ Even with careful planning, some transitions can become contentious. If your co-
 Remember that a disgruntled founder with significant equity can create serious problems for future fundraising rounds or M&A opportunities. You need to reach a resolution quickly and decisively.  
 
 
-While founder departures are challenging moments in a startup's journey, they don't have to be catastrophic. With careful planning, clear communication, and a good dose of empathy, companies can emerge stronger and more focused. The key lies in viewing these transitions not as failures, but as natural evolution points in a company's growth story.
+While founder departures are challenging moments in a startup's journey, they don't have to be catastrophic. With careful planning, clear communication, and a good dose of empathy, companies can emerge stronger and more focused. The key lies in viewing these transitions not as failures, but as natural evolution points in a company's growth story. And that a separation is not the end of your co-foudners's career but rather a catalyst for a new beginning.
 
