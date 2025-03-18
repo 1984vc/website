@@ -1,0 +1,42 @@
+{{- $context := .context -}}
+{{- $navRoot := cond (eq site.Home.Type "docs") site.Home $context.FirstSection -}}
+{{- $pageURL := $context.RelPermalink -}}
+
+<div class="container mx-auto px-4 py-8 border-t dark:border-neutral-800">
+  <div class="flex flex-col gap-4">
+    <ul class="flex flex-wrap items-center gap-x-2 gap-y-2">
+      {{- range $index, $page := union $navRoot.RegularPages $navRoot.Sections -}}
+        {{- if not .Params.sidebar.exclude -}}
+          {{- if not .Params.sidebar.separator -}}
+            {{- $active := eq $pageURL .RelPermalink -}}
+            <li>
+              <a 
+                href="{{ .RelPermalink }}"
+                class="text-lg font-semibold text-primary-600 dark:text-neutral-300 dark:hover:text-gray-50 transition-colors cursor-pointer"
+              >
+                {{- partial "utils/title" . -}}
+              </a>
+              {{- if and .RegularPages .IsSection -}}
+                <ul class="mt-1 ml-4 flex flex-wrap gap-x-8 gap-y-1">
+                  {{- range .RegularPages -}}
+                    {{- if not .Params.sidebar.exclude -}}
+                      {{- $active := eq $pageURL .RelPermalink -}}
+                      <li>
+                        <a 
+                          href="{{ .RelPermalink }}"
+                          class="text-sm text-gray-600 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-gray-50 transition-colors cursor-pointer"
+                        >
+                          {{- partial "utils/title" . -}}
+                        </a>
+                      </li>
+                    {{- end -}}
+                  {{- end -}}
+                </ul>
+              {{- end -}}
+            </li>
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    </ul>
+  </div>
+</div>

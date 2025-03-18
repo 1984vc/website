@@ -2,15 +2,10 @@
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
   <link rel="stylesheet" type="text/css" href="/fonts/1984-Default-Fonts.css" />
-  {{- $styles := resources.Get "styles/compiled/main.css" -}}
-
-  {{- if hugo.IsProduction }}
-    {{- $styles = $styles | minify | fingerprint }}
-    <link rel="preload" href="{{ $styles.RelPermalink }}" as="style" integrity="{{ $styles.Data.Integrity }}" />
-    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
-  {{- else }}
-    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
-  {{- end }}
+  {{ with resources.Get "styles/compiled/main.css" -}}
+    {{ $style := . | fingerprint "sha512" }}
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
+  {{ end }}
 
   <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}" class="AtlasGrotesk-Regular-Web">
     {{- block "main" . }}{{ end -}}

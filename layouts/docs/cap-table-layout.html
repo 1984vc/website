@@ -4,15 +4,9 @@
     <script type="module" crossorigin src="{{ $style.RelPermalink }}"></script>
   {{ end }}
 
-  {{ with resources.Get "cap-table-worksheet/index.css" }}
-    {{ $style := . | fingerprint "sha512" }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-  {{ end }}
-
   <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
-    {{ partial "sidebar.html" (dict "context" .) }}
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-mt-8 md:hx-px-12">
+      <main class="hx-w-full md:min-w-[64rem] hx-max-w-6xl hx-px-6 hx-mt-8 md:hx-px-12">
         <div
           class="hx-mt-1.5 hx-flex hx-justify-between hx-items-center hx-gap-1 hx-overflow-hidden hx-text-sm hx-text-gray-500 dark:hx-text-gray-400 contrast-more:hx-text-current">
           <div class="hx-flex hx-space-4">
@@ -33,9 +27,7 @@
           <h1>Cap Table Worksheet</h1>
           <div id="root"></div>
         </div>
-        {{ partial "components/last-updated.html" . }}
-        {{ partial "components/pager.html" . }}
-        {{ partial "components/comments.html" . }}
+        {{ partial "TOC_Footer.html" (dict "context" .) }}
       </main>
     </article>
   </div>
