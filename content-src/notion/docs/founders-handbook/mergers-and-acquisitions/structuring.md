@@ -14,7 +14,13 @@ authors:
 ---
 
 
-A threshold issue to address in any M&A transaction is the structure of the deal. The three principal ways to acquire a business consist of (i) an asset acquisition, (ii) a stock acquisition, and (iii) a merger, each of which is further described below. In any event, you should consult with your legal counsel and tax advisors to determine which structure is best for your transaction given the numerous commercial, process/consent and tax issues that each structure poses.
+A threshold issue to address in any M&A transaction is the structure of the deal. The three principal ways to acquire a business consist of (i) an asset acquisition, (ii) a stock acquisition, and (iii) a merger.
+
+
+As a simple example, imagine that you incorporate a company to operate a lemonade stand, which you then decide to sell in its entirety for cash. In an asset acquisition, the buyer would acquire all of the balance sheet assets of your business (i.e. the lemons, sugar, water, physical infrastructure, goodwill, etc.) and its liabilities, but you would retain ownership of the company itself (as well as the cash paid to you by the buyer), which you would liquidate following the closing of the acquisition. In a stock acquisition, the buyer would acquire 100% of the stock of your company (and thus all of the company's assets and liabilities), and you would no longer own anything (other than the cash paid to you by the buyer) following the closing. In a merger, the buyer would combine its company with yours in order to create one surviving company that owns all of the assets and liabilities of both companies, and you would no longer own anything (other than the cash paid to you by the buyer) following the closing.
+
+
+In any event, you should consult with your legal counsel and tax advisors to determine which structure is best for your transaction given the numerous commercial, process/consent and tax issues that each structure poses.
 
 
 ## Asset Acquisition
