@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./layouts/**/*.html", "./assets/cap-table-worksheet/*.js"],
+  content: ["./layouts/**/*.html"],
   theme: {
     extend: {
       colors: {
