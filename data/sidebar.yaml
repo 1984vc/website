@@ -1,0 +1,46 @@
+# Custom sidebar configuration
+sidebar:
+      - title: "Company Formation"
+        weight: 2
+        items:
+          - title: "Cap Table Worksheet"
+            icon: "calculator"
+            url: "/docs/cap-table-worksheet"
+          - title: "How to Pick a Startup Idea"
+            icon: "currency-dollar"
+            url: "/docs/founders-handbook/how-to-pick-a-startup-idea/"
+          - title: "Minimizing Founder Dilution"
+            icon: "presentation-chart-line"
+            url: "/docs/founders-handbook/minimizing-founder-dilution/"
+          - title: "How to Part Ways with Your Co-Founder"
+            icon: "currency-dollar"
+            url: "/docs/founders-handbook/cofounder-departure/"
+          - title: "Founder Departure"
+            icon: "logout"
+            url: "/docs/founders-handbook/founder-departure/"
+      
+      - title: "Raising your A"
+        weight: 3
+        items:
+          - title: "Raising your Series A"
+            icon: "currency-dollar"
+            url: "/docs/founders-handbook/raising-your-series-a/"
+          - title: "Selling Secondaries"
+            icon: "document-text"
+            url: "/docs/founders-handbook/selling-secondaries/"
+          - title: "Structured and Down Rounds"
+            icon: "emoji-sad"
+            url: "/docs/founders-handbook/structured-and-downrounds/"
+      
+      - title: "Mergers and Acquisitions"
+        weight: 4
+        items:
+          - title: "Legal Considerations for M&A"
+            icon: "currency-dollar"
+            url: "/docs/founders-handbook/mergers-and-acquisitions/legal-considerations/"
+          - title: "Structuring M&A"
+            icon: "currency-dollar"
+            url: "/docs/founders-handbook/mergers-and-acquisitions/structuring/"
+          - title: "Terms to Negotiate in an M&A Transaction"
+            icon: "currency-dollar"
+            url: "/docs/founders-handbook/mergers-and-acquisitions/terms/"

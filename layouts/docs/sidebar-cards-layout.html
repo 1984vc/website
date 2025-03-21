@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <div class='mx-auto flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    {{ partial "toc.html" . }}
+    <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="w-full min-w-0 max-w-6xl px-6 mt-8 md:px-12">
+        {{ partial "breadcrumb.html" . }}
+        <div class="content">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+
+          <!-- Render sidebar items as cards -->
+          {{ range $section := site.Data.sidebar.sidebar }}
+            <h2 class="mt-10 mb-4 text-xl font-bold">{{ $section.title }}</h2>
+            
+            <div class="hextra-cards mt-4 gap-4 grid not-prose" style="--hextra-cards-grid-cols: 3;">
+              {{ range $item := $section.items }}
+                <!-- Use icon from sidebar data or default to office-building -->
+                {{ $icon := "office-building" }}
+                {{ if $item.icon }}
+                  {{ $icon = $item.icon }}
+                {{ end }}
+                
+                <!-- Render card -->
+                {{ partial "shortcodes/card" (dict
+                  "page" $
+                  "link" $item.url
+                  "title" $item.title
+                  "icon" $icon
+                ) }}
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+        {{ partial "components/last-updated.html" . }}
+        {{ partial "components/pager.html" . }}
+        {{ partial "components/comments.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}

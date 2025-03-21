@@ -9,7 +9,7 @@
 {{- $disableSidebar := .disableSidebar | default false -}}
 {{- $displayPlaceholder := .displayPlaceholder | default false -}}
 
-{{- $sidebarClass := cond $disableSidebar (cond $displayPlaceholder "md:hx-hidden xl:hx-block" "md:hx-hidden") "md:hx-sticky" -}}
+{{- $sidebarClass := cond $disableSidebar (cond $displayPlaceholder "md:hidden xl:block" "md:hidden") "md:sticky" -}}
 
 {{- $navRoot := cond (eq site.Home.Type "docs") site.Home $context.FirstSection -}}
 {{- $pageURL := $context.RelPermalink -}}
@@ -29,17 +29,21 @@
 {{- $navRoot := cond (eq site.Home.Type "docs") site.Home $context.FirstSection -}}
 {{- $pageURL := $context.RelPermalink -}}
 
-<div class="mobile-menu-overlay [transition:background-color_1.5s_ease] hx-fixed hx-inset-0 hx-z-10 hx-bg-black/80 dark:hx-bg-black/60 hx-hidden"></div>
-<aside class="sidebar-container hx-flex hx-flex-col print:hx-hidden md:hx-shrink-0 md:hx-w-64 md:hx-self-start max-md:[transform:translate3d(0,-100%,0)] md:hx-sticky">
+<div class="mobile-menu-overlay [transition:background-color_1.5s_ease] fixed inset-0 z-10 bg-black/80 dark:bg-black/60 hidden"></div>
+<aside class="sidebar-container flex flex-col print:hidden md:shrink-0 md:w-64 md:self-start max-md:[transform:translate3d(0,-100%,0)] {{ $sidebarClass }}">
 
   <div class="px-6 py-10 mb-4">
     <a href="/">
-      <img class="hx-block dark:hx-hidden" src="{{ $logoPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
-      <img class="hx-hidden dark:hx-block" src="{{ $logoDarkPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+      <img class="block dark:hidden" src="{{ $logoPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+      <img class="hidden dark:block" src="{{ $logoDarkPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
     </a>
+  </div>  
+  <!-- Search bar on small screen -->
+  <div class="px-4 pt-4 md:hidden">
+    {{ partial "search.html" }}
   </div>
-  <div class="hextra-scrollbar hx-overflow-y-auto hx-overflow-x-hidden hx-p-4 hx-grow md:hx-h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
-    <ul class="hx-flex hx-flex-col hx-gap-1 md:hx-hidden">
+  <div class="overflow-y-auto overflow-x-hidden p-4 grow md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <ul class="flex flex-col gap-1 md:hidden">
       <!-- Nav -->
       {{ template "sidebar-main" (dict "context" site.Home "pageURL" $pageURL "page" $context "toc" true) -}}
       {{ template "sidebar-footer" }}
@@ -47,35 +51,79 @@
 
     <!-- Sidebar on large screen -->
     {{- if $disableSidebar -}}
-      {{- if $displayPlaceholder }}<div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>{{ end -}}
+      {{- if $displayPlaceholder }}<div class="max-xl:hidden h-0 w-64 shrink-0"></div>{{ end -}}
       {{ .context.Scratch.Set "enableFooterSwitches" true }}
     {{- else -}}
-      <ul class="hx-flex hx-flex-col hx-gap-1 max-md:hx-hidden">
+      <ul class="flex flex-col gap-1 max-md:hidden">
         {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL) }}
         {{ template "sidebar-footer" }}
       </ul>
     {{ end -}}
-  </div>
-  {{/* Hide theme switch when sidebar is disabled */}}
-  {{ $switchesClass := cond $disableSidebar "md:hx-hidden" "" -}}
-  {{ $displayThemeToggle := (site.Params.theme.displayToggle | default true) -}}
+    {{ $switchesClass := cond $disableSidebar "md:hidden" "" -}}
+    {{ $displayThemeToggle := (site.Params.theme.displayToggle | default true) -}}
 
-  {{ if or hugo.IsMultilingual $displayThemeToggle }}
-    <div class="{{ $switchesClass }} {{ with hugo.IsMultilingual }}hx-justify-end{{ end }} hx-sticky hx-bottom-0 hx-bg-white dark:hx-bg-dark hx-mx-4 hx-py-4 hx-shadow-[0_-12px_16px_#fff] hx-flex hx-items-center hx-gap-2 dark:hx-border-neutral-800 dark:hx-shadow-[0_-12px_16px_#111] contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-shadow-none hx-border-t" data-toggle-animation="show">
-      {{- with hugo.IsMultilingual -}}
-        {{- partial "language-switch" (dict "context" $context "grow" true) -}}
-        {{- with $displayThemeToggle }}{{ partial "theme-toggle" (dict "hideLabel" true) }}{{ end -}}
-      {{- else -}}
-        {{- with $displayThemeToggle -}}
-          <div class="hx-flex hx-grow hx-flex-col">{{ partial "theme-toggle" }}</div>
-        {{- end -}}
-      {{- end -}}
-    </div>
-  {{- end -}}
+    {{ if or hugo.IsMultilingual $displayThemeToggle }}
+          {{- with $displayThemeToggle -}}
+            <div class="flex grow flex-col">{{ partial "theme-toggle" }}</div>
+          {{- end -}}
+    {{- end -}}
+  </div>
+  
 </aside>
 
 {{- define "sidebar-main" -}}
-  {{ template "sidebar-tree" (dict "context" .context "level" 0 "page" .page "pageURL" .pageURL "toc" (.toc | default false)) }}
+  {{ if site.Data.sidebar }}
+    {{ template "custom-sidebar" (dict "page" .page "pageURL" .pageURL "toc" (.toc | default false)) }}
+  {{ else }}
+    {{ template "sidebar-tree" (dict "context" .context "level" 0 "page" .page "pageURL" .pageURL "toc" (.toc | default false)) }}
+  {{ end }}
+{{- end -}}
+
+{{- define "custom-sidebar" -}}
+  {{- $page := .page -}}
+  {{- $pageURL := .pageURL -}}
+  {{- $toc := .toc | default false -}}
+
+  {{- range $section := site.Data.sidebar.sidebar -}}
+    {{- $sectionActive := eq $pageURL $section.url -}}
+    <li class="[word-break:break-word] mt-5 mb-2 px-2 py-1.5 text-sm font-semibold text-gray-900 first:mt-0 dark:text-gray-100">
+      {{- if $section.url -}}
+        <a href="{{ $section.url }}" class="cursor-pointer {{ if $sectionActive }}text-primary-800 dark:text-primary-600{{ end }}">{{ $section.title }}</a>
+      {{- else -}}
+        <span class="cursor-default">{{ $section.title }}</span>
+      {{- end -}}
+    </li>
+    {{- if $section.items -}}
+      <div class="ltr:pr-0 overflow-hidden">
+        <ul class='relative flex flex-col gap-1 before:absolute before:inset-y-1 before:w-px before:bg-gray-200 before:content-[""] ltr:ml-3 ltr:pl-3 ltr:before:left-0 rtl:mr-3 rtl:pr-3 rtl:before:right-0 dark:before:bg-neutral-800'>
+          {{- range $item := $section.items -}}
+            {{- $active := eq $pageURL $item.url -}}
+            <li class="flex flex-col {{ if $active }}open{{ end }}">
+              {{- template "sidebar-item-link" dict "context" (dict "RegularPages" $item.items) "active" $active "title" $item.title "link" $item.url "open" true -}}
+              {{- if and $toc $active -}}
+                {{ template "sidebar-toc" dict "page" $page }}
+              {{- end -}}
+              {{- if $item.items -}}
+                <div class="ltr:pr-0 overflow-hidden">
+                  <ul class='relative flex flex-col gap-1 before:absolute before:inset-y-1 before:w-px before:bg-gray-200 before:content-[""] ltr:ml-3 ltr:pl-3 ltr:before:left-0 rtl:mr-3 rtl:pr-3 rtl:before:right-0 dark:before:bg-neutral-800'>
+                    {{- range $subItem := $item.items -}}
+                      {{- $subActive := eq $pageURL $subItem.url -}}
+                      <li class="flex flex-col {{ if $subActive }}open{{ end }}">
+                        {{- template "sidebar-item-link" dict "active" $subActive "title" $subItem.title "link" $subItem.url -}}
+                        {{- if and $toc $subActive -}}
+                          {{ template "sidebar-toc" dict "page" $page }}
+                        {{- end -}}
+                      </li>
+                    {{- end -}}
+                  </ul>
+                </div>
+              {{- end -}}
+            </li>
+          {{- end -}}
+        </ul>
+      </div>
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 
 {{- define "sidebar-tree" -}}
@@ -94,8 +142,8 @@
     {{- if eq $level 0 -}}
       {{- range $items.ByWeight }}
         {{- if .Params.sidebar.separator -}}
-          <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
-            <span class="hx-cursor-default">{{ partial "utils/title" . }}</span>
+          <li class="[word-break:break-word] mt-5 mb-2 px-2 py-1.5 text-sm font-semibold text-gray-900 first:mt-0 dark:text-gray-100">
+            <span class="cursor-default">{{ partial "utils/title" . }}</span>
           </li>
         {{- else -}}
           {{- $active := eq $pageURL .RelPermalink -}}
@@ -111,13 +159,13 @@
         {{- end -}}
       {{- end -}}
     {{- else -}}
-      <div class="ltr:hx-pr-0 hx-overflow-hidden">
-        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'>
+      <div class="ltr:pr-0 overflow-hidden">
+        <ul class='relative flex flex-col gap-1 before:absolute before:inset-y-1 before:w-px before:bg-gray-200 before:content-[""] ltr:ml-3 ltr:pl-3 ltr:before:left-0 rtl:mr-3 rtl:pr-3 rtl:before:right-0 dark:before:bg-neutral-800'>
           {{- range $items.ByWeight }}
             {{- $active := eq $pageURL .RelPermalink -}}
             {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
             {{- $linkTitle := partial "utils/title" . -}}
-            <li class="hx-flex hx-flex-col {{ if $shouldOpen }}open{{ end }}">
+            <li class="flex flex-col {{ if $shouldOpen }}open{{ end }}">
               {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
               {{- if and $toc $active -}}
                 {{ template "sidebar-toc" dict "page" . }}
@@ -134,16 +182,16 @@
 {{- define "sidebar-toc" -}}
   {{ $page := .page }}
   {{ with $page.Fragments.Headings }}
-    <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'>
+    <ul class='flex flex-col gap-1 relative before:absolute before:inset-y-1 before:w-px before:bg-gray-200 before:content-[""] dark:before:bg-neutral-800 ltr:pl-3 ltr:before:left-0 rtl:pr-3 rtl:before:right-0 ltr:ml-3 rtl:mr-3'>
       {{- range . }}
         {{- with .Headings }}
           {{- range . -}}
             <li>
               <a
                 href="#{{ anchorize .ID }}"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+                class="flex rounded px-2 py-1.5 text-sm transition-colors [word-break:break-word] cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:border gap-2 before:opacity-25 before:content-['#'] text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-neutral-400 dark:hover:bg-gray-800 dark:hover:text-gray-50 contrast-more:text-gray-900 contrast-more:dark:text-gray-50 contrast-more:border-transparent contrast-more:hover:border-gray-900 contrast-more:dark:hover:border-gray-50"
               >
-                {{- .Title -}}
+                {{- .Title | safeHTML | plainify | htmlUnescape -}}
               </a>
             </li>
           {{ end -}}
@@ -157,11 +205,17 @@
   {{- range site.Menus.sidebar -}}
     {{- $name := or (T .Identifier) .Name -}}
     {{ if eq .Params.type "separator" }}
-      <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
-        <span class="hx-cursor-default">{{ $name }}</span>
+      <li class="[word-break:break-word] mt-5 mb-2 px-2 py-1.5 text-sm font-semibold text-gray-900 first:mt-0 dark:text-gray-100">
+        <span class="cursor-default">{{ $name }}</span>
       </li>
     {{ else }}
-      <li>{{ template "sidebar-item-link" dict "active" false "title" $name "link" (.URL | relLangURL) }}</li>
+      {{- $link := .URL -}}
+      {{- with .PageRef -}}
+        {{- if hasPrefix . "/" -}}
+          {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+        {{- end -}}
+      {{- end -}}
+      <li>{{ template "sidebar-item-link" dict "active" false "title" $name "link" $link }}</li>
     {{ end }}
   {{- end -}}
 {{- end -}}
@@ -170,11 +224,11 @@
   {{- $external := strings.HasPrefix .link "http" -}}
   {{- $open := .open | default true -}}
   <a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+    class="flex items-center justify-between gap-2 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
     {{- if .active }}
-      sidebar-active-item hx-bg-primary-100 hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 contrast-more:border contrast-more:border-primary-500 dark:bg-primary-400/10 dark:text-primary-600 contrast-more:dark:border-primary-500
     {{- else }}
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 contrast-more:border contrast-more:border-transparent contrast-more:text-gray-900 contrast-more:hover:border-gray-900 dark:text-neutral-400 dark:hover:bg-gray-800 dark:hover:text-gray-50 contrast-more:dark:text-gray-50 contrast-more:dark:hover:border-gray-50
     {{- end -}}"
     href="{{ .link }}"
     {{ if $external }}target="_blank" rel="noreferrer"{{ end }}
@@ -191,5 +245,4 @@
 {{- end -}}
 
 {{- define "sidebar-collapsible-button" -}}
-  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg>
 {{- end -}}

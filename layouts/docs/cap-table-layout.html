@@ -1,43 +1,37 @@
-{{ define "main" }}
-  {{ with resources.Get "cap-table-worksheet/index.js" }}
-    {{ $style := . | fingerprint "sha512" }}
-    <script type="module" crossorigin src="{{ $style.RelPermalink }}"></script>
-  {{ end }}
-
-  {{ with resources.Get "cap-table-worksheet/index.css" }}
-    {{ $style := . | fingerprint "sha512" }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-  {{ end }}
-
-  <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
-    {{ partial "sidebar.html" (dict "context" .) }}
-    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-mt-8 md:hx-px-12">
-        <div
-          class="hx-mt-1.5 hx-flex hx-justify-between hx-items-center hx-gap-1 hx-overflow-hidden hx-text-sm hx-text-gray-500 dark:hx-text-gray-400 contrast-more:hx-text-current">
-          <div class="hx-flex hx-space-4">
-            <div
-              class="hx-whitespace-nowrap hx-transition-colors hx-min-w-[24px] hx-overflow-hidden hx-text-ellipsis hover:hx-text-gray-900 dark:hover:hx-text-gray-100">
-              <a href="/docs/founders-handbook/">Founders Handbook</a>
-            </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
-              viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-            <div
-              class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">
-              Cap Table Worksheet</div>
-          </div>
-          <div class="hx-content-end"><a href="https://github.com/1984vc/startup-finance" target="_blank"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/1984vc/startup-finance"></a></div>
-        </div>
-        <div class="content">
-          <h1>Cap Table Worksheet</h1>
-          <div id="root"></div>
-        </div>
-        {{ partial "components/last-updated.html" . }}
-        {{ partial "components/pager.html" . }}
-        {{ partial "components/comments.html" . }}
-      </main>
-    </article>
-  </div>
-
-{{ end }}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon shortcut" href="https://1984.vc/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="https://1984.vc/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="https://1984.vc/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="https://1984.vc/favicon-16x16.png" type="image/png" sizes="16x16" />
+    <link rel="icon" href="https://1984.vc/favicon-32x32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="https://1984.vc/apple-touch-icon.png" sizes="180x180" />
+    <link fetchpriority="low" href="https://1984.vc/site.webmanifest" rel="manifest" />
+    <title>Cap Table Worksheet – 1984 Ventures - Founders Handbook &amp; Cap Table Worksheet</title>
+    <meta name="description" content="1984 Ventures Founders Handbook and Cap Table Worksheet" />
+    <link rel="canonical" href="https://1984.vc/docs/cap-table-worksheet/" itemprop="url" />
+    
+    <meta property="og:title" content="Cap Table Worksheet" />
+    <meta property="og:description" content="1984 Ventures Founders Handbook and Cap Table Worksheet" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://1984.vc/docs/cap-table-worksheet/" />
+    <meta property="og:image" content="https://1984.vc/images/cap-table-meta.png" />
+    
+    <meta itemprop="name" content="Cap Table Worksheet" />
+    <meta itemprop="description" content="1984 Ventures Founders Handbook and Cap Table Worksheet" />
+    <meta itemprop="image" content="https://1984.vc/images/cap-table-meta.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://1984.vc/images/cap-table-meta.png" />
+    <meta name="twitter:title" content="Cap Table Worksheet" />
+    <meta name="twitter:description" content="1984 Ventures Founders Handbook and Cap Table Worksheet" />
+    <script type="module" crossorigin src="/startup-finance/assets/index-Ck-tLvXw.js"></script>
+    <link rel="stylesheet" crossorigin href="/startup-finance/assets/index-DVpfXDjq.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

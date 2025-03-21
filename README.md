@@ -39,6 +39,34 @@
      ```
    - This allows you to preview your changes locally as you develop.
 
+## Custom Sidebar Configuration
+
+This project uses a custom sidebar configuration to organize the navigation differently from the folder structure. This allows for a more flexible organization of content while maintaining stable URLs.
+
+### How It Works
+
+1. The sidebar structure is defined in `data/sidebar.yaml`
+2. The sidebar template reads this configuration
+3. URLs remain based on the folder structure, but the sidebar organization can be completely customized
+
+### Updating the Sidebar
+
+To update the sidebar structure:
+
+1. Edit the `data/sidebar.yaml` file
+2. Add, remove, or reorder sections and items as needed
+3. Make sure all URLs point to valid pages in your site
+
+### Validating the Sidebar Configuration
+
+A validation script is provided to ensure all URLs in the sidebar configuration are valid:
+
+```bash
+node scripts/validate-sidebar.js
+```
+
+For more detailed information about the sidebar configuration, see [docs/sidebar/README.md](docs/sidebar/README.md).
+
 ---
 
 ## Deployment Process
