@@ -20,94 +20,97 @@ authors:
 _Credit: My poor prompting skills + AI generation_
 
 
-It started as an MVP, but now you've got real customers, possibly real funding, and you're too busy with the new features to look at your security posture because it either seems too early or not important enough. But before you break out the SOC II checklist or set up your own Identity Access Management platform, now's a great time to start by knocking out the low hanging fruit.
+# **Why Security Matters from Day One**
 
 
-Taking a critical look at your security is not just about keeping your data, customers and brand safe; it is part of building a great technical team.
+You started with an MVP, gained some customers, possibly secured funding, and now you're focused on shipping new features. Security feels like something you can address later, when you're bigger. But taking a critical look at your security isn't just about protection—it's about building a strong technical foundation for your company.
 
 
-With that, let's take a look at some of the security issues an early org should be looking at.
+{{< callout type="info" emoji="💡" >}} The best time to implement security basics is when your company is small. It's much easier to build secure habits early than to retrofit security onto established (bad) practices later. {{< /callout >}}
 
 
-## The easy ones
+Let's explore the security measures every early-stage startup should implement, organized from easiest to most challenging.
 
 
-### Two Factor Authentication
+## **1) The Quick Wins**
 
 
-Every employee should have this turned on, and where possible it should be enforced. For example, your Google Workspace should force users into using 2FA. This is one of the easiest changes and knocks out a decent number of attacks.
+### **Enforce Two-Factor Authentication**
 
 
-### Provide and pay for a password manager
+Every employee should have 2FA turned on, and wherever possible, it should be mandatory. Configure your Google Workspace to force users into using 2FA. This simple change eliminates a significant number of potential attacks with minimal effort.
 
 
-The best way to improve password security in an org is to make sure everyone is using a password manager. Free alternatives include Google Chrome and Safari, but they don't solve the issue of occasionally needing to share a secret with another team member. Yes, sharing credentials is not great, but it's going to happen in nearly every org, so at least make it auditable and as secure as possible.
+### **Provide a Password Manager**
 
 
-### Make sure you leave a trail
+The most effective way to improve password security across your organization is ensuring everyone uses a password manager. While free options like Google Chrome and Safari exist, they don't address the occasional need to share credentials securely among team members. Invest in a proper password management solution that makes security convenient.
 
 
-This one should be pretty simple in most of today's cloud computing environments. Pick your vendor and turn it on. Querying and analyzing your logs can come later, what you don't want is to be caught out in a month wondering about the extent of an attack that happened a week earlier.
+### **Enable Comprehensive Logging**
 
 
-_Caveats: Look at the data you're logging and check for anything sensitive in those logs (emails, passwords, any PII). Now's a good time to think about how you'll handle this in the future._
+In today's cloud computing environments, this should be straightforward. Select your vendor and activate logging features. You don't need sophisticated log analysis tools yet—what matters is having the data available when you need it. You don't want to be caught wondering about the extent of an attack that happened a week earlier.
 
 
-## A little bit harder
+{{< callout type="info" emoji="⚠️" >}} Review the data you're logging to check for sensitive information (emails, passwords, PII). Consider how you'll handle this information in compliance with privacy regulations. {{< /callout >}}
 
 
-### Tell me your secrets
+## **2) The Next Level**
 
 
-Start by analyzing the secrets you're handing out to your engineers when they first onboard. Things like API Keys (Stripe, AWS, etc), should hopefully be limited to non-production keys, but it's not uncommon in early startups to see production keys shared. Moving off of these needs to be a priority.
+### **Audit Your Secrets Management**
 
 
-_Caveats: Consider any production keys shared with developers as compromised and therefore need to be rotated as soon as possible._
+Analyze the secrets (API keys, credentials) you distribute to engineers during onboarding. In early startups, it's common to see production keys shared widely—this needs to be addressed immediately. Any production keys shared with developers should be considered compromised and rotated as soon as possible.
 
 
-### Sharing those secrets
+### **Implement Proper Secrets Sharing**
 
 
-Maybe you start by sending new engineers the environment variables via Slack, or even better, in some encrypted format. Even if it includes unprivileged development keys, it's not an ideal setup, as it's almost guaranteed to get out of sync. While this isn't exactly a solved problem yet, there are solutions. Open source products like [Infisical](https://infisical.com/) and DMNO are great for keeping this up to date, and usually doesn't involve much setup. Just import your .env file and add your developers. Avoid solutions that check the .env file into an SCM (git), as these live on in the history which make cleanup much harder (someone with a key from 6 months ago can still decrypt the old .env files).
+Sending environment variables via Slack or even in encrypted format isn't sustainable—it inevitably gets out of sync. While this isn't a fully solved problem, tools like Infisical, DMNO, and dotenvx can help maintain up-to-date secrets with minimal setup. Simply import your .env file and add your developers.
 
 
-## The hardest
+{{< callout type="info" emoji="📢" >}} Avoid solutions that check .env files into source control, as these remain in history and make cleanup much harder—someone with an old key can still decrypt previous .env files. {{< /callout >}}
 
 
-### PII is radioactive
+## **3) The More Challenging Issues**
 
 
-The best PII is the PII you don't have to store. Services like Stripe and Authy let us keep this data at bay, but there's always going to be some Personal Identifiable Information in most services. One example is email which meets the PII standard in both Europe and the US (via the CCPA from California).
+### **Treat PII as Radioactive**
 
 
-Look at every place you store PII and think carefully about where it lives, who has access to it, and what could go wrong to expose it. An example would be a GraphQL query that allows an unauthenticated user or the wrong authenticated user to see another users email.
+The best approach to personal identifiable information (PII) is to store as little as possible. Services like Stripe and Authy help keep sensitive data at arm's length, but you'll inevitably need to handle some PII—even email addresses qualify as PII under GDPR and CCPA.
 
 
-_Caveats: Think carefully about where your PII travels as well. It's not uncommon to hand your marketing person a list of email addresses for users. If this list gets leaked, you're in the same boat as a database breach in terms of PII regulations. Find a way to sync up directly with the services your marketing team uses, and don't forget the 2FA!_
+Carefully examine every location where PII is stored: Who has access? How is it protected? What could expose it? For example, an improperly secured GraphQL query might allow unauthorized users to view others' data.
 
 
-### Access to production
+### **Control Production Access**
 
 
-Production access - every early engineer's favorite debugging tool. This of course is an absolute disaster in terms of security. What this SHOULD NOT limit is developers access to production logs and traces, which will be critical in determining outages. Having a staging environment here can help, but beware of access to real production data (if any engineer can access staging, but staging has access to prod data, you're in the same position)
+Production access—every early engineer's favorite debugging tool—is a security disaster waiting to happen. This doesn't mean limiting developers' access to production logs and traces, which are crucial for resolving outages. A staging environment can help, but beware if it contains real production data (if any engineer can access staging with production data, you haven't solved the problem).
 
 
-### Production data vs testing or development data
+### **Separate Production and Development Data**
 
 
-Nothing is more annoying than finding a bug that only shows up on production because of production data. In the early days it's easy to just pass around production data, but this fails for two reasons:
+Finding bugs that only appear with production data is frustrating, but passing around real production data creates two problems:
 
-1. Obviously you can't have production data floating around on developers machines. You could "sanitize" the data but eventually this fails because of #2
-2. Eventually the size of the data will make this impossible.
+1. You can't have production data on developers' machines, even if "sanitized"
+2. Eventually, the data volume makes this approach impossible
 
-The right solution here is writing tests to reproduce these data edge cases. This means having a set of fixtures that you can load in for testing. The added benefit here is that when you onboard developers you have an easy way of seeding data to get them started on development.
-
-
-_Caveats: A common solution is to set up staging to mirror a recent copy of production data. This is a good way to run a final test, but it's tempting to allow engineers to deploy any branch to staging in order to run these end to end tests. The issue here is that if there's no code review before running the branch against staging, then one engineer still has the ability to dump your production data (or the bigger concern, the attacker that has your engineers credentials now has that ability - Think it can't happen? Look at how LastPass got hacked via an engineers home network setup_ [_^1_](https://thehackernews.com/2023/03/lastpass-hack-engineers-failure-to.html)_)._
+The right solution is creating test fixtures that reproduce data edge cases. This approach also simplifies onboarding by providing consistent test data for new developers.
 
 
-## Conclusions
+{{< callout type="info" emoji="💡" >}} While mirroring production data in staging can be useful for final testing, be cautious about allowing engineers to deploy any branch to staging without code review. This creates a potential vector for data exfiltration, especially if an engineer's credentials are compromised. {{< /callout >}}
 
 
-This is by no means meant to be an exhaustive list, but should be viewed as a starting point for security conversation at your organization. It's easy in early startups to push this off till the next iteration, but like technical debt, there's interest and it accrues daily. Don't wait until you're making a security disclosure to start and pay it off.
+## **Building a Security Mindset**
+
+
+This isn't an exhaustive security checklist, but rather a starting point for security conversations in your organization. Like technical debt, security debt accrues interest daily. Don't wait until you're facing a security breach to start addressing these fundamentals.
+
+
+The most successful startups build security into their technical DNA from the beginning—not as a checkbox for compliance, but as a foundational element of their engineering culture.
 
