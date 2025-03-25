@@ -19,8 +19,27 @@ sidebar:
             icon: "logout"
             url: "/docs/founders-handbook/founder-departure/"
       
-      - title: "Raising your A"
+      - title: "Raising your Seed"
         weight: 3
+        items:
+          - title: "Cap Table 101"
+            icon: "calculator"
+            url: "/docs/founders-handbook/cap-table-101/"
+          - title: "Introduction to SAFEs"
+            icon: "document-text"
+            url: "/docs/founders-handbook/intro-to-safes/"
+          - title: "Pre-money vs Post-money Conversion"
+            icon: "presentation-chart-line"
+            url: "/docs/founders-handbook/pre-money-vs-post-money-conversion/"
+          - title: "SAFE vs Priced Round"
+            icon: "currency-dollar"
+            url: "/docs/founders-handbook/safe-vs-priced-round/"
+          - title: "SAFE Side Letters"
+            icon: "document-text"
+            url: "/docs/founders-handbook/safe-side-letters/"
+      
+      - title: "Raising your A"
+        weight: 4
         items:
           - title: "Raising your Series A"
             icon: "currency-dollar"
@@ -33,7 +52,7 @@ sidebar:
             url: "/docs/founders-handbook/structured-and-downrounds/"
       
       - title: "Mergers and Acquisitions"
-        weight: 4
+        weight: 5
         items:
           - title: "Legal Considerations for M&A"
             icon: "currency-dollar"
