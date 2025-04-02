@@ -13,7 +13,8 @@ inputs:
     required: true
   branch_name:
     description: 'Branch name to deploy'
-    required: true
+    required: false
+    default: main
   node_version:
     description: 'Node.js version to use'
     required: false

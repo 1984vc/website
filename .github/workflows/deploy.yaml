@@ -14,6 +14,11 @@ jobs:
       deployments: write
     name: Publish to Cloudflare Pages
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true # Ensure submodules are checked out if needed by the build
+
       - name: Publish using shared action
         uses: ./.github/actions/publish-cloudflare
         with:
