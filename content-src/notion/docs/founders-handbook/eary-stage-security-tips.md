@@ -73,7 +73,7 @@ With modern cloud computing environments, enabling logging should be straightfor
 
 **Resources:**
 
-- [OpenTelemetry](https://opentelemetry.io/) - The standard to adopt if you're starting out today.
+- [OpenTelemetry](https://opentelemetry.io/) - The standard to adopt if you're starting out today
 - [HyperDX](https://www.hyperdx.io/) - OpenTelemetry log host (and 1984 portfolio company)
 - HoneyComb - Alternative OpenTelemetry log host
 
@@ -94,7 +94,7 @@ Sending environment variables via Slack or email isn't sustainable and inevitabl
 
 **Resources:**
 
-- [Infisical](https://infisical.com/) - Open-source secrets management platform with integrations across infrastructure tools.
+- [Infisical](https://infisical.com/) - Open-source secrets management platform with integrations across infrastructure tools
 - [Dotenv Vault](https://www.dotenv.org/security/) - From the creator of Dotenv, allows sharing of .env files between team members
 
 ## The Most Challenging Issues
