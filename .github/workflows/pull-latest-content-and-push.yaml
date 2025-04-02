@@ -3,14 +3,14 @@ name: Pull latest from Notion and Push to main
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'  # Run every twelve hours
+    - cron: '0 */4 * * *'  # Run every twelve hours
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
-  build-and-pr:
+  build-and-push-content-changes:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
