@@ -3,7 +3,7 @@ name: Website Production Deploy
 on:
   push:
     branches:
-      - main # Trigger only on push to main
+      - main
 
 jobs:
   publish:
@@ -14,15 +14,39 @@ jobs:
       deployments: write
     name: Publish to Cloudflare Pages
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          submodules: true
 
-      - name: Publish using shared action
-        uses: ./.github/actions/publish-cloudflare
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
         with:
-          cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          cloudflare_project_name: 1984vc-production # Hardcoded project name for production
-          branch_name: main # Hardcoded branch name for production
+          version: 10
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: PNPM install
+        run: pnpm install
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+
+      - name: Build
+        run: ./scripts/build.sh
+
+      - name: Deploy to Production
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=1984vc-production --branch=main

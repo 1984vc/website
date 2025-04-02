@@ -1,25 +1,20 @@
-name: Pull Latest Content and Deploy
+name: Pull latest content push and deploy
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'  # Run every four hours
+    - cron: '0 */4 * * *'  # Run at 5 PM ET (21:00 UTC)
 
 permissions:
   contents: write
-  pull-requests: write
-  deployments: write # Add permission for deployment status
 
 jobs:
-  build-and-push-content-changes:
+  build-and-pr:
     runs-on: ubuntu-latest
-    outputs:
-      changes_pushed: ${{ steps.commit.outputs.pushed }}
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          submodules: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -56,16 +51,14 @@ jobs:
           git push origin main
           echo "pushed=true" >> $GITHUB_OUTPUT # Output that push happened
 
-      # This step ensures the output is set even if no changes were pushed
-      - name: Set push output if no changes
-        if: steps.git-check.outputs.changes == 'false'
-        run: echo "pushed=false" >> $GITHUB_OUTPUT
+      - name: Build
+        if: steps.git-check.outputs.changes == 'true'
+        run: ./scripts/build.sh
 
-      - name: Publish to Cloudflare Pages if changes were pushed
-        if: steps.commit.outputs.pushed == 'true'
-        uses: ./.github/actions/publish-cloudflare
+      - name: Deploy to Production
+        if: steps.git-check.outputs.changes == 'true'
+        uses: cloudflare/wrangler-action@v3
         with:
-          cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          cloudflare_project_name: 1984vc-production # Deploy to production
-          branch_name: main # Deploy main branch
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=1984vc-production --branch=main
