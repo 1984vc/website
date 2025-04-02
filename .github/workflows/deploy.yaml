@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          submodules: true # Ensure submodules are checked out if needed by the build
+          fetch-depth: 0
 
       - name: Publish using shared action
         uses: ./.github/actions/publish-cloudflare
