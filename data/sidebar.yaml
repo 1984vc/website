@@ -1,5 +1,5 @@
 # Custom sidebar configuration
-# Icons can be found here: https://heroicons.com/
+# Icons can be found here: https://v1.heroicons.com/
 sidebar:
       - title: "Company Formation"
         weight: 2
@@ -8,7 +8,7 @@ sidebar:
             icon: "calculator"
             url: "/docs/founders-handbook/cap-table-101/"
           - title: "Cap Table Worksheet (App)"
-            icon: "table-cells"
+            icon: "table"
             url: "/docs/cap-table-worksheet"
           - title: "How to Pick a Startup Idea"
             icon: "currency-dollar"
