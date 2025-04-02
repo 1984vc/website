@@ -1,4 +1,4 @@
-name: Pull latest from Notion and Push to main
+name: Pull Latest Content and Deploy
 
 on:
   workflow_dispatch:
@@ -8,10 +8,13 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  deployments: write # Add permission for deployment status
 
 jobs:
   build-and-push-content-changes:
     runs-on: ubuntu-latest
+    outputs:
+      changes_pushed: ${{ steps.commit.outputs.pushed }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -44,9 +47,24 @@ jobs:
             echo "changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit changes
+      - name: Commit and Push changes
+        id: commit # Add an ID to reference this step's output
         if: steps.git-check.outputs.changes == 'true'
         run: |
           git commit -m "Automated build changes"
           git push origin main
+          echo "pushed=true" >> $GITHUB_OUTPUT # Output that push happened
 
+      # This step ensures the output is set even if no changes were pushed
+      - name: Set push output if no changes
+        if: steps.git-check.outputs.changes == 'false'
+        run: echo "pushed=false" >> $GITHUB_OUTPUT
+
+      - name: Publish to Cloudflare Pages if changes were pushed
+        if: steps.commit.outputs.pushed == 'true'
+        uses: ./.github/actions/publish-cloudflare
+        with:
+          cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          cloudflare_project_name: 1984vc-production # Deploy to production
+          branch_name: main # Deploy main branch
