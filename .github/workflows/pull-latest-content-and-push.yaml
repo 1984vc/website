@@ -3,7 +3,7 @@ name: Pull latest from Notion and Push to main
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'  # Run every twelve hours
+    - cron: '0 */4 * * *'  # Run every four hours
 
 permissions:
   contents: write
