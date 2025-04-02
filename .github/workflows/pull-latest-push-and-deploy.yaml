@@ -56,6 +56,9 @@ jobs:
           git push origin main
           echo "pushed=true" >> $GITHUB_OUTPUT # Output that push happened
 
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+
       - name: Build
         if: steps.git-check.outputs.changes == 'true'
         run: ./scripts/build.sh
