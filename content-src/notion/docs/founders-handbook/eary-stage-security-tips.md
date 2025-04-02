@@ -132,8 +132,5 @@ The right solution is creating test fixtures that reproduce data edge cases. Thi
 ## Building a Security Mindset
 
 
-This isn't an exhaustive security checklist, but rather a starting point for security conversations in your organization. Like technical debt, security debt accrues interest daily. Don't wait until you're facing a security breach to start addressing these fundamentals.
-
-
-The most successful startups build security into their technical DNA from the beginning—not as a checkbox for compliance, but as a foundational element of their engineering culture.
+This isn't an exhaustive security checklist, but rather a starting point for security conversations in your organization. The most successful startups build security into their technical DNA from the beginning—not as a checkbox for compliance, but as a foundational element of their engineering culture.
 
