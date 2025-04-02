@@ -3,7 +3,10 @@ sidebar:
       - title: "Company Formation"
         weight: 2
         items:
-          - title: "Cap Table Worksheet"
+          - title: "Cap Table 101"
+            icon: "calculator"
+            url: "/docs/founders-handbook/cap-table-101/"
+          - title: "Cap Table Worksheet (App)"
             icon: "calculator"
             url: "/docs/cap-table-worksheet"
           - title: "How to Pick a Startup Idea"
@@ -22,9 +25,6 @@ sidebar:
       - title: "Raising your Seed"
         weight: 3
         items:
-          - title: "Cap Table 101"
-            icon: "calculator"
-            url: "/docs/founders-handbook/cap-table-101/"
           - title: "Introduction to SAFEs"
             icon: "document-text"
             url: "/docs/founders-handbook/intro-to-safes/"
