@@ -3,7 +3,7 @@ title: Essential Security Practices for Early-Stage Startups
 notionId: 18382923-1d09-8006-94d2-e5f73bb1d151
 createdAt: 2025-01-22T21:18:00.000Z
 weight: null
-draft: true
+draft: false
 description: ""
 Name: Essential Security Practices for Early-Stage Startups
 authors:
@@ -14,22 +14,28 @@ authors:
 ---
 
 
-![image](https://media.licdn.com/dms/image/v2/D4E12AQGImys58aYgKA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1709754882507?e=2147483647&v=beta&t=Cm03cwIINEvbd_6fSjjxyT20Qmo0Sf_1vtkQ7haBJwA)
-
-
 # Why Security Matters from Day One
 
 
-While early stage startups rightfully focus on shipping, neglecting security from the start is a dangerous mistake. Implementing security fundamentals early isn't just about protection—it's about building a strong technical foundation that will support your company's growth. 
+Neglecting security, even at the earliest stage of a startup, is a dangerous and costly mistake. You don't need to solve every security issue, but you should focus on the security practices with the highest return for the lowest cost.
 
 
 {{< callout type="info" emoji="💡" >}} The best time to implement security basics is when your company is small. It's much easier to build secure habits early than to retrofit a security culture onto established (bad) practices later. {{< /callout >}}
 
 
-Below are security measures every early-stage startup should implement, organized from the easiest to the most challenging.
+Implementing security fundamentals early isn't just about protection—it's about building a strong technical foundation that will support your company's growth. 
+
+
+---
+
+
+We've assembled a quick checklist of security practices, from the easiest to the hardest. The goal isn't to check off every item on this list, but if you can't check it off it should still be something to think about and plan for in the future.
 
 
 ## The Quick Wins
+
+
+These are all "must have" items. Every startup should implement these measures from day one.
 
 
 ### Enforce Two-Factor Authentication
@@ -77,16 +83,21 @@ With modern cloud computing environments, enabling logging should be straightfor
 ### Audit Your Secrets Management
 
 
-Analyze how you distribute secrets (API keys, credentials) to engineers during onboarding. Early-stage startups often share production keys widely—this creates significant security risks. Any production keys shared with developers should be considered compromised and rotated immediately.
+Analyze how you distribute secrets (API keys, credentials) to engineers during on-boarding. Early-stage startups often share production keys widely—this creates significant security risks. Any production keys shared with developers should be considered compromised and rotated immediately.
 
 
 ### Implement Proper Secrets Sharing
 
 
-Sending environment variables via Slack or email isn't sustainable and inevitably gets out of sync. While this remains a challenging problem, tools like [Infisical](https://infisical.com/), and  can help maintain up-to-date secrets with minimal setup. Simply import your .env file and add your developers.
+Sending environment variables via Slack or email isn't sustainable and inevitably gets out of sync. While this remains a challenging problem, there are plenty of tools that can help out. Implement this early before it gets out of hand.
 
 
-## The More Challenging Issues
+**Resources:**
+
+- [Infisical](https://infisical.com/) - Open-source secrets management platform with integrations across infrastructure tools.
+- [Dotenv Vault](https://www.dotenv.org/security/) - From the creator of Dotenv, allows sharing of .env files between team members
+
+## The Most Challenging Issues
 
 
 ### Treat PII as Radioactive
@@ -95,7 +106,7 @@ Sending environment variables via Slack or email isn't sustainable and inevitabl
 The best approach to personal identifiable information (PII) is to store as little as possible. Services like Stripe and Authy help keep sensitive data at arm's length, but you'll inevitably need to handle some PII—even email addresses qualify as PII under GDPR and CCPA.
 
 
-Carefully examine every location where PII is stored: Who has access? How is it protected? What could expose it? For example, an improperly secured GraphQL query might allow unauthorized users to view others' data, the less you have of it, the less impactful it will be.
+Carefully examine every location where PII is stored: Who has access? How is it protected? What could expose it? You won't be able to completely rid yourself of PII, but do yourself a favor and avoid the hoarder "it might be useful later" mentality. 10 or 15 years ago data was viewed as an asset ("Even if our business model doesn't work, we can sell the data"), but these days it's just a liability.
 
 
 ### Control Production Access
@@ -109,10 +120,10 @@ Production access—while a favorite debugging tool for early engineering team�
 
 Finding bugs that only appear with production data is frustrating, but distributing real production data creates two significant problems:
 
-1. You can't have production data on developers' machines, even if "sanitized"
-2. Eventually, the data volume makes this approach impossible
+1. You really don't want your production data being passed around on laptops that leave the office.
+2. It's volume of it will eventually eclipse your ability to pass it around easily.
 
-The right solution is creating test fixtures that reproduce data edge cases. This approach also simplifies onboarding by providing consistent test data for new developers.
+The right solution is creating test fixtures that reproduce data edge cases. This approach also simplifies on-boarding by providing consistent test data for new developers.
 
 
 {{< callout type="info" emoji="💡" >}} While mirroring production data in staging can be useful for final testing, be cautious about allowing engineers to deploy any branch to staging without code review. This creates a potential vector for data exfiltration, especially if an engineer's credentials are compromised. {{< /callout >}}
