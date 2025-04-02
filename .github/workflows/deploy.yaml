@@ -31,13 +31,6 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      - name: PNPM install
-        run: pnpm install
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          submodules: true
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
 

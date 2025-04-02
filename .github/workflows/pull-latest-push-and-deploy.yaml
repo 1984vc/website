@@ -3,26 +3,31 @@ name: Pull latest content push and deploy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'  # Run at 5 PM ET (21:00 UTC)
+    - cron: '0 */4 * * *'  # Run every four hours
 
 permissions:
   contents: write
 
 jobs:
-  build-and-pr:
+ build-and-pr:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          submodules: true
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
         with:
-          node-version: 18
+          version: 10
+          run_install: false
 
-      - name: Install pnpm
-        run: npm install -g pnpm
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
 
       - name: Run import script
         env:
