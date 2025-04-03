@@ -22,9 +22,9 @@ tldr; while often viewed as a crisis, founder separation happen more often and c
 
 The more founders a startup has, the more likely one will depart or be forced out early in the company's life. Founder disagreements arise for various reasons, but they typically fall into three main categories:
 
-- Having the wrong co-founder. A classic example is someone brought onboard as a cofounder because they had the original idea or industry expertise, but who turns out to lack the skills needed to be a startup leader—whether that's functional skills or the startup mindset. This issue can often be prevented if founders have honest conversations about roles and expectations upfront.
-- Skill gaps that emerge as the company scales. A common example is a founding engineer who excels at building the initial product but struggles to develop the leadership abilities needed to manage a growing engineering team.
-- A general lack of alignment over strategy or vision. Typically this materializes when the startup is unable to find product market fit—and the founders gravitate to different ideas.
+- Having the wrong co-founder. A classic example is someone brought onboard as a cofounder because they had the original idea or industry expertise, but who turns out to lack the skills needed to be a startup leader—whether that's functional skills or the startup mindset around pace and risk taking.
+- A lack of alignment over strategy or vision. Typically this materializes when the startup is unable to find product market fit—and the founders gravitate to different ideas.
+- Inability to scale with the company. If your startup starts to grow exponentially, it will outpace most of its executives. A common example is a CTO who excels at building the initial product and can manage a handful of engineers, but is unable to scale to dozens. (Note the options here are to part ways or to hire above them; a difficult path but can be navigable depending on your co-founder's ego)
 
 It's important to note that a departing co-founder often personally from leaving a mismatched role by finding success elsewhere.  Additionally, a co-founder who isn't the right fit for one startup may excel at another. So do not treat this process like it's the end of their career; it's often the beginning of something better. 
 
@@ -123,4 +123,26 @@ Remember that a disgruntled founder with significant equity can create serious p
 
 
 While founder departures are challenging moments in a startup's journey, they don't have to be catastrophic. With careful planning, clear communication, and a good dose of empathy, companies can emerge stronger and more focused. The key lies in viewing these transitions not as failures, but as natural evolution points in a company's growth story. And that a separation is not the end of your co-foudners's career but rather a catalyst for a new beginning.
+
+
+🤝 Breaking Up With Your Co-Founder? Here's How to Do It Right
+
+
+When founder separations become necessary, handling them with grace is crucial. Here are the key principles I've learned:
+
+
+• Communicate early - no surprises
+• Get stakeholder buy-in and legal protection 
+• Create a fair separation package
+• Control the narrative together
+• Execute the transition with empathy
+
+
+Remember: A founder departure isn't failure - it's often a catalyst for both parties to thrive in better-fitted roles. The key is managing it professionally to protect the company's future.
+
+
+Thoughts? What has been your experience with founder transitions?
+
+
+#startups #leadership #entrepreneurship #startup
 
