@@ -24,7 +24,7 @@ Startups are bought, not sold. However, there are many things you can do as a fo
 - Make sure you're building the relationships with right decision makers—namely a CEO, GM, or a CXO level executives.  Don't waster your time with Corp Dev teams; while they execute on the M&A decision, they don't actually initiate it.
 - Consider partnerships that could lead to acquisition.
 
-{{< callout type="info" emoji="📄" >}}
+{{< callout type="info" emoji="💡" >}}
 Make sure to understand what an acquirer _can_ pay. Companies typically spend at most 1-2% of their market cap on an M&A. If your competitor is publicly trading at $8B, $100-$150M is probably the larger end of what they can spend.
 {{< /callout >}}
 
@@ -56,7 +56,7 @@ Start by telling a compelling "1+1=11" story - demonstrating how combining your 
 - Think about what matters to you beyond just the cash and consideration such as timing of payments, earnouts, title and role, etc. For a comprehensive list of the typical M&A terms see [Terms To Negotiate in an M&A Transaction](https://1984.vc/docs/founders-handbook/mergers-and-acquisitions/terms/)
 - Always get a second bidder.
 
-{{< callout type="info" emoji="📄" >}}
+{{< callout type="info" emoji="💡" >}}
 The moment you get an LOI, your priority must turn to getting a second term sheet ASAP to create leverage in the negotiation. Reach out to your partners and other potential acquirers. Tell them you value their partnership and wanted them to know you've gotten an offer for an acquisition. Never say the name of the acquirer. In certain situations you can signal the price range.
 {{< /callout >}}
 
@@ -67,7 +67,7 @@ The moment you get an LOI, your priority must turn to getting a second term shee
 In certain situations, your investors may be hesitant to sell if they perceive the outcome as less favorable than the company is worth. You can use a mix of fear and greed here: fear of your company's outcome as a standalone entity and greed about the acquirer's stock potential if it's a stock acquisition.
 
 
-{{< callout type="info" emoji="📄" >}}
+{{< callout type="info" emoji="💡" >}}
 If you have only raised financing through SAFEs, you generally can execute the M&A without investor approval since you control the common share and the board. However, once you have raised a priced round, you typically need both board approval _and_ majority approval from preferred shareholders (i.e., investors) to proceed with the merger.
 {{< /callout >}}
 
@@ -79,5 +79,5 @@ If you have only raised financing through SAFEs, you generally can execute the M
 
 ## Common Pitfalls to Avoid
 
-1. Don't neglect your core business during the process. Ideally no one knows about the process aside from your cofounder if you're early (or your CFO and a handful of key folks if you're late stage). This news will spread like wildfire and will effectively pause your company'r progress.
+1. Don't neglect your core business during the process. Ideally no one knows about the process aside from your co-founder if you're early (or your CFO and a handful of key folks if you're late stage). This news will spread like wildfire and will effectively pause your company'r progress.
 2. Don't wait until you're forced to sell.
