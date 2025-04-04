@@ -17,6 +17,30 @@ authors:
 Startups are bought, not sold. However, there are many things you can do as a founder to set your company up for a successful exit. The key is thinking about it ahead of time. Here are a few steps to guide you through the process.
 
 
+## Decide On Using an Investment Bankers
+
+
+The decision to engage investment bankers for your M&A process is highly contextual. If you use an investment banker, they will handle many of the steps below on your behalf, including building the top of funnel and managing most of the negotiations. Here's when it makes sense and when it doesn't:
+
+
+### When Bankers Add Value:
+
+- Your company is at Series C or later with significant revenue (>$50M ARR)
+- You're running a competitive process with multiple potential acquirers
+- You need help reaching strategic buyers outside your immediate network
+- The deal complexity requires dedicated financial modeling and transaction support
+
+### When Bankers May Be a Negative Signal:
+
+- You're an early-stage startup (Seed to Series B) where relationships matter more than process
+- You already have strong relationships with potential acquirers
+- You're in preliminary discussions with a single interested party
+
+{{< callout type="info" emoji="📄" >}}
+If you do decide to use bankers, choose ones with specific expertise in your sector who can add strategic value beyond just running a process. The best bankers bring deep industry relationships and can help position your company effectively.
+{{< /callout >}}
+
+
 ## Build Relationships
 
 - Create a list of potential acquirers. Your acquirers tend to fall into a few buckets: larger competitors, partners/customers of your products, and larger companies that are threatened by your competitors. The third bucket, while less obvious, can be one of the most strategic outcomes.
@@ -29,13 +53,23 @@ Make sure to understand what an acquirer _can_ pay. Companies typically spend 
 {{< /callout >}}
 
 
-## Start the Process
+## Start the Conversation
 
 
-Working with experienced M&A advisors is crucial - they can help navigate complex terms, provide good tax advice, and maximize your company's value ([See Legal Consideration for M&A](/docs/founders-handbook/mergers-and-acquisitions/legal-considerations/)).
+Bringing up an M&A conversation can seem daunting. Here are a few practical steps:
 
+- Schedule a casual 1:1 coffee or lunch with the potential acquirer's senior executive (not Corp Dev). Frame it as a catch-up or partnership discussion rather than explicitly mentioning acquisition.
+- Share your company's recent successes and growth trajectory, then naturally transition into discussing how your solutions could complement their strategy (more on positioning below)
 
-You should put together a well-organized data room containing all relevant company information, from financial statements to customer contracts, will streamline due diligence and build credibility with potential acquirers.
+When you do broach the topic, keep it exploratory:
+
+- Use phrases like "exploring strategic options" or "evaluating potential deeper partnerships" rather than directly stating you want to sell.
+- Ask about their build-vs-buy strategy in your space and their thoughts on recent industry consolidation.
+- If you already have interest from another party, say something along the lines of "I value our partnership, so I wanted you to know we've received some inbound interest from [strategic/competitor]. We're still in the exploratory phase [and I expect our partnership to continue], but given our relationship, I wanted you to be the first to know, etc." Be prepared to _not_ answer a slew of questions on who the acquirer is and at what price.
+
+{{< callout type="info" emoji="📄" >}}
+Never appear desperate or indicate that you need to sell. The conversation should always position an acquisition as a strategic opportunity for both parties, not a necessity for either side.
+{{< /callout >}}
 
 
 ## Position Your Company Around the Combined Value
@@ -48,6 +82,9 @@ Many founders focus too narrowly on their team, current revenue, or product feat
 
 
 Start by telling a compelling "1+1=11" story - demonstrating how combining your company with the acquirer can create exponential value. For example, highlight how your product could drive massive revenue when distributed through the acquirer's existing customer base, how your technology could transform their core business, or how your team's expertise could accelerate their strategic initiatives. Paint a picture of transformative potential rather than just current metrics.
+
+
+If your goal is to be acquired by a large strategic, consider quietly engaging with that company's top competitor. Letting it "slip" that you're in conversation can create a sense of urgency and FOMO. It's a tactical way to drive interest and speed.
 
 
 ## Drive the Deal Structure
@@ -64,12 +101,15 @@ The moment you get an LOI, your priority must turn to getting a second term shee
 ## Convince Your Investors
 
 
-In certain situations, your investors may be hesitant to sell if they perceive the outcome as less favorable than the company is worth. You can use a mix of fear and greed here: fear of your company's outcome as a standalone entity and greed about the acquirer's stock potential if it's a stock acquisition.
+In certain situations, your investors may be hesitant to sell if they perceive the outcome as less favorable than the company is worth. You can use a mix of fear and greed here:  of your company's outcome as a standalone entity and greed about the acquirer's stock potential if it's a stock acquisition.
 
 
 {{< callout type="info" emoji="💡" >}}
 If you have only raised financing through SAFEs, you generally can execute the M&A without investor approval since you control the common share and the board. However, once you have raised a priced round, you typically need both board approval _and_ majority approval from preferred shareholders (i.e., investors) to proceed with the merger.
 {{< /callout >}}
+
+
+This may sound self-serving, but don't screw over your investors. The top VCs won't care if they're getting 1x or 1.5x financially, but they will remember how you handled the process. Be fair.  You may need those same investors to vouch for you during your next venture. 
 
 
 ## Post-Deal Considerations
