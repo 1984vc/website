@@ -1,11 +1,11 @@
 @tailwind utilities;
 
 .content ul {
-  @apply leading-6;
+  @apply text-base
 }
 
 .content p {
-  @apply leading-6;
+  @apply text-base
 }
 
 article main {

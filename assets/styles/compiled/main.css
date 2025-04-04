@@ -324,16 +324,6 @@
   vertical-align: middle;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -410,11 +400,16 @@
   word-break: break-word;
 }
 
+.content {
+}
+
 .content ul {
+  font-size: 0.875rem;
   line-height: 1.5rem;
 }
 
 .content p {
+  font-size: 0.875rem;
   line-height: 1.5rem;
 }
 

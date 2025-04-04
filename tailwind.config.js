@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./layouts/**/*.html"],
   theme: {
+    fontSize: {
+      base: ['0.875rem', "1.5rem"]
+    },
     extend: {
       colors: {
         nt84blue: '#3d4CE0',
