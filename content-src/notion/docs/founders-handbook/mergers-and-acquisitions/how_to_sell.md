@@ -75,7 +75,7 @@ If you have only raised financing through SAFEs, you generally can execute the M
 ## Post-Deal Considerations
 
 1. The period between signing and closing is typically the most demanding phase in the life of the founder, requiring extensive documentation, legal reviews, and detailed integration planning. Expect 4-8 weeks of around the clock work dealing with every detail from a missing NDA for a consultant you hired five years ago to replacing an open source module in your codebase the acquirers deems too risky
-2. Prepare your team for the transition. Their biggest two questions are how much will i be making and is my job secure. Addressing concerns about job security and changes in company culture. Set expectations about the new operating world. And if the merger includes layoffs plan for these conversation carefully.
+2. Prepare your team for the transition. Their biggest two questions are how much will I be making and is my job secure. Addressing concerns about job security and changes in company culture. Set expectations about the new operating world. And if the merger includes layoffs plan for these conversation carefully.
 
 ## Common Pitfalls to Avoid
 
