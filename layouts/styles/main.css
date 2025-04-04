@@ -1,7 +1,11 @@
 @tailwind utilities;
 
-.content {
-  font-size: 0.875rem;
+.content ul {
+  @apply leading-6;
+}
+
+.content p {
+  @apply leading-6;
 }
 
 article main {

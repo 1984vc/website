@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "dev:hugo": "hugo serve -w",
+    "dev:tailwind": "tailwindcss -i layouts/styles/main.css -c tailwind.config.js -o assets/styles/compiled/main.css --watch",
+    "dev": "concurrently \"pnpm run dev:tailwind\" \"pnpm run dev:hugo\""
+  },
   "dependencies": {
+    "concurrently": "^9.1.2",
     "glob": "^11.0.0",
     "gray-matter": "^4.0.3",
     "tailwindcss": "^3.4.17"

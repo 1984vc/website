@@ -410,8 +410,12 @@
   word-break: break-word;
 }
 
-.content {
-  font-size: 0.875rem;
+.content ul {
+  line-height: 1.5rem;
+}
+
+.content p {
+  line-height: 1.5rem;
 }
 
 article main {
@@ -659,10 +663,6 @@ html[class~="dark"] a.sidebar-active-item {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-\[calc\(100vh-var\(--navbar-height\)-var\(--menu-height\)\)\] {
-    height: calc(100vh - var(--navbar-height) - var(--menu-height));
   }
 
   .md\:w-64 {
