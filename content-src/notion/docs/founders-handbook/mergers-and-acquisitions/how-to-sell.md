@@ -26,8 +26,7 @@ The decision to engage investment bankers for your M&A process is highly context
 ### When Bankers Add Value:
 
 - Your company is at Series C or later with significant revenue (>$50M ARR)
-- You're running a competitive process with multiple potential acquirers
-- You need help reaching strategic buyers outside your immediate network
+- You're running a competitive process with multiple potential acquirers or need help reaching strategic buyers outside your immediate network
 - The deal complexity requires dedicated financial modeling and transaction support
 
 ### When Bankers May Be a Negative Signal:
@@ -44,7 +43,7 @@ If you do decide to use bankers, choose ones with specific expertise in your sec
 ## Build Relationships
 
 - Create a list of potential acquirers. Your acquirers tend to fall into a few buckets: larger competitors, partners/customers of your products, and larger companies that are threatened by your competitors. The third bucket, while less obvious, can be one of the most strategic outcomes.
-- Start building the relationships with these business _well_ before you need to get acquired. Think a year or two. If they only have 3–6 months of cash left and you want to start an M&A, you will end up with a fire sale for pennies.
+- Start building the relationships with these business _well_ before you need to get acquired. Think a year or two. If you only have 3–6 months of cash left you will end up with a fire sale for pennies.
 - Make sure you're building the relationships with right decision makers—namely a CEO, GM, or a CXO level executives.  Don't waster your time with Corp Dev teams; while they execute on the M&A decision, they don't actually initiate it.
 - Consider partnerships that could lead to acquisition.
 
@@ -114,8 +113,15 @@ This may sound self-serving, but don't screw over your investors. The top VCs wo
 
 ## Post-Deal Considerations
 
-1. The period between signing and closing is typically the most demanding phase in the life of the founder, requiring extensive documentation, legal reviews, and detailed integration planning. Expect 4-8 weeks of around the clock work dealing with every detail from a missing NDA for a consultant you hired five years ago to replacing an open source module in your codebase the acquirers deems too risky
-2. Prepare your team for the transition. Their biggest two questions are how much will I be making and is my job secure. Addressing concerns about job security and changes in company culture. Set expectations about the new operating world. And if the merger includes layoffs plan for these conversation carefully.
+
+The period between signing and closing is typically the most demanding phase in the life of the founder, requiring extensive documentation, legal reviews, and detailed integration planning. Expect 4-8 weeks of around the clock work dealing with every detail from a missing NDA for a consultant you hired five years ago to replacing an open source module in your codebase the acquirers deems too risky
+
+
+Prepare your team for the transition. Their biggest two questions are how much will I be making and is my job secure. Addressing concerns about job security and changes in company culture. Set expectations about the new operating world. And if the merger includes layoffs plan for these conversation carefully.
+
+
+Last, your team will need your leadership at this stage. Show up for them, explain the decision and lead them through the transition. The acquirer may choose to keep your company's team and culture intact or may chose to totally absorb it. Many say the former then do the latter. In either case make sure your team is well integrated into the acquirer and isn't too isolated. It's better for their careers. And while 
+
 
 ## Common Pitfalls to Avoid
 
