@@ -26,10 +26,7 @@ In any event, you should consult with your legal counsel and tax advisors to det
 ## Asset Acquisition
 
 
-Asset acquisitions are a common way of structuring a talent acquisition (often referred to as an "acquihire"), especially in a distressed-type situation, whereby the buyer acquires certain limited assets of the selling company (i.e. IP, brand, goodwill and potentially certain contracts) and offers new employment agreements to some or all members of the selling company's team.
-
-
-In an asset acquisition, a buyer acquires specific assets and liabilities of the selling company as listed in the acquisition agreement, an asset purchase agreement. After the deal closes, the buyer and seller maintain their corporate structures and the seller retains those assets and liabilities not purchased by the buyer. 
+In an asset acquisition, a buyer acquires specific assets and liabilities of the selling company as listed in the acquisition agreement, an asset purchase agreement. After the deal closes, the buyer and seller maintain their corporate structures and the seller retains those assets and liabilities not purchased by the buyer. Asset acquisitions are a common way of structuring a talent acquisition (often referred to as an "acquihire"), especially in a distressed-type situation, whereby the buyer acquires certain limited assets of the selling company (i.e. IP, brand, goodwill and potentially certain contracts) and offers new employment agreements to some or all members of the selling company's team.
 
 
 Buyers may favor asset acquisitions for a number of reasons, including: (i) the flexibility to pick and choose specific assets and liabilities; (ii) no wasted money on unwanted assets; and (iii) a lower risk of assuming unknown or undisclosed liabilities (however, even when a deal is structured as an asset sale, a buyer may sometimes become liable for assets not specifically listed in the asset purchase agreement under a concept known as successor liability). 

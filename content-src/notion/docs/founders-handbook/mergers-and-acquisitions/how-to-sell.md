@@ -14,13 +14,13 @@ authors:
 ---
 
 
-Startups are bought, not sold. However, there are many things you can do as a founder to set your company up for a successful exit. The key is thinking about it ahead of time. Here are a few steps to guide you through the process.
+While startups are bought—not sold—there are many things you can do as a founder to set your company up for a successful exit. The key is thinking ahead and approaching M&A with the same methodical execution you apply to product development or engineering. Here are the steps to guide you through the process.
 
 
 ## Decide On Using an Investment Bankers
 
 
-The decision to engage investment bankers for your M&A process is highly contextual. If you use an investment banker, they will handle many of the steps below on your behalf, including building the top of funnel and managing most of the negotiations. Here's when it makes sense and when it doesn't:
+The decision to engage investment bankers for your M&A process depends heavily on your situation. While bankers can handle many steps on your behalf—including building your pipeline and managing negotiations—their involvement may send an unwanted signal to the market. Moreover, it's better to handle the process yourself than work with a subpar banker who will waste time and resources without results. Here's when using a banker makes sense and when it doesn't:
 
 
 ### When Bankers Add Value:
@@ -35,14 +35,14 @@ The decision to engage investment bankers for your M&A process is highly context
 - You already have strong relationships with potential acquirers
 - You're in preliminary discussions with a single interested party
 
-{{< callout type="info" emoji="📄" >}}
+{{< callout type="info" emoji="💡" >}}
 If you do decide to use bankers, choose ones with specific expertise in your sector who can add strategic value beyond just running a process. The best bankers bring deep industry relationships and can help position your company effectively.
 {{< /callout >}}
 
 
 ## Build Relationships
 
-- Create a list of potential acquirers. Your acquirers tend to fall into a few buckets: larger competitors, partners/customers of your products, and larger companies that are threatened by your competitors. The third bucket, while less obvious, can be one of the most strategic outcomes.
+- Create a list of potential acquirers. Your acquirers tend to fall into a few buckets: larger competitors, partners and customers of your products, and larger companies that are threatened by your competitors. The third bucket, while less obvious, can be one of the most strategic outcomes.
 - Start building the relationships with these business _well_ before you need to get acquired. Think a year or two. If you only have 3–6 months of cash left you will end up with a fire sale for pennies.
 - Make sure you're building the relationships with right decision makers—namely a CEO, GM, or a CXO level executives.  Don't waster your time with Corp Dev teams; while they execute on the M&A decision, they don't actually initiate it.
 - Consider partnerships that could lead to acquisition.
@@ -58,7 +58,7 @@ Make sure to understand what an acquirer _can_ pay. Companies typically spend 
 Bringing up an M&A conversation can seem daunting. Here are a few practical steps:
 
 - Schedule a casual 1:1 coffee or lunch with the potential acquirer's senior executive (not Corp Dev). Frame it as a catch-up or partnership discussion rather than explicitly mentioning acquisition.
-- Share your company's recent successes and growth trajectory (and if you're partners share partnership success stories), then naturally transition into discussing how your solutions could complement their strategy further (more on positioning below)
+- Share your company's recent successes and growth trajectory (and, if you're partners, share partnership success stories), then naturally transition into discussing how your solutions could complement their strategy further (more on positioning below)
 
 When you do broach the topic, keep it exploratory:
 
@@ -86,9 +86,10 @@ Start by telling a compelling "1+1=11" story - demonstrating how combining your 
 If your goal is to be acquired by a large strategic, consider quietly engaging with that company's top competitor. Letting it "slip" that you're in conversation can create a sense of urgency and FOMO. It's a tactical way to drive interest and speed.
 
 
-## Drive the Deal Structure
+## Understand and Drive the Deal Structure
 
-- Start thinking about the right structure and whether an asset acquisition, stock acquisition or a full merger is the appropriate structure here. For more on these see [Structuring M&A](https://1984.vc/docs/founders-handbook/mergers-and-acquisitions/structuring/)
+- In order to both maximize the value and to minimize the time, expense, and frustration that can be associated with the process, you must carefully prepare the company or business for sale including a dataroom, etc. For more see [Legal Consideration for M&A](https://1984.vc/docs/founders-handbook/mergers-and-acquisitions/legal-considerations/)
+- Start thinking about the right structure and whether an asset acquisition, stock acquisition or a full merger is the appropriate structure here. For more on these see  [Structuring M&A](https://1984.vc/docs/founders-handbook/mergers-and-acquisitions/structuring/)
 - Think about what matters to you beyond just the cash and consideration such as timing of payments, earnouts, title and role, etc. For a comprehensive list of the typical M&A terms see [Terms To Negotiate in an M&A Transaction](https://1984.vc/docs/founders-handbook/mergers-and-acquisitions/terms/)
 - Always get a second bidder.
 
@@ -117,13 +118,13 @@ This may sound self-serving, but don't screw over your investors. The top VCs wo
 The period between signing and closing is typically the most demanding phase in the life of the founder, requiring extensive documentation, legal reviews, and detailed integration planning. Expect 4-8 weeks of around the clock work dealing with every detail from a missing NDA for a consultant you hired five years ago to replacing an open source module in your codebase the acquirers deems too risky
 
 
-Prepare your team for the transition. Their biggest two questions are how much will I be making and is my job secure. Addressing concerns about job security and changes in company culture. Set expectations about the new operating world. And if the merger includes layoffs plan for these conversation carefully.
+Prepare your team for the transition. Their biggest two questions are _how much will I make_ and _is my job secure_. Address concerns about job security and changes in company culture. Set expectations about the new operating world. And if the merger includes layoffs plan for these conversation carefully.
 
 
-Last, your team will need your leadership at this stage. Show up for them, explain the decision and lead them through the transition. The acquirer may choose to keep your company's team and culture intact or may chose to totally absorb it. Many say the former then do the latter. In either case make sure your team is well integrated into the acquirer and isn't too isolated. It's better for their careers. And while 
+Your team will need your leadership at this stage. Show up for them, explain the decision and lead them through the transition. The acquirer may choose to keep your company's team and culture intact or may chose to totally absorb it. Most acquirers will say the former and end up doing the latter. In either case make sure your team is well integrated into the acquirer and isn't too isolated. It's better for their careers.  
 
 
 ## Common Pitfalls to Avoid
 
-1. Don't neglect your core business during the process. Ideally, only your co-founder should know about the process if you're early-stage (or your CFO and a handful of key people if you're late-stage). This news will spread like wildfire and effectively pause your company's progress.
-2. Don't wait until you're forced to sell.
+- Don't neglect your core business during the process. Ideally, only your co-founder should know about the process if you're early-stage (or your CFO and a handful of key people if you're late-stage). This news will spread like wildfire and effectively pause your company's progress.
+- Don't wait until you're forced to sell.
