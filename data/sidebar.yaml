@@ -19,7 +19,7 @@ sidebar:
           - title: "How to Part Ways with Your Co-Founder"
             icon: "currency-dollar"
             url: "/docs/founders-handbook/cofounder-departure/"
-          - title: "Founder Departure"
+          - title: "Founder Departure Impact on Cap Table"
             icon: "logout"
             url: "/docs/founders-handbook/founder-departure/"
       
@@ -55,6 +55,9 @@ sidebar:
       - title: "Mergers and Acquisitions"
         weight: 5
         items:
+          - title: "How to Sell Your Startup"
+            icon: "currency-dollar"
+            url: "/docs/founders-handbook/mergers-and-acquisitions/how-to-sell"
           - title: "Legal Considerations for M&A"
             icon: "currency-dollar"
             url: "/docs/founders-handbook/mergers-and-acquisitions/legal-considerations/"
