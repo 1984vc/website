@@ -17,7 +17,7 @@ body{
 }
 
 a {text-decoration: none;}
-#logo{width:50px;height:80px;background:url("assets/logoV.svg") no-repeat top left;position:absolute;top:40px;left:40px;}
+#logo{width:50px;height:80px;background:url("/landing/assets/logoV.svg") no-repeat top left;position:absolute;top:40px;left:40px;}
 #about{width:500px;height:300px;position:absolute;left:50%;top:50%;margin-left:-250px;margin-top:-150px;color:white}
 #about a {color:white;}
 #wrapper{position:relative;width:auto;height:100vh;overflow-x:hidden}
@@ -57,7 +57,7 @@ a {text-decoration: none;}
 .newsletter-top-container{
 	background:#EB6649;padding:33px 33px 0px 40px;height:190px;position:inline-block;} /* margin-right:80px for mobile */
 .newsletter-top-right{
-	background:url("assets/foldArchiveSmall.svg") no-repeat top right;
+	background:url("/landing/assets/foldArchiveSmall.svg") no-repeat top right;
 	height:200px;
 	width:120px;
 	position:absolute;top:0px;right:0px;
@@ -71,7 +71,7 @@ a {text-decoration: none;}
 	display:none; /*Toggle for mobile */
 }
 .newsletter-top-right:hover{
-	background:url("assets/foldArchiveBig.svg") no-repeat top right;
+	background:url("/landing/assets/foldArchiveBig.svg") no-repeat top right;
 	height:200px;
 	width:120px;
 	position:absolute;top:0px;right:0px;
@@ -98,14 +98,14 @@ a {text-decoration: none;}
 
 .portfolio_container ul li {font-size:12px;cursor:pointer;}
 .archive-top-right{
-	background:url("assets/foldNewsSmall.svg") no-repeat top right;
+	background:url("/landing/assets/foldNewsSmall.svg") no-repeat top right;
 	height:200px;
 	width:120px;
 	position:absolute;top:0px;right:0px;
 	display:none;
 }
 .archive-top-right:hover{
-	background:url("assets/foldNewsBig.svg") no-repeat top right;
+	background:url("/landing/assets/foldNewsBig.svg") no-repeat top right;
 	height:200px;
 	width:120px;
 	position:absolute;top:0px;right:0px;
@@ -321,7 +321,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.mobile_only {display:none;}
 	.newsletter-top-right{display:none;}
 	.archive-top-right{display:none;}
-	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:40px;}
+	#logo{width:62px;height:20px;background:url("/landing/assets/logoHS.svg") no-repeat top left;top:40px;}
   .news_footer {display:none;}
   .portfolio_footer {display:block;}
   .philosophy_footer {display:none;}        
@@ -332,7 +332,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:140px;left:80px;}
 	#newsletter{top:280px;left:40px;}
 	#archive{display:none;top:280px;left:40px;width:800px;}
-	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:40px;}
+	#logo{width:62px;height:20px;background:url("/landing/assets/logoHS.svg") no-repeat top left;top:40px;}
 	.desktop_only {display:block;}
 	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
@@ -349,7 +349,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:140px;left:80px;}
 	#newsletter{top:240px;left:40px;}
 	#archive{display:none;top:240px;left:40px;width:800px;}
-	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:40px;}
+	#logo{width:62px;height:20px;background:url("/landing/assets/logoHS.svg") no-repeat top left;top:40px;}
 	.desktop_only {display:block;}
 	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
@@ -366,7 +366,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:140px;left:80px;}
 	#newsletter{top:200px;left:40px;}
 	#archive{display:none;top:200px;left:40px;;width:800px;}
-	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
+	#logo{width:62px;height:20px;background:url("/landing/assets/logoHS.svg") no-repeat top left;top:30px;}
 	.desktop_only {display:block;}
 	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
@@ -383,7 +383,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:120px;left:80px;width:840px;}
 	#newsletter{top:160px;left:40px;}
 	#archive{display:none;top:160px;left:40px;width:800px;}  
-	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
+	#logo{width:62px;height:20px;background:url("/landing/assets/logoHS.svg") no-repeat top left;top:30px;}
 	.desktop_only {display:block;}
 	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
@@ -400,7 +400,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:120px;left:80px;width:800px;}
 	#newsletter{top:80px;left:40px;width:800px;}
 	#archive{display:none;top:160px;left:0px;width:800px;}
-	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}	
+	#logo{width:62px;height:20px;background:url("/landing/assets/logoHS.svg") no-repeat top left;top:30px;}	
 	.desktop_only {display:block;}
 	.mobile_only {display:none;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
@@ -417,7 +417,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:80px;left:80px;width:calc(100% - 80px);}
 	#newsletter{top:160px;left:0px;width:100%}
 	#archive{display:none;top:160px;left:0px;width:100%;}
-	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
+	#logo{width:62px;height:20px;background:url("/landing/assets/logoHS.svg") no-repeat top left;top:30px;}
 	.desktop_only {display:none;}
 	.mobile_only {display:inline;}
 	.text{line-height:24px;padding:0px 40px 0px 40px;}
@@ -452,7 +452,7 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy{top:160px;left:0px;width:calc(100% - 40px);}
 	#newsletter{top:80px;left:80px;width:calc(100% - 40px);}
 	#archive{display:none;top:80px;left:80px;width:calc(100% - 40px);}
-	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
+	#logo{width:62px;height:20px;background:url("/landing/assets/logoHS.svg") no-repeat top left;top:30px;}
 	.desktop_only {display:none;}
 	.mobile_only {display:inline;}
 	.text{line-height:24px;padding:0px 20px 0px 20px;}
