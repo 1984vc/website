@@ -54,7 +54,8 @@ a {text-decoration: none;}
 
 
 /* From 4.6 */
-.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;height:167px;position:inline-block;} /* margin-right:80px for mobile */
+.newsletter-top-container{
+	background:#EB6649;padding:33px 33px 0px 40px;height:190px;position:inline-block;} /* margin-right:80px for mobile */
 .newsletter-top-right{
 	background:url("assets/foldArchiveSmall.svg") no-repeat top right;
 	height:200px;
