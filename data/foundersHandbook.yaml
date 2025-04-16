@@ -1,6 +1,6 @@
 # Custom sidebar configuration
 # Icons can be found here: https://v1.heroicons.com/
-sidebar:
+toc:
       - title: "Company Formation"
         weight: 2
         items:

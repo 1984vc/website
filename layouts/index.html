@@ -237,7 +237,7 @@
         <div class="header AtlasTypewriter-Regular-Web">RESOURCES</div>
 
         <div class="title">
-          We value convos over blanket advice. But for the latter, here's the best we could find. 
+          Every founder's path is different, but since many hurdles are shared, we created the Founders Handbook to help you tackle them.
         </div>
 
         <div class="newsletter-top-right">
@@ -247,149 +247,23 @@
       <div class="newsletter-bottom-container">
         <div class="news-intro">
           <div id="newsletter_body">
-            <span class="heading">Company Founding</span>
-            <div class="news-item border-top" id="one">
-              <div>
-                <a href="http://www.paulgraham.com/relres.html" target="_new">
-                  <div class="number">1.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Want to start a company? be relentlessly
-                    resourceful <span class="opacity">– Paul Graham</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="https://1984.vc/docs/founders-handbook/cap-table-101/" target="_new">
-                  <div class="number">2.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Captable 101 
-                     <span class="opacity">– 1984 Founders Handbook</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="http://www.paulgraham.com/ds.html" target="_new">
-                  <div class="number">3.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Do Things that Don't Scale <span class="opacity">– Paul
-                      Graham</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="https://www.geekwire.com/2011/wrong-answer-5050-calculating-cofounder-equity-split/"
-                  target="_new">
-                  <div class="number">4.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">The only wrong answer is 50/50: Calculating
-                    the co-founder equity split<span class="opacity">– Dan Shapiro</span></h1>
-                </a>
-              </div>
+            {{ range .Site.Data.foundersHandbook.toc }}
+            <span class="heading">{{ .title }}</span>
+            <div class="news-item border-top">
+              {{ $counter := 0 }}
+              {{ range .items }}
+                {{ $counter = add $counter 1 }}
+                <div>
+                  <a href="{{ .url }}" target="_new">
+                    <div class="number">{{ $counter }}.</div>
+                    <h1 class="AtlasTypewriter-Regular-Web">{{ .title }} 
+                      <span class="opacity">– 1984 Founders Handbook</span>
+                    </h1>
+                  </a>
+                </div>
+              {{ end }}
             </div>
-
-            <span class="heading">Fundraising</span>
-            <div class="news-item border-top" id="two">
-              <div>
-                <a href="https://1984.vc/docs/cap-table-worksheet/" target="_new">
-                  <div class="number">1.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Captable Worksheet 
-                     <span class="opacity">– 1984 Founders Handbook</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="https://abovethecrowd.com/2015/07/07/in-defense-of-the-deck/" target="_new">
-                  <div class="number">2.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">In Defense of the Deck <span class="opacity">- Above the
-                      Crowd</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="/docs/founders-handbook/minimizing-founder-dilution/" target="_new">
-                  <div class="number">3.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Minimizing Founder Dilution <span class="opacity">- 1984 Founder Handbook</span></h1>
-                </a>
-              </div>
-
-              <div>
-                <a href="https://blog.initialized.com/2021/06/the-metrics-you-need-to-raise-a-series-a/" target="_new">
-                  <div class="number">4.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Metrics to raise a Series A <span class="opacity">-
-                      initialized.com</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29" target="_new">
-                  <div class="number">5.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Retention metrics for founders <span class="opacity">- Lenny's
-                      Newsletter</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="https://kwokchain.com/2021/09/29/narrative-distillation-1/" target="_new">
-                  <div class="number">6.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Narrative Distillation (Or how to tell great
-                    narrative)<span class="opacity">- Kevin Kwok</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="https://a16z.com/2022/04/15/16-things-to-know-about-raising-debt-for-startups/" target="_new">
-                  <div class="number">7.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Raising Debt for Startups<span class="opacity">- a16Z</span>
-                  </h1>
-                </a>
-              </div>
-
-            </div>
-
-            <span class="heading">Recruiting</span>
-            <div class="news-item border-top" id="two">
-              <div>
-                <a href="https://www.khoslaventures.com/gene-pool-engineering-for-entrepreneurs" target="_new">
-                  <div class="number">1.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Gene Pool Engineering <span class="opacity">- Vinod
-                      Khosla</span></h1>
-                </a>
-              </div>
-              <div>
-                <a href="https://blog.eladgil.com/p/hiring-executives-bad-advice" target="_new">
-                  <div class="number">2.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Hiring Executives & Bad Advice <span class="opacity">- Elad Gil</span></h1>
-                </a>
-              </div>
-              
-
-            </div>
-
-            <span class="heading">Operating</span>
-            <div class="news-item border-top" id="two">
-              <div>
-                <a href="https://www.lennysnewsletter.com/p/saas-pricing-strategy" target="_new">
-                  <div class="number">1.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Pricing framework for SaaS companies <span class="opacity">-
-                      Lenny's Newsletter</span></h1>
-                </a>
-              </div>
-
-              <div>
-                <a href="https://sarahtavel.medium.com/the-hierarchy-of-marketplaces-introduction-and-level-1-983995aa218e"
-                  target="_new">
-                  <div class="number">2.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">Framework for launching and scaling a
-                    marketplace business <span class="opacity">- Sarah Tavel</span></h1>
-                </a>
-
-              </div>
-              <div>
-                <a href="https://christophjanz.blogspot.com/2014/10/five-ways-to-build-100-million-business.html"
-                  target="_new">
-                  <div class="number">3.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">5 ways to build a $100M revenue business
-                    <span class="opacity">- The Angel VC</span>
-                  </h1>
-                </a>
-              </div>
-              <div>
-                <a href="https://abovethecrowd.com/2012/09/04/the-dangerous-seduction-of-the-lifetime-value-ltv-formula/"
-                  target="_new">
-                  <div class="number">4.</div>
-                  <h1 class="AtlasTypewriter-Regular-Web">The Dangerous Seduction of the Lifetime
-                    Value (LTV) Formula<span class="opacity"> - Bill Gurley</span></h1>
-                </a>
-              </div>
-            </div>
+            {{ end }}
           </div>
         </div>
       </div>

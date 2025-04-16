@@ -10,7 +10,7 @@
           {{ .Content }}
 
           <!-- Render sidebar items as cards -->
-          {{ range $section := site.Data.sidebar.sidebar }}
+          {{ range $section := site.Data.foundersHandbook.toc }}
             <h2 class="mt-10 mb-4 text-xl font-bold">{{ $section.title }}</h2>
             
             <div class="hextra-cards mt-4 gap-4 grid not-prose" style="--hextra-cards-grid-cols: 3;">
