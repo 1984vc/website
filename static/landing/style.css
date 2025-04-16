@@ -459,7 +459,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.title{font-size:24px;line-height:32px;margin:33px 0px 43px 0px;}	
 	.newsletter-top-container .title{font-size:24px;line-height:32px;}
 	.newsletter-top-container{background:#EB6649;padding:15px 0px 0px 40px;margin-right:110px;height:180px;}
-	#newsletter .title {font-size:20px;line-height:26px;}
+	#newsletter .title {font-size:18px;line-height:22px;}
 	.newsletter-top-right{display:block;}
     #newsletter_body {padding:0px 0px 0px 0px;}
 	#newsletter_title {font-size:16px;line-height:24px;}
@@ -486,3 +486,8 @@ input:checked ~ .checkmark:after {display:block;}
   .filter-label{display:inline-block;padding:0;margin-right:8px;margin-left:-4px;width:115px;text-transform:uppercase;font-size:10px}
 }
 
+
+/*////////// MOBILE SMALL /////////*/
+@media only screen and (max-width: 500px){
+	#newsletter .title {font-size:16px;line-height:20px;}
+}
