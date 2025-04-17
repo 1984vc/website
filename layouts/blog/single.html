@@ -32,7 +32,7 @@
                     {{- if and $isLocal $startsWithSlash }}
                       {{- $image = (relURL (strings.TrimPrefix "/" $image)) -}}
                     {{ end -}}
-                    <img src="{{ $image | safeURL }}" alt="{{ $author.name }}" class="hx-inline-block hx-h-4 hx-w-4 hx-rounded-full" {{ if $lazyLoading }}loading="lazy"{{ end }} />
+                    <img src="{{ $image | safeURL }}" alt="{{ $author.name }}" class="hx-inline-block h-6 w-6 bg-nt84blue bg-opacity-60 m-0 hx-rounded-full" {{ if $lazyLoading }}loading="lazy"{{ end }} />
                   {{ end -}}
                   <div class="group-hover:hx-underline">{{ $author.name }}</div>
                 </a>
