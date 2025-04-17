@@ -111,7 +111,6 @@ params:
 
   blog:
     list:
-      displayTags: true
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or "asc"
