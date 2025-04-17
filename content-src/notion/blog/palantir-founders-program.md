@@ -23,7 +23,7 @@ Here's how it works:
 2. We'll review your application and get back to you within 24 hours. If it's in the 1984 wheelhouse, we'll do a sounding board session with you and get to know you.
 3. Depending on the stage of the company, as we help you hammer out your idea, if it's a fit for you and for us, we can incubate and/or fund your company with a check ranging from $500,000 to $1,200,000.
 
-{{< callout type="error" emoji="💡" >}}
+{{< callout type="info" emoji="💡" >}}
 [**Apply Here**](https://1984ventures.typeform.com/to/L753qR7y)
 {{< /callout >}}
 
