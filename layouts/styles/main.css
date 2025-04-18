@@ -3,6 +3,9 @@
 .content ul {
   @apply text-base
 }
+.content ol {
+  @apply text-base
+}
 
 .content p {
   @apply text-base
