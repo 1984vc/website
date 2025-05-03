@@ -14,10 +14,7 @@ authors:
 ---
 
 
-Every so often, a company emerges with a talent density that is hard to ignore. Rippling is one of those companies. Staffed with 150 former founders, it is a hotbed for entrepreneurial talent. The company has also built a culture of customer centricity, high ownership and a willingness to tackle unsexy markets - aligning perfectly with our investment ethos at 1984 Ventures. 
-
-
-As a result, we are excited to announce the 1984 Ventures **Rippling Founders Program**, a fast-tracked financing program for current and aspiring Rippling founders.
+Every so often, a company emerges with a talent density that's hard to ignore. Rippling is one of those companies. Staffed with 150 former founders, it is a hotbed for entrepreneurial talent. Its culture - of high ownership, customer centricity and solving unsexy problems - aligns perfectly with our ethos at 1984 Ventures. Accordingly, we are excited to announce the 1984 Ventures **Rippling Founders Program**, a fast-tracked financing program for current and aspiring Rippling founders.
 
 
 Here's how it works:
