@@ -3,7 +3,7 @@ title: Palantir Founders Program
 notionId: 1d782923-1d09-8016-aa57-df3ea374645e
 createdAt: 2025-04-16T17:55:00.000Z
 weight: null
-draft: false
+draft: true
 description: ""
 Name: Palantir Founders Program
 authors:

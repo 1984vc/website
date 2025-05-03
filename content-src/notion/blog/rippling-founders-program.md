@@ -1,11 +1,11 @@
 ---
-title: Rippling Founders Program
+title: Introducing The Rippling Founders Program
 notionId: 1e782923-1d09-80f8-a169-e6d6de00125d
 createdAt: 2025-05-02T18:49:00.000Z
 weight: null
 draft: false
 description: ""
-Name: Rippling Founders Program
+Name: Introducing The Rippling Founders Program
 authors:
   - name: Samit Kalra
     link: https://www.linkedin.com/in/samit-kalra-a6179365/
@@ -14,14 +14,17 @@ authors:
 ---
 
 
-Every so often, a company emerges with a talent density that makes it hard to ignore. One such company is Rippling. Rippling is a company known for hiring former founders. And Rippling founders often possess a combination of technical chops, customer centricity and a willingness to tackle unsexy markets - a set of traits that aligns directly with 1984 Ventures' ethos. As a result, we are excited to announce the 1984 Ventures **Rippling Founders Program**, a fast-tracked financing program for current and aspiring Rippling founders. 
+Every so often, a company emerges with a talent density that is hard to ignore. Rippling is one of those companies. Staffed with 150 former founders, it is a hotbed for entrepreneurial talent. The company has also built a culture of customer centricity, high ownership and a willingness to tackle unsexy markets - aligning perfectly with our investment ethos at 1984 Ventures. 
+
+
+As a result, we are excited to announce the 1984 Ventures **Rippling Founders Program**, a fast-tracked financing program for current and aspiring Rippling founders.
 
 
 Here's how it works:
 
 1. Complete our 2 minute application. If you don't know what you want to start and just want to brainstorm with us, that's very welcome too!
 2. We'll review your application and get back to you within 24 hours. If it's in the 1984 wheelhouse, we'll do a sounding board session with you and get to know you.
-3. Depending on the stage of the company, as we help you hammer out your idea, if it's a fit for you and for us, we can incubate and/or fund your company with a check ranging from $500,000 to $1,200,000.
+3. Depending on the stage of the company, and if it's a mutual fit, we can incubate and/or fund your company with a check ranging from $500,000 to $1,200,000.
 
 {{< callout type="info" emoji="💡" >}}
 [**Apply Here**](https://1984ventures.typeform.com/to/L753qR7y)
@@ -34,7 +37,7 @@ Here's how it works:
 ### **About** [**1984 Ventures**](http://1984.vc/)
 
 
-1984 Ventures is a seed firm based in San Francisco. We lead pre-seed and seed rounds in vertical AI, healthcare and open source/infra companies. We've been fortunate to be early investors in companies like [Posthog](https://posthog.com/), [Cline](https://cline.bot/), [Collaborative Robotics](https://www.co.bot/) and [BuildOps](https://buildops.com/).
+1984 Ventures is a seed firm based in San Francisco. We lead pre-seed and seed rounds in vertical AI, healthcare and open source companies. We've been fortunate to be early investors in companies like [Posthog](https://posthog.com/), [Cline](https://cline.bot/), [BuildOps](https://buildops.com/) and [Tally](https://www.tallyhq.com/) (former Rippling founder).
 
 
 ### **How we help**
@@ -54,7 +57,7 @@ _James Hawkins, CEO of Posthog_
 _Brad Porter, former head of Amazon Robotics and founder of Collaborative Robotics_
 
 
-We're excited to launch this initiative and even more excited to be the first step for Ripplings who are ready to start their journey towards building an iconic company.
+We're excited to launch this initiative and even more excited to be the first step for Rippling founders who are ready to start their journey towards building an iconic company.
 
 
 [**Apply Here**](https://1984ventures.typeform.com/to/L753qR7y)
