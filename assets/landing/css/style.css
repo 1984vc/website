@@ -260,12 +260,12 @@ input:checked ~ .checkmark:after {display:block;}
 #archive .header{padding:0px 0px 86px 0px;/*border-bottom:1px solid rgba(39, 31, 35, 1)*/;}
 
 .SVGcontainer{height:130px;width:130px;}
-#ramySVG{width:145px;height:143px;background:url("/people/Ramy.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-30px;}
-#aaronSVG{width:164px;height:146px;background:url("/people/Aaron.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-35px;}
+#ramySVG{width:145px;height:143px;background:url("/landing/people/Ramy.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-30px;}
+#aaronSVG{width:164px;height:146px;background:url("/landing/people/Aaron.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-35px;}
 
-#farzadSVG{width:126px;height:160px;background:url("/people/Farzad.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-45px;}
-#samitSVG{width:126px;height:160px;background:url("/people/Samit.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-45px;}
-#markSVG{width:126px;height:160px;background:url("/people/Mark.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-45px;}
+#farzadSVG{width:126px;height:160px;background:url("/landing/people/Farzad.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-45px;}
+#samitSVG{width:126px;height:160px;background:url("/landing/people/Samit.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-45px;}
+#markSVG{width:126px;height:160px;background:url("/landing/people/Mark.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-45px;}
 
 
 
