@@ -1,23 +1,17 @@
 ---
-title: QSBS Article
+title: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
 notionId: 23082923-1d09-8071-8a1a-f99d84d56dc6
 createdAt: 2025-07-14T18:03:00.000Z
 weight: null
 draft: false
 description: ""
-Name: QSBS Article
+Name: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
 authors:
   - name: Mark Percival
     link: https://www.linkedin.com/in/markpercival
     image: /landing/people/Mark.svg
 
 ---
-
-
-# 
-
-
-## QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million
 
 
 Recent legislation has made Qualified Small Business Stock (QSBS) an even more powerful tax planning strategy for founders. The One Big Beautiful Bill Act of July 2025 has increased the potential federal tax exemption to $15 million, making this an essential consideration for any startup founder.
