@@ -52,6 +52,10 @@ Below I've included some advice for founders on how to structure their deck to m
 
 {{< callout type="warning" emoji="💡" >}}
 The narrative woven throughout the slides should focus on why you will dominate your category (e.g. traction, team, unique insight).
+
+- If you have really strong **Traction**, make sure that is one of the first slides (as it then compels the reader to read the remainder)
+- If you have an incredible and unexpected **Insight**, lead with that
+- If your **Team** has incredible **founder-market-fit or experience**, make sure to bring that to the forefront
 {{< /callout >}}
 
 
@@ -149,7 +153,8 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 
 
 {{< callout type="warning" emoji="💡" >}}
-
+- AI-first companies can have value propositions that are 100x better than the status quo. Investors now expect huge ROI, so make sure your solution conveys this
+    - The best value props are **Revenue Generation** and **Massive Cost Savings**. Try to avoid pitching time savings if you can show topline or bottom line improvements
 {{< /callout >}}
 
 - It's also important to try and convey that what you've built is hard
@@ -194,9 +199,9 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ![a0a0ae3369f4249873bb20a79d89b392e9296caf.png](/notion_assets/a0a0ae3369f4249873bb20a79d89b392e9296caf.png)
 
 - Ideally, this slide should convey a few things:
-	- You are a product centric company that ships fast (since competition is rife for every idea, and point solutions are becoming quickly commoditized)
-	- You have an ambitious vision for the company (hence the use of System of Record above)
-	- You are pursuing the market opportunity in a unique way
+    - You are a product centric company that ships fast (since competition is rife for every idea, and point solutions are becoming quickly commoditized)
+    - You have an ambitious vision for the company (hence the use of System of Record above)
+    - You are pursuing the market opportunity in a unique way
 
 ---
 
@@ -208,7 +213,8 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 
 
 {{< callout type="warning" emoji="💡" >}}
-
+- <u>**Nearly all application software markets are getting crowded quickly**</u>**. For many investors, the key question when investing at the Series A is: "how do I justify picking this company when there are [10] others also performing well?"**
+    - You should be helping investors understand the market segmentation and dynamics (e.g. "most players focus on enterprise, whereas we are SMB (and here is why that's an interesting place to build)" or "we are all-in-one whereas most players are point solutions" or "we have won all head-to-head deals against X, Y, Z")
 {{< /callout >}}
 
 - You can also provide a more detailed market segmentation in a written document that you can send through after meeting with an investor
@@ -222,8 +228,8 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ![a0f368d4e26d4e978067cb610ae0a28f2014e858.png](/notion_assets/a0f368d4e26d4e978067cb610ae0a28f2014e858.png)
 
 - Founder ambition becomes another important way that investors justify picking a certain company in a category. As a result, this slide should focus on conveying ambitious growht targets.
-	- Note that investors are frequently seeing pitches of companies growing from 0 to $3/5/7M
-	- For reference, forecasting growth from $1 to $3M is decent, but not especially ambitious. My suggestion would be at <$2M, forecast 5x growth for that year, and then 3x growth for the year after. 2x growth is unlikely to meet the threshold
+    - Note that investors are frequently seeing pitches of companies growing from 0 to $3/5/7M
+    - For reference, forecasting growth from $1 to $3M is decent, but not especially ambitious. My suggestion would be at <$2M, forecast 5x growth for that year, and then 3x growth for the year after. 2x growth is unlikely to meet the threshold
 
 ---
 

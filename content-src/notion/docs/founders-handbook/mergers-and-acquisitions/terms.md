@@ -58,7 +58,7 @@ Although these key provisions all involve some combination of commercial and leg
 
 
 {{< callout type="info" emoji="📄" >}}
-**Founder Tip:** Founders should make sure to closely review and consider the impact of all covenants to ensure that they will be abided by, especially any of those that will affect future conduct by the founders post-closing, such as non-compete and non-solicitation obligations.
+**Founder Tip: **Founders should make sure to closely review and consider the impact of all covenants to ensure that they will be abided by, especially any of those that will affect future conduct by the founders post-closing, such as non-compete and non-solicitation obligations.
 {{< /callout >}}
 
 

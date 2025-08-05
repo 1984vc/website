@@ -46,7 +46,9 @@ The best time to sell secondaries is once the company approaches a valuation bet
 - Although a secondary round doesn't dilute existing investors' ownership, they may still oppose capital going to management instead of strengthening the company's balance sheet—especially in a tight fundraising climate. To shareholders, a company's capital needs trump a founder's desire to cash out. As a result, it is critical to wait until the appropriate time to broach the topic with your board. Hold off on discussing secondaries until the funding round is clearly oversubscribed, otherwise the conversation could very well backfire.
 
 {{< callout type="info" emoji="💡" >}}
-_"From my vantage point, the attitude of the investor toward secondary is everything. My lead investor happen to be very supportive of it. If I had an investor who was against it, would be a different story. Founders should feel out their investors on this, and quite frankly if they are deciding between two investors this should be an interview question"_
+*"From my vantage point, the attitude of the investor toward secondary is everything. My lead investor happen to be very supportive of it. If I had an investor who was against it, would be a different story. Founders should feel out their investors on this, and quite frankly if they are deciding between two investors this should be an interview question"*
+
+-Series B Founder
 {{< /callout >}}
 
 

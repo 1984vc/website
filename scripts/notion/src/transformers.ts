@@ -64,12 +64,59 @@ export function hextraTransform(n2m: NotionToMarkdown): void {
 
     const calloutType = colortypemap[block.callout.color] || 'info';
     
+    // Process the callout's rich text content
+    let content = '';
+    if (block.callout.rich_text && block.callout.rich_text.length > 0) {
+      // Convert rich text to markdown
+      const richTextContent = block.callout.rich_text
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .map((text: any) => {
+          let result = text.plain_text || '';
+          if (text.annotations?.bold) result = `**${result}**`;
+          if (text.annotations?.italic) result = `*${result}*`;
+          if (text.annotations?.code) result = `\`${result}\``;
+          if (text.href) result = `[${result}](${text.href})`;
+          return result;
+        })
+        .join('');
+      content = richTextContent;
+    }
+    
+    // Process child blocks if they exist (this handles lists, paragraphs, etc. within callouts)
+    if (block.has_children) {
+      try {
+        // Access the notion client through the n2m instance
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const notionClient = (n2m as any).notionClient;
+        if (notionClient) {
+          // Fetch child blocks using the Notion API
+          const childrenResponse = await notionClient.blocks.children.list({
+            block_id: block.id,
+          });
+          
+          if (childrenResponse.results && childrenResponse.results.length > 0) {
+            // Convert child blocks to markdown
+            const childMarkdown = await n2m.blocksToMarkdown(childrenResponse.results);
+            const childContent = n2m.toMarkdownString(childMarkdown);
+            
+            // Add child content to the callout content
+            if (childContent.parent) {
+              // If we have both rich text and child content, separate them with a newline
+              if (content.trim()) {
+                content += '\n\n' + childContent.parent.trim();
+              } else {
+                content = childContent.parent.trim();
+              }
+            }
+          }
+        }
+      } catch (error) {
+        console.warn('Failed to fetch callout children:', error);
+      }
+    }
+    
     // Format for Hextra's Callout component
-    const fakeParagraph = { ...block };
-    fakeParagraph.type = 'paragraph';
-    fakeParagraph.paragraph = { ...block.callout } 
-    const mdBlocks = await n2m.blockToMarkdown(fakeParagraph);
-    return `{{< callout type="${calloutType}" emoji="${icon}" >}}\n${mdBlocks}\n{{< /callout >}}`;
+    return `{{< callout type="${calloutType}" emoji="${icon}" >}}\n${content}\n{{< /callout >}}`;
   });
 }
 

@@ -130,14 +130,14 @@ A few other things we've learned from Posthog:
 1. Write about problems you solve, even if only a small audience searches for it. A high-intent reader beats high traffic every time.
 2. Be authentic and transparent - Posthog has a "Changelog" on the top of their comparison articles
 3. Track what matters:
-	- Where do people go after reading?
-	- Do they hit the docs?
-	- Do they sign up?
+    - Where do people go after reading?
+    - Do they hit the docs?
+    - Do they sign up?
 4. Don't worry about posting cadence. Good content > regular content.
 5. For social sharing:
-	- Use personal accounts, not company ones
-	- LinkedIn works better than Twitter
-	- Newsletter promotion often beats social
+    - Use personal accounts, not company ones
+    - LinkedIn works better than Twitter
+    - Newsletter promotion often beats social
 
 ### **The Reality Check**
 

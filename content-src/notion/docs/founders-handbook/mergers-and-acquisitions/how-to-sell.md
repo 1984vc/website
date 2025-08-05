@@ -48,7 +48,7 @@ If you do decide to use bankers, choose ones with specific expertise in your sec
 - Consider partnerships that could lead to acquisition.
 
 {{< callout type="info" emoji="💡" >}}
-Make sure to understand what an acquirer _can_ pay. Companies typically spend at most 1-2% of their market cap on an M&A transaction. If your competitor is publicly trading at $8B, $100-$150M is probably the larger end of what they can spend.
+Make sure to understand what an acquirer *can* pay. Companies typically spend at most 1-2% of their market cap on an M&A transaction. If your competitor is publicly trading at $8B, $100-$150M is probably the larger end of what they can spend.
 {{< /callout >}}
 
 
@@ -105,7 +105,7 @@ In certain situations, your investors may be hesitant to sell if they perceive t
 
 
 {{< callout type="info" emoji="💡" >}}
-If you have only raised financing through SAFEs, you generally can execute the M&A deal without investor approval since you control the common shares and the board. However, once you have raised a priced round, you typically need both board approval _and_ majority approval from preferred shareholders (i.e., investors) to proceed with the transaction.
+If you have only raised financing through SAFEs, you generally can execute the M&A deal without investor approval since you control the common shares and the board. However, once you have raised a priced round, you typically need both board approval *and* majority approval from preferred shareholders (i.e., investors) to proceed with the transaction.
 {{< /callout >}}
 
 

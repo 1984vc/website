@@ -32,9 +32,9 @@ The One Big Beautiful Bill Act has significantly enhanced QSBS benefits for stoc
 - **Increased exclusion cap:** The maximum exclusion has increased to $15 million (up from $10 million), with inflation adjustments starting in 2027.
 - **Higher asset threshold:** Companies with up to $75 million in gross assets now qualify (up from $50 million).
 - **New tiered benefit structure:**
-	- 3 years: 50% exclusion of gains
-	- 4 years: 75% exclusion of gains
-	- 5+ years: 100% exclusion of gains
+    - 3 years: 50% exclusion of gains
+    - 4 years: 75% exclusion of gains
+    - 5+ years: 100% exclusion of gains
 
 ### Who Qualifies?
 
@@ -189,9 +189,9 @@ Most tech startups easily meet these expanded criteria.
 - **Restricted common stock**: Standard founder equity structure
 - **Documentation**: Keep detailed records of issuance dates and company asset levels
 - **83(b) election**: Not required for QSBS, but almost always beneficial
-	- Must file within 30 days of stock grant
-	- Avoids future tax on vesting
-	- Aligns tax treatment with QSBS timing
+    - Must file within 30 days of stock grant
+    - Avoids future tax on vesting
+    - Aligns tax treatment with QSBS timing
 
 ### Corporate Structure Considerations
 

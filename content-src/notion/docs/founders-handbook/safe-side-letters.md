@@ -84,7 +84,7 @@ To maintain QSBS status, companies typically need to meet certain criteria, such
 
 
 {{< callout type="info" emoji="✔️" >}}
-**QSBS Matters:** The Company will use commercially reasonable efforts to cause the shares issued upon conversion of the Safes, as well as any shares into which such Safes are converted, within the meaning of Section 1202(f) of the Internal Revenue Code (the "_**Code**_"), to constitute "qualified small business stock." The Company will submit to its stockholders (including the Investor) and to the Internal Revenue Service any reports that may be required under Section 1202(d)(1)(C) of the Code and the regulations promulgated thereunder.
+**QSBS Matters:** The Company will use commercially reasonable efforts to cause the shares issued upon conversion of the Safes, as well as any shares into which such Safes are converted, within the meaning of Section 1202(f) of the Internal Revenue Code (the "***Code***"), to constitute "qualified small business stock." The Company will submit to its stockholders (including the Investor) and to the Internal Revenue Service any reports that may be required under Section 1202(d)(1)(C) of the Code and the regulations promulgated thereunder.
 {{< /callout >}}
 
 
@@ -107,7 +107,7 @@ What matters most here: Try to not sign up for something you don't want to do—
 - Guaranteed Returns: Promising a specific return on investment can create undue pressure and misalign investor-founder interests.
 
 {{< callout type="info" emoji="✔️" >}}
-Important Note: While SAFE side letters are standard practice, founders should be very wary of  accepting a modified SAFE that deviates from the standard form (despite what your lawyers might suggest). Non-standard SAFEs open the door for back-and-forth legal wrangling that strips away the _Simple_ from SAFE—and modifying some clauses, particularly changes to Company Capitalization, can be very detrimental to founders. Moreover, future investors who ask to see the SAFE will ask to use the same modified version.
+Important Note: While SAFE side letters are standard practice, founders should be very wary of  accepting a modified SAFE that deviates from the standard form (despite what your lawyers might suggest). Non-standard SAFEs open the door for back-and-forth legal wrangling that strips away the *Simple* from SAFE—and modifying some clauses, particularly changes to Company Capitalization, can be very detrimental to founders. Moreover, future investors who ask to see the SAFE will ask to use the same modified version.
 {{< /callout >}}
 
 
