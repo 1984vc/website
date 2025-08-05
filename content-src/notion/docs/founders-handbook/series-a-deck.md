@@ -91,7 +91,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Cover slide (slide 1)**
 
 
-![3b4927b1d8e399b529c7c485d9f5b2ccae632268.png](/notion_assets/3b4927b1d8e399b529c7c485d9f5b2ccae632268.png) *undefined*
+![3b4927b1d8e399b529c7c485d9f5b2ccae632268.png](/notion_assets/3b4927b1d8e399b529c7c485d9f5b2ccae632268.png)
 
 - It's best to have a simple one line overview of what the business does (or that is intriguing)
 
@@ -101,7 +101,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Overview (slide 2)**
 
 
-![e211b8c61d9ff5d143c6adccdd8991abcaf824a7.png](/notion_assets/e211b8c61d9ff5d143c6adccdd8991abcaf824a7.png) *undefined*
+![e211b8c61d9ff5d143c6adccdd8991abcaf824a7.png](/notion_assets/e211b8c61d9ff5d143c6adccdd8991abcaf824a7.png)
 
 - This slide is optional because the message may have already been covered on the cover slide. But it can still be useful to include to quickly get the reader up to speed on what's to come
 
@@ -111,7 +111,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Executive Summary (slide 3)**
 
 
-![9a49575ed354f1a751387098cad2731effa136ae.png](/notion_assets/9a49575ed354f1a751387098cad2731effa136ae.png) *undefined*
+![9a49575ed354f1a751387098cad2731effa136ae.png](/notion_assets/9a49575ed354f1a751387098cad2731effa136ae.png)
 
 - The [benchmarks to raise a Series A](/2319a449f0a28003904cc0642eb20004) have gone up, so investors expect strong traction. If the business has impressive traction, it's valuable to include it early on in the deck so as to force the investor to pay attention for the remainder
 
@@ -121,7 +121,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Market Size (slide 4)**
 
 
-![ecc48a1149bdfa6fe25ca258e5ac447c7e616bb1.png](/notion_assets/ecc48a1149bdfa6fe25ca258e5ac447c7e616bb1.png) *undefined*
+![ecc48a1149bdfa6fe25ca258e5ac447c7e616bb1.png](/notion_assets/ecc48a1149bdfa6fe25ca258e5ac447c7e616bb1.png)
 
 - In most categories, investors will discount a top-down market size figure and prefer something bottoms-up. (In this specific case, advertising is so clearly a large market that it would be overkill to do a bottoms-up build up)
 - Series A investors are going to preemptively ignore markets that they deem to be too small. As a result, you don't want to be pitching anything <$1-2B
@@ -135,7 +135,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Problem (slide 5)**
 
 
-![a5f3dbb6a8a9920fe38de0f4173f1ca7de0c448b.png](/notion_assets/a5f3dbb6a8a9920fe38de0f4173f1ca7de0c448b.png) *undefined*
+![a5f3dbb6a8a9920fe38de0f4173f1ca7de0c448b.png](/notion_assets/a5f3dbb6a8a9920fe38de0f4173f1ca7de0c448b.png)
 
 - Clearly state the problem so that the investor can easily understand it. You do not want to increase the cognitive load required to understand what the company does as it just increases the chances the investor won't bother to dig in
 
@@ -145,7 +145,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Solution (slide 6)**
 
 
-![41fd320bf5b23bdd0fd30f99a2920ab5cc18ef17.png](/notion_assets/41fd320bf5b23bdd0fd30f99a2920ab5cc18ef17.png) *undefined*
+![41fd320bf5b23bdd0fd30f99a2920ab5cc18ef17.png](/notion_assets/41fd320bf5b23bdd0fd30f99a2920ab5cc18ef17.png)
 
 
 {{< callout type="warning" emoji="💡" >}}
@@ -160,7 +160,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Traction (slide 7)**
 
 
-![3f75ed89f8cc1cbd5716899448223f2e3fdb9795.png](/notion_assets/3f75ed89f8cc1cbd5716899448223f2e3fdb9795.png) *undefined*
+![3f75ed89f8cc1cbd5716899448223f2e3fdb9795.png](/notion_assets/3f75ed89f8cc1cbd5716899448223f2e3fdb9795.png)
 
 - Up-and-to-the-right graphs are always well received :)
 - Include a few key metrics to help the investor gain a better understanding of the company's performance. But do not overload them with information
@@ -171,7 +171,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Customers (slide 8)**
 
 
-![76523d99ed514b64609050f8a903cf682dcf5bf9.png](/notion_assets/76523d99ed514b64609050f8a903cf682dcf5bf9.png) *undefined*
+![76523d99ed514b64609050f8a903cf682dcf5bf9.png](/notion_assets/76523d99ed514b64609050f8a903cf682dcf5bf9.png)
 
 - Logos are an easy way to provide social proof (if they are easily recognizable)
 
@@ -181,7 +181,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Case Study (slide 9)**
 
 
-![273dfcc9c1fd4ea23f0b6ce1f0763064efbcd9ea.png](/notion_assets/273dfcc9c1fd4ea23f0b6ce1f0763064efbcd9ea.png) *undefined*
+![273dfcc9c1fd4ea23f0b6ce1f0763064efbcd9ea.png](/notion_assets/273dfcc9c1fd4ea23f0b6ce1f0763064efbcd9ea.png)
 
 - You can include more detailed case studies either as a slide in the deck or as a standalone document
 
@@ -191,7 +191,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Product Roadmap (slide 10)**
 
 
-![a0a0ae3369f4249873bb20a79d89b392e9296caf.png](/notion_assets/a0a0ae3369f4249873bb20a79d89b392e9296caf.png) *undefined*
+![a0a0ae3369f4249873bb20a79d89b392e9296caf.png](/notion_assets/a0a0ae3369f4249873bb20a79d89b392e9296caf.png)
 
 - Ideally, this slide should convey a few things:
 	- You are a product centric company that ships fast (since competition is rife for every idea, and point solutions are becoming quickly commoditized)
@@ -204,7 +204,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Competition (slide 11)**
 
 
-![6e5c9d1d3cbd8cccee592bd0fd66b88ac36bfe03.png](/notion_assets/6e5c9d1d3cbd8cccee592bd0fd66b88ac36bfe03.png) *undefined*
+![6e5c9d1d3cbd8cccee592bd0fd66b88ac36bfe03.png](/notion_assets/6e5c9d1d3cbd8cccee592bd0fd66b88ac36bfe03.png)
 
 
 {{< callout type="warning" emoji="💡" >}}
@@ -219,7 +219,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Growth Plan (slide 12)**
 
 
-![a0f368d4e26d4e978067cb610ae0a28f2014e858.png](/notion_assets/a0f368d4e26d4e978067cb610ae0a28f2014e858.png) *undefined*
+![a0f368d4e26d4e978067cb610ae0a28f2014e858.png](/notion_assets/a0f368d4e26d4e978067cb610ae0a28f2014e858.png)
 
 - Founder ambition becomes another important way that investors justify picking a certain company in a category. As a result, this slide should focus on conveying ambitious growht targets.
 	- Note that investors are frequently seeing pitches of companies growing from 0 to $3/5/7M
@@ -231,7 +231,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Vision (slide 13)**
 
 
-![dca90ec3ba28b970406259bfb87c151deaf8c0eb.png](/notion_assets/dca90ec3ba28b970406259bfb87c151deaf8c0eb.png) *undefined*
+![dca90ec3ba28b970406259bfb87c151deaf8c0eb.png](/notion_assets/dca90ec3ba28b970406259bfb87c151deaf8c0eb.png)
 
 - Related to the point on ambition, you need to have a compelling Vision for the company that gets the investor excited. **Note that investors are looking for fund-returning investments, not just simply good companies**. You should make sure your Vision plays to this idea
 
@@ -241,7 +241,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Team (slide 14)**
 
 
-![4079bcff1d02f61f0e1a80aa8ba1b48ce627e785.png](/notion_assets/4079bcff1d02f61f0e1a80aa8ba1b48ce627e785.png) *undefined*
+![4079bcff1d02f61f0e1a80aa8ba1b48ce627e785.png](/notion_assets/4079bcff1d02f61f0e1a80aa8ba1b48ce627e785.png)
 
 - Where possible, you are trying to convey that the team is special. This may be because of pedigree, of unique founder-market-fit, of being repeat founders etc.
 - Series A investors also want to see that the team is also ready for a Series A. Specifically, this means that the company has grown beyond the initial founders to include a few additional hires (typically on the engineering and sometimes on the sales front)
@@ -253,7 +253,7 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Funding Ask (slide 15)**
 
 
-![d14175834fc53c91dc599d44a8dd3b137344743f.png](/notion_assets/d14175834fc53c91dc599d44a8dd3b137344743f.png) *undefined*
+![d14175834fc53c91dc599d44a8dd3b137344743f.png](/notion_assets/d14175834fc53c91dc599d44a8dd3b137344743f.png)
 
 - It's not essential to include this slide or to mention the exact dollar amount you are raising (since you may be iterating on that number based on feedback). The risk with putting a number on the slide is that certain investors preemptively self-select out of the meeting if they think the round is too small or too large for them.
 - Generally speaking, for a Series A, a round of $8 - $20M is likely to be a fit for most multi-stage funds. However, $20M may be on the high end for many folks, so you may want to instead say something like $15M (which can easily get bid up to $20M if you get multiple competing term sheets)
@@ -264,5 +264,5 @@ See [here](https://www.canva.com/design/DAGtMt0bsUQ/rQyZq5kbltWMHxqy2FQO-g/edit?
 ### **Closing (slide 16)**
 
 
-![2f3459469892e77c090b836f903668416ff3602a.png](/notion_assets/2f3459469892e77c090b836f903668416ff3602a.png) *undefined*
+![2f3459469892e77c090b836f903668416ff3602a.png](/notion_assets/2f3459469892e77c090b836f903668416ff3602a.png)
 

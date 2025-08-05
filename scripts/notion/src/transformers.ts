@@ -168,6 +168,9 @@ export function imageTransform(n2m: NotionToMarkdown, assetsDirPath: string = 'a
     if (!fs.existsSync(localFilePath)) {
       fs.writeFileSync(localFilePath, fileBuffer);
     }
-    return `![${fileName}](${linkFilePath}) ${block.image.caption ? `*${block.image.caption[0]?.plain_text}*` : ''}`;
+    const caption = block.image.caption && block.image.caption.length > 0 && block.image.caption[0]?.plain_text 
+      ? `*${block.image.caption[0].plain_text}*` 
+      : '';
+    return `![${fileName}](${linkFilePath})${caption ? ` ${caption}` : ''}`;
   });
 }
