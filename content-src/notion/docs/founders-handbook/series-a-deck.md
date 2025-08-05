@@ -3,7 +3,7 @@ title: How to Structure Your Series A deck
 notionId: 24582923-1d09-80ad-993e-c7f72ea46552
 createdAt: 2025-08-04T22:16:00.000Z
 weight: null
-draft: true
+draft: false
 description: ""
 Name: How to Structure Your Series A deck
 authors:
