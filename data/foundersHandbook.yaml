@@ -23,7 +23,7 @@ toc:
             icon: "logout"
             url: "/docs/founders-handbook/founder-departure/"
       
-      - title: "Raising your Seed"
+      - title: "Raising Your Seed"
         weight: 3
         items:
           - title: "Introduction to SAFEs"
@@ -39,10 +39,10 @@ toc:
             icon: "document-text"
             url: "/docs/founders-handbook/safe-side-letters/"
       
-      - title: "Raising your A"
+      - title: "Raising Your A"
         weight: 4
         items:
-          - title: "Raising your Series A"
+          - title: "Raising Your Series A"
             icon: "currency-dollar"
             url: "/docs/founders-handbook/raising-your-series-a/"
           - title: "How to Structure your Series A Deck"
