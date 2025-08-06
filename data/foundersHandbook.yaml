@@ -9,85 +9,85 @@ toc:
         url: /docs/cap-table-worksheet
       - title: Cap Table 101
         icon: calculator
-        url: /docs/content/docs/founders-handbook/cap-table-101/
+        url: /docs/founders-handbook/cap-table-101/
       - title: Choosing your co-founder
         icon: document-text
-        url: /docs/content/docs/founders-handbook/choosing-your-co-founder/
+        url: /docs/founders-handbook/choosing-your-co-founder/
       - title: How to Part Ways with Your Co-Founder
         icon: logout
-        url: /docs/content/docs/founders-handbook/cofounder-departure/
+        url: /docs/founders-handbook/cofounder-departure/
       - title: Founder Departure
         icon: logout
-        url: /docs/content/docs/founders-handbook/founder-departure/
+        url: /docs/founders-handbook/founder-departure/
       - title: How to Pick a Startup Idea
         icon: document-text
-        url: /docs/content/docs/founders-handbook/how-to-pick-a-startup-idea/
+        url: /docs/founders-handbook/how-to-pick-a-startup-idea/
       - title: "Minimizing Founder Dilution "
         icon: presentation-chart-line
-        url: /docs/content/docs/founders-handbook/minimizing-founder-dilution/
+        url: /docs/founders-handbook/minimizing-founder-dilution/
   - title: Raising Your Seed
     weight: 3
     items:
       - title: Introduction to SAFEs
         icon: document-text
-        url: /docs/content/docs/founders-handbook/intro-to-safes/
+        url: /docs/founders-handbook/intro-to-safes/
       - title: Pre-money vs Post-money Conversion
         icon: presentation-chart-line
-        url: /docs/content/docs/founders-handbook/pre-money-vs-post-money-conversion/
+        url: /docs/founders-handbook/pre-money-vs-post-money-conversion/
       - title: SAFE Side Letters
         icon: document-text
-        url: /docs/content/docs/founders-handbook/safe-side-letters/
+        url: /docs/founders-handbook/safe-side-letters/
       - title: SAFE vs Priced Round
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/safe-vs-priced-round/
+        url: /docs/founders-handbook/safe-vs-priced-round/
   - title: Raising Your A
     weight: 4
     items:
       - title: Impact of Series A on Cap Table
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/raising-your-series-a/
+        url: /docs/founders-handbook/raising-your-series-a/
       - title: Selling Secondaries
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/selling-secondaries/
+        url: /docs/founders-handbook/selling-secondaries/
       - title: How to Nail Your Series A Deck
         icon: presentation-chart-line
-        url: /docs/content/docs/founders-handbook/series-a-deck/
+        url: /docs/founders-handbook/series-a-deck/
       - title: Structured and Down Rounds
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/structured-and-downrounds/
+        url: /docs/founders-handbook/structured-and-downrounds/
   - title: Mergers and Acquisitions
     weight: 5
     items:
       - title: Mergers and Acquisitions
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/mergers-and-acquisitions/
+        url: /docs/founders-handbook/mergers-and-acquisitions/
       - title: How to Sell Your Startup
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/mergers-and-acquisitions/how-to-sell/
+        url: /docs/founders-handbook/mergers-and-acquisitions/how-to-sell/
       - title: Legal Considerations for M&A
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/mergers-and-acquisitions/legal-considerations/
+        url: /docs/founders-handbook/mergers-and-acquisitions/legal-considerations/
       - title: Structuring M&A
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/mergers-and-acquisitions/structuring/
+        url: /docs/founders-handbook/mergers-and-acquisitions/structuring/
       - title: Terms to Negotiate in an M&A Transaction
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/mergers-and-acquisitions/terms/
+        url: /docs/founders-handbook/mergers-and-acquisitions/terms/
       - title: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
         icon: currency-dollar
-        url: /docs/content/docs/founders-handbook/taxes/qsbs/
+        url: /docs/founders-handbook/taxes/qsbs/
   - title: Marketing
     weight: 6
     items:
       - title: "The Open Source Content Marketing Playbook: Lessons from Posthog"
         icon: document-text
-        url: /docs/content/docs/founders-handbook/eng/open-source-playbook-posthog/
+        url: /docs/founders-handbook/eng/open-source-playbook-posthog/
   - title: Engineering
     weight: 7
     items:
       - title: Essential Security Practices for Early-Stage Startups
         icon: document-text
-        url: /docs/content/docs/founders-handbook/eary-stage-security-tips/
+        url: /docs/founders-handbook/eary-stage-security-tips/
       - title: Engineering Best Practices at Seed Stag
         icon: document-text
-        url: /docs/content/docs/founders-handbook/eng/best-practices-seed/
+        url: /docs/founders-handbook/eng/best-practices-seed/

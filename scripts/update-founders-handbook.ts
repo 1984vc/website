@@ -68,8 +68,8 @@ function findMarkdownFiles(dir: string): string[] {
 
 // Function to generate URL from file path
 function generateUrl(filePath: string): string {
-  // Remove template/content prefix and .md extension
-  let url = filePath.replace(/^data\/content\//, '').replace(/\.md$/, '');
+  // Remove content prefix and .md extension
+  let url = filePath.replace(/^content\//, '').replace(/\.md$/, '');
   
   // Handle _index.md files
   if (url.endsWith('/_index')) {
@@ -78,9 +78,12 @@ function generateUrl(filePath: string): string {
     url = url + '/';
   }
   
-  // Ensure it starts with /docs/
+  // Ensure it starts with /docs/ but avoid double /docs/
+  if (!url.startsWith('/')) {
+    url = '/' + url;
+  }
   if (!url.startsWith('/docs/')) {
-    url = '/docs/' + url;
+    url = '/docs' + url;
   }
   
   return url;
@@ -169,10 +172,18 @@ function main() {
   for (const section of config.toc) {
     const sectionTitle = section.title;
     
+    // Get existing items (like the Cap Table Worksheet app)
+    const existingItems = section.items || [];
+    
+    // Update URLs of existing template items to remove /docs/content/ prefix
+    for (const item of existingItems) {
+      if (item.url && item.url.startsWith('/docs/content/')) {
+        // Remove /docs/content/ prefix and replace with /docs/
+        item.url = item.url.replace('/docs/content/', '/docs/');
+      }
+    }
+    
     if (categorizedItems[sectionTitle]) {
-      // Get existing items (like the Cap Table Worksheet app)
-      const existingItems = section.items || [];
-      
       // Add new items from markdown files
       const newItems = categorizedItems[sectionTitle];
       
@@ -192,6 +203,10 @@ function main() {
       
       section.items = allItems;
       console.log(`  📂 ${sectionTitle}: ${allItems.length} items`);
+    } else {
+      // Even if no new items, update the section with corrected URLs
+      section.items = existingItems;
+      console.log(`  📂 ${sectionTitle}: ${existingItems.length} items (template only)`);
     }
   }
 
