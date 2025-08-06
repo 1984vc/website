@@ -2,6 +2,5 @@
 
 set -e
 
-rm -rf content && mkdir content
-rsync -r --exclude 'notion' src/content/. content/.
-rsync -r src/content/notion/. content/.
+mkdir -p content
+rsync -r template/content/. content/.

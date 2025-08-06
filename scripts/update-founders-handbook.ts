@@ -67,7 +67,7 @@ function findMarkdownFiles(dir: string): string[] {
 
 // Function to generate URL from file path
 function generateUrl(filePath: string): string {
-  // Remove src/content prefix and .md extension
+  // Remove template/content prefix and .md extension
   let url = filePath.replace(/^data\/content\//, '').replace(/\.md$/, '');
   
   // Handle _index.md files
@@ -107,13 +107,13 @@ function normalizeIcon(icon: string): string {
 
 // Main function
 function main() {
-  const contentSrcDir = 'src/content';
-  const templatePath = 'src/foundersHandbook.template.yaml';
+  const contentSrcDir = 'content';
+  const templatePath = 'template/foundersHandbook.template.yaml';
   const outputPath = 'data/foundersHandbook.yaml';
 
   console.log('🔍 Scanning for markdown files...');
   
-  // Find all markdown files in src/content
+  // Find all markdown files in template/content
   const markdownFiles = findMarkdownFiles(contentSrcDir);
   console.log(`Found ${markdownFiles.length} markdown files`);
 
