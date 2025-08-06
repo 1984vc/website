@@ -3,8 +3,10 @@ title: SAFE Side Letters
 notionId: 67e9cba3-dc04-4a8c-9bb1-473fe8f7f93e
 createdAt: 2024-08-05T02:03:00.000Z
 weight: 5
+Category: Raising Your Seed
+Icon: document-text
 draft: false
-description: ""
+Sidebar Title: ""
 Name: SAFE Side Letters
 authors:
   - name: Ramy Adeeb

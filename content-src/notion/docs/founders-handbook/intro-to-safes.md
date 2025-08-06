@@ -3,8 +3,10 @@ title: Introduction to SAFEs
 notionId: 13b82923-1d09-80ed-ae0a-db13d2f3f115
 createdAt: 2024-11-11T21:26:00.000Z
 weight: 2
+Category: Raising Your Seed
+Icon: document-text
 draft: false
-description: ""
+Sidebar Title: ""
 Name: Introduction to SAFEs
 authors:
   - name: Ramy Adeeb

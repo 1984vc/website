@@ -3,8 +3,10 @@ title: Structured and Down Rounds
 notionId: c5fcc46c-3010-4040-9000-d483ebcdda04
 createdAt: 2024-08-02T23:30:00.000Z
 weight: 10
+Category: Raising Your A
+Icon: currency-dollar
 draft: false
-description: ""
+Sidebar Title: ""
 Name: Structured and Down Rounds
 authors:
   - name: Ramy Adeeb

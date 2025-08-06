@@ -3,8 +3,10 @@ title: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
 notionId: 23082923-1d09-8071-8a1a-f99d84d56dc6
 createdAt: 2025-07-14T18:03:00.000Z
 weight: null
+Category: Mergers and Acquisitions
+Icon: currency-dollar
 draft: false
-description: ""
+Sidebar Title: ""
 Name: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
 authors:
   - name: Mark Percival

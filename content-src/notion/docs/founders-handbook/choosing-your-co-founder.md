@@ -3,8 +3,10 @@ title: Choosing your co-founder
 notionId: 24782923-1d09-80ee-8b22-cf8e984cd7a8
 createdAt: 2025-08-06T15:48:00.000Z
 weight: null
+Category: Company Formation
+Icon: document-text
 draft: true
-description: ""
+Sidebar Title: ""
 Name: Choosing your co-founder
 authors: []
 

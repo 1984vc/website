@@ -3,8 +3,10 @@ title: How to Sell Your Startup
 notionId: 1ca82923-1d09-8072-be6d-d9115a2b5e84
 createdAt: 2025-04-03T20:04:00.000Z
 weight: null
+Category: Mergers and Acquisitions
+Icon: currency-dollar
 draft: false
-description: ""
+Sidebar Title: ""
 Name: How to Sell Your Startup
 authors:
   - name: Ramy Adeeb

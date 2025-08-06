@@ -3,8 +3,10 @@ title: Perks for 1984 Startups
 notionId: 1fc82923-1d09-806a-8762-f59914ed81b8
 createdAt: 2025-05-23T15:13:00.000Z
 weight: null
+Category: ""
+Icon: ""
 draft: false
-description: ""
+Sidebar Title: ""
 Name: Perks for 1984 Startups
 authors: []
 

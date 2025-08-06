@@ -3,8 +3,10 @@ title: Introducing The Amazon Founder Program
 notionId: 1fc82923-1d09-80e9-a6a4-d3f471fdcf6b
 createdAt: 2025-05-23T15:12:00.000Z
 weight: null
+Category: ""
+Icon: ""
 draft: false
-description: ""
+Sidebar Title: ""
 Name: Introducing The Amazon Founder Program
 authors: []
 

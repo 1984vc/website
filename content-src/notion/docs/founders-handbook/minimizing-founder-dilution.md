@@ -3,8 +3,10 @@ title: "Minimizing Founder Dilution "
 notionId: cf6018ad-0896-4018-a501-407f4fdee039
 createdAt: 2024-08-03T00:04:00.000Z
 weight: 7
+Category: Company Formation
+Icon: presentation-line-chart
 draft: false
-description: ""
+Sidebar Title: ""
 Name: "Minimizing Founder Dilution "
 authors:
   - name: Ramy Adeeb
