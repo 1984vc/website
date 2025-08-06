@@ -4,9 +4,6 @@ toc:
   - title: Company Formation
     weight: 2
     items:
-      - title: Cap Table Worksheet (App)
-        icon: table
-        url: /docs/cap-table-worksheet
       - title: Cap Table 101
         icon: calculator
         url: /docs/content/notion/docs/founders-handbook/cap-table-101/
@@ -79,3 +76,9 @@ toc:
   - title: Engineering
     weight: 6
     items: null
+  - title: Tools
+    weight: 7
+    items:
+      - title: Cap Table Worksheet (App)
+        icon: table
+        url: /docs/cap-table-worksheet
