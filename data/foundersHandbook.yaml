@@ -4,6 +4,9 @@ toc:
   - title: Company Formation
     weight: 2
     items:
+      - title: Cap Table 101
+        icon: calculator
+        url: /docs/founders-handbook/cap-table-101/
       - title: Choosing your co-founder
         icon: document-text
         url: /docs/founders-handbook/choosing-your-co-founder/
@@ -85,3 +88,10 @@ toc:
       - title: Engineering Best Practices at Seed Stag
         icon: document-text
         url: /docs/founders-handbook/eng/best-practices-seed/
+  - title: Tools
+    weight: 8
+    items:
+      - title: Cap Table Worksheet (App)
+        icon: table
+        url: /docs/cap-table-worksheet
+        target_blank: true

@@ -28,6 +28,7 @@ toc:
       - title: "Tools"
         weight: 8
         items:
-        - title: Cap Table 101
-          icon: calculator
-          url: /docs/founders-handbook/cap-table-101/
+        - title: "Cap Table Worksheet (App)"
+          icon: "table"
+          url: "/docs/cap-table-worksheet"
+          target_blank: true
