@@ -4,12 +4,6 @@ toc:
   - title: Company Formation
     weight: 2
     items:
-      - title: Cap Table Worksheet (App)
-        icon: table
-        url: /docs/cap-table-worksheet
-      - title: Cap Table 101
-        icon: calculator
-        url: /docs/founders-handbook/cap-table-101/
       - title: Choosing your co-founder
         icon: document-text
         url: /docs/founders-handbook/choosing-your-co-founder/

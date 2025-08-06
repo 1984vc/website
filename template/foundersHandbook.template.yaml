@@ -3,10 +3,7 @@
 toc:
       - title: "Company Formation"
         weight: 2
-        items:
-          - title: "Cap Table Worksheet (App)"
-            icon: "table"
-            url: "/docs/cap-table-worksheet"
+        items: null
       
       - title: "Raising Your Seed"
         weight: 3
@@ -26,4 +23,11 @@ toc:
 
       - title: "Engineering"
         weight: 7
+        items: null
+
+      - title: "Tools"
+        weight: 8
         items:
+        - title: Cap Table 101
+          icon: calculator
+          url: /docs/founders-handbook/cap-table-101/
