@@ -1,0 +1,25 @@
+# Custom sidebar configuration
+# Icons can be found here: https://v1.heroicons.com/
+toc:
+      - title: "Company Formation"
+        weight: 2
+        items:
+          - title: "Cap Table Worksheet (App)"
+            icon: "table"
+            url: "/docs/cap-table-worksheet"
+      
+      - title: "Raising Your Seed"
+        weight: 3
+        items:
+      
+      - title: "Raising Your A"
+        weight: 4
+        items:
+      
+      - title: "Mergers and Acquisitions"
+        weight: 5
+        items:
+
+      - title: "Engineering"
+        weight: 6
+        items:

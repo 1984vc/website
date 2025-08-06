@@ -1,78 +1,81 @@
 # Custom sidebar configuration
 # Icons can be found here: https://v1.heroicons.com/
 toc:
-      - title: "Company Formation"
-        weight: 2
-        items:
-          - title: "Cap Table 101"
-            icon: "calculator"
-            url: "/docs/founders-handbook/cap-table-101/"
-          - title: "Cap Table Worksheet (App)"
-            icon: "table"
-            url: "/docs/cap-table-worksheet"
-          - title: "How to Pick a Startup Idea"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/how-to-pick-a-startup-idea/"
-          - title: "Choosing the Right Startup Co-Founder(s)"
-            icon: "user-group"
-            url: "/docs/founders-handbook/choosing-startup-cofounder/"
-          - title: "Minimizing Founder Dilution"
-            icon: "presentation-chart-line"
-            url: "/docs/founders-handbook/minimizing-founder-dilution/"
-          - title: "How to Part Ways with Your Co-Founder"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/cofounder-departure/"
-          - title: "Founder Departure Impact on Cap Table"
-            icon: "logout"
-            url: "/docs/founders-handbook/founder-departure/"
-      
-      - title: "Raising Your Seed"
-        weight: 3
-        items:
-          - title: "Introduction to SAFEs"
-            icon: "document-text"
-            url: "/docs/founders-handbook/intro-to-safes/"
-          - title: "Pre-money vs Post-money Conversion"
-            icon: "presentation-chart-line"
-            url: "/docs/founders-handbook/pre-money-vs-post-money-conversion/"
-          - title: "SAFE vs Priced Round"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/safe-vs-priced-round/"
-          - title: "SAFE Side Letters"
-            icon: "document-text"
-            url: "/docs/founders-handbook/safe-side-letters/"
-      
-      - title: "Raising Your A"
-        weight: 4
-        items:
-          - title: "Raising Your Series A"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/raising-your-series-a/"
-          - title: "How to Structure Your Series A Deck"
-            icon: "presentation-chart-line"
-            url: "/docs/founders-handbook/series-a-deck/"
-          - title: "Selling Secondaries"
-            icon: "document-text"
-            url: "/docs/founders-handbook/selling-secondaries/"
-          - title: "Structured and Down Rounds"
-            icon: "emoji-sad"
-            url: "/docs/founders-handbook/structured-and-downrounds/"
-      
-      - title: "Mergers and Acquisitions"
-        weight: 5
-        items:
-          - title: "How to Sell Your Startup"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/mergers-and-acquisitions/how-to-sell"
-          - title: "Legal Considerations for M&A"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/mergers-and-acquisitions/legal-considerations/"
-          - title: "Structuring M&A"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/mergers-and-acquisitions/structuring/"
-          - title: "Terms to Negotiate in an M&A Transaction"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/mergers-and-acquisitions/terms/"
-          - title: "QSBS for Early-Stage Founders"
-            icon: "currency-dollar"
-            url: "/docs/founders-handbook/taxes/qsbs/"
+  - title: Company Formation
+    weight: 2
+    items:
+      - title: Cap Table Worksheet (App)
+        icon: table
+        url: /docs/cap-table-worksheet
+      - title: Cap Table 101
+        icon: calculator
+        url: /docs/notion/docs/founders-handbook/cap-table-101/
+      - title: Choosing your co-founder
+        icon: document-text
+        url: /docs/notion/docs/founders-handbook/choosing-your-co-founder/
+      - title: How to Part Ways with Your Co-Founder (Without Blowing Up Your Startup)
+        icon: logout
+        url: /docs/notion/docs/founders-handbook/cofounder-departure/
+      - title: Founder Departure
+        icon: logout
+        url: /docs/notion/docs/founders-handbook/founder-departure/
+      - title: How to Pick a Startup Idea
+        icon: document-text
+        url: /docs/notion/docs/founders-handbook/how-to-pick-a-startup-idea/
+      - title: "Minimizing Founder Dilution "
+        icon: presentation-chart-line
+        url: /docs/notion/docs/founders-handbook/minimizing-founder-dilution/
+  - title: Raising Your Seed
+    weight: 3
+    items:
+      - title: Introduction to SAFEs
+        icon: document-text
+        url: /docs/notion/docs/founders-handbook/intro-to-safes/
+      - title: Pre-money vs Post-money Conversion
+        icon: presentation-chart-line
+        url: /docs/notion/docs/founders-handbook/pre-money-vs-post-money-conversion/
+      - title: SAFE Side Letters
+        icon: document-text
+        url: /docs/notion/docs/founders-handbook/safe-side-letters/
+      - title: SAFE vs Priced Round
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/safe-vs-priced-round/
+  - title: Raising Your A
+    weight: 4
+    items:
+      - title: Impact of Series A on Cap Table
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/raising-your-series-a/
+      - title: Selling Secondaries
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/selling-secondaries/
+      - title: How to Nail Your Series A Deck
+        icon: presentation-chart-line
+        url: /docs/notion/docs/founders-handbook/series-a-deck/
+      - title: Structured and Down Rounds
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/structured-and-downrounds/
+  - title: Mergers and Acquisitions
+    weight: 5
+    items:
+      - title: Mergers and Acquisitions
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/mergers-and-acquisitions/
+      - title: How to Sell Your Startup
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/mergers-and-acquisitions/how-to-sell/
+      - title: Legal Considerations for M&A
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/mergers-and-acquisitions/legal-considerations/
+      - title: Structuring M&A
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/mergers-and-acquisitions/structuring/
+      - title: Terms to Negotiate in an M&A Transaction
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/mergers-and-acquisitions/terms/
+      - title: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
+        icon: currency-dollar
+        url: /docs/notion/docs/founders-handbook/taxes/qsbs/
+  - title: Engineering
+    weight: 6
+    items: null
