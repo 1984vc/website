@@ -13,7 +13,7 @@ toc:
       - title: Choosing your co-founder
         icon: document-text
         url: /docs/content/docs/founders-handbook/choosing-your-co-founder/
-      - title: How to Part Ways with Your Co-Founder (Without Blowing Up Your Startup)
+      - title: How to Part Ways with Your Co-Founder
         icon: logout
         url: /docs/content/docs/founders-handbook/cofounder-departure/
       - title: Founder Departure
@@ -76,6 +76,18 @@ toc:
       - title: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
         icon: currency-dollar
         url: /docs/content/docs/founders-handbook/taxes/qsbs/
-  - title: Engineering
+  - title: Marketing
     weight: 6
-    items: null
+    items:
+      - title: "The Open Source Content Marketing Playbook: Lessons from Posthog"
+        icon: document-text
+        url: /docs/content/docs/founders-handbook/eng/open-source-playbook-posthog/
+  - title: Engineering
+    weight: 7
+    items:
+      - title: Essential Security Practices for Early-Stage Startups
+        icon: document-text
+        url: /docs/content/docs/founders-handbook/eary-stage-security-tips/
+      - title: Engineering Best Practices at Seed Stag
+        icon: document-text
+        url: /docs/content/docs/founders-handbook/eng/best-practices-seed/
