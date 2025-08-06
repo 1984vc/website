@@ -8,6 +8,7 @@ interface FrontMatter {
   title: string;
   Category?: string;
   Icon?: string;
+  'Sidebar Title'?: string;
   [key: string]: any;
 }
 
@@ -141,7 +142,8 @@ function main() {
       }
 
       const category = frontMatter.Category;
-      const title = frontMatter.title;
+      const sidebarTitle = frontMatter['Sidebar Title'];
+      const title = (sidebarTitle && sidebarTitle.trim() !== '') ? sidebarTitle : frontMatter.title;
       const icon = normalizeIcon(frontMatter.Icon || '');
       const url = generateUrl(filePath);
 
