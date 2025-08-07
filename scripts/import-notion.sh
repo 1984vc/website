@@ -9,3 +9,4 @@ pnpm run cli export hextra -o ../../content --id 159829231d098087b96fd112a91c743
 pnpm run cli export json --id 155829231d0980779375ed60cc94a9de -o ../../data/portco.json
 cd ../..
 pnpm exec tsx scripts/update-founders-handbook.ts
+./scripts/content-copy.sh

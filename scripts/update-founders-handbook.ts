@@ -210,6 +210,11 @@ function main() {
     }
   }
 
+  console.log('📊 Sorting sections by weight...');
+  
+  // Sort sections by weight
+  config.toc.sort((a, b) => a.weight - b.weight);
+
   // Write the updated configuration
   const updatedYaml = yaml.stringify(config, {
     indent: 2,
