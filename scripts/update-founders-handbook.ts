@@ -222,6 +222,21 @@ function main() {
     }
   }
 
+  console.log('🧹 Removing empty sections...');
+  
+  // Remove sections that have no items
+  const sectionsBeforeFilter = config.toc.length;
+  config.toc = config.toc.filter(section => {
+    const hasItems = section.items && section.items.length > 0;
+    if (!hasItems) {
+      console.log(`  🗑️  Removing empty section: ${section.title}`);
+    }
+    return hasItems;
+  });
+  
+  const sectionsAfterFilter = config.toc.length;
+  console.log(`  Removed ${sectionsBeforeFilter - sectionsAfterFilter} empty sections`);
+
   console.log('📊 Sorting sections by weight...');
   
   // Sort sections by weight

@@ -1,13 +1,13 @@
 ---
-title: Engineering Best Practices at Seed Stag
+title: Engineering Best Practices at Seed Stage
 notionId: 24782923-1d09-8009-898b-c9de99b4a4ce
 createdAt: 2025-08-06T19:34:00.000Z
 weight: 1
 Category: Engineering
 Icon: document-text
-draft: false
+draft: true
 Sidebar Title: ""
-Name: Engineering Best Practices at Seed Stag
+Name: Engineering Best Practices at Seed Stage
 authors:
   - name: Mark Percival
     link: https://www.linkedin.com/in/markpercival

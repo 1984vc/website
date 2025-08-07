@@ -73,12 +73,6 @@ toc:
       - title: "The Open Source Content Marketing Playbook: Lessons from Posthog"
         icon: document-text
         url: /docs/founders-handbook/eng/open-source-playbook-posthog/
-  - title: Engineering
-    weight: 7
-    items:
-      - title: Engineering Best Practices at Seed Stag
-        icon: document-text
-        url: /docs/founders-handbook/eng/best-practices-seed/
   - title: Tools
     weight: 8
     items:
