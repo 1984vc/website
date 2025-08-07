@@ -3,9 +3,9 @@ title: Choosing Your Co-Founder
 notionId: 24782923-1d09-80ee-8b22-cf8e984cd7a8
 createdAt: 2025-08-06T15:48:00.000Z
 weight: 15
-Category: Company Formation
+Category: ""
 Icon: document-text
-draft: true
+draft: false
 Sidebar Title: ""
 Name: Choosing Your Co-Founder
 authors: []
