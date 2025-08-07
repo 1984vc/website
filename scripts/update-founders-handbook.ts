@@ -144,6 +144,12 @@ function main() {
         continue; // Skip files without category
       }
 
+      // Skip files marked as draft
+      if (frontMatter.draft === true) {
+        console.log(`  ⏭️  Skipping draft: ${frontMatter.title || filePath}`);
+        continue;
+      }
+
       const category = frontMatter.Category;
       const sidebarTitle = frontMatter['Sidebar Title'];
       const title = (sidebarTitle && sidebarTitle.trim() !== '') ? sidebarTitle : frontMatter.title;
