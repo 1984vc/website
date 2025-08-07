@@ -2,7 +2,7 @@
 title: Legal Considerations for M&A
 notionId: 1b482923-1d09-800f-8fd3-fea409f89521
 createdAt: 2025-03-12T15:38:00.000Z
-weight: 15
+weight: 2
 Category: Mergers and Acquisitions
 Icon: currency-dollar
 draft: false

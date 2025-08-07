@@ -150,6 +150,12 @@ function main() {
         continue;
       }
 
+      // Skip _index.md files
+      if (path.basename(filePath) === '_index.md') {
+        console.log(`  ⏭️  Skipping index file: ${filePath}`);
+        continue;
+      }
+
       const category = frontMatter.Category;
       const sidebarTitle = frontMatter['Sidebar Title'];
       const title = (sidebarTitle && sidebarTitle.trim() !== '') ? sidebarTitle : frontMatter.title;

@@ -52,9 +52,6 @@ toc:
   - title: Mergers and Acquisitions
     weight: 5
     items:
-      - title: Mergers and Acquisitions
-        icon: currency-dollar
-        url: /docs/founders-handbook/mergers-and-acquisitions/
       - title: How to Sell Your Startup
         icon: currency-dollar
         url: /docs/founders-handbook/mergers-and-acquisitions/how-to-sell/
