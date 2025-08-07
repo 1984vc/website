@@ -91,7 +91,7 @@
           {{- range $item := $section.items -}}
             {{- $active := eq $pageURL $item.url -}}
             <li class="flex flex-col {{ if $active }}open{{ end }}">
-              {{- template "sidebar-item-link" dict "context" (dict "RegularPages" $item.items) "active" $active "title" $item.title "link" $item.url "open" true -}}
+              {{- template "sidebar-item-link" dict "context" (dict "RegularPages" $item.items) "active" $active "title" $item.title "link" $item.url "open" true "target_blank" $item.target_blank -}}
               {{- if and $toc $active -}}
                 {{ template "sidebar-toc" dict "page" $page }}
               {{- end -}}
@@ -214,6 +214,7 @@
 
 {{- define "sidebar-item-link" -}}
   {{- $external := strings.HasPrefix .link "http" -}}
+  {{- $targetBlank := or $external .target_blank -}}
   {{- $open := .open | default true -}}
   <a
     class="flex items-center justify-between gap-2 cursor-pointer rounded px-2 py-1.5 text-sm transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -223,7 +224,7 @@
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 contrast-more:border contrast-more:border-transparent contrast-more:text-gray-900 contrast-more:hover:border-gray-900 dark:text-neutral-400 dark:hover:bg-gray-800 dark:hover:text-gray-50 contrast-more:dark:text-gray-50 contrast-more:dark:hover:border-gray-50
     {{- end -}}"
     href="{{ .link }}"
-    {{ if $external }}target="_blank" rel="noreferrer"{{ end }}
+    {{ if $targetBlank }}target="_blank" rel="noreferrer"{{ end }}
   >
     {{- .title -}}
     {{- with .context }}

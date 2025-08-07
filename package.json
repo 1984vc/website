@@ -3,7 +3,8 @@
     "dev:hugo": "hugo serve -w",
     "dev:tailwind": "tailwindcss -i layouts/styles/main.css -c tailwind.config.js -o assets/styles/compiled/main.css --watch",
     "dev": "concurrently \"pnpm run dev:tailwind\" \"pnpm run dev:hugo\"",
-    "import:notion": "dotenv scripts/import-notion.sh"
+    "import:notion": "dotenv scripts/import-notion.sh",
+    "update:founders-handbook": "tsx scripts/update-founders-handbook.ts"
   },
   "dependencies": {
     "concurrently": "^9.1.2",
@@ -11,6 +12,7 @@
     "dotenv-cli": "^8.0.0",
     "glob": "^11.0.0",
     "gray-matter": "^4.0.3",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.20.3"
   }
 }

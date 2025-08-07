@@ -2,7 +2,7 @@
 title: Terms to Negotiate in an M&A Transaction
 notionId: 1b682923-1d09-80b0-b0f5-e2d8224e642a
 createdAt: 2025-03-14T18:42:00.000Z
-weight: null
+weight: 4
 Category: Mergers and Acquisitions
 Icon: currency-dollar
 draft: false

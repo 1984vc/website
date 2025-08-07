@@ -32,7 +32,7 @@ jobs:
       - name: Run import script
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: bash scripts/import-notion.sh
+        run: bash scripts/pull-latest.sh
 
       - name: Check for changes
         id: git-check

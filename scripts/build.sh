@@ -10,10 +10,7 @@ pnpm test
 pnpm build:hugo
 cd ..
 
-# Build the project static root project
 echo "Building the project..."
-rm -rf content && mkdir content
-./scripts/content-copy.sh
 hugo
 
 echo "Done"
