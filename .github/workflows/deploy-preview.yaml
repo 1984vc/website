@@ -49,6 +49,9 @@ jobs:
       - name: PNPM install
         run: pnpm install
 
+      - name: PNPM install notion deps
+        run: cd scripts/notion && pnpm install
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
 

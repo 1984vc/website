@@ -29,6 +29,12 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
+      - name: PNPM install
+        run: pnpm install
+
+      - name: PNPM install notion deps
+        run: cd scripts/notion && pnpm install
+
       - name: Run import script
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
