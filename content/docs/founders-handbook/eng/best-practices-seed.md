@@ -151,16 +151,19 @@ This person doesn't need to be a CTO. A strong senior engineer or engineering ma
 **"This will slow us down."** For about 2 weeks. Then you'll be permanently faster.
 
 
-### Don't go overboard
+## The Other Direction
 
 
-There's an opposite problem we see that usually manifests itself by a well intentioned leader who comes from a larger organization. Instead of driving culture, the process begins to take priority. Tests are just required, specific coverage is required and 
+There's an equally dangerous trap that often ensnares well-intentioned leaders from larger organizations: process theater. Instead of cultivating engineering excellence through culture, they impose rigid metrics and mandatory tooling. Tests aren't written because engineers understand their value - they're written to hit arbitrary coverage targets.
 
 
-## Seed vs Later Stage
+This checkbox mentality is poison for early-stage companies. When engineers write tests solely to satisfy coverage reports, you haven't built a culture of excellence, you've built a culture of compliance. Your team stops asking "How can we build the best product?" and starts asking "How can I get this pipeline to pass?"
 
 
-At the seed stage, these engineering best practices establish a foundation for quality work that scales with your team. However, as you grow beyond 10-15 engineers, you'll need to adapt. Larger teams require more formalized processes: documented standards replacing tribal knowledge, specialized roles rather than generalists, and potentially a platform team to maintain developer tooling. The code review process will evolve from "everyone reviews everything" to domain experts reviewing related code. While the principles remain the same, implementation becomes more structured and specialized as your engineering organization matures. This evolution is natural and necessary - what works for 5 engineers rarely works unchanged for 50.
+The irony is that these leaders often implement the _artifacts_ of good engineering (test coverage metrics, code review templates, velocity tracking) without understanding the _principles_ that make them valuable. Real engineering excellence comes from engineers who write tests because they've been burned by bugs, who review code carefully because they care about their teammates' success, who document clearly because they remember their own confusion.
+
+
+At seed stage, every process you add should make engineers more effective, not more compliant. If you find yourself managing metrics instead of mentoring engineers, you're building the wrong culture.
 
 
 ## The 30-Day Implementation Plan
