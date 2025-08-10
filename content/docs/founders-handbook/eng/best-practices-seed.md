@@ -3,9 +3,9 @@ title: Engineering Best Practices at Seed Stage
 notionId: 24782923-1d09-8009-898b-c9de99b4a4ce
 createdAt: 2025-08-06T19:34:00.000Z
 weight: 1
-Category: Engineering
+Category: ""
 Icon: document-text
-draft: true
+draft: false
 Sidebar Title: ""
 Name: Engineering Best Practices at Seed Stage
 authors:
