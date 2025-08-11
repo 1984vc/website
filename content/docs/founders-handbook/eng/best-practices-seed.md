@@ -122,16 +122,16 @@ Every engineer should have:
 {{< /callout >}}
 
 
-## 5. The Hard Truth About Technical Leadership
+## 5. Technical Leaders, not Managers
 
 
-If your current team can't implement these practices, you need different people. This sounds harsh, but it's kinder than the alternative: burning 18 months and $2M building a product that can't scale.
+If your current team can't implement these practices, you need different people. This sounds harsh, but it's kinder than the alternative: burning 18 months and $2M building a product that needs to be rewritten from the ground up.
 
 
-The ideal candidate you need:
+The ideal candidate should be:
 
-- A true believer in engineering best practices. This isn't just a process change, it's a cultural shift. A true believer in engineering best practices. This isn't just a process change, it's a cultural shift. Peopel can recognize when someone isn't genuinely committed.
-- Can teach and mentor, not just code. This isn't a heads-down task or an interesting architecture problem, communication is critical.
+- A true believer in engineering best practices. This isn't just a process change, it's a cultural shift. People can recognize when someone isn't genuinely committed.
+- Can teach and mentor, not just code. Avoid anyone that wants to just heads-down task or solve complex architecture problems, communication is critical.
 
 This person doesn't need to be a CTO. A strong senior engineer or engineering manager can reset expectations and establish the right culture. But someone needs to own this transformation.
 
@@ -146,9 +146,6 @@ This person doesn't need to be a CTO. A strong senior engineer or engineering ma
 
 
 **"We'll fix it after we find product-market fit."** Companies that find PMF with bad engineering practices often can't capitalize on it because they can't scale fast enough.
-
-
-**"This will slow us down."** For about 2 weeks. Then you'll be permanently faster.
 
 
 ## The Other Direction
