@@ -3,7 +3,7 @@ name: Pull latest content push and deploy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */4 * * *'  # Run every four hours
+    - cron: '15 * * * *'  # Run every hour at the 15 minute mark
 
 permissions:
   contents: write
