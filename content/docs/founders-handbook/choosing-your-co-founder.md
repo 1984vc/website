@@ -5,7 +5,7 @@ createdAt: 2025-08-06T15:48:00.000Z
 weight: 15
 Category: Company Formation
 Icon: document-text
-draft: false
+draft: true
 Sidebar Title: ""
 Name: Choosing Your Co-Founder
 authors: []
