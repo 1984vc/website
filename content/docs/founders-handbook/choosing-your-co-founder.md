@@ -6,9 +6,12 @@ weight: 15
 Category: Company Formation
 Icon: document-text
 draft: false
+authors:
+  - name: Taylor Ford
+    link: https://www.linkedin.com/in/taylor-ford-55b6ba267/
+    image: /landing/people/Taylor.png
 Sidebar Title: ""
 Name: Choosing Your Co-Founder
-authors: []
 
 ---
 

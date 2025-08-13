@@ -6,12 +6,14 @@ weight: 2
 Category: Company Formation
 Icon: document-text
 draft: false
-Sidebar Title: ""
-Name: How to Pick a Startup Idea
 authors:
   - name: Samit Kalra
     link: https://www.linkedin.com/in/samit-kalra-a6179365/
     image: /landing/people/Samit.svg
+author_internal:
+  - c147152b-1426-4fb8-b2ca-e548cf89c47f
+Sidebar Title: ""
+Name: How to Pick a Startup Idea
 
 ---
 

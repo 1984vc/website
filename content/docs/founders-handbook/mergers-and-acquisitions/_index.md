@@ -6,9 +6,10 @@ weight: 6
 Category: Mergers and Acquisitions
 Icon: currency-dollar
 draft: false
+authors: []
+author_internal: []
 Sidebar Title: ""
 Name: Mergers and Acquisitions
-authors: []
 
 ---
 

@@ -384,29 +384,13 @@ export class NotionMarkdownExporter {
           // Convert to YAML front-matter
           delete frontmatter.path
           delete frontmatter.lastEditedAt
-          const authors = frontmatter.author as any[]
-          const externalAuthors = frontmatter.external_authors as any[]
-          delete frontmatter.author
-          delete frontmatter.external_authors
+          
+          // Handle authors field - expects array of author names
+          const authorNames = frontmatter.authors as any[] || []
 
-
-        frontmatter['authors'] = [
-          ...authors
-            .map(authorId => {
-              const author = options.authors[authorId];
-              if (author) {
-                return {
-                  name: author.name,
-                  link: author.link,
-                  image: author.image
-                };
-              }
-              return undefined;
-            })
-            .filter(author => author !== undefined),
-          ...externalAuthors
-          .map(authorId => {
-            const author = options.authors[authorId];
+        frontmatter['authors'] = authorNames
+          .map(authorName => {
+            const author = options.authors[authorName];
             if (author) {
               return {
                 name: author.name,
@@ -417,7 +401,6 @@ export class NotionMarkdownExporter {
             return undefined;
           })
           .filter(author => author !== undefined)
-        ]
 
 
 

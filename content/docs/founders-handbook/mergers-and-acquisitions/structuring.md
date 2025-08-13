@@ -6,12 +6,13 @@ weight: 3
 Category: Mergers and Acquisitions
 Icon: currency-dollar
 draft: false
-Sidebar Title: ""
-Name: Structuring M&A
 authors:
   - name: Assaad Nasr
     link: https://www.linkedin.com/in/assaad-nasr-5354a377/
     image: /landing/people/Assaad.png
+author_internal: []
+Sidebar Title: ""
+Name: Structuring M&A
 
 ---
 

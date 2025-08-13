@@ -6,12 +6,14 @@ weight: 12
 Category: Company Formation
 Icon: logout
 draft: false
-Sidebar Title: How to Part Ways with Your Co-Founder
-Name: How to Part Ways with Your Co-Founder (Without Blowing Up Your Startup)
 authors:
   - name: Ramy Adeeb
     link: https://www.linkedin.com/in/ramyadeeb
     image: /landing/people/Ramy.svg
+author_internal:
+  - e81a9c32-5ed4-4743-aca4-0e8a22c007f2
+Sidebar Title: How to Part Ways with Your Co-Founder
+Name: How to Part Ways with Your Co-Founder (Without Blowing Up Your Startup)
 
 ---
 

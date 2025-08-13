@@ -6,12 +6,14 @@ weight: 1
 Category: Company Formation
 Icon: calculator
 draft: false
-Sidebar Title: ""
-Name: Cap Table 101
 authors:
   - name: Ramy Adeeb
     link: https://www.linkedin.com/in/ramyadeeb
     image: /landing/people/Ramy.svg
+author_internal:
+  - e81a9c32-5ed4-4743-aca4-0e8a22c007f2
+Sidebar Title: ""
+Name: Cap Table 101
 
 ---
 

@@ -6,12 +6,14 @@ weight: 7
 Category: Company Formation
 Icon: presentation-line-chart
 draft: false
-Sidebar Title: ""
-Name: "Minimizing Founder Dilution "
 authors:
   - name: Ramy Adeeb
     link: https://www.linkedin.com/in/ramyadeeb
     image: /landing/people/Ramy.svg
+author_internal:
+  - e81a9c32-5ed4-4743-aca4-0e8a22c007f2
+Sidebar Title: ""
+Name: "Minimizing Founder Dilution "
 
 ---
 

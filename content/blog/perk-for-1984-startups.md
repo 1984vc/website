@@ -6,9 +6,10 @@ weight: null
 Category: ""
 Icon: ""
 draft: false
+authors: []
+author_internal: []
 Sidebar Title: ""
 Name: Perks for 1984 Startups
-authors: []
 
 ---
 

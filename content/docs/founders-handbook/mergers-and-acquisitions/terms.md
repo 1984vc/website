@@ -6,12 +6,13 @@ weight: 4
 Category: Mergers and Acquisitions
 Icon: currency-dollar
 draft: false
-Sidebar Title: ""
-Name: Terms to Negotiate in an M&A Transaction
 authors:
   - name: Assaad Nasr
     link: https://www.linkedin.com/in/assaad-nasr-5354a377/
     image: /landing/people/Assaad.png
+author_internal: []
+Sidebar Title: ""
+Name: Terms to Negotiate in an M&A Transaction
 
 ---
 

@@ -1,20 +1,20 @@
 {
-  "e81a9c32-5ed4-4743-aca4-0e8a22c007f2": {
+  "Ramy Adeeb": {
     "name": "Ramy Adeeb",
     "link": "https://www.linkedin.com/in/ramyadeeb",
     "image": "/landing/people/Ramy.svg"
   },
-  "cdef0605-eaff-416b-b254-8ed554e34d62": {
+  "Mark Percival": {
     "name": "Mark Percival",
     "link": "https://www.linkedin.com/in/markpercival",
     "image": "/landing/people/Mark.svg"
   },
-  "53293e17-8da4-49dc-abe9-8f4635948bfd": {
+  "Farzad Soleimani": {
     "name": "Farzad Soleimani",
     "link": "https://www.linkedin.com/in/farzadsoleimani",
     "image": "/landing/people/Farzad.svg"
   },
-  "c147152b-1426-4fb8-b2ca-e548cf89c47f": {
+  "Samit Kalra": {
     "name": "Samit Kalra",
     "link": "https://www.linkedin.com/in/samit-kalra-a6179365/",
     "image": "/landing/people/Samit.svg"
@@ -23,5 +23,10 @@
     "name": "Assaad Nasr",
     "link": "https://www.linkedin.com/in/assaad-nasr-5354a377/",
     "image": "/landing/people/Assaad.png"
+  },
+  "Taylor Ford": {
+    "name": "Taylor Ford",
+    "link": "https://www.linkedin.com/in/taylor-ford-55b6ba267/",
+    "image": "/landing/people/Taylor.png"
   }
 }
