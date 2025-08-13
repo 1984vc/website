@@ -2,7 +2,7 @@
 title: How to Pick a Startup Idea
 notionId: 19182923-1d09-804e-8156-cf0fd99b7257
 createdAt: 2025-02-05T19:24:00.000Z
-weight: 13
+weight: 2
 Category: Company Formation
 Icon: document-text
 draft: false

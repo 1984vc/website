@@ -13,7 +13,7 @@ authors: []
 ---
 
 
-The right co-founder can accelerate your startup; the wrong one can sink it. Most breakthrough companies are led by two to four founders who push each other to think bigger, move faster and avoid burnout. Yet choosing a co-founder remains one of the most consequential decisions that founders make.
+The right co-founder can accelerate your startup; the wrong one can sink it. Most breakthrough companies are led by two to four founders who push each other to think bigger, move faster, and avoid burnout. Yet choosing a co-founder remains one of the most consequential decisions that founders make.
 
 
 Below I outline why co-founder choice matters, the biggest mistakes founders make, where to find potential partners, how to evaluate fit, and how to structure agreements before committing.
@@ -25,7 +25,7 @@ Below I outline why co-founder choice matters, the biggest mistakes founders mak
 ## Why Co-Founder Choice Matters
 
 
-Startup success hinges on more than a clever idea. A strong founding team brings complementary skills, emotional support and built-in accountability. By contrast, co-founder conflict can paralyze a young company.
+Startup success hinges on more than a clever idea. A strong founding team brings complementary skills, emotional support, and built-in accountability. By contrast, co-founder conflict can paralyze a young company.
 
 
 **The speed advantage evaporates when founders disagree.** Disagreements over strategy or execution slow decision-making, drain morale and ultimately erode the core advantage startups have over incumbents. While you can replace a great employee, you cannot replace a great co-founder without fundamentally changing your company.
@@ -96,7 +96,7 @@ Finding the right partner requires expanding your network and engaging in commun
 ### Leverage Structured Platforms
 
 
-Y Combinator's Co-Founder Matching platform lets founders create profiles, specify interests and skills, and meet compatible candidates. The program has made thousands of matches and encourages participants to work together on a time-boxed project before committing.
+Y Combinator's [Co-Founder Matching](https://www.ycombinator.com/cofounder-matching) platform lets founders create profiles, specify interests and skills, and meet compatible candidates. The program has evolved in recent years as one of the best places to find a co-founder.  However, like most matching programs, be prepared to kiss a lot frogs before finding the right match.  
 
 
 ### Attend Events and Accelerators
@@ -197,6 +197,18 @@ There are outliers, solo founders and large founding teams have succeeded, but t
 **Consider the complexity of your product and the breadth of skills required.** A biotech startup may warrant three founders to cover technology, regulation and business development, while a simple SaaS product might only need two. Choose based on product complexity and breadth of skills required.
 
 
+Also **consider the impact on your ownership in the cap table.** Having four equal co-founders, for example, will result in a 25% starting ownership for the CEO, which can easily get diluted to about 15% by the time a Series A is completed. That's too little—and will raise eyebrows for investors.  Not surprisingly, first-time founders are more likely to have one or two equal co-founders. Second-time founders, by contrast, tend to have lopsided ownership   
+
+
+{{< callout type="info" emoji="💡" >}}
+
+
+If you have multiple co-founders, try to avoid equal ownership splits. 
+
+
+{{< /callout >}}
+
+
 ---
 
 
@@ -215,7 +227,7 @@ Define titles and ownership of key functions. Agree on how roles will evolve as 
 ### Rights and Rewards
 
 
-Outline equity splits, vesting schedules, board seats and decision-making authority. **Avoid requiring unanimous consent for every choice; decide who has tie-breaking power.**
+Outline equity splits, vesting schedules, board seats and decision-making authority. **Avoid requiring unanimous consent for every choice; decide who has tie-breaking power.** 
 
 
 ### Commitments
@@ -231,7 +243,7 @@ Include vesting and buy-back provisions for what happens if someone leaves or is
 
 
 {{< callout type="info" emoji="💡" >}}
-**Most co-founder conflicts stem from unclear expectations, not fundamental incompatibility.** A well-drafted agreement prevents most partnership disputes before they start.
+**Most co-founder conflicts stem from unclear expectations or failing to find product market fit,** [**more here**](/docs/founders-handbook/cofounder-departure/)**.**  A well-drafted agreement prevents most partnership disputes before they start.
 {{< /callout >}}
 
 
@@ -272,4 +284,7 @@ Selecting the right co-founder is one of the most consequential decisions you'll
 
 
 The time you invest in finding the right co-founder will pay dividends throughout your company's journey. Choose deliberately — your co-founder decision is the single highest-leverage choice you'll make as a founder.
+
+
+And last, if the partnership doesn't work out, be thoughtful on [how to part ways ](/docs/founders-handbook/cofounder-departure/)with your co-founder.
 
