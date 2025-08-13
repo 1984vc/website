@@ -1,6 +1,196 @@
 [
   {
     "object": "page",
+    "id": "24e82923-1d09-80e6-a29d-dbf9fbce2847",
+    "created_time": "2025-08-13T18:58:00.000Z",
+    "last_edited_time": "2025-08-13T19:00:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "15582923-1d09-8077-9375-ed60cc94a9de"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Tags": [
+        "ai",
+        "saas"
+      ],
+      "URL": "https://collectwise.com/",
+      "Description": "AI for debt collections",
+      "Filters": "",
+      "Highlighted": false,
+      "Sort Order Override": null,
+      "Story": "",
+      "Stage": null,
+      "Name": "CollectWise"
+    },
+    "url": "https://www.notion.so/CollectWise-24e829231d0980e6a29ddbf9fbce2847",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "24e82923-1d09-80b6-8eb7-d5b5a3b42eb7",
+    "created_time": "2025-08-13T18:58:00.000Z",
+    "last_edited_time": "2025-08-13T19:00:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "15582923-1d09-8077-9375-ed60cc94a9de"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Tags": [
+        "ai",
+        "saas"
+      ],
+      "URL": "https://www.solea.ai/",
+      "Description": "AI for home services",
+      "Filters": "",
+      "Highlighted": false,
+      "Sort Order Override": null,
+      "Story": "",
+      "Stage": null,
+      "Name": "Solea"
+    },
+    "url": "https://www.notion.so/Solea-24e829231d0980b68eb7d5b5a3b42eb7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "24e82923-1d09-802b-875f-e387de5222ff",
+    "created_time": "2025-08-13T18:58:00.000Z",
+    "last_edited_time": "2025-08-13T19:00:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "15582923-1d09-8077-9375-ed60cc94a9de"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Tags": [
+        "ai",
+        "saas"
+      ],
+      "URL": "https://tallyhq.com/",
+      "Description": "AI for audit assurance",
+      "Filters": "",
+      "Highlighted": false,
+      "Sort Order Override": null,
+      "Story": "",
+      "Stage": null,
+      "Name": "Tally"
+    },
+    "url": "https://www.notion.so/Tally-24e829231d09802b875fe387de5222ff",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "24e82923-1d09-80d9-828e-f8ca49cd8ac8",
+    "created_time": "2025-08-13T18:57:00.000Z",
+    "last_edited_time": "2025-08-13T19:00:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "15582923-1d09-8077-9375-ed60cc94a9de"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Tags": [
+        "ai",
+        "saas"
+      ],
+      "URL": "freckle.io",
+      "Description": "Clay without the learning curve",
+      "Filters": "",
+      "Highlighted": false,
+      "Sort Order Override": null,
+      "Story": "",
+      "Stage": null,
+      "Name": "Freckle"
+    },
+    "url": "https://www.notion.so/Freckle-24e829231d0980d9828ef8ca49cd8ac8",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "24e82923-1d09-8062-aa15-fbab0a9a024d",
+    "created_time": "2025-08-13T18:57:00.000Z",
+    "last_edited_time": "2025-08-13T18:59:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c147152b-1426-4fb8-b2ca-e548cf89c47f"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "15582923-1d09-8077-9375-ed60cc94a9de"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Tags": [
+        "ai",
+        "saas"
+      ],
+      "URL": "avallon.ai",
+      "Description": "AI for insurance claims",
+      "Filters": "",
+      "Highlighted": false,
+      "Sort Order Override": null,
+      "Story": "",
+      "Stage": null,
+      "Name": "Avallon"
+    },
+    "url": "https://www.notion.so/Avallon-24e829231d098062aa15fbab0a9a024d",
+    "public_url": null
+  },
+  {
+    "object": "page",
     "id": "24882923-1d09-8078-b51f-ed647a35a1cd",
     "created_time": "2025-08-07T20:38:00.000Z",
     "last_edited_time": "2025-08-07T20:47:00.000Z",
