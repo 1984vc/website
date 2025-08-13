@@ -13,7 +13,7 @@ authors: []
 ---
 
 
-The right co-founder can accelerate your startup, while a poor partnership can sink it. Most breakthrough companies are led by two to four founders who push each other to think bigger and avoid burnout. Yet choosing a co-founder remains one of the most consequential—and poorly executed—decisions founders make.
+The right co-founder can accelerate your startup; the wrong one can sink it. Most breakthrough companies are led by two to four founders who push each other to think bigger, move faster and avoid burnout. Yet choosing a co-founder remains one of the most consequential decisions that founders make.
 
 
 Below I outline why co-founder choice matters, the biggest mistakes founders make, where to find potential partners, how to evaluate fit, and how to structure agreements before committing.
@@ -28,14 +28,14 @@ Below I outline why co-founder choice matters, the biggest mistakes founders mak
 Startup success hinges on more than a clever idea. A strong founding team brings complementary skills, emotional support and built-in accountability. By contrast, co-founder conflict can paralyze a young company.
 
 
-**The speed advantage disappears when founders disagree.** Disagreements over strategy or execution slow decision-making, drain morale and ultimately erode the core advantage startups have over incumbents. While you can replace a great employee, you cannot replace a great co-founder without fundamentally changing your company.
+**The speed advantage evaporates when founders disagree.** Disagreements over strategy or execution slow decision-making, drain morale and ultimately erode the core advantage startups have over incumbents. While you can replace a great employee, you cannot replace a great co-founder without fundamentally changing your company.
 
 
-Solo founders face a different challenge: they lack a sounding board and struggle to attract capital in ecosystems that value balanced founding teams. Most investors prefer teams of 2-4 founders who can cover more ground and provide mutual accountability.
+Solo founders face different challenges: they lack a sounding board and struggle to attract capital in ecosystems that value balanced founding teams. Most investors prefer teams of 2-4 founders who can cover more ground and provide mutual accountability.
 
 
 {{< callout type="info" emoji="💡" >}}
-**A strong co-founder should shrink the "unknown unknowns," not simply fill an empty seat.** The best partnerships combine complementary skills with shared values and mutual respect.
+**A great co-founder should shrink the "unknown unknowns," not simply fill an empty seat.** The best partnerships combine complementary skills with shared values and mutual respect.
 {{< /callout >}}
 
 
@@ -45,7 +45,7 @@ Solo founders face a different challenge: they lack a sounding board and struggl
 ## Common Mistakes When Choosing a Co-Founder
 
 
-Even experienced entrepreneurs fall into predictable traps when searching for a partner. Here are four critical pitfalls to avoid:
+Even experienced entrepreneurs fall into predictable traps. Here are four critical pitfalls to avoid:
 
 
 ### 1. Rushing Due to "Need" or Desperation
@@ -143,9 +143,6 @@ Ensure you agree on the long-term mission and ethical boundaries. Misaligned amb
 ### Complementary Skills
 
 
-Map the key activities and resources your company needs. For many products, a technical lead, a sales lead and a designer form a balanced trio.
-
-
 **Choose partners who bring expertise you lack while maintaining shared values and communication style.** Each co-founder should own a distinct function while sharing enough overlap to avoid silos. Too much overlap leads to turf wars; too little makes collaboration difficult.
 
 
@@ -155,7 +152,7 @@ Map the key activities and resources your company needs. For many products, a te
 Be honest about how many hours per week you expect to devote to the company. If one founder is all-in and another views the startup as a side project, resentment will fester.
 
 
-**Alignment on commitment level matters more than absolute hours.** Two founders working 30 hours per week each can succeed if they're both committed to that level.
+**Alignment on commitment level matters often more than absolute hours.**
 
 
 ### Accountability and Communication
@@ -194,10 +191,10 @@ Most investors and advisors recommend a founding team of two to four people:
 - **Three founders** can cover more functions without excessive coordination overhead
 - **Four founders** is often the upper bound before governance becomes challenging
 
-There are outliers—solo founders and large founding teams have succeeded—but they are exceptions.
+There are outliers, solo founders and large founding teams have succeeded, but they are exceptions.
 
 
-**Consider the complexity of your product and the breadth of skills required.** A biotech startup may warrant three founders to cover technology, regulation and business development, while a simple SaaS product might only need two.
+**Consider the complexity of your product and the breadth of skills required.** A biotech startup may warrant three founders to cover technology, regulation and business development, while a simple SaaS product might only need two. Choose based on product complexity and breadth of skills required.
 
 
 ---
@@ -265,21 +262,6 @@ Collaborate on side projects for six to twelve months before quitting your day j
 ---
 
 
-## Success Stories From 1984
-
-
-Many of our most successful portfolio companies were built by carefully chosen co-founder teams:
-
-- [**Collectwise**](https://collectwise.com/) was founded by two complementary founders: one focused on AI/technology, the other on debt collection industry expertise
-- [**Apriora**](https://www.apriora.ai/) combines technical AI expertise with deep recruiting industry knowledge across their founding team
-- [**HouseRx**](https://houserx.com/) brings together healthcare operations expertise with technology leadership
-
-In each case, the founders spent months working together before formally committing, ensuring both skill complementarity and values alignment.
-
-
----
-
-
 ## Final Thoughts
 
 
@@ -289,5 +271,5 @@ Selecting the right co-founder is one of the most consequential decisions you'll
 **Draft a clear agreement and test the partnership through small projects before diving in.** A balanced team of two to four aligned founders, bound by clear expectations and mutual respect, dramatically increases your startup's odds of success.
 
 
-The time you invest in finding the right co-founder will pay dividends throughout your company's journey. Choose carefully, move deliberately, and prioritize long-term compatibility over short-term convenience.
+The time you invest in finding the right co-founder will pay dividends throughout your company's journey. Choose deliberately — your co-founder decision is the single highest-leverage choice you'll make as a founder.
 
