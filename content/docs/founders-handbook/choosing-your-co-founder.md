@@ -10,8 +10,6 @@ authors:
   - name: Taylor Ford
     link: https://www.linkedin.com/in/taylor-ford-55b6ba267/
     image: /landing/people/Taylor.png
-author_internal:
-  - 231d872b-594c-8113-a3d2-00026c0429ad
 Sidebar Title: ""
 Name: Choosing Your Co-Founder
 

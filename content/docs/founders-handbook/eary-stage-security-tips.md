@@ -10,8 +10,6 @@ authors:
   - name: Mark Percival
     link: https://www.linkedin.com/in/markpercival
     image: /landing/people/Mark.svg
-author_internal:
-  - cdef0605-eaff-416b-b254-8ed554e34d62
 Sidebar Title: ""
 Name: Essential Security Practices for Early-Stage Startups
 

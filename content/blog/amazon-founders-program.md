@@ -7,7 +7,6 @@ Category: ""
 Icon: ""
 draft: false
 authors: []
-author_internal: []
 Sidebar Title: ""
 Name: Introducing The Amazon Founder Program
 

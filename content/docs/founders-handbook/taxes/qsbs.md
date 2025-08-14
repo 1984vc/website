@@ -6,9 +6,10 @@ weight: 5
 Category: Mergers and Acquisitions
 Icon: currency-dollar
 draft: false
-authors: []
-author_internal:
-  - cdef0605-eaff-416b-b254-8ed554e34d62
+authors:
+  - name: Mark Percival
+    link: https://www.linkedin.com/in/markpercival
+    image: /landing/people/Mark.svg
 Sidebar Title: ""
 Name: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
 
