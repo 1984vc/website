@@ -7,81 +7,102 @@ toc:
       - title: Cap Table 101
         icon: calculator
         url: /docs/founders-handbook/cap-table-101/
-      - title: Choosing Your Co-Founder
-        icon: document-text
-        url: /docs/founders-handbook/choosing-your-co-founder/
-      - title: How to Part Ways with Your Co-Founder
-        icon: logout
-        url: /docs/founders-handbook/cofounder-departure/
-      - title: Founder Departure
-        icon: logout
-        url: /docs/founders-handbook/founder-departure/
+        weight: 1
       - title: How to Pick a Startup Idea
         icon: document-text
         url: /docs/founders-handbook/how-to-pick-a-startup-idea/
+        weight: 2
       - title: "Minimizing Founder Dilution "
         icon: presentation-chart-line
         url: /docs/founders-handbook/minimizing-founder-dilution/
+        weight: 3
+      - title: Founder Departure
+        icon: logout
+        url: /docs/founders-handbook/founder-departure/
+        weight: 4
+      - title: How to Part Ways with Your Co-Founder
+        icon: logout
+        url: /docs/founders-handbook/cofounder-departure/
+        weight: 5
+      - title: Choosing Your Co-Founder
+        icon: document-text
+        url: /docs/founders-handbook/choosing-your-co-founder/
+        weight: 6
   - title: Raising Your Seed
     weight: 3
     items:
       - title: Introduction to SAFEs
         icon: document-text
         url: /docs/founders-handbook/intro-to-safes/
+        weight: 2
       - title: Pre-money vs Post-money Conversion
         icon: presentation-chart-line
         url: /docs/founders-handbook/pre-money-vs-post-money-conversion/
-      - title: SAFE Side Letters
-        icon: document-text
-        url: /docs/founders-handbook/safe-side-letters/
+        weight: 3
       - title: SAFE vs Priced Round
         icon: currency-dollar
         url: /docs/founders-handbook/safe-vs-priced-round/
+        weight: 4
+      - title: SAFE Side Letters
+        icon: document-text
+        url: /docs/founders-handbook/safe-side-letters/
+        weight: 5
   - title: Raising Your A
     weight: 4
     items:
-      - title: Impact of Series A on Cap Table
-        icon: currency-dollar
-        url: /docs/founders-handbook/raising-your-series-a/
-      - title: Selling Secondaries
-        icon: currency-dollar
-        url: /docs/founders-handbook/selling-secondaries/
       - title: How to Nail Your Series A Deck
         icon: presentation-chart-line
         url: /docs/founders-handbook/series-a-deck/
+        weight: 1
+      - title: Impact of Series A on Cap Table
+        icon: currency-dollar
+        url: /docs/founders-handbook/raising-your-series-a/
+        weight: 6
+      - title: Selling Secondaries
+        icon: currency-dollar
+        url: /docs/founders-handbook/selling-secondaries/
+        weight: 9
       - title: Structured and Down Rounds
         icon: currency-dollar
         url: /docs/founders-handbook/structured-and-downrounds/
+        weight: 10
   - title: Mergers and Acquisitions
     weight: 5
     items:
       - title: How to Sell Your Startup
         icon: currency-dollar
         url: /docs/founders-handbook/mergers-and-acquisitions/how-to-sell/
+        weight: 1
       - title: Legal Considerations for M&A
         icon: currency-dollar
         url: /docs/founders-handbook/mergers-and-acquisitions/legal-considerations/
+        weight: 2
       - title: Structuring M&A
         icon: currency-dollar
         url: /docs/founders-handbook/mergers-and-acquisitions/structuring/
+        weight: 3
       - title: Terms to Negotiate in an M&A Transaction
         icon: currency-dollar
         url: /docs/founders-handbook/mergers-and-acquisitions/terms/
+        weight: 4
       - title: "QSBS for Early-Stage Founders: A Tax Strategy Worth $15 Million"
         icon: currency-dollar
         url: /docs/founders-handbook/taxes/qsbs/
+        weight: 5
   - title: Marketing
     weight: 6
     items:
       - title: "The Open Source Content Marketing Playbook: Lessons from Posthog"
         icon: document-text
         url: /docs/founders-handbook/eng/open-source-playbook-posthog/
+        weight: 0
   - title: Engineering
     weight: 7
     items:
       - title: Engineering Best Practices at Seed Stage
         icon: document-text
         url: /docs/founders-handbook/eng/best-practices-seed/
+        weight: 1
   - title: Tools
     weight: 8
     items:

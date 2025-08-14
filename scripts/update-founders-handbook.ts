@@ -9,6 +9,7 @@ interface FrontMatter {
   Category?: string;
   Icon?: string;
   'Sidebar Title'?: string;
+  weight?: number;
   [key: string]: any;
 }
 
@@ -16,6 +17,7 @@ interface TocItem {
   title: string;
   icon?: string;
   url: string;
+  weight?: number;
 }
 
 interface TocSection {
@@ -161,6 +163,7 @@ function main() {
       const title = (sidebarTitle && sidebarTitle.trim() !== '') ? sidebarTitle : frontMatter.title;
       const icon = normalizeIcon(frontMatter.Icon || '');
       const url = generateUrl(filePath);
+      const weight = frontMatter.weight || 0;
 
       if (!categorizedItems[category]) {
         categorizedItems[category] = [];
@@ -169,7 +172,8 @@ function main() {
       categorizedItems[category].push({
         title,
         icon,
-        url
+        url,
+        weight
       });
 
       console.log(`  ✅ ${title} → ${category}`);
@@ -213,10 +217,15 @@ function main() {
         }
       }
       
+      // Sort items by weight (ascending order)
+      allItems.sort((a, b) => (a.weight || 0) - (b.weight || 0));
+      
       section.items = allItems;
       console.log(`  📂 ${sectionTitle}: ${allItems.length} items`);
     } else {
       // Even if no new items, update the section with corrected URLs
+      // Sort existing items by weight
+      existingItems.sort((a, b) => (a.weight || 0) - (b.weight || 0));
       section.items = existingItems;
       console.log(`  📂 ${sectionTitle}: ${existingItems.length} items (template only)`);
     }

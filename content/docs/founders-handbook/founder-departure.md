@@ -2,7 +2,7 @@
 title: Founder Departure
 notionId: 17682923-1d09-8007-a3d7-f4c6e257ce9b
 createdAt: 2025-01-09T17:17:00.000Z
-weight: 8
+weight: 4
 Category: Company Formation
 Icon: logout
 draft: false

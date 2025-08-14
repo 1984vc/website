@@ -7,12 +7,14 @@
     "update:founders-handbook": "tsx scripts/update-founders-handbook.ts"
   },
   "dependencies": {
+    "@types/node": "^24.2.1",
     "concurrently": "^9.1.2",
     "dotenv": "^16.5.0",
     "dotenv-cli": "^8.0.0",
     "glob": "^11.0.0",
     "gray-matter": "^4.0.3",
     "tailwindcss": "^3.4.17",
-    "tsx": "^4.20.3"
+    "tsx": "^4.20.3",
+    "yaml": "^2.8.1"
   }
 }
