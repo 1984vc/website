@@ -2,7 +2,7 @@
 title: Essential Security Practices for Early-Stage Startups
 notionId: 18382923-1d09-8006-94d2-e5f73bb1d151
 createdAt: 2025-01-22T21:18:00.000Z
-weight: null
+weight: 2
 Category: Engineering
 Icon: ""
 draft: true

@@ -2,7 +2,7 @@
 title: Impact of Series A on Cap Table
 notionId: 306e9f6f-ab6b-4ebf-9bd1-c2520d4d12d1
 createdAt: 2024-08-02T22:15:00.000Z
-weight: 6
+weight: 2
 Category: Raising Your A
 Icon: currency-dollar
 draft: false
