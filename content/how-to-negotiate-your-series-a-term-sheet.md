@@ -19,30 +19,30 @@ Name: How to Negotiate Your Series A Term Sheet
 **How to Negotiate Your Series A Without Losing Control**
 
 
-Most first-time founders obsess over valuation when raising their Series A. But experienced founders know valuation is just one lever. Ownership and control are what determine your long-term outcome. A "great" valuation with unfriendly terms can quietly cost you more than a "lower" valuation on a clean term sheet. Valuation is the headline; terms are the fine print that determine whether you win or lose
+Most first-time founders obsess over valuation when raising their Series A. But experienced founders know valuation is just one lever. Ultimately, ownership and control are what determine your long-term outcome. A "great" valuation with unfriendly terms can quietly cost you more than a "lower" valuation on a clean term sheet. Valuation is the headline; terms are the fine print that determine whether you win or lose
 
 
-Below, we break down the key terms that matter, how to approach them, and a simple framework for negotiating without derailing your round.
+Below, we break down the key terms that matter in your Series A, how to approach them, and a simple framework for negotiating without derailing your round.
 
 1. **Focus on What Really Matters**
 
 There are dozens of clauses in a Series A term sheet. Only a handful will shape your company's future.
 
 
-Control: Who controls the board and protective provisions.
+**Control**: Who controls the board and protective provisions.
 
 
-Economics: How liquidation preferences, option pools, and anti-dilution are structured.
+**Economics**: How liquidation preferences, option pools, and anti-dilution are structured.
 
 
-Future flexibility: What rights investors hold in later rounds.
+**Future flexibility**: What rights investors hold in later rounds.
 
 
 Everything else — dividends, registration rights, information rights — is secondary. Don't burn leverage on minor items.
 
 
 {{< callout type="info" emoji="💡" >}}
-Founders who waste leverage on secondary clauses often concede on board seats or liquidation preferences — the terms that actually matter.
+Founders who waste leverage on secondary clauses often concede on board seats or liquidation preferences, the terms that actually matter.
 {{< /callout >}}
 
 1. **Negotiate Board Control Early**
@@ -101,7 +101,7 @@ Push for broad-based weighted average and avoid full ratchet. If an investor ins
 
 1. **Watch the Option Pool Shuffle**
 
-Investors will usually require a 10–15% option pool refresh. The trick is when it gets added.
+Expect investors to push for a 10–15% pool refresh; but don't accept it blindly. The trick is when it gets added.
 
 
 Pre-money pool (investor-friendly): Dilution hits only existing holders.
