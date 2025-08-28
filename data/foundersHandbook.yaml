@@ -62,10 +62,6 @@ toc:
         icon: currency-dollar
         url: /docs/founders-handbook/selling-secondaries/
         weight: 3
-      - title: Structured and Down Rounds
-        icon: currency-dollar
-        url: /docs/founders-handbook/structured-and-downrounds/
-        weight: 4
   - title: Mergers and Acquisitions
     weight: 5
     items:
