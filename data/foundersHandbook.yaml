@@ -50,6 +50,10 @@ toc:
   - title: Raising Your A
     weight: 4
     items:
+      - title: How to Negotiate Your Series A Term Sheet
+        icon: table
+        url: /docs/how-to-negotiate-your-series-a-term-sheet/
+        weight: 0
       - title: How to Nail Your Series A Deck
         icon: presentation-chart-line
         url: /docs/founders-handbook/series-a-deck/

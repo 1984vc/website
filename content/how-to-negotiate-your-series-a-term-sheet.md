@@ -5,7 +5,7 @@ createdAt: 2025-08-16T01:39:00.000Z
 weight: null
 Category: Raising Your A
 Icon: table
-draft: true
+draft: false
 authors:
   - name: Taylor Ford
     link: https://www.linkedin.com/in/taylor-ford-55b6ba267/
@@ -16,127 +16,173 @@ Name: How to Negotiate Your Series A Term Sheet
 ---
 
 
-**How to Negotiate Your Series A Without Losing Control**
+Most first-time founders go into a Series A negotiation thinking only about **valuation,** but experienced founders know valuation is only just one lever. **Ownership and control** are what determine your long-term outcome as a founder.
 
 
-Most first-time founders obsess over valuation when raising their Series A. But experienced founders know valuation is just one lever. Ultimately, ownership and control are what determine your long-term outcome. A "great" valuation with unfriendly terms can quietly cost you more than a "lower" valuation on a clean term sheet. Valuation is the headline; terms are the fine print that determine whether you win or lose
+You can celebrate a "great" valuation and still end up with less upside if the terms are unfriendly. A clean deal at a slightly lower valuation often leaves you with more equity and more freedom to build.
 
 
-Below, we break down the key terms that matter in your Series A, how to approach them, and a simple framework for negotiating without derailing your round.
+Think of it this way: while valuation is the headline, **terms are the fine print that decide whether you win or lose.**
 
-1. **Focus on What Really Matters**
 
-There are dozens of clauses in a Series A term sheet. Only a handful will shape your company's future.
+---
 
 
-**Control**: Who controls the board and protective provisions.
+## 1. Focus on What Really Matters
 
 
-**Economics**: How liquidation preferences, option pools, and anti-dilution are structured.
+A Series A term sheet is full of clauses, most of which don't affect the outcome. The key is knowing which ones do.
 
 
-**Future flexibility**: What rights investors hold in later rounds.
+**Control:** Board seats, protective provisions.
 
 
-Everything else — dividends, registration rights, information rights — is secondary. Don't burn leverage on minor items.
+**Economics:** Liquidation prefs, option pool and anti-dilution.
 
 
-{{< callout type="info" emoji="💡" >}}
-Founders who waste leverage on secondary clauses often concede on board seats or liquidation preferences, the terms that actually matter.
-{{< /callout >}}
+**Future flexibility:** Investor rights in later rounds.
 
-1. **Negotiate Board Control Early**
 
-Conventional wisdom: Investors deserve equal board representation because they're writing the check.
-Reality: A 2–2–1 board (two founders, two investors, one independent) effectively gives investors veto power.
+Everything else is secondary. Don't waste leverage on details that won't move the needle.
 
 
-Founder-friendly setup: 2 founders, 1 investor.
+💡 _Founders who spend time on small clauses often give up ground on board seats or liquidation preferences, the terms that really matter._
 
 
-If you must add an independent: Push for founder nomination or mutual agreement.
+---
 
 
-CEO seat traps: If the CEO seat flips to an outside hire, the board can swing investor-controlled. Counter by adding a fifth seat reserved for common.
+## 2. Negotiate Board Control Early
 
-1. **Liquidation Preference Sets the Tone**
 
-A clean 1× non-participating preference is now market standard. Anything more (participating preferred, >1×, cumulative dividends) quietly transfers upside from founders to investors.
+Board structure determines who really holds power in the company. Investors will often default to "equal representation", but equal usually means **investor veto power.**
 
 
-Example:
+**A Founder-friendly setup would look like:** 2 founders, 1 investor.
 
 
-Exit = $100M.
+And if you must add an independent, push for founder nomination or mutual agreement.
 
 
-Investor put in $20M for 20%.
+**CEO seat trap:** If the CEO flips to an outsider, the board may swing investor-controlled. Counter by reserving a fifth seat for common.
 
 
-With 1× non-participating, investor gets $20M or 20% ($20M) — same outcome.
+---
 
 
-With 1× participating, investor gets $20M back plus 20% of the remainder = $36M.
+## 3. Liquidation Preference Sets the Tone
 
 
-That extra $16M comes directly out of the founders' pocket.
+Liquidation prefs define who gets paid first and how much. They may look like small details in the term sheet, but they can completely change founder outcomes at exit.
 
 
-{{< callout type="warning" emoji="⚠️" >}}
-Avoid "participating preferred" at all costs. It's one of the fastest ways to erode founder returns.
-{{< /callout >}}
+The market standard is **1× non-participating.**
 
-1. **Handle Anti-Dilution Like a Pro**
 
-Down rounds happen. Anti-dilution clauses dictate how painful they are.
+Anything more like participating preferred, >1× multiples, cumulative dividends can shift value away from founders.
 
 
-Full ratchet: Conversion resets entirely to the new low price. Brutal for founders.
+⚠️ _Avoid participating preferred. It cuts founder returns quickly._
 
 
-Weighted average: Shares reprice proportionally. Much fairer.
+---
 
 
-Push for broad-based weighted average and avoid full ratchet. If an investor insists, it's a red flag.
+## 4. Handle Anti-Dilution Like a Pro
 
-1. **Watch the Option Pool Shuffle**
 
-Expect investors to push for a 10–15% pool refresh; but don't accept it blindly. The trick is when it gets added.
+Every founder hopes for "up rounds only," but the reality is different. Anti-dilution protections decide how painful a down round will be for you versus your investors.
 
 
-Pre-money pool (investor-friendly): Dilution hits only existing holders.
+**Full ratchet:** Resets conversion to the lowest price. Brutal for founders.
 
 
-Post-money pool (founder-friendly): Dilution is shared by new investors.
+**Weighted average:** Shares reprice proportionally. Fairer.
 
 
-Rule: Model the math before agreeing. That "small" option pool shift can cost you multiple points of ownership.
+Push for **broad-based weighted average.** If an investor insists on full ratchet, treat it as a red flag.
 
-1. **Protective Provisions and Drag-Along Rights**
 
-Investors will push for veto rights over major company actions. Narrow the list to truly critical events (mergers, new share classes, liquidation). Don't let them veto day-to-day operations.
+---
 
 
-Drag-along rights are meant to streamline exits. Negotiate triggers so founders must consent — otherwise investors could force a sale you don't want.
+## 5. Watch the Option Pool Shuffle
 
-1. **Build Leverage and Close Fast**
 
-Multiple term sheets = leverage. Even a soft signal from another VC can improve your position.
+Option pools are necessary, but the placement of the pool is often used to sneak extra dilution from founders.
 
 
-Don't over-negotiate. Every week spent haggling over minor clauses is a week not spent building.
+**Pre-money pool (investor-friendly):** Dilution falls on existing holders.
 
 
-Partner quality matters more than terms. A great investor on clean terms beats a "hot" valuation with a misaligned partner.
+**Post-money pool (founder-friendly):** Dilution is shared with new investors.
 
 
-{{< callout type="info" emoji="🎯" >}}
-The goal isn't to win every clause. It's to secure a clean deal with an investor you want in the trenches for the next decade.
-{{< /callout >}}
+**Always model the math.** That "small" shift in pool placement can quietly cost several points of ownership.
 
 
-**Final Takeaway**
+---
 
 
-Negotiating your Series A is not about "winning." It's about protecting your upside while aligning with investors who share your vision. Get the big levers right, board, liquidation, anti-dilution, option pool, and let the rest fall into place. Then close quickly and get back to building.
+## 6. Protective Provisions + Drag-Along Rights
+
+
+Investor veto rights can be reasonable guardrails, but if drafted too broadly, they can quickly tie your hands as a founder.
+
+
+🛡️ **Protective provisions** should cover only existential events: new preferred, a sale, a merger, or dissolution. As a result, avoid giving investors veto power over budgets, hiring/firing, or debt. It can freeze company ops down the line.
+
+
+**Drag-along rights** streamline exits by forcing all shareholders to agree to a sale. Useful, but only if founders also have to consent.
+
+
+---
+
+
+## 7. Timing: When to Negotiate
+
+
+Negotiation is not just about what you say, but when you say it. Push too early and you look difficult. Wait too long and you lose leverage.
+
+
+Negotiate once you have real interest or multiple term sheets. That's when you can frame your asks as "market standard."
+
+
+Before you get a term sheet from a interested party, align on the big picture: valuation, ownership, board shape, and whether they'll lead.
+
+
+After you have the term sheet in front you, tackle the details: liquidation prefs, dilution mechanics, option pool, protective provisions, drag-along rights.
+
+
+Momentum matters. **Close quickly once the big levers are aligned.**
+
+
+---
+
+
+## 8. Build Leverage + Close Fast
+
+
+The strongest leverage is competition. Multiple term sheets, or even soft signals from other funds, can shift negotiations in your favor.
+
+
+But leverage cuts both ways. Dragging out a round signals weakness. Every extra week spent haggling is a week not spent building.
+
+
+Partner quality also matters more than squeezing the last point. A fair deal with an aligned investor will serve you better than a "hot" valuation tied to the wrong one.
+
+
+🎯 _The goal isn't to "win every clause." It's to secure a fair deal with an investor you trust to back you for the next decade._
+
+
+---
+
+
+## Final Takeaway
+
+
+Negotiating your Series A isn't about beating investors at a game of terms. It's about protecting your upside while choosing the partners who will shape the next ten years of your company.
+
+
+If you get those levers right, the rest is noise. Close quickly and get back to what matters most: building.
 
