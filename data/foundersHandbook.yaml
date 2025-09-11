@@ -93,13 +93,6 @@ toc:
         icon: currency-dollar
         url: /docs/founders-handbook/taxes/qsbs/
         weight: 5
-  - title: Marketing
-    weight: 6
-    items:
-      - title: "The Open Source Content Marketing Playbook: Lessons from Posthog"
-        icon: document-text
-        url: /docs/founders-handbook/eng/open-source-playbook-posthog/
-        weight: 1
   - title: Engineering
     weight: 7
     items:
