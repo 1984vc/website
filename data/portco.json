@@ -20,6 +20,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "ai",
@@ -58,6 +59,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "ai",
@@ -96,6 +98,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "ai",
@@ -134,6 +137,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "ai",
@@ -172,6 +176,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "ai",
@@ -210,6 +215,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "ai"
@@ -247,6 +253,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -284,6 +291,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "ai",
@@ -322,6 +330,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "oss"
@@ -359,6 +368,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -396,6 +406,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -434,6 +445,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -471,6 +483,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare",
@@ -509,6 +522,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -547,6 +561,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -585,6 +600,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -622,6 +638,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -659,6 +676,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -697,6 +715,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -734,6 +753,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -772,6 +792,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -810,6 +831,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -848,6 +870,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -885,6 +908,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -923,6 +947,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare",
@@ -961,6 +986,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "marketplace",
@@ -999,6 +1025,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -1037,6 +1064,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "marketplace",
@@ -1075,6 +1103,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -1113,6 +1142,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare",
@@ -1151,6 +1181,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -1188,6 +1219,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "marketplace"
@@ -1225,6 +1257,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -1262,6 +1295,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "marketplace",
@@ -1300,6 +1334,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -1337,6 +1372,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -1374,6 +1410,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -1411,6 +1448,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -1449,6 +1487,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -1486,6 +1525,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -1523,6 +1563,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -1560,6 +1601,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -1597,6 +1639,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare",
@@ -1636,6 +1679,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -1673,6 +1717,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -1711,6 +1756,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -1748,6 +1794,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "marketplace"
@@ -1785,6 +1832,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -1822,6 +1870,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -1859,6 +1908,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "marketplace"
@@ -1896,6 +1946,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare",
@@ -1935,6 +1986,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -1972,6 +2024,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -2010,6 +2063,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -2047,6 +2101,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2084,6 +2139,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare",
@@ -2122,6 +2178,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "marketplace"
@@ -2159,6 +2216,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2196,6 +2254,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -2233,6 +2292,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2270,6 +2330,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2307,6 +2368,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "consumer"
@@ -2344,6 +2406,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare",
@@ -2382,6 +2445,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare",
@@ -2420,6 +2484,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2457,6 +2522,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2494,6 +2560,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2531,6 +2598,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2568,6 +2636,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2605,6 +2674,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -2643,6 +2713,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2680,6 +2751,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "ai"
@@ -2717,6 +2789,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2754,6 +2827,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2791,6 +2865,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2828,6 +2903,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas",
@@ -2866,6 +2942,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2903,6 +2980,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
@@ -2940,6 +3018,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -2977,6 +3056,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -3014,6 +3094,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "healthcare"
@@ -3051,6 +3132,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "oss"
@@ -3088,6 +3170,7 @@
     },
     "archived": false,
     "in_trash": false,
+    "is_locked": false,
     "properties": {
       "Tags": [
         "saas"
