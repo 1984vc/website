@@ -315,10 +315,9 @@ Well-implemented telemetry isn't just possible, it's essential for building bett
 Start with these steps:
 
 1. **Define your minimal viable metrics** (aim for under 10 event types)
-2. **Build transparency features first** (dashboard, documentation)
+2. **Build transparency features first** (documentation, easy debug, telemetry in one easy to read source code location)
 3. **Get community feedback** on your implementation plan
-4. **Launch with a beta group** of privacy-conscious users
-5. **Iterate based on feedback** and publish learnings
+4. **Iterate based on feedback** and publish learnings
 
 Remember: users want software that works well and respects their privacy. Telemetry done right delivers both by helping you understand their needs while protecting their data.
 
@@ -326,5 +325,5 @@ Remember: users want software that works well and respects their privacy. Teleme
 ---
 
 
-_Next Steps: Check out our_ [_open source telemetry library_](https://www.notion.so/1984vc/example.com) _that implements these principles_
+_Next Steps: Check out our_ [_open source telemetry library_](https://github.com/1984vc/telemetry-todo) _that implements these principles_
 
