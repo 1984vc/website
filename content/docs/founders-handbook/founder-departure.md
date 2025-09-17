@@ -1,8 +1,8 @@
 ---
-title: Founder Departure
+title: Founder Departure Impact on Cap Table
 notionId: 17682923-1d09-8007-a3d7-f4c6e257ce9b
 createdAt: 2025-01-09T17:17:00.000Z
-weight: 4
+weight: 7
 Category: Company Formation
 Icon: logout
 draft: false
@@ -11,7 +11,7 @@ authors:
     link: https://www.linkedin.com/in/ramyadeeb
     image: /landing/people/Ramy.svg
 Sidebar Title: ""
-Name: Founder Departure
+Name: Founder Departure Impact on Cap Table
 
 ---
 

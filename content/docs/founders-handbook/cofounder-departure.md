@@ -2,7 +2,7 @@
 title: How to Part Ways with Your Co-Founder (Without Blowing Up Your Startup)
 notionId: 11a82923-1d09-80e0-ad30-f97b370f04c6
 createdAt: 2024-10-09T20:49:00.000Z
-weight: 5
+weight: 4
 Category: Company Formation
 Icon: logout
 draft: false
@@ -10,7 +10,7 @@ authors:
   - name: Ramy Adeeb
     link: https://www.linkedin.com/in/ramyadeeb
     image: /landing/people/Ramy.svg
-Sidebar Title: How to Part Ways with Your Co-Founder
+Sidebar Title: Parting with Your Co-Founder
 Name: How to Part Ways with Your Co-Founder (Without Blowing Up Your Startup)
 
 ---

@@ -12,22 +12,22 @@ toc:
         icon: document-text
         url: /docs/founders-handbook/how-to-pick-a-startup-idea/
         weight: 2
+      - title: Choosing Your Co-Founder
+        icon: document-text
+        url: /docs/founders-handbook/choosing-your-co-founder/
+        weight: 3
       - title: "Minimizing Founder Dilution "
         icon: presentation-chart-line
         url: /docs/founders-handbook/minimizing-founder-dilution/
         weight: 3
-      - title: Founder Departure
-        icon: logout
-        url: /docs/founders-handbook/founder-departure/
-        weight: 4
-      - title: How to Part Ways with Your Co-Founder
+      - title: Parting with Your Co-Founder
         icon: logout
         url: /docs/founders-handbook/cofounder-departure/
-        weight: 5
-      - title: Choosing Your Co-Founder
-        icon: document-text
-        url: /docs/founders-handbook/choosing-your-co-founder/
-        weight: 6
+        weight: 4
+      - title: Founder Departure Impact on Cap Table
+        icon: logout
+        url: /docs/founders-handbook/founder-departure/
+        weight: 7
   - title: Raising Your Seed
     weight: 3
     items:
@@ -50,10 +50,6 @@ toc:
   - title: Raising Your A
     weight: 4
     items:
-      - title: How to Negotiate Your Series A Term Sheet
-        icon: table
-        url: /docs/how-to-negotiate-your-series-a-term-sheet/
-        weight: 0
       - title: How to Nail Your Series A Deck
         icon: presentation-chart-line
         url: /docs/founders-handbook/series-a-deck/
@@ -65,6 +61,10 @@ toc:
       - title: Selling Secondaries
         icon: currency-dollar
         url: /docs/founders-handbook/selling-secondaries/
+        weight: 3
+      - title: How to Negotiate Your Series A Term Sheet
+        icon: table
+        url: /docs/how-to-negotiate-your-series-a-term-sheet/
         weight: 3
       - title: Structured and Down Rounds
         icon: currency-dollar
