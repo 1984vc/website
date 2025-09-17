@@ -96,7 +96,7 @@ toc:
   - title: Open Source
     weight: 6
     items:
-      - title: Why Your Open Source Project Needs Telemetry (And how to do it right)
+      - title: Why Your Open Source Project Needs Telemetry
         icon: document-text
         url: /docs/founders-handbook/eng/open-source-telemetry/
         weight: 0

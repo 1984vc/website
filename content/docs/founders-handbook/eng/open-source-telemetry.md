@@ -7,7 +7,7 @@ Category: Open Source
 Icon: ""
 draft: false
 authors: []
-Sidebar Title: ""
+Sidebar Title: Why Your Open Source Project Needs Telemetry
 Name: Why Your Open Source Project Needs Telemetry (And how to do it right)
 
 ---
