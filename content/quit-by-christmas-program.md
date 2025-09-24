@@ -19,43 +19,55 @@ Name: Quit by Christmas Program
 **Fundraising hell**
 
 
-There's never been a more exciting time to start a company. AI is transforming how people work and every sector of the economy is now fertile grounds to build a startup.
+There's never been a more exciting time to start a company. AI is completely transforming how people work. And every sector of the economy is now fertile grounds to build a startup.
 
 
-But while starting a company has never been easier, it's near impossible to raise venture capital with a warm intro to investors. Heck, even with a warm intro, it's still a painful process of endless coffee chats, opaque decision making and ghostings. 
+But while starting a company has never been easier, raising your first round of funding hasn't gotten any easier. Without a warm intro, you're often DOA. Heck, even with a warm intro you're still subjected to endless coffee chats, opaque decision making and ghostings.
 
 
-There should be a better way.
+The warm intro is an arbitrary gatekeeper of capital. There should be a better way.
 
 
 **Introducing the Quit By Christmas Program**
 
 
-The 1984 Ventures Quit by Christmas program gives applicants a $1M
+At 1984 Ventures, several of our most successful investments came inbound via cold email. That's why we're launching the Quit by Christmas program. Apply online - no warm intro needed - and if successful, receive a $1M investment within a week of a first meeting. And then quit your job before Christmas :) 
 
 
-If you are a budding entrepreneur currently tinkering on a side project on nights and weekends, nights and weekends on an idea and are about to take the plunge, we want you to apply.
+Our process is as follows. Apply online here, and you will hear back from us within 24 hours if we want to interview you. We aim to get you an investment decision within one week of our first meeting. And if we decide to invest, we'll also introduce you to other VCs in our network to fill out the rest of your round.
 
 
-The arbitrariness of 
+**Who should apply**
 
 
-There should be a better way.
+If you are thinking about quitting your job, but aren't sure you're ready to apply to an accelerator, we want you to apply.
 
 
- it's still difficult to raise VC without a warm line in to investors. And even with a warm introduction, 
+If you are a budding entrepreneur currently tinkering on a side project on nights and weekends, we want you to apply.
 
 
-Bu
+If you are already full-time on an idea, we want you to apply. 
 
 
-But raising your first round of funding has always required getting warm introductions to VCs. And it's a process that is known to drag on, with countless stories of investors ghosting founders, waiting for social proof being investing, and eventually passing without a good reason.
+**What do we look for?**
 
 
-Are you 
+We invest in <u>**exceptional people**</u> solving <u>**hair-on-fire problems**</u> with solutions that are <u>**100x better than the status quo.**</u>
+
+- What makes someone exceptional?
+- What is a hair-on-fire problem?
+- What is a 100x better solution?
+
+**About 1984 Ventures**
 
 
-Are you currently working at a company, but thinking of taking the plunge and starting an AI startup?
+Several of our most successful investments came in through a cold email. 
+
+
+We led the first round in companies like Posthog, Cline, BuildOps
+
+
+We are a team of former founders, CTOs and multi-stage fund VCs.
 
 
 At 1984 Ventures, it is our belief that great founders can come from anywhere.
