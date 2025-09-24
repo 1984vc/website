@@ -16,7 +16,79 @@ Name: Quit by Christmas Program
 ---
 
 
-**Raise your pre-seed without** 
+**Fundraising hell**
+
+
+There's never been a more exciting time to start a company. AI is transforming how people work and every sector of the economy is now fertile grounds to build a startup.
+
+
+But while starting a company has never been easier, it's near impossible to raise venture capital with a warm intro to investors. Heck, even with a warm intro, it's still a painful process of endless coffee chats, opaque decision making and ghostings. 
+
+
+There should be a better way.
+
+
+**Introducing the Quit By Christmas Program**
+
+
+The 1984 Ventures Quit by Christmas program gives applicants a $1M
+
+
+If you are a budding entrepreneur currently tinkering on a side project on nights and weekends, nights and weekends on an idea and are about to take the plunge, we want you to apply.
+
+
+The arbitrariness of 
+
+
+There should be a better way.
+
+
+ it's still difficult to raise VC without a warm line in to investors. And even with a warm introduction, 
+
+
+Bu
+
+
+But raising your first round of funding has always required getting warm introductions to VCs. And it's a process that is known to drag on, with countless stories of investors ghosting founders, waiting for social proof being investing, and eventually passing without a good reason.
+
+
+Are you 
+
+
+Are you currently working at a company, but thinking of taking the plunge and starting an AI startup?
+
+
+At 1984 Ventures, it is our belief that great founders can come from anywhere.
+
+
+ 
+
+
+Quit your job and get funded
+
+
+SO many people are thinking about quitting their jobs, but aren't sure they are ready to apply to an acelerator
+
+
+They want to know if they can get funded
+
+
+But they may not be able to
+
+
+If you've been dabbling with an idea
+
+
+We can commit to
+
+
+Also applies to people who have already startedn
+
+
+An overview of the offer
+
+
+Perks
 
 
 Every so often, a company emerges with a talent density that's hard to ignore. Rippling is one of those companies. Staffed with 150 former founders, it is a hotbed for entrepreneurial talent. Its culture - of high ownership, customer centricity and solving unsexy problems - aligns perfectly with our ethos at 1984 Ventures. Accordingly, we are excited to announce the 1984 Ventures **Rippling Founders Program**, a fast-tracked financing program for current and aspiring Rippling founders.
