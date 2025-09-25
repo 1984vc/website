@@ -22,7 +22,7 @@ Name: Quit by Christmas Program
 There's never been a more exciting time to start a company. AI is completely transforming how people work. And every sector of the economy is now fertile grounds to build a startup.
 
 
-But while starting a company has never been easier, raising your first round of funding hasn't gotten any easier. Without a warm intro, you're often DOA. Heck, even with a warm intro you're still subjected to endless coffee chats, opaque decision making and ghostings.
+But while starting a company has never been easier, raising your first round of funding hasn't. Without a warm intro, you're often DOA. Heck, even with a warm intro you're still subjected to endless coffee chats, opaque decision making and ghostings.
 
 
 The warm intro is an arbitrary gatekeeper of capital. There should be a better way.
@@ -31,10 +31,10 @@ The warm intro is an arbitrary gatekeeper of capital. There should be a better w
 **Introducing the Quit By Christmas Program**
 
 
-At 1984 Ventures, several of our most successful investments came inbound via cold email. That's why we're launching the Quit by Christmas program. Apply online - no warm intro needed - and if successful, receive a $1M investment within a week of a first meeting. And then quit your job before Christmas :) 
+At 1984 Ventures, several of our most successful investments came inbound via cold email. That's why we're launching the Quit by Christmas program. If you're thinking about quitting your job with an idea you've been tinkering on, apply here and get an investment decision in a week. And then quit your job before Christmas :) 
 
 
-Our process is as follows. Apply online here, and you will hear back from us within 24 hours if we want to interview you. We aim to get you an investment decision within one week of our first meeting. And if we decide to invest, we'll also introduce you to other VCs in our network to fill out the rest of your round.
+Our process is as follows. Apply online here, and you'll hear back from us within 24 hours if we want to interview you. We aim to get you an investment decision on a $1M check within one week of our first meeting. And if we decide to invest, we'll also introduce you to other VCs in our network to fill out the rest of your round.
 
 
 **Who should apply**
@@ -68,39 +68,6 @@ We led the first round in companies like Posthog, Cline, BuildOps
 
 
 We are a team of former founders, CTOs and multi-stage fund VCs.
-
-
-At 1984 Ventures, it is our belief that great founders can come from anywhere.
-
-
- 
-
-
-Quit your job and get funded
-
-
-SO many people are thinking about quitting their jobs, but aren't sure they are ready to apply to an acelerator
-
-
-They want to know if they can get funded
-
-
-But they may not be able to
-
-
-If you've been dabbling with an idea
-
-
-We can commit to
-
-
-Also applies to people who have already startedn
-
-
-An overview of the offer
-
-
-Perks
 
 
 Every so often, a company emerges with a talent density that's hard to ignore. Rippling is one of those companies. Staffed with 150 former founders, it is a hotbed for entrepreneurial talent. Its culture - of high ownership, customer centricity and solving unsexy problems - aligns perfectly with our ethos at 1984 Ventures. Accordingly, we are excited to announce the 1984 Ventures **Rippling Founders Program**, a fast-tracked financing program for current and aspiring Rippling founders.
