@@ -31,7 +31,7 @@ The warm intro is an arbitrary gatekeeper of capital. There should be a better w
 ### **Introducing the Quit By Christmas Program**
 
 
-At 1984 Ventures, several of our most successful investments came inbound via cold email. That's why we're launching the Quit by Christmas program. If you've been tinkering on an idea but haven't yet quit your job, apply here and get an investment decision in a week. And then quit your job before Christmas :) 
+At [1984 Ventures](/), several of our most successful investments came via cold inbound. That's why we're launching the Quit by Christmas program. If you've been tinkering on an idea but haven't yet quit your job, apply here and get an investment decision in a week. And then quit your job before Christmas :) 
 
 
 Our process is as follows. Apply online **here** (~15 mins). You'll hear back from us in 24 hours if we want to interview you. We'll get you an investment decision (on a check of up to $1M) within a week of our first meeting. And if we decide to invest, we'll introduce you to other VCs in our network to fill out the rest of your round. 
@@ -43,26 +43,47 @@ Our process is as follows. Apply online **here** (~15 mins). You'll hear back fr
 If you're thinking about quitting your job but aren't excited about joining an accelerator, we want you to apply.
 
 
-If you're still at school but have been building something in your dorm, we want you to apply.
+If you're still at school but have been building something on the side, we want you to apply.
 
 
-If you're already full-time on an idea, we want you to apply. 
+If you're already full-time on an idea, we want you to apply.
 
 
 ### **What do we look for?**
 
 
-We invest in <u>**exceptional people**</u> solving <u>**hair-on-fire problems**</u> with solutions that are <u>**100x better than the status quo.**</u>
+We invest in **exceptional people** solving **hair-on-fire problems** with solutions that are **100x better than the status quo.**
 
-- What makes someone exceptional?
-- What is a hair-on-fire problem?
-- What is a 100x better solution?
+- _What makes someone exceptional?_
+
+'Exceptional' can sound subjective and abstract. But in startup land, what we really mean is someone with a clear strength or skillset. Someone can be exceptional at engineering, sales or marketing. They can be exceptionally intelligent, resilient or charismatic. Strength is more important than well-roundedness or pedigree (although having seen what great looks like increases your odds of business success).
+
+- _What is a hair-on-fire problem?_
+
+A hair-on-fire problem is a burning need that customers are desperate to have solved. You can uncover the intensity of a problem by talking to customers and seeing how they describe the problem and how they've attempted to solve it (including by already having budget put aside towards existing solutions). These problems can also come about when the world changes radically - for example with regulatory changes (e.g. tariffs) or emerging tailwinds (e.g. GLP-1s). 
+
+- _What is a 100x better solution?_
+
+The reason the AI revolution is marching forward at such breakneck speed is that AI has unlocked radically better ways of doing things. For founders, this means you should be targeting doing something 10x better than the way it was done before. Typically this means making customers more money or saving them an order of magnitude of cost. If the efficiency gain is not visceral, you aren't thinking big enough. See [here](https://samit-kalra.com/blog/how-to-find-a-good-startup-idea) for some examples of 10x better solutions.
+
 
 ### **FAQs**
 
 1. Is this an accelerator?
-2. What sectors do you invest in?
-3. What are the terms of your investment?
+
+No, this is 
+
+1. What sectors do you invest in?
+
+Some notable companies we have invested in across our areas of focus are:
+
+- BuildOps (SaaS)
+- Fay Nutrition, HouseRx
+- Posthog, Cline, Collaborative Robotics
+1. What kind of help do you provide post investment?
+1. What are the terms of your investment?
+2. How much revenue do I need to have when I apply?
+3. Who are the partners at the fund?
 
 ### **About 1984 Ventures**
 
@@ -75,7 +96,9 @@ We led the first round in companies like Posthog, Cline, BuildOps
 
 We are a team of former founders, CTOs and multi-stage fund VCs.
 
-1. 
+
+**Other reading**
+
 
 Every so often, a company emerges with a talent density that's hard to ignore. Rippling is one of those companies. Staffed with 150 former founders, it is a hotbed for entrepreneurial talent. Its culture - of high ownership, customer centricity and solving unsexy problems - aligns perfectly with our ethos at 1984 Ventures. Accordingly, we are excited to announce the 1984 Ventures **Rippling Founders Program**, a fast-tracked financing program for current and aspiring Rippling founders.
 
