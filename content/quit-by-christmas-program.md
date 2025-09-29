@@ -16,40 +16,40 @@ Name: Quit by Christmas Program
 ---
 
 
-**Fundraising hell**
+### **Fundraising hell**
 
 
-There's never been a more exciting time to start a company. AI is completely transforming how people work. And every sector of the economy is now fertile grounds to build a startup.
+There's never been a more exciting time to start a company. AI is completely transforming how people work. And every sector of the economy is being reshaped, with AI-first companies at the helm.
 
 
-But while starting a company has never been easier, raising your first round of funding hasn't. Without a warm intro, you're often DOA. Heck, even with a warm intro you're still subjected to endless coffee chats, opaque decision making and ghostings.
+But while starting a company has never been easier, raising your first round of funding hasn't. Maybe you've been quietly building something on nights and weekends but haven't quit your job yet. What would it take for you to take the plunge? Where would you even go to raise money? Without a warm intro to investors, you're often DOA. Heck, even with a warm intro you're still subjected to endless coffee chats, opaque decision making and ghostings.
 
 
 The warm intro is an arbitrary gatekeeper of capital. There should be a better way.
 
 
-**Introducing the Quit By Christmas Program**
+### **Introducing the Quit By Christmas Program**
 
 
-At 1984 Ventures, several of our most successful investments came inbound via cold email. That's why we're launching the Quit by Christmas program. If you're thinking about quitting your job with an idea you've been tinkering on, apply here and get an investment decision in a week. And then quit your job before Christmas :) 
+At 1984 Ventures, several of our most successful investments came inbound via cold email. That's why we're launching the Quit by Christmas program. If you've been tinkering on an idea but haven't yet quit your job, apply here and get an investment decision in a week. And then quit your job before Christmas :) 
 
 
-Our process is as follows. Apply online here, and you'll hear back from us within 24 hours if we want to interview you. We aim to get you an investment decision on a $1M check within one week of our first meeting. And if we decide to invest, we'll also introduce you to other VCs in our network to fill out the rest of your round.
+Our process is as follows. Apply online **here** (~15 mins). You'll hear back from us in 24 hours if we want to interview you. We'll get you an investment decision (on a check of up to $1M) within a week of our first meeting. And if we decide to invest, we'll introduce you to other VCs in our network to fill out the rest of your round. 
 
 
-**Who should apply**
+### **Who should apply**
 
 
-If you are thinking about quitting your job, but aren't sure you're ready to apply to an accelerator, we want you to apply.
+If you're thinking about quitting your job but aren't excited about joining an accelerator, we want you to apply.
 
 
-If you are a budding entrepreneur currently tinkering on a side project on nights and weekends, we want you to apply.
+If you're still at school but have been building something in your dorm, we want you to apply.
 
 
-If you are already full-time on an idea, we want you to apply. 
+If you're already full-time on an idea, we want you to apply. 
 
 
-**What do we look for?**
+### **What do we look for?**
 
 
 We invest in <u>**exceptional people**</u> solving <u>**hair-on-fire problems**</u> with solutions that are <u>**100x better than the status quo.**</u>
@@ -58,7 +58,13 @@ We invest in <u>**exceptional people**</u> solving <u>**hair-on-fire problems**<
 - What is a hair-on-fire problem?
 - What is a 100x better solution?
 
-**About 1984 Ventures**
+### **FAQs**
+
+1. Is this an accelerator?
+2. What sectors do you invest in?
+3. What are the terms of your investment?
+
+### **About 1984 Ventures**
 
 
 Several of our most successful investments came in through a cold email. 
@@ -69,6 +75,7 @@ We led the first round in companies like Posthog, Cline, BuildOps
 
 We are a team of former founders, CTOs and multi-stage fund VCs.
 
+1. 
 
 Every so often, a company emerges with a talent density that's hard to ignore. Rippling is one of those companies. Staffed with 150 former founders, it is a hotbed for entrepreneurial talent. Its culture - of high ownership, customer centricity and solving unsexy problems - aligns perfectly with our ethos at 1984 Ventures. Accordingly, we are excited to announce the 1984 Ventures **Rippling Founders Program**, a fast-tracked financing program for current and aspiring Rippling founders.
 
