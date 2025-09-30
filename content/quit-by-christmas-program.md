@@ -82,7 +82,7 @@ No, this is a regular core investment from our fund. Instead of delivering broad
 Fundraising, recruiting and founder therapy.
 
 
-We have a 75% seed-to-Series A conversion ratio. We frequently help source and vet early hires at our portfolio companies. We're on Whatsapp 24/7 with you to answer all late night questions.
+We have a 75% seed-to-Series A conversion ratio. We frequently help source and vet early hires at our portfolio companies. We're on Whatsapp 24/7 with you to answer all your late night questions.
 
 1. What sectors do you invest in?
 
