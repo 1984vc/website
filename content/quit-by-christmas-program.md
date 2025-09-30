@@ -69,21 +69,45 @@ The reason the AI revolution is marching forward at such breakneck speed is that
 
 ### **FAQs**
 
+1. What are the terms of your investment?
+
+We will invest up to $1M for 6-10% of your company. The exact dollar amount will depend on the founder's ask and the company's needs.
+
 1. Is this an accelerator?
 
-No, this is 
+No, this is a regular core investment from our fund. Instead of delivering broad brush accelerator programming, we'll tailor our help and advice to you based on your specific needs. We expect to work closely with you until you raise your Series A.
+
+1. What kind of help do you provide post investment?
+
+Fundraising, recruiting and founder therapy.
+
+
+We have a 75% seed-to-Series A conversion ratio. We frequently help source and vet early hires at our portfolio companies. We're on Whatsapp 24/7 with you to answer all late night questions.
 
 1. What sectors do you invest in?
+
+We predominantly invest in B2B, healthcare and infrastructure/open source startups. Our partners across each of these sectors have strong expertise. Our programming is bespoke to each company.
+
+
+Our healthcare partner, Farzad Soleimani, is a practising ER physician and a former healthcare founder. He has strong connectivity into various US hospital systems.
+
+
+Our infrastructure software partner Mark is an active OSS contributor. He's helped our portfolio companies with content marketing.
+
+
+Our B2B partners Samit and Ramy have backed over 30 successful B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
+
 
 Some notable companies we have invested in across our areas of focus are:
 
 - BuildOps (SaaS)
 - Fay Nutrition, HouseRx
 - Posthog, Cline, Collaborative Robotics
-1. What kind of help do you provide post investment?
-1. What are the terms of your investment?
-2. How much revenue do I need to have when I apply?
-3. Who are the partners at the fund?
+1. How much revenue do I need to have when I apply?
+
+We are happy to invest pre-revenue if you are focused on B2B. Our preference is for you to already have an idea and some early customers (including unpaid) so we can better validate the customer need and pain point. 
+
+1. Who are the partners at the fund?
 
 ### **About 1984 Ventures**
 
