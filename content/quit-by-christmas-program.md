@@ -84,25 +84,33 @@ We will invest up to $1M for 6-10% of your company. The exact dollar amount will
 
 No, this is not a batch program for a large number of startups. This is a core investment from our fund where we will work closely with you until you raise your Series A and deliver programming that is tailored to your specific needs.
 
+1. _When is the application period?_
+
+You can apply any time between October 6 and October 31, 2025. Completing the application should take ~20 minutes. If you have any difficulties completing the application, please email us at team@1984.vc. 
+
+1. _Do you invest in solo founders?_
+
+We have a preference for investing in teams of co-founders (with at least one technical founder). We do also invest in solo founders if they are technical.
+
 1. _What sectors do you invest in?_
 
 We predominantly invest in B2B, healthcare and infrastructure/open source startups at the pre-seed and seed stage. Our partners have strong expertise across each of these sectors. Our programming is bespoke to each company.
 
 
-Our healthcare partner, Farzad Soleimani, is a practicing ER physician and a former healthcare founder. He has strong connectivity into various US hospital systems.
+Our healthcare partner, [Farzad](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and a former healthcare founder. He has strong connectivity into various US hospital systems.
 
 
-Our infrastructure software partner Mark is an active OSS contributor. He's helped our portfolio companies with content marketing.
+Our infrastructure software partner [Mark](https://mdp.github.io/) is an active engineer and frequent OSS contributor. He helps our portfolio companies vet early engineering talent, build out engineering teams and helps OSS companies with content marketing.
 
 
-Our B2B partners Samit and Ramy have backed over 30 successful B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
+Our B2B partners [Samit](https://www.linkedin.com/in/samit-kalra-a6179365/) and [Ramy](https://www.linkedin.com/in/ramyadeeb/) have backed over 30 B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
 
 1. _What kind of help do you provide post investment?_
 
 Our goal is to work closely with you to achieve product-market-fit and then raise your next, large institutional round of capital. We tend to bucket our help into: **Fundraising**, **Recruiting** and **Founder Therapy**. 
 
 
-For fundraising, we have a 75% seed-to-Series-A conversion ratio, with our portfolio companies having gone on to raise from Sequoia Capital, Founders Fund, a16z, Index Ventures, Khosla Ventures, Greylock, Accel, Emergence Capital, General Catalyst, Lightspeed and many others.
+For fundraising, we have a 75% seed-to-Series-A conversion ratio, with our portfolio companies having gone on to raise from Sequoia Capital, Founders Fund, a16z, Index Ventures, Khosla Ventures, Greylock, Accel, Emergence Capital, Bessemer, General Catalyst, Lightspeed and many others.
 
 
 We frequently help source and vet early hires at our portfolio companies.
@@ -113,82 +121,23 @@ And we're on WhatsApp 24/7 with our founders to answer all your ad hoc questions
 
 We've also written a [**Founder's Handbook**](/docs/founders-handbook/) that contains useful, practical information for founders about topics they may be less versed in (e.g. cap table math, M&A offers, crafting your deck).
 
-1. How much revenue do I need to have when I apply?
+1. _How much revenue do I need to have when I apply?_
 
-We are happy to invest pre-revenue if you are focused on B2B. Our preference is for you to already have an idea and some early customers (including unpaid) so we can better validate the customer need and pain point. 
+We are happy to invest pre-revenue B2B companies. Our preference is for you already have an idea and some early design partners or customers (including unpaid) so we can better validate the customer need and pain point. 
 
-1. Will you invest outside of the US?
+1. _Will you invest outside of the US?_
 
-At this point we are nearly exclusively focused on US startups. If you are domiciled elsewhere but selling in the US, we are open to considering your application.
-
-
-What is the application periuod?
-
-
-You can apply any time between
-
-
-Do you invest in solo founders?
-
-
-We do, if the founder is technical. But we have a preference for teams with co-founders (with at least one technical co-founder)
+At this point we are predominantly focused on US startups. If you do not live in the US but sell into the US market, we are open to considering your application.
 
 
 ### **About 1984 Ventures**
 
 
-We have $300M+ AUM
+1984 Ventures is a pre-seed and seed firm HQ'd in San Francisco with $300M+ AUM. We are currently investing out of our third fund, which is a $70M vehicle. We are a team of four partners who have previously been early-stage founders, CTOs, and multi-stage fund VCs.
 
 
-We are investing out of our third fund, which is a $70M vehicle
+Over the years we've been fortunate to be early investors in a number of well-known companies, including:
 
 
-We are a team of four partners and are HQ'd in San Francisco
-
-
-Several of our most successful investments came in through a cold email. 
-
-
-| SaaS                                                                                                             |                                                                                                          |                                                                      |
-| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| BuildOps
-_ServiceTitan for commercial contractors
-Recently raised a Series C from Meritech at a $1B valuation_
-
- | Postscript
-_SMS marketing for Shopify stores
-Raised a Series B from Greylock, Series C from O1 Advisors_ | Alex
-_AI recruiter
-Raised a Series A from Peak XV_                   |
-| Healthcare                                                                                                       |                                                                                                          |                                                                      |
-| PairTeam                                                                                                         | HouseRx                                                                                                  | Fay Nutrition                                                        |
-| Infrastructure                                                                                                   |                                                                                                          |                                                                      |
-| Posthog
-_Recently raised a Series C from Peak XV at a $1.4B valuation_                                           | Cline
-_50K+ Github stars
-Raised a Series A from Emergence Capital_                                       | Collaborative Robotics
-_Series A Sequoia, Series B General Catalyst_ |
-
-
-We have pre-seed or seed investments into companies like 
-
-- B2B: BuildOps
-- 
-
-Posthog
-
-
-We led the first round in companies like Posthog, Cline, BuildOps
-
-
-We are a team of former founders, CTOs and multi-stage fund VCs.
-
-
-Some notable companies we have invested in across our areas of focus are:
-
-- BuildOps (SaaS)
-- Fay Nutrition, HouseRx
-- Posthog, Cline, Collaborative Robotics
-
-**Other reading**
+child_database
 
