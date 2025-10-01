@@ -8,9 +8,9 @@
 
 ## Markdown Pages
 
-{{- range $handbookPages.ByWeight }}
-{{- with .OutputFormats.Get "markdown" }}
-- {{ $.Title }}: {{ .Permalink }}
+{{- range $page := $handbookPages.ByWeight }}
+{{- with $page.OutputFormats.Get "markdown" }}
+- {{ $page.Title }}: {{ .Permalink }}
 {{- end }}
 {{- end }}
 
