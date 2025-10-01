@@ -1,0 +1,26 @@
+{{- /* Template for generating llms.txt index */ -}}
+{{- $handbookPages := where site.RegularPages "Section" "docs" -}}
+{{- $handbookPages = where $handbookPages "Type" "in" (slice "docs") -}}
+{{- $handbookPages = where $handbookPages "Draft" "ne" true -}}
+# 1984 Ventures Founders Handbook
+
+> LLM-optimized documentation for early-stage founders covering fundraising, cap tables, co-founder relationships, M&A, and more.
+
+## Markdown Pages
+
+{{- range $handbookPages.ByWeight }}
+{{- with .OutputFormats.Get "markdown" }}
+- {{ $.Title }}: {{ .Permalink }}
+{{- end }}
+{{- end }}
+
+## Full Content
+
+For the complete handbook in a single file, see:
+- Full content: {{ "llms-full.txt" | absURL }}
+
+## About
+
+This documentation is maintained by 1984 Ventures and is available at https://1984.vc/docs/founders-handbook/
+
+Last updated: {{ now.Format "January 2, 2006" }}
