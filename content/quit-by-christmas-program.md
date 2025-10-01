@@ -22,7 +22,7 @@ Name: Quit by Christmas Program
 There's never been a more exciting time to start a company. AI is completely transforming how people work. And every sector of the economy is being reshaped, with AI-first companies likely to end up at the helm.
 
 
-But while starting a company has never been easier, raising your first round of funding hasn't. Maybe you've been quietly building something on nights and weekends but haven't yet quit your job. What would it take to take the plunge? Where would you even go to raise money? Without a warm intro to investors, you're often DOA. Heck, even with a warm intro you're still subjected to endless coffee chats, opaque decision making and ghostings.
+But while starting a company has never been easier, raising your first round of funding hasn't. Maybe you've been quietly building something on nights and weekends but haven't yet quit your job. Or may be you're afraid of quitting your job with funding in hand first. What would it take to take the plunge? Where would you even go to raise money? Without a warm intro to investors, you're often DOA. Heck, even with a warm intro you're still subjected to endless coffee chats, opaque decision making and ghostings.
 
 
 The warm intro is an arbitrary gatekeeper of capital. There should be a better way.
@@ -133,7 +133,7 @@ At this point we are predominantly focused on US startups. If you do not live in
 ### **About 1984 Ventures**
 
 
-1984 Ventures is a pre-seed and seed firm HQ'd in San Francisco with $300M+ AUM. We are currently investing out of our third fund, which is a $70M vehicle. We are a team of four partners who have previously been early-stage founders, CTOs, and multi-stage fund VCs.
+1984 Ventures is a pre-seed and seed firm HQ'd in San Francisco with $200M AUM. We are currently investing out of our third fund. We are a team of four partners who have previously been early-stage founders, CTOs, and multi-stage fund VCs.
 
 
 Over the years we've been fortunate to be early investors in a number of well-known companies, including:
