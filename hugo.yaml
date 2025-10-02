@@ -12,8 +12,8 @@ enableGitInfo: false
 hasCJKLanguage: false
 
 outputs:
-  home: [HTML]
-  page: [HTML]
+  home: [HTML, llmsindex, llmsfull]
+  page: [HTML, markdown]
   section: [HTML, RSS]
 
 # defaultContentLanguage: en
@@ -42,6 +42,27 @@ markup:
     noClasses: false
 
 enableInlineShortcodes: true
+
+# Custom output formats for LLM consumption
+outputFormats:
+  markdown:
+    mediaType: "text/markdown"
+    baseName: "index"
+    isPlainText: true
+    permalinkable: true
+    notAlternative: false
+  llmsindex:
+    mediaType: "text/plain"
+    baseName: "llms"
+    isPlainText: true
+    permalinkable: true
+    notAlternative: false
+  llmsfull:
+    mediaType: "text/plain"
+    baseName: "llms-full"
+    isPlainText: true
+    permalinkable: true
+    notAlternative: false
 
 menu:
   main:

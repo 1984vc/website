@@ -1,0 +1,32 @@
+{{- /* Template for generating llms-full.txt with complete handbook content */ -}}
+{{- $handbookPages := where site.RegularPages "Section" "docs" -}}
+{{- $handbookPages = where $handbookPages "Type" "in" (slice "docs") -}}
+{{- $handbookPages = where $handbookPages "Draft" "ne" true -}}
+# 1984 Ventures Founders Handbook - Complete Content
+
+> This file contains the complete Founders Handbook content for LLM consumption.
+> For individual articles, see /llms.txt for an index.
+> 
+> Source: https://1984.vc/docs/founders-handbook/
+> Last updated: {{ now.Format "January 2, 2006" }}
+
+================================================================================
+
+{{- range $handbookPages.ByWeight }}
+
+## {{ .Title }}
+
+{{- if .Params.description }}
+{{ .Params.description }}
+{{- end }}
+
+URL: {{ .Permalink }}
+
+{{ .Plain }}
+
+--------------------------------------------------------------------------------
+{{- end }}
+
+================================================================================
+
+End of Founders Handbook
