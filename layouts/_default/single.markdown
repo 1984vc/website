@@ -7,4 +7,4 @@
 {{ .Params.description }}
 {{- end }}
 
-{{ .Content }}
+{{ .RawContent }}
