@@ -16,29 +16,26 @@ Name: Quit by Christmas Program
 ---
 
 
-### **Fundraising hell**
+### There's never been a better time to start a company
 
 
-There's never been a more exciting time to start a company. AI is completely transforming how people work. And every sector of the economy is being reshaped, with AI-first companies likely to end up at the helm.
+There's never been a more exciting time to start a company. AI is completely transforming how people work. And new upstarts are challenging incumbents across every sector of the economy.
 
 
-But while starting a company has never been easier, raising your first round of funding hasn't. Maybe you've been quietly building something on nights and weekends but haven't yet quit your job. Or may be you're afraid of quitting your job with funding in hand first. What would it take to take the plunge? Where would you even go to raise money? Without a warm intro to investors, you're often DOA. Heck, even with a warm intro you're still subjected to endless coffee chats, opaque decision making and ghostings.
+But while starting a company has never been easier, raising your first round of funding hasn't. Maybe you've been quietly building something on nights and weekends but haven't quit your job yet. Or may be you're afraid of quitting without first raising funding. What would it take for you to take the plunge?
 
 
-The warm intro is an arbitrary gatekeeper of capital. There should be a better way.
+### 🎄 **Introducing the** **Q****u****i****t** **B****y** **C****h****ri****s****t****m****a****s** **Program** 🎄
 
 
-### **Introducing the** **Q****u****i****t** **B****y** **C****h****ri****s****t****m****a****s** **Program**
-
-
-At [1984 Ventures](/), several of our most successful investments came via cold inbound. That's why we're launching the **Quit By Christmas** program. If you've been tinkering on an idea but haven't quit your job yet, apply and get an investment decision in a week. And then quit your job before Christmas :) 
+At [1984 Ventures](/), we believe the warm intro is an arbitrary gatekeeper of capital. Several of our most successful investments came via cold inbound. That's why we're launching the **Quit By Christmas** program. If you've been tinkering on an idea but haven't quit your job yet, apply and get an investment decision in a week. And then quit your job before Christmas :) 
 
 
 **Our process**
 
 
 {{< callout type="error" emoji="💡" >}}
-Apply **here **(~15 mins). 
+Apply **here **(~20 mins). 
 
 You'll hear back from us in 24 hours if we want to interview you. From a first interview, we'll get you an investment decision (on a check of up to $1M) within a week. If we invest, we'll introduce you to other VCs in our network to fill out the rest of your round. 
 {{< /callout >}}
@@ -100,7 +97,7 @@ We predominantly invest in B2B, healthcare and infrastructure/open source startu
 Our healthcare partner, [Farzad](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and a former healthcare founder. He has strong connectivity into various US hospital systems.
 
 
-Our infrastructure software partner [Mark](https://mdp.github.io/) is an active engineer and frequent OSS contributor. He helps our portfolio companies vet early engineering talent, build out engineering teams and helps OSS companies with content marketing.
+Our infrastructure software partner [Mark](https://mdp.github.io/) is an active engineer and frequent OSS contributor. He helps our portfolio companies vet early engineering talent, build out engineering teams and helps our OSS portfolio companies build their brand and community. 
 
 
 Our B2B partners [Samit](https://www.linkedin.com/in/samit-kalra-a6179365/) and [Ramy](https://www.linkedin.com/in/ramyadeeb/) have backed over 30 B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
