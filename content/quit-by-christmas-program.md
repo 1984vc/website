@@ -100,13 +100,13 @@ We have a preference for investing in teams of co-founders (with at least one te
 We predominantly invest in B2B, healthcare and infrastructure/open source startups at the pre-seed and seed stage. Our partners have strong expertise across each of these sectors. Our programming is bespoke to each company.
 
 
-Our B2B partners [Samit](https://www.linkedin.com/in/samit-kalra-a6179365/) and [Ramy](https://www.linkedin.com/in/ramyadeeb/) have backed over 30 B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
+Our B2B partners [**Samit**](https://www.linkedin.com/in/samit-kalra-a6179365/) and [**Ramy**](https://www.linkedin.com/in/ramyadeeb/) have backed over 30 B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
 
 
-Our healthcare partner, [Farzad](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and former healthcare founder with deep ties to hospitals, payers, and medtech/pharma. Think of him as an extension of your clinical, business development, and sales teams. He regularly helps portfolio companies land their first major clients.
+Our healthcare partner, [**Farzad**](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and former healthcare founder with deep ties to hospitals, payers, and medtech/pharma. Think of him as an extension of your clinical, business development, and sales teams. He regularly helps portfolio companies land their first major clients.
 
 
-Our infrastructure software partner [Mark](https://mdp.github.io/) is an active engineer and frequent open source contributor. He helps our portfolio companies vet early engineering talent, scale early engineering teams and helps our open source portfolio companies build their brand and community. 
+Our infrastructure software partner [**Mark**](https://mdp.github.io/) is an active engineer and frequent open source contributor. He helps our portfolio companies vet early engineering talent, scale early engineering teams and helps our open source portfolio companies build their brand and community. 
 
 1. _What kind of help do you provide post investment?_
 
