@@ -94,13 +94,13 @@ We have a preference for investing in teams of co-founders (with at least one te
 We predominantly invest in B2B, healthcare and infrastructure/open source startups at the pre-seed and seed stage. Our partners have strong expertise across each of these sectors. Our programming is bespoke to each company.
 
 
+Our B2B partners [Samit](https://www.linkedin.com/in/samit-kalra-a6179365/) and [Ramy](https://www.linkedin.com/in/ramyadeeb/) have backed over 30 B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
+
+
 Our healthcare partner, [Farzad](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and a former healthcare founder. He has strong connectivity into various US hospital systems.
 
 
 Our infrastructure software partner [Mark](https://mdp.github.io/) is an active engineer and frequent OSS contributor. He helps our portfolio companies vet early engineering talent, scale early engineering teams and helps our OSS portfolio companies build their brand and community. 
-
-
-Our B2B partners [Samit](https://www.linkedin.com/in/samit-kalra-a6179365/) and [Ramy](https://www.linkedin.com/in/ramyadeeb/) have backed over 30 B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
 
 1. _What kind of help do you provide post investment?_
 
