@@ -97,7 +97,7 @@ We predominantly invest in B2B, healthcare and infrastructure/open source startu
 Our B2B partners [Samit](https://www.linkedin.com/in/samit-kalra-a6179365/) and [Ramy](https://www.linkedin.com/in/ramyadeeb/) have backed over 30 B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
 
 
-Our healthcare partner, [Farzad](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and a former healthcare founder. He has strong connectivity into various US hospital systems.
+Our healthcare partner, [Farzad](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and former healthcare founder with deep ties to hospitals, payers, and medtech/pharma. Think of him as an extension of your clinical, business development, and sales teams. He regularly helps portfolio companies land their first major clients.
 
 
 Our infrastructure software partner [Mark](https://mdp.github.io/) is an active engineer and frequent OSS contributor. He helps our portfolio companies vet early engineering talent, scale early engineering teams and helps our OSS portfolio companies build their brand and community. 
