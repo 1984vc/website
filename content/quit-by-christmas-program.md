@@ -44,7 +44,7 @@ You'll hear back from us in 24 hours if we want to interview you. From a first i
 ### **Who should apply**
 
 
-If you're thinking about quitting your job but aren't excited about joining an accelerator, we want you to apply.
+If you're thinking about quitting your job but aren't excited about joining an accelerator program with 200 other startups, we want you to apply.
 
 
 If you're still at school but have been building something on the side, we want you to apply.
@@ -56,11 +56,17 @@ If you're already full-time on an idea, we want you to apply.
 ### **What do we look for?**
 
 
-We invest in **exceptional people** solving **hair-on-fire problems** with solutions that are **10x better than the status quo.** You should aim to highlight these elements in your application.
+We predominantly invest across three broad categories: B2B applications (both horizontal and vertical), digital health and infrastructure software/open source. 
 
+
+We get excited about investing when we see three things:
+
+- An _**exceptional founding team**_
+- The identification of a _**hair-on-fire problem**_
+- A solution to that problem that is _**10x better than the status quo**_
 - _What makes someone "exceptional"?_
 
-'Exceptional' can sound subjective and abstract. But in startup land, what we really mean is someone with a clear strength or skillset. Someone can be exceptional at engineering, sales, design, product or marketing. They can be exceptionally intelligent, resilient or charismatic. Strength is more important than well-roundedness or pedigree (although having seen what great looks like increases your odds of business success).
+'Exceptional' can sound subjective and abstract. But in startup land, what we really mean is someone with a clear strength or skillset. Someone can be exceptional at engineering, sales, design, product or marketing. They can be exceptionally intelligent, resilient or charismatic. Strength is more important than well-roundedness or pedigree (although having seen what great looks like increases your odds of business success). You should aim to highlight what makes you exceptional in your application.
 
 - _What is a hair-on-fire problem?_
 
@@ -68,7 +74,7 @@ A hair-on-fire problem is a burning need that customers are desperate to have so
 
 - _What is a 10x better solution?_
 
-The AI revolution has unlocked radically better ways of doing things. For founders, this means you should be targeting building something that is 10x better than incumbent offerings. You can be 10x better by making customers more money or saving them an order of magnitude of cost. If the efficiency gain is not visceral, you aren't thinking big enough. See [here](https://samit-kalra.com/blog/how-to-find-a-good-startup-idea) for some examples of 10x better solutions.
+The AI revolution has unlocked radically better ways of doing things. For founders, this means you should be targeting building something that is 10x better than incumbent offerings. You can be 10x better by _making customers more money (topline improvement)_ or _saving them an order of magnitude of cost (bottom line improvement)_. If the efficiency gain is not visceral, you aren't thinking big enough. See [here](https://samit-kalra.com/blog/how-to-find-a-good-startup-idea) for some examples of 10x better solutions.
 
 
 ### **FAQs**
@@ -83,11 +89,11 @@ No, this is not a batch program for a large number of startups. This is a core i
 
 1. _When is the application period?_
 
-You can apply any time between October 6 and October 31, 2025. Completing the application should take ~20 minutes. If you have any difficulties completing the application, please email us at team@1984.vc. 
+You can apply any time between October 6 and November 10, 2025. Completing the application should take ~20 minutes. If you have any difficulties completing the application, please email us at team@1984.vc. 
 
 1. _Do you invest in solo founders?_
 
-We have a preference for investing in teams of co-founders (with at least one technical founder). We do also invest in solo founders if they are technical.
+We have a preference for investing in teams of co-founders (with at least one technical founder). From time to time, we do also invest in solo founders if they are technical.
 
 1. _What sectors do you invest in?_
 
@@ -100,7 +106,7 @@ Our B2B partners [Samit](https://www.linkedin.com/in/samit-kalra-a6179365/) and 
 Our healthcare partner, [Farzad](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and former healthcare founder with deep ties to hospitals, payers, and medtech/pharma. Think of him as an extension of your clinical, business development, and sales teams. He regularly helps portfolio companies land their first major clients.
 
 
-Our infrastructure software partner [Mark](https://mdp.github.io/) is an active engineer and frequent OSS contributor. He helps our portfolio companies vet early engineering talent, scale early engineering teams and helps our OSS portfolio companies build their brand and community. 
+Our infrastructure software partner [Mark](https://mdp.github.io/) is an active engineer and frequent open source contributor. He helps our portfolio companies vet early engineering talent, scale early engineering teams and helps our open source portfolio companies build their brand and community. 
 
 1. _What kind of help do you provide post investment?_
 
