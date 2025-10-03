@@ -70,71 +70,54 @@ We get excited about investing when we see three things:
 - _What makes someone "exceptional"?_
 
 'Exceptional' can sound subjective and abstract. But in startup land, what we really mean is someone with a clear strength or skillset. Someone can be exceptional at engineering, sales, design, product or marketing. They can be exceptionally intelligent, resilient or charismatic. Strength is more important than well-roundedness or pedigree (although having seen what great looks like increases your odds of business success). You should aim to highlight what makes you exceptional in your application.
-
 - _What is a hair-on-fire problem?_
 
-A hair-on-fire problem is a burning need that customers are desperate to have solved. You can uncover the intensity of a problem by observing how customers describe it (including how they've already tried to solve it). These problems can also come about when the world changes radically - for example with regulatory changes (e.g. tariffs) or emerging tailwinds (e.g. GLP-1s). 
-
+A hair-on-fire problem is a burning need that customers are desperate to have solved. You can uncover the intensity of a problem by observing how customers describe it (including how they've already tried to solve it). These problems can also come about when the world changes radically - for example with regulatory changes (e.g. tariffs) or emerging tailwinds (e.g. GLP-1s).
 - _What is a 10x better solution?_
 
 The AI revolution has unlocked radically better ways of doing things. For founders, this means you should be targeting building something that is 10x better than incumbent offerings. You can be 10x better by _making customers more money (topline improvement)_ or _saving them an order of magnitude of cost (bottom line improvement)_. If the efficiency gain is not visceral, you aren't thinking big enough. See [here](https://samit-kalra.com/blog/how-to-find-a-good-startup-idea) for some examples of 10x better solutions.
 
-
 ### **FAQs**
+
 
 1. _What are the terms of your investment?_
 
 We will invest up to $1M for 6-10% of your company. The exact dollar amount will depend on the company's ask and needs.
-
-1. _Is this an accelerator or incubator?_
+2. _Is this an accelerator or incubator?_
 
 No, this is not a batch program for a large number of startups. This is a core investment from our fund where we will work closely with you until you raise your Series A and deliver programming that is tailored to your specific needs.
+3. _When is the application period?_
 
-1. _When is the application period?_
-
-You can apply any time between October 6 and November 10, 2025. Completing the application should take ~20 minutes. If you have any difficulties completing the application, please email us at team@1984.vc. 
-
-1. _Do you invest in solo founders?_
+You can apply any time between October 6 and November 10, 2025. Completing the application should take ~20 minutes. If you have any difficulties completing the application, please email us at team@1984.vc.
+4. _Do you invest in solo founders?_
 
 We have a preference for investing in teams of co-founders (with at least one technical founder). From time to time, we do also invest in solo founders if they are technical.
-
-1. _What sectors do you invest in?_
+5. _What sectors do you invest in?_
 
 We predominantly invest in B2B, healthcare and infrastructure/open source startups at the pre-seed and seed stage. Our partners have strong expertise across each of these sectors. Our programming is bespoke to each company.
 
-
 Our B2B partners [**Samit**](https://www.linkedin.com/in/samit-kalra-a6179365/) and [**Ramy**](https://www.linkedin.com/in/ramyadeeb/) have backed over 30 B2B AI companies across a range of sectors. Samit has invested across various "AI for services" sectors and Ramy has backed several PLG companies.
-
 
 Our healthcare partner, [**Farzad**](https://www.linkedin.com/in/farzadsoleimani/), is a practicing ER physician and former healthcare founder with deep ties to hospitals, payers, and medtech/pharma. Think of him as an extension of your clinical, business development, and sales teams. He regularly helps portfolio companies land their first major clients.
 
+Our infrastructure software partner [**Mark**](https://mdp.github.io/) is an active engineer and frequent open source contributor. He helps our portfolio companies vet early engineering talent, scale early engineering teams and helps our open source portfolio companies build their brand and community.
+6. _What kind of help do you provide post investment?_
 
-Our infrastructure software partner [**Mark**](https://mdp.github.io/) is an active engineer and frequent open source contributor. He helps our portfolio companies vet early engineering talent, scale early engineering teams and helps our open source portfolio companies build their brand and community. 
-
-1. _What kind of help do you provide post investment?_
-
-Our goal is to work closely with you to achieve product-market-fit and then raise your next, large institutional round of capital. We tend to bucket our help into: **Fundraising**, **Recruiting** and **Founder Therapy**. 
-
+Our goal is to work closely with you to achieve product-market-fit and then raise your next, large institutional round of capital. We tend to bucket our help into: **Fundraising**, **Recruiting** and **Founder Therapy**.
 
 For fundraising, we have a 75% seed-to-Series-A conversion ratio, with our portfolio companies having gone on to raise from Sequoia Capital, Founders Fund, a16z, Index Ventures, Khosla Ventures, Greylock, Accel, Emergence Capital, Bessemer, General Catalyst, Lightspeed and many others.
 
-
 We frequently help source and vet early hires at our portfolio companies.
-
 
 And we're on WhatsApp 24/7 with our founders to answer all your ad hoc questions.
 
+We've also written a [**Founder's Handbook**](https://1984.vc/docs/founders-handbook/) that contains useful, practical information for founders about topics they may be less versed in (e.g. cap table math, M&A offers, crafting your deck).
+7. _How much revenue do I need to have when I apply?_
 
-We've also written a [**Founder's Handbook**](/docs/founders-handbook/) that contains useful, practical information for founders about topics they may be less versed in (e.g. cap table math, M&A offers, crafting your deck).
-
-1. _How much revenue do I need to have when I apply?_
-
-We are happy to invest pre-revenue B2B companies. Our preference is for you already have an idea and some early design partners or customers (including unpaid) so we can better validate the customer need and pain point. 
-
-1. _Will you invest outside of the US?_
+We are happy to invest pre-revenue B2B companies. Our preference is for you already have an idea and some early design partners or customers (including unpaid) so we can better validate the customer need and pain point.
+8. _Will you invest outside of the US?_
 
 At this point we are predominantly focused on US startups. If you do not live in the US but sell into the US market, we are open to considering your application.
-
 
 ### **About 1984 Ventures**
 
@@ -146,7 +129,4 @@ Over the years we've been fortunate to be early investors in a number of well-kn
 
 
 ![b0f685dfff134168e5553e4bd692a82683b8d324.png](/notion_assets/b0f685dfff134168e5553e4bd692a82683b8d324.png)
-
-
-child_database
 
