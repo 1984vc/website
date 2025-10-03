@@ -14,7 +14,7 @@ At [1984 Ventures](/), we believe the warm intro is an arbitrary gatekeeper of c
  **Our process** 
 
 {{< callout type="error" emoji="💡" >}}
-Apply [ **here** ](https://apply.1984.vc/) **** (~20 mins). 
+Apply [ **here** ](https://apply.1984.vc/) (~20 mins). 
 
 You'll hear back from us in 24 hours if we want to interview you. From a first interview, we'll get you an investment decision (on a check of up to $1M) within a week. If we invest, we'll introduce you to other VCs in our network to fill out the rest of your round. 
 {{< /callout >}}
