@@ -25,7 +25,7 @@ There's never been a more exciting time to start a company. AI is completely tra
 But while starting a company has never been easier, raising your first round of funding hasn't. Maybe you've been quietly building something on nights and weekends but haven't quit your job yet. Or may be you're afraid of quitting without first raising funding. What would it take for you to take the plunge?
 
 
-### 🎄 **Introducing the** **Q****u****i****t** **B****y** **C****h****ri****s****t****m****a****s** **Program** 🎄
+### 🎄 **Introducing the** **Quit By Christmas** **Program** 🎄
 
 
 At [1984 Ventures](/), we believe the warm intro is an arbitrary gatekeeper of capital. Several of our most successful investments came via cold inbound. That's why we're launching the **Quit By Christmas** program. If you've been tinkering on an idea but haven't quit your job yet, apply and get an investment decision in a week. And then quit your job before Christmas :) 
@@ -140,6 +140,9 @@ At this point we are predominantly focused on US startups. If you do not live in
 
 
 Over the years we've been fortunate to be early investors in a number of well-known companies, including:
+
+
+![b0f685dfff134168e5553e4bd692a82683b8d324.png](/notion_assets/b0f685dfff134168e5553e4bd692a82683b8d324.png)
 
 
 child_database
