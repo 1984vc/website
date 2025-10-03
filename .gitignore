@@ -7,3 +7,4 @@ assets/cap-table-worksheet
 .pnpm-store
 .env*
 .claude
+scripts/notion/.notion-to-md
