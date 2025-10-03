@@ -13,5 +13,5 @@ Name: Mergers and Acquisitions
 ---
 
 
-<meta http-equiv="refresh" content="0; url=/docs/founders-handbook/mergers-and-acquisitions/how-to-sell">
 
+<meta http-equiv="refresh" content="0; url=/docs/founders-handbook/mergers-and-acquisitions/how-to-sell">

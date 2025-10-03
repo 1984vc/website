@@ -3,7 +3,6 @@ import { mkdir, readFile, writeFile } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { NotionMarkdownExporter } from './markdown';
-import { hextraTransform } from './transformers';
 import { NotionJSONExporter } from './json';
 
 import authors from '../authors.json'
@@ -68,7 +67,6 @@ exportCommand
           baseUrl: options.baseUrl,
           assetsPath: options.assetsPath,
           assetsBasePath: options.assetsPathBase,
-          transformers: hextraTransform
         });
         
         // Create async iterator for progress updates

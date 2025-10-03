@@ -1,10 +1,10 @@
 import { Client, isFullPage } from '@notionhq/client';
-import { NotionToMarkdown } from 'notion-to-md';
+import { NotionConverter } from 'notion-to-md';
 import { mkdir, writeFile } from 'fs/promises';
 import { join, dirname } from 'path';
 import { stringify } from 'yaml'
 import { PageObjectResponse } from '@notionhq/client/build/src/api-endpoints.js';
-import { imageTransform, urlTransform } from './transformers.js';
+import { CustomRenderer } from './custom-renderer.js';
 
 interface ExportOptions {
   database: string;
@@ -163,42 +163,42 @@ interface PeopleProperty {
 
 type NotionProperty = TitleProperty | RichTextProperty | NumberProperty | SelectProperty | MultiSelectProperty | DateProperty | CheckboxProperty | UrlProperty | EmailProperty | PhoneNumberProperty | FormulaProperty | RelationProperty | RollupProperty | CreatedTimeProperty | LastEditedTimeProperty | CreatedByProperty | LastEditedByProperty | PeopleProperty;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type CustomTransformer = (block: any) => Promise<string>;
-
 export class NotionMarkdownExporter {
   private notion: Client;
-  private n2m: NotionToMarkdown;
+  private n2m: NotionConverter;
   private pagePathCache: Map<string, string>;
   private baseUrl?: string;
   private assetsPath?: string;
   private assetsBasePath?: string;
 
-  constructor(options: { notionToken: string; baseUrl?: string; assetsPath?: string; assetsBasePath?: string, transformers?: (n2m: NotionToMarkdown) => void; }) {
+  constructor(options: { notionToken: string; baseUrl?: string; assetsPath?: string; assetsBasePath?: string, transformers?: (n2m: NotionConverter) => void; }) {
     this.notion = new Client({ auth: options.notionToken });
-    this.n2m = new NotionToMarkdown({ notionClient: this.notion, config: { separateChildPage: false } });
+    
+    // Create custom renderer with URL transformation and Hextra callouts
+    const customRenderer = new CustomRenderer({ baseUrl: options.baseUrl });
+    
+    // Initialize converter with custom renderer
+    this.n2m = new NotionConverter(this.notion).withRenderer(customRenderer);
+    
     this.pagePathCache = new Map();
     this.baseUrl = options.baseUrl;
     this.assetsPath = options.assetsPath;
     this.assetsBasePath = options.assetsBasePath;
 
-    // Apply URL transformer if baseUrl is provided
-    if (this.baseUrl) {
-      urlTransform(this.n2m, this.baseUrl);
-    }
-
-    // Apply URL transformer if baseUrl is provided
+    // Use v4's built-in media handling if assetsPath is provided
     if (this.assetsPath) {
-      imageTransform(this.n2m, this.assetsPath, this.assetsBasePath);
+      this.n2m = this.n2m.downloadMediaTo({
+        outputDir: this.assetsPath,
+        transformPath: (localPath) => {
+          const fileName = require('path').basename(localPath);
+          return this.assetsBasePath ? require('path').join(this.assetsBasePath, fileName) : fileName;
+        }
+      });
     }
 
     if (options.transformers) {
       options.transformers(this.n2m);
     }
-  }
-
-  public setCustomTransformer(type: string, transformer: CustomTransformer): void {
-    this.n2m.setCustomTransformer(type, transformer);
   }
 
   private normalizeQuotes(content: string): string {
@@ -233,9 +233,8 @@ export class NotionMarkdownExporter {
   }
 
   private async convertPageToMarkdown(pageId: string): Promise<string> {
-    const mdblocks = await this.n2m.pageToMarkdown(pageId);
-    const { parent: markdown } = this.n2m.toMarkdownString(mdblocks);
-    return this.normalizeQuotes(markdown ?? "");
+    const result = await this.n2m.convert(pageId);
+    return this.normalizeQuotes(result.content);
   }
 
   private async processPage(page: PageObjectResponse, baseOutputDir: string, options: ExportOptions): Promise<PageExport> {

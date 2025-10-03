@@ -27,7 +27,7 @@
   "dependencies": {
     "@notionhq/client": "^2.2.15",
     "commander": "^12.1.0",
-    "notion-to-md": "^3.1.9",
+    "notion-to-md": "^4.0.0-alpha.5",
     "yaml": "^2.7.0"
   },
   "devDependencies": {
