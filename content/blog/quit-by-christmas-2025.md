@@ -1,4 +1,4 @@
-# Quit by Christmas Program
+# 🎄 Quit by Christmas Program 🎄
 
 ### There's never been a better time to start a company
 
