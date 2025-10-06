@@ -174,8 +174,12 @@ export class NotionMarkdownExporter {
   constructor(options: { notionToken: string; baseUrl?: string; assetsPath?: string; assetsBasePath?: string, transformers?: (n2m: NotionConverter) => void; }) {
     this.notion = new Client({ auth: options.notionToken });
     
-    // Create custom renderer with URL transformation and Hextra callouts
-    const customRenderer = new CustomRenderer({ baseUrl: options.baseUrl });
+    // Create custom renderer with URL transformation, Hextra callouts, and hash-based image downloading
+    const customRenderer = new CustomRenderer({ 
+      baseUrl: options.baseUrl,
+      assetsPath: options.assetsPath,
+      assetsBasePath: options.assetsBasePath
+    });
     
     // Initialize converter with custom renderer
     this.n2m = new NotionConverter(this.notion).withRenderer(customRenderer);
@@ -185,16 +189,8 @@ export class NotionMarkdownExporter {
     this.assetsPath = options.assetsPath;
     this.assetsBasePath = options.assetsBasePath;
 
-    // Use v4's built-in media handling if assetsPath is provided
-    if (this.assetsPath) {
-      this.n2m = this.n2m.downloadMediaTo({
-        outputDir: this.assetsPath,
-        transformPath: (localPath) => {
-          const fileName = require('path').basename(localPath);
-          return this.assetsBasePath ? require('path').join(this.assetsBasePath, fileName) : fileName;
-        }
-      });
-    }
+    // Image downloading is now handled by CustomRenderer's setupImageDownload()
+    // which uses SHA1 hash-based filenames for compatibility with existing content
 
     if (options.transformers) {
       options.transformers(this.n2m);
