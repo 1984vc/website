@@ -6,7 +6,7 @@ There's never been a more exciting time to start a company. AI is completely tra
 
 But while starting a company has never been easier, raising your first round of funding hasn't. Maybe you've been quietly building something on nights and weekends but haven't quit your job yet. Or may be you're afraid of quitting without first raising funding. What would it take for you to take the plunge?
 
-### 🎄  **Introducing the**  **Quit By Christmas**  **Program** 🎄
+### 🎄  **Introducing the Quit By Christmas Program** 🎄
 
 
 At [1984 Ventures](/), we believe the warm intro is an arbitrary gatekeeper of capital. Several of our most successful investments came via cold inbound. That's why we're launching the  **Quit By Christmas**  program. If you've been tinkering on an idea but haven't quit your job yet, apply and get an investment decision in a week. And then quit your job before Christmas :) 
@@ -42,15 +42,16 @@ We get excited about investing when we see three things:
 - An  ***exceptional founding team*** 
 - The identification of a  ***hair-on-fire problem*** 
 - A solution to that problem that is  ***10x better than the status quo*** 
--  *What makes someone "exceptional"?*
+
+#### *What makes someone "exceptional"?*
 
   'Exceptional' can sound subjective and abstract. But in startup land, what we really mean is someone with a clear strength or skillset. Someone can be exceptional at engineering, sales, design, product or marketing. They can be exceptionally intelligent, resilient or charismatic. Strength is more important than well-roundedness or pedigree (although having seen what great looks like increases your odds of business success). You should aim to highlight what makes you exceptional in your application.
 
--  *What is a hair-on-fire problem?*
+#### *What is a hair-on-fire problem?*
 
 A hair-on-fire problem is a burning need that customers are desperate to have solved. You can uncover the intensity of a problem by observing how customers describe it (including how they've already tried to solve it). These problems can also come about when the world changes radically - for example with regulatory changes (e.g. tariffs) or emerging tailwinds (e.g. GLP-1s). 
 
--  *What is a 10x better solution?*
+#### *What is a 10x better solution?*
 
   The AI revolution has unlocked radically better ways of doing things. For founders, this means you should be targeting building something that is 10x better than incumbent offerings. You can be 10x better by  *making customers more money (topline improvement)*  or  *saving them an order of magnitude of cost (bottom line improvement)* . If the efficiency gain is not visceral, you aren't thinking big enough. See [here](https://samit-kalra.com/blog/how-to-find-a-good-startup-idea) for some examples of 10x better solutions.
 
@@ -64,9 +65,13 @@ We will invest up to $1M for 6-10% of your company. The exact dollar amount will
 
 No, this is not a batch program for a large number of startups. This is a core investment from our fund where we will work closely with you until you raise your Series A and deliver programming that is tailored to your specific needs.
 
-3.  *When is the application period?* You can apply any time between October 6 and November 10, 2025. Completing the application should take ~20 minutes. If you have any difficulties completing the application, please email us at team@1984.vc. 
+3.  *When is the application period?* 
 
-4.  *Do you invest in solo founders?* We have a preference for investing in teams of co-founders (with at least one technical founder). From time to time, we do also invest in solo founders if they are technical.
+You can apply any time between October 6 and November 10, 2025. Completing the application should take ~20 minutes. If you have any difficulties completing the application, please email us at team@1984.vc. 
+
+4.  *Do you invest in solo founders?*
+
+We have a preference for investing in teams of co-founders (with at least one technical founder). From time to time, we do also invest in solo founders if they are technical.
 
 5.  *What sectors do you invest in?*
 
