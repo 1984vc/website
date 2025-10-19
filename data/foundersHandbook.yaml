@@ -12,6 +12,10 @@ toc:
         icon: document-text
         url: /docs/founders-handbook/how-to-pick-a-startup-idea/
         weight: 2
+      - title: Choosing Your Co-Founder
+        icon: document-text
+        url: /docs/founders-handbook/choosing-your-co-founder/
+        weight: 3
       - title: "Minimizing Founder Dilution "
         icon: presentation-chart-line
         url: /docs/founders-handbook/minimizing-founder-dilution/
