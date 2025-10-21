@@ -1,5 +1,6 @@
 ---
 title: Introducing The Amazon Founder Program
+description: "Fast-track financing program for current and aspiring Amazon founders. Get a sounding board session and funding from $500,000 to $1,000,000 from 1984 Ventures."
 notionId: 1fc82923-1d09-80e9-a6a4-d3f471fdcf6b
 createdAt: 2025-05-23T15:12:00.000Z
 weight: null
