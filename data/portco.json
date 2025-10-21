@@ -3186,5 +3186,44 @@
     },
     "url": "https://www.notion.so/CollectWise-24e829231d0980e6a29ddbf9fbce2847",
     "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "29382923-1d09-806b-a63e-dc02a5569d7d",
+    "created_time": "2025-10-21T04:23:00.000Z",
+    "last_edited_time": "2025-10-21T04:24:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "e81a9c32-5ed4-4743-aca4-0e8a22c007f2"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "e81a9c32-5ed4-4743-aca4-0e8a22c007f2"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "15582923-1d09-8077-9375-ed60cc94a9de"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "Tags": [
+        "ai",
+        "saas"
+      ],
+      "URL": "sira.team",
+      "Description": "AI Native Rippling for Deskless Workers",
+      "Filters": "",
+      "Highlighted": false,
+      "Sort Order Override": null,
+      "Story": "",
+      "Stage": null,
+      "Name": "Sira"
+    },
+    "url": "https://www.notion.so/Sira-293829231d09806ba63edc02a5569d7d",
+    "public_url": null
   }
 ]
