@@ -3,6 +3,9 @@ title: Palantir Founders Program
 notionId: 1d782923-1d09-8016-aa57-df3ea374645e
 createdAt: 2025-04-16T17:55:00.000Z
 weight: null
+description: Fast-tracked financing for Palantir founders. 1984 Ventures offers
+  checks from $500,000 to $1,200,000 for current and aspiring Palantir
+  entrepreneurs.
 Category: ""
 Icon: ""
 draft: true

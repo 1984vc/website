@@ -3,6 +3,9 @@ title: Introducing The Amazon Founder Program
 notionId: 1fc82923-1d09-80e9-a6a4-d3f471fdcf6b
 createdAt: 2025-05-23T15:12:00.000Z
 weight: null
+description: Fast-tracked financing for Amazon founders. 1984 Ventures offers
+  checks from $500,000 to $1,200,000 for current and aspiring Amazon
+  entrepreneurs.
 Category: ""
 Icon: ""
 draft: false

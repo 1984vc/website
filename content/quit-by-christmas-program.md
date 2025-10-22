@@ -3,6 +3,7 @@ title: Quit by Christmas Program
 notionId: 27882923-1d09-80c3-9400-f90d333459c1
 createdAt: 2025-09-24T21:16:00.000Z
 weight: null
+description: ""
 Category: ""
 Icon: ""
 draft: true

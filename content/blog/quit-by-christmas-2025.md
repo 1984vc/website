@@ -1,3 +1,11 @@
+---
+title: "Quit by Christmas Program"
+description: "Fast-track financing for aspiring founders. Apply and get an investment decision in a week. Quit your job before Christmas and start building your startup with 1984 Ventures."
+createdAt: 2024-10-06T00:00:00.000Z
+draft: false
+authors: []
+---
+
 # 🎄 Quit by Christmas Program 🎄
 
 ### There's never been a better time to start a company

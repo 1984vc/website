@@ -3,6 +3,7 @@ title: Cap Table 101
 notionId: 13f82923-1d09-806a-ba70-cc06d520f3b4
 createdAt: 2024-11-15T14:37:00.000Z
 weight: 1
+description: ""
 Category: Company Formation
 Icon: calculator
 draft: false

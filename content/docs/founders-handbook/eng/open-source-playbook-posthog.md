@@ -3,6 +3,7 @@ title: "The Open Source Content Marketing Playbook: Lessons from Posthog"
 notionId: 1c982923-1d09-8087-a7b2-e0d31f24e864
 createdAt: 2025-04-02T20:28:00.000Z
 weight: 1
+description: ""
 Category: Open Source
 Icon: ""
 draft: false

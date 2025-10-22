@@ -3,6 +3,9 @@ title: Introducing The Rippling Founders Program
 notionId: 1e782923-1d09-80f8-a169-e6d6de00125d
 createdAt: 2025-05-02T18:49:00.000Z
 weight: null
+description: Fast-tracked financing for Rippling founders. 1984 Ventures offers
+  checks from $500,000 to $1,200,000 for current and aspiring Rippling
+  entrepreneurs.
 Category: ""
 Icon: ""
 draft: false

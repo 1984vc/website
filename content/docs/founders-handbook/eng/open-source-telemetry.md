@@ -3,6 +3,7 @@ title: Why Your Open Source Project Needs Telemetry (And how to do it right)
 notionId: 26b82923-1d09-804d-8524-d407c1d91b35
 createdAt: 2025-09-11T03:31:00.000Z
 weight: null
+description: ""
 Category: Open Source
 Icon: ""
 draft: false

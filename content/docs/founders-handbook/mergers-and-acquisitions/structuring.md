@@ -3,6 +3,7 @@ title: Structuring M&A
 notionId: 1b482923-1d09-806c-8f76-e034c928964b
 createdAt: 2025-03-12T15:39:00.000Z
 weight: 3
+description: ""
 Category: Mergers and Acquisitions
 Icon: currency-dollar
 draft: false

@@ -3,6 +3,7 @@ title: SAFE vs Priced Round
 notionId: 3c5a0edb-2574-4955-8cf9-68f5ded58812
 createdAt: 2024-07-24T14:56:00.000Z
 weight: 4
+description: ""
 Category: Raising Your Seed
 Icon: currency-dollar
 draft: false
