@@ -24,10 +24,6 @@ toc:
         icon: logout
         url: /docs/founders-handbook/cofounder-departure/
         weight: 4
-      - title: Founder Departure Impact on Cap Table
-        icon: logout
-        url: /docs/founders-handbook/founder-departure/
-        weight: 7
   - title: Raising Your Seed
     weight: 3
     items:
