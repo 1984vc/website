@@ -14,17 +14,18 @@ There's never been a more exciting time to start a company. AI is completely tra
 
 But while starting a company has never been easier, raising your first round of funding hasn't. Maybe you've been quietly building something on nights and weekends but haven't quit your job yet. Or may be you're afraid of quitting without first raising funding. What would it take for you to take the plunge?
 
-### 🎄  **Introducing the Quit By Christmas Program** 🎄
+{{< callout type="info" emoji="🚀" >}}
+**Ready to take the leap?** [Apply now at apply.1984.vc](https://apply.1984.vc) — get an investment decision within a week.
+{{< /callout >}}
 
+### 🎄  **Introducing the Quit By Christmas Program** 🎄
 
-At [1984 Ventures](/), we believe the warm intro is an arbitrary gatekeeper of capital. Several of our most successful investments came via cold inbound. That's why we're launching the  **Quit By Christmas**  program. If you've been tinkering on an idea but haven't quit your job yet, apply and get an investment decision in a week. And then quit your job before Christmas :) 
+At [1984 Ventures](/), we believe the warm intro is an arbitrary gatekeeper of capital. Several of our most successful investments came via cold inbound. That's why we're launching the  **Quit By Christmas**  program. If you've been tinkering on an idea but haven't quit your job yet, apply and get an investment decision in a week. And then quit your job before Christmas :)
 
- **Our process** 
+ **Our process**
 
 {{< callout type="error" emoji="💡" >}}
-Apply [ **here** ](https://apply.1984.vc/) (~20 mins). 
-
-You'll hear back from us in 24 hours if we want to interview you. From a first interview, we'll get you an investment decision (on a check of up to $1M) within a week. If we invest, we'll introduce you to other VCs in our network to fill out the rest of your round. 
+The application takes ~20 mins. You'll hear back from us in 24 hours if we want to interview you. From a first interview, we'll get you an investment decision (on a check of up to $1M) within a week. If we invest, we'll introduce you to other VCs in our network to fill out the rest of your round.
 {{< /callout >}}
 
 
