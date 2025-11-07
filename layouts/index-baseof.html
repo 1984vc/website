@@ -25,5 +25,7 @@
     {{- partial "banner.html" . -}}
     {{ block "body" . }}
     {{ end }}
+    {{- partial "cookie-banner.html" . -}}
+    {{ partial "scripts.html" . }}
 </body>
 </html>

@@ -29,6 +29,12 @@
         <div class="hx-flex hx-w-full hx-flex-col hx-items-center sm:hx-items-start">
             {{- if (.Site.Params.footer.displayPoweredBy | default true) }}<div class="hx-font-semibold">{{ template "theme-credit" $poweredBy }}</div>{{- end -}}
             {{- if .Site.Params.footer.displayCopyright }}<div class="hx-mt-6 hx-text-xs">{{ $copyright | markdownify }}</div>{{- end -}}
+            <div class="hx-mt-4 hx-text-xs">
+              <a href="#" data-consent-manage class="hx-text-gray-600 dark:hx-text-gray-400 hover:hx-text-gray-900 dark:hover:hx-text-gray-200 hx-underline">Manage Cookie Preferences</a>
+              {{ if .Site.GetPage "/privacy" }}
+                | <a href="/privacy" class="hx-text-gray-600 dark:hx-text-gray-400 hover:hx-text-gray-900 dark:hover:hx-text-gray-200 hx-underline">Privacy Policy</a>
+              {{ end }}
+            </div>
         </div>
       </div>
     {{- end -}}
