@@ -39,6 +39,10 @@ toc:
         icon: presentation-chart-line
         url: /docs/founders-handbook/pre-money-vs-post-money-conversion/
         weight: 3
+      - title: SAFE vs Priced Round
+        icon: currency-dollar
+        url: /docs/founders-handbook/safe-vs-priced-round/
+        weight: 4
       - title: SAFE Side Letters
         icon: document-text
         url: /docs/founders-handbook/safe-side-letters/
