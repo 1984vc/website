@@ -73,7 +73,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           packageManager: pnpm
-          command: deploy
+          command: deploy --env staging
 
       - name: Update deployment status (success)
         uses: chrnorm/deployment-status@v2
