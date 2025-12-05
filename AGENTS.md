@@ -61,8 +61,9 @@ pnpm run cli export json \
 2. Runs Hugo to generate static site
 
 ### 5. Deployment
-- Uses Cloudflare Pages via GitHub Actions
-- Deployed to: `1984vc-production` project
+- Uses Cloudflare Workers (migrated from Pages) via GitHub Actions
+- Deployed to: `1984-website-prod` project
+- Configuration: `wrangler.jsonc` (Workers Assets format)
 - Hourly sync: `.github/workflows/pull-latest-push-and-deploy.yaml`
 - Push trigger: `.github/workflows/deploy.yaml`
 
@@ -215,7 +216,7 @@ authors: []
 │           └────────────┬───────────────┘                  │
 │                        │                                   │
 │           ┌────────────▼───────────────┐                  │
-│           │  Cloudflare Pages Deploy  │                  │
+│           │  Cloudflare Workers Deploy│                  │
 │           │  (GitHub Actions)         │                  │
 │           └───────────────────────────┘                  │
 │                                                              │
@@ -433,11 +434,11 @@ Production deployments happen via:
 1. **Hourly cron** (`.github/workflows/pull-latest-push-and-deploy.yaml`):
    - Syncs Notion content
    - Commits changes if any
-   - Triggers Cloudflare Pages deploy
+   - Triggers Cloudflare Workers deploy
 
 2. **Push to main** (`.github/workflows/deploy.yaml`):
    - Runs build
-   - Deploys to Cloudflare Pages
+   - Deploys to Cloudflare Workers
 
 Local changes pushed to main will be deployed automatically.
 
@@ -451,6 +452,6 @@ This is a **hybrid static + dynamic content system**:
 - **Custom Notion tooling** (`notion-to-md` + CustomRenderer) transforms content intelligently
 - **Hugo/Hextra theme** provides the presentation layer
 - **Automatic deployment** via GitHub Actions every hour or on push
-- **Cloudflare Pages** hosts the final static site
+- **Cloudflare Workers** hosts the final static site using Workers Assets
 
 The system is designed for **low maintenance** with automatic Notion syncing while preserving the ability to hand-craft special content like blog posts and landing pages.

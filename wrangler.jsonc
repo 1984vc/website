@@ -1,0 +1,12 @@
+{
+  // Project name for Cloudflare Workers deployment
+  "name": "1984-website-prod",
+  
+  // Compatibility date - determines which Cloudflare Workers features are available
+  "compatibility_date": "2025-01-05",
+  
+  // Assets configuration - points to Hugo's output directory
+  "assets": {
+    "directory": "./public"
+  }
+}
