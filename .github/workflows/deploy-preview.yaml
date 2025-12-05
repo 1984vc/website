@@ -72,7 +72,8 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=1984vc-production --branch=staging
+          packageManager: pnpm
+          command: deploy
 
       - name: Update deployment status (success)
         uses: chrnorm/deployment-status@v2
